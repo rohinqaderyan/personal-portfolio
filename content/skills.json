@@ -1,0 +1,309 @@
+{
+  "categories": [
+    {
+      "name": "Languages & Core",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "level": "Expert",
+          "yearsOfExperience": 6
+        },
+        {
+          "name": "TypeScript",
+          "level": "Advanced",
+          "yearsOfExperience": 5
+        },
+        {
+          "name": "Python",
+          "level": "Advanced",
+          "yearsOfExperience": 6
+        },
+        {
+          "name": "C#",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Java",
+          "level": "Advanced",
+          "yearsOfExperience": 5
+        },
+        {
+          "name": "SQL",
+          "level": "Advanced",
+          "yearsOfExperience": 6
+        },
+        {
+          "name": "HTML/CSS",
+          "level": "Expert",
+          "yearsOfExperience": 6
+        },
+        {
+          "name": "Swift",
+          "level": "Intermediate",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Go",
+          "level": "Intermediate",
+          "yearsOfExperience": 2
+        }
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "skills": [
+        {
+          "name": "React.js",
+          "level": "Expert",
+          "yearsOfExperience": 6
+        },
+        {
+          "name": "Angular",
+          "level": "Advanced",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Next.js",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Vue.js",
+          "level": "Intermediate",
+          "yearsOfExperience": 2
+        },
+        {
+          "name": "Node.js",
+          "level": "Advanced",
+          "yearsOfExperience": 5
+        },
+        {
+          "name": ".NET / .NET Core",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "ASP.NET",
+          "level": "Advanced",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Spring Boot",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Express.js",
+          "level": "Advanced",
+          "yearsOfExperience": 5
+        },
+        {
+          "name": "Django",
+          "level": "Intermediate",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Flask",
+          "level": "Intermediate",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": "Advanced",
+          "yearsOfExperience": 3
+        }
+      ]
+    },
+    {
+      "name": "Cloud & Data Platforms",
+      "skills": [
+        {
+          "name": "AWS",
+          "level": "Advanced",
+          "yearsOfExperience": 5
+        },
+        {
+          "name": "Azure",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Snowflake",
+          "level": "Advanced",
+          "yearsOfExperience": 2
+        },
+        {
+          "name": "DSS Dataiku",
+          "level": "Advanced",
+          "yearsOfExperience": 2
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Advanced",
+          "yearsOfExperience": 5
+        },
+        {
+          "name": "MongoDB",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Redis",
+          "level": "Intermediate",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Elasticsearch",
+          "level": "Intermediate",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Spark",
+          "level": "Intermediate",
+          "yearsOfExperience": 2
+        },
+        {
+          "name": "Kafka",
+          "level": "Intermediate",
+          "yearsOfExperience": 2
+        }
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "skills": [
+        {
+          "name": "Git/GitHub",
+          "level": "Expert",
+          "yearsOfExperience": 6
+        },
+        {
+          "name": "CI/CD",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Docker",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Kubernetes",
+          "level": "Advanced",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Terraform",
+          "level": "Intermediate",
+          "yearsOfExperience": 2
+        },
+        {
+          "name": "Jenkins",
+          "level": "Intermediate",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "GitHub Actions",
+          "level": "Advanced",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "VMWare",
+          "level": "Intermediate",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Selenium",
+          "level": "Intermediate",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Postman",
+          "level": "Advanced",
+          "yearsOfExperience": 5
+        },
+        {
+          "name": "Fiddler",
+          "level": "Intermediate",
+          "yearsOfExperience": 3
+        }
+      ]
+    },
+    {
+      "name": "AI/ML & Data Science",
+      "skills": [
+        {
+          "name": "TensorFlow",
+          "level": "Intermediate",
+          "yearsOfExperience": 2
+        },
+        {
+          "name": "PyTorch",
+          "level": "Intermediate",
+          "yearsOfExperience": 2
+        },
+        {
+          "name": "Scikit-learn",
+          "level": "Advanced",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Pandas",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "NumPy",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Jupyter",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        }
+      ]
+    },
+    {
+      "name": "Methodologies & Practices",
+      "skills": [
+        {
+          "name": "Agile/Scrum",
+          "level": "Expert",
+          "yearsOfExperience": 6
+        },
+        {
+          "name": "Jira",
+          "level": "Advanced",
+          "yearsOfExperience": 6
+        },
+        {
+          "name": "REST APIs",
+          "level": "Expert",
+          "yearsOfExperience": 6
+        },
+        {
+          "name": "GraphQL",
+          "level": "Intermediate",
+          "yearsOfExperience": 3
+        },
+        {
+          "name": "Microservices",
+          "level": "Advanced",
+          "yearsOfExperience": 4
+        },
+        {
+          "name": "Test-Driven Development",
+          "level": "Advanced",
+          "yearsOfExperience": 5
+        },
+        {
+          "name": "UI/UX Design",
+          "level": "Intermediate",
+          "yearsOfExperience": 4
+        }
+      ]
+    }
+  ]
+}

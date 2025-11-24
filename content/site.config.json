@@ -1,0 +1,86 @@
+{
+  "name": "Rohin Qaderyan",
+  "role": "Senior Full Stack Developer & Data Scientist",
+  "location": "Alexandria, VA",
+  "email": "rohin.aryain@gmail.com",
+  "bio": "Experienced Veteran and Full Stack Software Developer driven by a passion for innovation in business solutions. Proficient in React, Angular, Python, and cloud technologies, with expertise in AI-driven data solutions and delivering exceptional user experiences.",
+  "tagline": "Building innovative solutions through cutting-edge technology",
+  "resumeFile": "/Resume_Qaderyan.pdf",
+  "social": {
+    "linkedin": "https://linkedin.com/in/rohinqaderyan",
+    "github": "https://github.com/rohinqaderyan",
+    "twitter": "",
+    "email": "mailto:rohin.aryain@gmail.com"
+  },
+  "features": {
+    "enableLinkedInEmbed": true,
+    "linkedInEmbedUrl": "https://www.linkedin.com/embed/feed/update/urn:li:share:7135791898765238272",
+    "showPublications": false,
+    "showCertifications": true
+  },
+  "analytics": {
+    "plausibleEnabled": true,
+    "gaEnabled": true
+  },
+  "seo": {
+    "title": "Rohin Qaderyan - Senior Full Stack Developer & Data Scientist",
+    "description": "Portfolio of Rohin Qaderyan, Senior Full Stack Developer and Data Scientist specializing in React, Angular, Python, AWS, Azure, and AI-driven solutions at Pfizer.",
+    "keywords": [
+      "full-stack developer",
+      "data scientist",
+      "React",
+      "Angular",
+      "Python",
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "C#",
+      ".NET",
+      "web development",
+      "AI solutions"
+    ],
+    "ogImage": "/og-image.png",
+    "twitterHandle": ""
+  },
+  "about": {
+    "headline": "Innovating at the intersection of development and data science",
+    "paragraphs": [
+      "As an experienced Veteran and Senior Full Stack Developer, I bring a unique perspective to technology—combining disciplined military training with cutting-edge development expertise. My journey spans from serving as a Cryptologic Linguist in the U.S. Army to leading enterprise AI solutions at Pfizer.",
+      "I specialize in building scalable applications using React, Angular, Python, and cloud platforms like AWS and Azure. At Pfizer, I design data-driven AI solutions using Snowflake and DSS Dataiku, streamlining workflows by 15% and improving data quality by 25%. My experience spans from enterprise healthcare to startup fintech, always focused on delivering practical, innovative solutions.",
+      "Beyond code, I'm passionate about bridging cultural and technical divides. Fluent in multiple languages (Persian, Pashto, French, Hindi, Urdu) and experienced in international collaboration, I bring a global perspective to problem-solving. I'm committed to continuous learning and making a lasting impact through forward-thinking technology."
+    ],
+    "highlights": [
+      "Streamlined data science workflows by 15% at Pfizer",
+      "Optimized AWS resource utilization by 30%",
+      "Cut software release time by 50% with CI/CD",
+      "U.S. Army Veteran with 6+ years of service"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "PearsonVue ITS-305",
+      "issuer": "PearsonVue",
+      "date": "2023",
+      "credentialUrl": ""
+    },
+    {
+      "name": "VA Governor's Tech Award",
+      "issuer": "Virginia Governor's Office",
+      "date": "2018",
+      "credentialUrl": ""
+    },
+    {
+      "name": "1st Place - Caregiving Hackathon",
+      "issuer": "Caregiving Hackathon",
+      "date": "2018",
+      "credentialUrl": ""
+    },
+    {
+      "name": "1st Place - Deloitte Design Challenge",
+      "issuer": "Deloitte",
+      "date": "2020",
+      "credentialUrl": ""
+    }
+  ],
+  "publications": []
+}

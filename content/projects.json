@@ -1,0 +1,173 @@
+[
+  {
+    "id": "ai-driven-pharma-analytics",
+    "title": "AI-Driven Pharma Analytics Platform",
+    "description": "Enterprise-scale AI platform for pharmaceutical data analytics at Pfizer, processing millions of records with real-time insights.",
+    "longDescription": "Led the architecture and development of a cutting-edge AI analytics platform at Pfizer Digital that revolutionized how pharmaceutical data is processed and analyzed. The platform leverages Angular, Java Spring Boot, and Python to create intuitive interfaces for data scientists and researchers. Integrated with Snowflake and DSS Dataiku, the system processes over 10 million records daily, providing real-time insights that accelerate drug discovery and clinical research.\n\nThe platform features advanced data visualization, predictive modeling capabilities, and seamless API integration for AI model deployment. By implementing intelligent data pipelines and optimization algorithms, we achieved a 15% reduction in project delivery time and 25% improvement in data quality across the organization.",
+    "tags": ["Angular", "Java", "Python", "Snowflake", "AI/ML", "AWS", "Dataiku", "Enterprise"],
+    "link": "",
+    "repo": "https://github.com/rohinqaderyan/pharma-analytics-platform",
+    "image": "/projects/pharma-analytics.jpg",
+    "featured": true,
+    "year": "2024",
+    "highlights": [
+      "Processes 10M+ records daily with 99.9% uptime",
+      "Reduced project delivery time by 15%",
+      "Improved data quality by 25%",
+      "Deployed on AWS with auto-scaling infrastructure",
+      "Real-time AI model integration and monitoring"
+    ]
+  },
+  {
+    "id": "fintech-loan-platform",
+    "title": "FinTech Loan Processing Platform",
+    "description": "B2B SaaS platform revolutionizing small business lending for community banks and credit unions.",
+    "longDescription": "Architected and developed a comprehensive B2B SaaS solution for Parlay Protocol that transforms how community financial institutions process small business loans. Built on OutSystems with custom JavaScript integrations, the platform streamlines the entire loan application workflow from initial submission to final approval.\n\nThe system features intelligent document compilation, automated creditworthiness analysis using alternative data sources, and real-time collaboration tools for borrowers and lenders. Implemented robust security measures including end-to-end encryption, multi-factor authentication, and SOC 2 compliance. The platform has processed over $50M in loan applications and serves 30+ financial institutions.",
+    "tags": ["OutSystems", "JavaScript", "FinTech", "REST APIs", "Security", "SaaS"],
+    "link": "",
+    "repo": "https://github.com/rohinqaderyan/fintech-loan-platform",
+    "image": "/projects/fintech-platform.jpg",
+    "featured": true,
+    "year": "2023",
+    "highlights": [
+      "Processed $50M+ in loan applications",
+      "Serves 30+ financial institutions",
+      "90% reduction in application processing time",
+      "SOC 2 compliant with advanced security",
+      "Real-time creditworthiness analytics"
+    ]
+  },
+  {
+    "id": "cloud-migration-framework",
+    "title": "VMware to AWS Migration Framework",
+    "description": "Enterprise cloud migration framework that automated infrastructure transition, reducing migration time by 60%.",
+    "longDescription": "Designed and implemented a comprehensive framework for migrating enterprise VMware infrastructure to AWS cloud at Prominent Edge. The solution automated the assessment, planning, and execution phases of cloud migration, handling complex networking configurations, data replication, and application dependencies.\n\nBuilt with Python, React.js, and AWS services (EC2, RDS, S3, CloudFormation), the framework includes intelligent workload analysis, cost optimization recommendations, and automated testing suites. Successfully migrated 200+ virtual machines and 50TB of data with zero downtime, achieving 30% cost reduction in infrastructure spend.",
+    "tags": ["AWS", "Python", "React", "Cloud Migration", "DevOps", "Infrastructure"],
+    "link": "",
+    "repo": "https://github.com/rohinqaderyan/cloud-migration-framework",
+    "image": "/projects/cloud-migration.jpg",
+    "featured": true,
+    "year": "2022",
+    "highlights": [
+      "Migrated 200+ VMs with zero downtime",
+      "Reduced migration time by 60%",
+      "30% cost reduction in infrastructure",
+      "Automated testing and validation",
+      "Comprehensive disaster recovery setup"
+    ]
+  },
+  {
+    "id": "realtime-collab-platform",
+    "title": "Real-Time Collaboration Platform",
+    "description": "WebSocket-based collaboration platform with live editing, video conferencing, and AI-powered suggestions.",
+    "longDescription": "Full-stack real-time collaboration platform built with cutting-edge technologies including Next.js, WebSockets, WebRTC, and GPT-4 integration. Features include live document editing with conflict resolution, HD video conferencing, AI-powered content suggestions, and intelligent task management.\n\nThe platform handles 10,000+ concurrent users with sub-100ms latency using Redis for session management and PostgreSQL for persistent storage. Implements end-to-end encryption for all communications and features a sophisticated permission system for enterprise use.",
+    "tags": ["Next.js", "WebSocket", "WebRTC", "Redis", "PostgreSQL", "AI", "Real-time"],
+    "link": "",
+    "repo": "https://github.com/rohinqaderyan/realtime-collab",
+    "image": "/projects/realtime-collab.jpg",
+    "featured": false,
+    "year": "2024",
+    "highlights": [
+      "10,000+ concurrent users",
+      "Sub-100ms latency",
+      "AI-powered suggestions with GPT-4",
+      "End-to-end encryption",
+      "Built-in video conferencing"
+    ]
+  },
+  {
+    "id": "kubernetes-deployment-orchestrator",
+    "title": "Kubernetes Deployment Orchestrator",
+    "description": "Intelligent CI/CD orchestration platform for Kubernetes with automated rollbacks and canary deployments.",
+    "longDescription": "Advanced deployment orchestration system that simplifies complex Kubernetes deployments with intelligent automation. Built with Go, React, and Kubernetes APIs, the platform provides a visual interface for managing multi-cluster deployments, automated testing, and progressive delivery strategies.\n\nFeatures include blue-green deployments, automated canary analysis, intelligent rollback mechanisms, and comprehensive observability with Prometheus and Grafana integration. Reduced deployment failures by 85% and cut deployment time from hours to minutes.",
+    "tags": ["Kubernetes", "Go", "React", "DevOps", "CI/CD", "Monitoring"],
+    "link": "",
+    "repo": "https://github.com/rohinqaderyan/k8s-orchestrator",
+    "image": "/projects/k8s-orchestrator.jpg",
+    "featured": false,
+    "year": "2023",
+    "highlights": [
+      "Reduced deployment failures by 85%",
+      "Automated canary deployments",
+      "Multi-cluster management",
+      "Integrated monitoring and alerts",
+      "Self-healing infrastructure"
+    ]
+  },
+  {
+    "id": "iot-mesh-network",
+    "title": "IoT Disaster Response Mesh Network",
+    "description": "Self-healing mesh network for disaster response using Arduino, XBee, and AWS IoT Core.",
+    "longDescription": "Innovative IoT solution developed at JMU X-Labs for disaster response scenarios where traditional communication infrastructure is unavailable. The system creates a self-organizing mesh network using XBee modules and Arduino-based nodes that can relay data across large areas without central coordination.\n\nIntegrates with AWS IoT Core for cloud connectivity when available, featuring real-time sensor data collection (GPS, environmental sensors, cameras), automated drone deployment for network expansion, and a React-based command center dashboard. Successfully deployed in Red Cross disaster simulation exercises.",
+    "tags": ["IoT", "Arduino", "AWS IoT", "Python", "React", "Robotics"],
+    "link": "",
+    "repo": "https://github.com/rohinqaderyan/iot-mesh-network",
+    "image": "/projects/iot-mesh.jpg",
+    "featured": false,
+    "year": "2021",
+    "highlights": [
+      "Self-healing mesh architecture",
+      "30+ node deployment tested",
+      "5km+ communication range",
+      "Integrated drone deployment",
+      "Used in Red Cross exercises"
+    ]
+  },
+  {
+    "id": "mobile-health-tracker",
+    "title": "AI Health & Fitness Tracker",
+    "description": "iOS app with ML-powered workout recognition, nutrition tracking, and personalized coaching.",
+    "longDescription": "Comprehensive health and fitness application built with Swift and SwiftUI, featuring on-device machine learning for automatic workout detection and form analysis. Integrates with HealthKit, uses CoreML for pose estimation, and provides personalized coaching recommendations.\n\nIncludes computer vision for food recognition and nutrition tracking, social features for challenges and leaderboards, and Apple Watch companion app. Features end-to-end encryption for health data and HIPAA-compliant cloud storage on AWS.",
+    "tags": ["Swift", "SwiftUI", "CoreML", "HealthKit", "iOS", "Machine Learning"],
+    "link": "",
+    "repo": "https://github.com/rohinqaderyan/ai-health-tracker",
+    "image": "/projects/health-tracker.jpg",
+    "featured": false,
+    "year": "2023",
+    "highlights": [
+      "ML-powered workout recognition",
+      "Food recognition with nutrition data",
+      "Apple Watch integration",
+      "HIPAA-compliant storage",
+      "10,000+ active users"
+    ]
+  },
+  {
+    "id": "microservices-ecommerce",
+    "title": "Microservices E-Commerce Platform",
+    "description": "Scalable e-commerce platform with microservices architecture, handling 100K+ daily transactions.",
+    "longDescription": "Enterprise-grade e-commerce platform built with microservices architecture using Node.js, React, and Kubernetes. Features include distributed inventory management, real-time order tracking, intelligent recommendation engine, and seamless payment processing with Stripe and PayPal.\n\nImplements event-driven architecture with Kafka for inter-service communication, Redis for caching, and Elasticsearch for product search. The platform handles 100,000+ daily transactions with 99.99% uptime and sub-second page load times.",
+    "tags": ["Node.js", "React", "Kubernetes", "Kafka", "Elasticsearch", "Microservices"],
+    "link": "",
+    "repo": "https://github.com/rohinqaderyan/microservices-ecommerce",
+    "image": "/projects/ecommerce.jpg",
+    "featured": false,
+    "year": "2022",
+    "highlights": [
+      "100K+ daily transactions",
+      "99.99% uptime",
+      "Sub-second page loads",
+      "ML-powered recommendations",
+      "Multi-currency support"
+    ]
+  },
+  {
+    "id": "security-dashboard",
+    "title": "Cybersecurity Operations Dashboard",
+    "description": "Real-time security monitoring dashboard with ML-based threat detection and automated response.",
+    "longDescription": "Advanced security operations center (SOC) dashboard developed for NASA internship, providing real-time visibility into security events across the organization. Built with Python, React, and integrated with Splunk, the system correlates security logs from 100+ sources to identify potential threats.\n\nFeatures machine learning-based anomaly detection, automated incident response workflows, and comprehensive compliance reporting. Reduced mean time to detection (MTTD) by 70% and mean time to response (MTTR) by 50%.",
+    "tags": ["Splunk", "Python", "React", "Security", "Machine Learning", "DevSecOps"],
+    "link": "",
+    "repo": "https://github.com/rohinqaderyan/security-dashboard",
+    "image": "/projects/security-dashboard.jpg",
+    "featured": false,
+    "year": "2017",
+    "highlights": [
+      "Monitors 100+ security sources",
+      "ML-based threat detection",
+      "70% reduction in MTTD",
+      "Automated incident response",
+      "Compliance reporting (SOC 2, HIPAA)"
+    ]
+  }
+]

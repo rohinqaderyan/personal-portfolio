@@ -1,0 +1,196 @@
+[
+  {
+    "id": "pfizer-fullstack-data-scientist",
+    "role": "Full Stack Developer / Data Scientist",
+    "company": "Pfizer",
+    "location": "New York, NY",
+    "startDate": "2023-11",
+    "endDate": null,
+    "current": true,
+    "description": "Designing AI-driven data solutions and user-friendly interfaces for Pfizer Digital.",
+    "responsibilities": [
+      "Designed user-friendly interfaces with Angular and Java Spring Boot for enhanced data application accessibility",
+      "Applied AGILE/SCRUM methodologies, ensuring timely delivery of AI solutions",
+      "Streamlined data science workflow, reducing project time by 15% with Python recipes in DSS Dataiku and Snowflake",
+      "Implemented AWS solutions for scalable big data storage and processing, optimizing resource utilization by 30%",
+      "Developed APIs for seamless integration of AI models, enhancing system interoperability",
+      "Improved data quality by 25% through effective big data handling and transformation"
+    ],
+    "technologies": [
+      "Angular",
+      "Java Spring Boot",
+      "Python",
+      "DSS Dataiku",
+      "Snowflake",
+      "AWS",
+      "Azure",
+      "SQL"
+    ],
+    "achievements": [
+      "Reduced project delivery time by 15%",
+      "Optimized AWS resource utilization by 30%",
+      "Improved data quality by 25%"
+    ]
+  },
+  {
+    "id": "parlay-protocol-fullstack",
+    "role": "Full Stack Developer",
+    "company": "Parlay Protocol",
+    "location": "Alexandria, VA",
+    "startDate": "2023-03",
+    "endDate": "2023-11",
+    "current": false,
+    "description": "Developed B2B SaaS web application for small business loan processing.",
+    "responsibilities": [
+      "Spearheaded development of B2B SaaS web application on OutSystems for community banks and credit unions",
+      "Engineered platform to enable efficient loan application readiness and document compilation",
+      "Integrated analytics to provide lenders with alternative creditworthiness insights",
+      "Ensured application security, scalability, and robustness through best coding practices"
+    ],
+    "technologies": [
+      "OutSystems",
+      "JavaScript",
+      "REST APIs",
+      "SQL"
+    ],
+    "achievements": [
+      "Launched MVP in 6 months",
+      "Enabled seamless loan processing for community financial institutions"
+    ]
+  },
+  {
+    "id": "prominent-edge-fullstack",
+    "role": "Full Stack Engineer",
+    "company": "Prominent Edge",
+    "location": "Washington, D.C.",
+    "startDate": "2021-12",
+    "endDate": "2023-06",
+    "current": false,
+    "description": "Developed responsive interfaces and cloud-based solutions.",
+    "responsibilities": [
+      "Developed responsive front-end interfaces using React.js, REST APIs, and webpack",
+      "Built robust and scalable software solutions with Python leveraging AWS cloud technologies",
+      "Transitioned VMware infrastructure to AWS ensuring efficient resource utilization",
+      "Developed high-quality mobile apps for iOS and Android using Swift",
+      "Automated API testing using Fiddler/Selenium, reducing manual testing by 30%",
+      "Implemented CI/CD processes, cutting software release time by 50%"
+    ],
+    "technologies": [
+      "React.js",
+      "Python",
+      "AWS",
+      "Swift",
+      "Java",
+      "Spring",
+      "Selenium",
+      "CI/CD"
+    ],
+    "achievements": [
+      "Cut software release time by 50%",
+      "Reduced manual testing effort by 30%",
+      "Successfully migrated VMware to AWS"
+    ]
+  },
+  {
+    "id": "mssa-software-engineer",
+    "role": "Software Engineer",
+    "company": "Microsoft Systems & Software Academy",
+    "location": "Arlington, VA",
+    "startDate": "2022-10",
+    "endDate": "2023-03",
+    "current": false,
+    "description": "Intensive software engineering training program.",
+    "responsibilities": [
+      "Applied C#, .NET, Azure, and SQL to build local, server-based, and cloud-stored applications",
+      "Collaborated with dev team to create modern, responsive web apps",
+      "Utilized Agile methodologies including SCRUM for project management",
+      "Designed and built applications using ASP.NET framework with comprehensive testing",
+      "Troubleshot SharePoint issues and customized pages using SharePoint Designer"
+    ],
+    "technologies": [
+      "C#",
+      ".NET",
+      "Azure",
+      "SQL",
+      "ASP.NET",
+      "SharePoint"
+    ],
+    "achievements": [
+      "Completed intensive 6-month program",
+      "Built multiple production-ready applications"
+    ]
+  },
+  {
+    "id": "jmu-research-assistant",
+    "role": "Research Assistant - IoT",
+    "company": "James Madison University X-Labs",
+    "location": "Harrisonburg, VA",
+    "startDate": "2016-08",
+    "endDate": "2021-12",
+    "current": false,
+    "description": "Led IoT projects and mentored students in robotics.",
+    "responsibilities": [
+      "Guided students in semester-long projects creating functional robots using Arduinos, sensors, and motors",
+      "Provided technical troubleshooting in Python and AWS for drone projects and Red Cross initiatives",
+      "Led development team building mesh network with Xbees, Arduinos, Hyperduinos, and sensors"
+    ],
+    "technologies": [
+      "Python",
+      "AWS",
+      "Arduino",
+      "IoT",
+      "Robotics"
+    ],
+    "achievements": [
+      "Mentored 50+ students",
+      "Led award-winning robotics projects"
+    ]
+  },
+  {
+    "id": "nasa-data-analyst",
+    "role": "Data Analyst Intern",
+    "company": "NASA",
+    "location": "Washington, D.C.",
+    "startDate": "2017-05",
+    "endDate": "2017-08",
+    "current": false,
+    "description": "Created security dashboards for NASA operations.",
+    "responsibilities": [
+      "Created and managed Splunk dashboard incorporating security metrics from collected data",
+      "Visualized security trends for 15+ operators to improve threat detection"
+    ],
+    "technologies": [
+      "Splunk",
+      "Data Visualization",
+      "Security Analytics"
+    ],
+    "achievements": [
+      "Improved security visibility for NASA operations"
+    ]
+  },
+  {
+    "id": "us-army-linguist",
+    "role": "Cryptologic Linguist / Cultural Advisor",
+    "company": "U.S. Army",
+    "location": "Kabul, Afghanistan",
+    "startDate": "2009-03",
+    "endDate": "2015-03",
+    "current": false,
+    "description": "Provided linguistic support and cultural advisory services.",
+    "responsibilities": [
+      "Translated technical and non-technical content between Farsi/Dari/Pashto and English",
+      "Provided interpretation support at military traffic control points and local media events",
+      "Conducted Joint Security Force Assistance (JSFA) course training",
+      "Provided linguistic support for diplomatic engagements"
+    ],
+    "technologies": [
+      "Translation",
+      "Cultural Advisory",
+      "Diplomacy"
+    ],
+    "achievements": [
+      "6 years of honorable military service",
+      "Facilitated critical diplomatic communications"
+    ]
+  }
+]
