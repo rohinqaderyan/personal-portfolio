@@ -1,0 +1,14 @@
+# This is a placeholder PDF resume file.
+# Replace this file with your actual resume (keeping the filename format: Resume_YourLastName.pdf)
+
+Placeholder Resume File for John Doe
+
+Please replace this file with your actual resume in PDF format.
+
+Filename should be: Resume_Doe.pdf (or Resume_YourLastName.pdf)
+
+To add your resume:
+1. Export your resume as a PDF
+2. Name it Resume_YourLastName.pdf
+3. Replace this file in the /public directory
+4. Update the resumeFile path in content/site.config.json if needed

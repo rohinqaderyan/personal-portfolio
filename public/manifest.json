@@ -1,0 +1,21 @@
+{
+  "name": "John Doe Portfolio",
+  "short_name": "JD Portfolio",
+  "description": "Portfolio of John Doe - Senior Full-Stack Developer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/site-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/site-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

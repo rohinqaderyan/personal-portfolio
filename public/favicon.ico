@@ -1,0 +1,18 @@
+# Placeholder favicon file
+# Replace this with your actual favicon.ico file
+
+This is a placeholder for your favicon.
+To add a proper favicon:
+1. Create or generate a favicon (16x16 and 32x32 pixels, ICO format)
+2. You can use tools like:
+   - https://favicon.io/
+   - https://realfavicongenerator.net/
+   - Photoshop/GIMP
+3. Save it as favicon.ico
+4. Place it in the /public directory, replacing this file
+
+The favicon appears in:
+- Browser tabs
+- Bookmarks
+- History
+- Desktop shortcuts

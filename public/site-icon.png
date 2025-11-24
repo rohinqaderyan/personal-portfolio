@@ -1,0 +1,14 @@
+# PLACEHOLDER: site-icon.png
+
+This is a placeholder for your site icon (192x192 or larger).
+
+To add your icon:
+1. Create or design an icon (PNG format, minimum 192x192px)
+2. Save it as site-icon.png
+3. Place it in the /public directory, replacing this file
+
+The icon will be used for:
+- Browser tabs
+- Bookmarks
+- PWA home screen icon
+- Mobile app icon
