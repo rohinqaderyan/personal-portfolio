@@ -1,7 +1,7 @@
 'use client'
 
 import { Linkedin, Github, Twitter, Mail } from 'lucide-react'
-import { motion } from 'framer-motion'
+import { m as motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 
 interface SocialIconsProps {

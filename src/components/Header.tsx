@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { ThemeToggle } from './ThemeToggle'
-import { motion } from 'framer-motion'
+import { m as motion } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { cn } from '@/lib/utils'

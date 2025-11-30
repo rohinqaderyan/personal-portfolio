@@ -27,14 +27,19 @@ const nextConfig = {
   
   // Experimental features for better performance
   experimental: {
-    optimizePackageImports: ['lucide-react', 'framer-motion'],
-    optimizeCss: true,
+    optimizePackageImports: ['lucide-react', 'framer-motion', '@hookform/resolvers', 'react-hook-form'],
   },
   
-  // Optimize for production
-  onDemandEntries: {
-    maxInactiveAge: 25 * 1000,
-    pagesBufferLength: 2,
+  // Webpack optimizations for faster builds
+  webpack: (config, { dev, isServer }) => {
+    if (dev && !isServer) {
+      // Faster dev server
+      config.watchOptions = {
+        poll: 1000,
+        aggregateTimeout: 300,
+      }
+    }
+    return config
   },
   
   // Security headers

@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { Send, CheckCircle, AlertCircle } from 'lucide-react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { m as motion, AnimatePresence } from 'framer-motion'
 import { getConfig } from '@/lib/config'
 import { trackEvent } from '@/lib/analytics'
 
