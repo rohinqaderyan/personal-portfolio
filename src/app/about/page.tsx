@@ -17,11 +17,7 @@ export const metadata: Metadata = genMeta(
 export default function AboutPage() {
   return (
     <>
-      <Section
-        title="About Me"
-        description={config.about.headline}
-        className="pt-24"
-      >
+      <Section title="About Me" description={config.about.headline} className="pt-24">
         <div className="mx-auto max-w-3xl space-y-6">
           {config.about.paragraphs.map((paragraph, index) => (
             <p key={index} className="text-lg leading-relaxed text-muted-foreground">
@@ -37,7 +33,7 @@ export default function AboutPage() {
             <ul className="space-y-3">
               {config.about.highlights.map((highlight, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-primary flex-shrink-0" />
+                  <div className="mt-1 h-2 w-2 flex-shrink-0 rounded-full bg-primary" />
                   <span className="text-muted-foreground">{highlight}</span>
                 </li>
               ))}
@@ -54,7 +50,7 @@ export default function AboutPage() {
           <Link
             href={config.resumeFile}
             download
-            className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:bg-primary/90 hover:shadow-md focus-ring"
+            className="focus-ring inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:bg-primary/90 hover:shadow-md"
           >
             <Download className="h-4 w-4" />
             Download Resume
@@ -63,63 +59,64 @@ export default function AboutPage() {
       </Section>
 
       {/* Certifications */}
-      {config.features.showCertifications && config.certifications && config.certifications.length > 0 && (
-        <Section
-          title="Certifications"
-          description="Professional certifications and credentials"
-          className="bg-muted/30"
-        >
-          <div className="mx-auto max-w-3xl space-y-4">
-            {config.certifications.map((cert, index) => (
-              <div key={index} className="rounded-lg border border-border bg-card p-6">
-                <h4 className="mb-1 text-lg font-semibold">{cert.name}</h4>
-                <p className="mb-2 text-sm text-muted-foreground">
-                  {cert.issuer} • {cert.date}
-                </p>
-                {cert.credentialUrl && (
-                  <a
-                    href={cert.credentialUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-primary hover:underline"
-                  >
-                    View Credential →
-                  </a>
-                )}
-              </div>
-            ))}
-          </div>
-        </Section>
-      )}
+      {config.features.showCertifications &&
+        config.certifications &&
+        config.certifications.length > 0 && (
+          <Section
+            title="Certifications"
+            description="Professional certifications and credentials"
+            className="bg-muted/30"
+          >
+            <div className="mx-auto max-w-3xl space-y-4">
+              {config.certifications.map((cert, index) => (
+                <div key={index} className="rounded-lg border border-border bg-card p-6">
+                  <h4 className="mb-1 text-lg font-semibold">{cert.name}</h4>
+                  <p className="mb-2 text-sm text-muted-foreground">
+                    {cert.issuer} • {cert.date}
+                  </p>
+                  {cert.credentialUrl && (
+                    <a
+                      href={cert.credentialUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-primary hover:underline"
+                    >
+                      View Credential →
+                    </a>
+                  )}
+                </div>
+              ))}
+            </div>
+          </Section>
+        )}
 
       {/* Publications */}
-      {config.features.showPublications && config.publications && config.publications.length > 0 && (
-        <Section
-          title="Publications"
-          description="Articles and writing"
-        >
-          <div className="mx-auto max-w-3xl space-y-4">
-            {config.publications.map((pub, index) => (
-              <div key={index} className="rounded-lg border border-border bg-card p-6">
-                <h4 className="mb-1 text-lg font-semibold">{pub.title}</h4>
-                <p className="mb-2 text-sm text-muted-foreground">
-                  {pub.publisher} • {pub.date}
-                </p>
-                {pub.url && (
-                  <a
-                    href={pub.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-primary hover:underline"
-                  >
-                    Read Article →
-                  </a>
-                )}
-              </div>
-            ))}
-          </div>
-        </Section>
-      )}
+      {config.features.showPublications &&
+        config.publications &&
+        config.publications.length > 0 && (
+          <Section title="Publications" description="Articles and writing">
+            <div className="mx-auto max-w-3xl space-y-4">
+              {config.publications.map((pub, index) => (
+                <div key={index} className="rounded-lg border border-border bg-card p-6">
+                  <h4 className="mb-1 text-lg font-semibold">{pub.title}</h4>
+                  <p className="mb-2 text-sm text-muted-foreground">
+                    {pub.publisher} • {pub.date}
+                  </p>
+                  {pub.url && (
+                    <a
+                      href={pub.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-primary hover:underline"
+                    >
+                      Read Article →
+                    </a>
+                  )}
+                </div>
+              ))}
+            </div>
+          </Section>
+        )}
     </>
   )
 }

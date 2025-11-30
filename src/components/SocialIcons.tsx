@@ -68,7 +68,7 @@ export function SocialIcons({ social, size = 'md' }: SocialIconsProps) {
           target={item.name !== 'Email' ? '_blank' : undefined}
           rel={item.name !== 'Email' ? 'noopener noreferrer' : undefined}
           className={cn(
-            'rounded-full text-muted-foreground transition-colors focus-ring',
+            'focus-ring rounded-full text-muted-foreground transition-colors',
             item.color,
             buttonSizes[size]
           )}

@@ -3,7 +3,11 @@
     "collect": {
       "numberOfRuns": 3,
       "startServerCommand": "npm run start",
-      "url": ["http://localhost:3000", "http://localhost:3000/about", "http://localhost:3000/projects"]
+      "url": [
+        "http://localhost:3000",
+        "http://localhost:3000/about",
+        "http://localhost:3000/projects"
+      ]
     },
     "assert": {
       "assertions": {

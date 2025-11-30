@@ -36,7 +36,7 @@ export function ProjectFilters({
           placeholder="Search projects..."
           value={searchQuery}
           onChange={(e) => onSearchChange(e.target.value)}
-          className="w-full rounded-lg border border-border bg-background py-2 pl-10 pr-10 text-sm focus-ring focus:border-primary"
+          className="focus-ring w-full rounded-lg border border-border bg-background py-2 pl-10 pr-10 text-sm focus:border-primary"
         />
         {searchQuery && (
           <button
@@ -71,7 +71,7 @@ export function ProjectFilters({
                   key={tag}
                   onClick={() => onTagToggle(tag)}
                   className={cn(
-                    'rounded-full px-4 py-2 text-sm font-medium transition-colors focus-ring',
+                    'focus-ring rounded-full px-4 py-2 text-sm font-medium transition-colors',
                     isSelected
                       ? 'bg-primary text-primary-foreground'
                       : 'bg-muted text-muted-foreground hover:bg-accent hover:text-accent-foreground'
@@ -90,7 +90,7 @@ export function ProjectFilters({
           {tags.length > 10 && (
             <button
               onClick={() => setShowAllTags(!showAllTags)}
-              className="rounded-full bg-muted px-4 py-2 text-sm font-medium text-muted-foreground hover:bg-accent hover:text-accent-foreground transition-colors focus-ring"
+              className="focus-ring rounded-full bg-muted px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
             >
               {showAllTags ? 'Show less' : `+${tags.length - 10} more`}
             </button>
@@ -105,7 +105,8 @@ export function ProjectFilters({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
-          {selectedTags.length > 0 && `${selectedTags.length} tag${selectedTags.length > 1 ? 's' : ''} selected`}
+          {selectedTags.length > 0 &&
+            `${selectedTags.length} tag${selectedTags.length > 1 ? 's' : ''} selected`}
           {selectedTags.length > 0 && searchQuery && ' • '}
           {searchQuery && `Searching for "${searchQuery}"`}
         </motion.p>

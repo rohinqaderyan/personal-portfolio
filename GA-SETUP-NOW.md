@@ -9,6 +9,7 @@
 ## Step 2: Account Setup
 
 **Account Name:** `Rohin Qaderyan Portfolio`
+
 - ✅ Check all data sharing settings (recommended)
 - Click **"Next"**
 
@@ -17,6 +18,7 @@
 **Property Name:** `Portfolio Website`
 **Reporting Time Zone:** `(GMT-05:00) Eastern Time`
 **Currency:** `United States Dollar ($)`
+
 - Click **"Next"**
 
 ## Step 4: Business Information
@@ -24,6 +26,7 @@
 **Industry Category:** `Technology`
 **Business Size:** `Small` (1-10 employees)
 **Click all that apply:**
+
 - ✅ Examine user behavior
 - ✅ Get baseline reports
 - Click **"Next"**
@@ -31,18 +34,21 @@
 ## Step 5: Choose Platform
 
 Select: **"Web"**
+
 - Click **"Next"**
 
 ## Step 6: Data Stream Setup
 
 **Website URL:** `https://rohin-qaderyan-portfolio.vercel.app` (update after deploying)
 **Stream Name:** `Portfolio Website`
+
 - ✅ Enable enhanced measurement (recommended)
 - Click **"Create stream"**
 
 ## Step 7: Get Your Measurement ID
 
 You'll see a screen with:
+
 ```
 Measurement ID
 G-XXXXXXXXXX
@@ -55,17 +61,21 @@ G-XXXXXXXXXX
 Open: `c:\Users\qadera01\My Profile Website\.env.local`
 
 Find this line:
+
 ```bash
 NEXT_PUBLIC_GA_MEASUREMENT_ID=
 ```
 
 Update it to:
+
 ```bash
 NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 ```
+
 (Use your actual ID)
 
 Also enable it:
+
 ```bash
 # In content/site.config.json, change:
 "gaEnabled": false
@@ -82,12 +92,14 @@ npm run dev
 ```
 
 Go back to Google Analytics:
+
 - Click **"Reports"** → **"Realtime"**
 - You should see yourself as 1 active user!
 
 ## Step 10: Deploy to Vercel
 
 Once you see yourself in Realtime reports:
+
 ```bash
 git add .
 git commit -m "Add Google Analytics"
@@ -95,6 +107,7 @@ git push
 ```
 
 Then in Vercel dashboard:
+
 1. Settings → Environment Variables
 2. Add: `NEXT_PUBLIC_GA_MEASUREMENT_ID` = `G-XXXXXXXXXX`
 3. Redeploy
@@ -102,11 +115,13 @@ Then in Vercel dashboard:
 ## What You'll See
 
 ### Realtime (Immediate)
+
 - Current visitors
 - Pages they're viewing
 - Where they came from
 
 ### Reports (After 24 hours)
+
 - **Acquisition**: Traffic sources (LinkedIn, GitHub, direct)
 - **Engagement**: Page views, time on site
 - **Demographics**: Location, devices, browsers
@@ -115,6 +130,7 @@ Then in Vercel dashboard:
 ## Custom Events Already Tracked
 
 Your site automatically tracks:
+
 - 📄 Page views
 - 📧 Contact form submissions
 - 📥 Resume downloads
@@ -134,6 +150,7 @@ Your site automatically tracks:
 ## Privacy Note
 
 You're using both:
+
 - ✅ **Plausible** (privacy-friendly, no cookies)
 - ✅ **Google Analytics** (detailed insights)
 
@@ -142,6 +159,7 @@ This is perfect! Plausible for daily checks, GA for deep analysis.
 ## Need Help?
 
 Common issues:
+
 - **Not seeing data?** Wait 24 hours for reports
 - **Realtime not working?** Clear browser cache
 - **Wrong domain?** Update in GA admin → Data Streams

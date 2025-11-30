@@ -14,29 +14,34 @@
 ## 📋 Your To-Do Before Deploying
 
 ### 1. Add Images (30 minutes)
+
 - [ ] Profile photo → `/public/profile-photo.jpg`
-- [ ] 9 project images → `/public/projects/` 
+- [ ] 9 project images → `/public/projects/`
   - See: `UNSPLASH-IMAGES.md` for direct links
   - pharma-analytics.jpg (priority)
   - fintech-platform.jpg (priority)
   - cloud-migration.jpg (priority)
-  - + 6 more
+  - - 6 more
 
 ### 2. Setup Google Analytics (5 minutes)
+
 - [ ] Go to https://analytics.google.com
 - [ ] Create account following: `GA-SETUP-NOW.md`
 - [ ] Get your Measurement ID (G-XXXXXXXXXX)
 - [ ] Add to `.env.local`: `NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX`
 
 ### 3. Update LinkedIn Embed (2 minutes)
+
 - [ ] Choose a LinkedIn post to feature
 - [ ] Get the post URN (see: `LINKEDIN-EMBED-GUIDE.md`)
 - [ ] Update in `content/site.config.json`
 
 ### 4. Add Resume PDF
+
 - [ ] Replace `/public/Resume_Qaderyan.pdf` with your actual resume
 
 ### 5. Test Locally
+
 ```bash
 npm run dev
 # Visit: http://localhost:3000
@@ -46,6 +51,7 @@ npm run dev
 ## 🚀 Deployment Steps
 
 ### Push to GitHub
+
 ```bash
 git add .
 git commit -m "Portfolio complete - ready for deployment"
@@ -98,6 +104,7 @@ git push origin main
 ## 📱 Share Your Portfolio
 
 Add to:
+
 - ✅ LinkedIn profile (headline, about, featured)
 - ✅ GitHub bio
 - ✅ Resume (if applicable)
@@ -117,6 +124,7 @@ Add to:
 ## 📊 Success Metrics (Track These)
 
 After 1 week:
+
 - Page views
 - Time on site
 - Most viewed projects
@@ -124,6 +132,7 @@ After 1 week:
 - Contact form submissions
 
 After 1 month:
+
 - Traffic sources (LinkedIn vs GitHub vs direct)
 - Bounce rate (aim < 50%)
 - Return visitors
@@ -132,6 +141,7 @@ After 1 month:
 ## 🆘 Need Help?
 
 **Documentation:**
+
 - `README.md` - Complete guide
 - `QUICKSTART.md` - Quick reference
 - `SETUP-COMPLETE.md` - Overview
@@ -140,6 +150,7 @@ After 1 month:
 - `UNSPLASH-IMAGES.md` - Image sources
 
 **Common Issues:**
+
 - Build fails? Check TypeScript errors
 - Images not loading? Check file names (case-sensitive)
 - Analytics not working? Verify Measurement ID
@@ -147,6 +158,7 @@ After 1 month:
 ## 🎯 Timeline
 
 **Today (2 hours):**
+
 1. Add images (30 min)
 2. Setup Google Analytics (5 min)
 3. Update LinkedIn embed (2 min)
@@ -156,11 +168,13 @@ After 1 month:
 7. Update LinkedIn/GitHub (10 min)
 
 **This Week:**
+
 - Monitor analytics
 - Share with network
 - Apply to jobs with portfolio link
 
 **Ongoing:**
+
 - Update projects quarterly
 - Add new skills
 - Keep resume current
@@ -171,6 +185,7 @@ After 1 month:
 ## ✨ You're All Set!
 
 Your portfolio is:
+
 - ✅ Professional and polished
 - ✅ Optimized for big tech recruiters
 - ✅ Mobile responsive

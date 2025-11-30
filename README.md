@@ -28,20 +28,24 @@ A modern, responsive, and accessible personal portfolio website built with Next.
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/personal-portfolio.git
    cd personal-portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Set up environment variables**
+
    ```bash
    copy .env.example .env.local
    ```
+
    Edit `.env.local` with your configuration (see [Configuration](#configuration) below).
 
 4. **Update content**
@@ -89,10 +93,13 @@ NEXT_PUBLIC_ENABLE_LINKEDIN_EMBED=false
 All content is managed through JSON files in the `/content` directory:
 
 #### `site.config.json`
+
 Core site settings including name, role, bio, social links, and feature flags.
 
 #### `projects.json`
+
 Array of project objects with:
+
 - `id`: Unique identifier (slug-friendly)
 - `title`: Project name
 - `description`: Brief description
@@ -103,9 +110,11 @@ Array of project objects with:
 - `image`: Project thumbnail path
 
 #### `skills.json`
+
 Skills grouped by categories (Languages, Frameworks, Data/ML, Cloud/DevOps, Tools).
 
 #### `experience.json`
+
 Work experience with role, company, dates, location, and bullet points.
 
 ## 📧 Contact Form Setup
@@ -113,15 +122,19 @@ Work experience with role, company, dates, location, and bullet points.
 The portfolio supports two contact form modes:
 
 ### Mode 1: Client-Only (Default)
+
 Uses `mailto:` links with prefilled content. No backend required.
+
 ```bash
 NEXT_PUBLIC_CONTACT_MODE=client-only
 ```
 
 ### Mode 2: Flask Backend
+
 Submits to a Flask microservice that sends emails via a transactional email provider.
 
 1. Set environment variable:
+
    ```bash
    NEXT_PUBLIC_CONTACT_MODE=flask
    FLASK_API_URL=http://localhost:5000
@@ -150,6 +163,7 @@ Vercel will automatically deploy on every push to your main branch.
 ### GitHub Pages
 
 1. Uncomment the export configuration in `next.config.js`:
+
    ```js
    output: 'export',
    basePath: '/your-repo-name',
@@ -157,6 +171,7 @@ Vercel will automatically deploy on every push to your main branch.
    ```
 
 2. Build and export:
+
    ```bash
    npm run build
    ```
@@ -187,6 +202,7 @@ Vercel will automatically deploy on every push to your main branch.
 ### 2. Share Your Portfolio
 
 Create a post on LinkedIn:
+
 1. Click "Start a post"
 2. Paste your portfolio URL
 3. LinkedIn will generate a rich preview with your Open Graph image
@@ -198,23 +214,27 @@ Create a post on LinkedIn:
 ## 🧪 Testing
 
 ### Unit Tests
+
 ```bash
 npm run test        # Run tests
 npm run test:ui     # Run tests with UI
 ```
 
 ### E2E Tests
+
 ```bash
 npm run e2e         # Run Playwright tests
 npm run e2e:ui      # Run with Playwright UI
 ```
 
 ### Type Checking
+
 ```bash
 npm run type-check
 ```
 
 ### Linting & Formatting
+
 ```bash
 npm run lint        # ESLint
 npm run format      # Prettier (auto-fix)
@@ -256,7 +276,9 @@ npm run format:check # Prettier (check only)
 ## 🎨 Customization
 
 ### Colors
+
 Edit `tailwind.config.js` to change the primary color palette:
+
 ```js
 colors: {
   primary: {
@@ -267,9 +289,11 @@ colors: {
 ```
 
 ### Fonts
+
 Update `src/app/layout.tsx` to use different Google Fonts or system fonts.
 
 ### Animations
+
 Modify Framer Motion variants in components or add new ones in `tailwind.config.js`.
 
 ## 📊 Performance & Accessibility
@@ -282,6 +306,7 @@ This portfolio is built to meet high standards:
 - ✅ **SEO**: ≥90
 
 Features ensuring these scores:
+
 - Next.js Image optimization with AVIF/WebP
 - Lazy loading and code splitting
 - Proper semantic HTML and ARIA labels

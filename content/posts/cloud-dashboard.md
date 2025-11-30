@@ -7,6 +7,7 @@ The Cloud Infrastructure Dashboard is a comprehensive monitoring solution design
 ## Problem Statement
 
 Managing infrastructure across multiple cloud providers (AWS, Azure, GCP) is challenging:
+
 - Fragmented monitoring tools
 - No unified cost visibility
 - Manual scaling decisions
@@ -15,6 +16,7 @@ Managing infrastructure across multiple cloud providers (AWS, Azure, GCP) is cha
 ## Solution
 
 A unified dashboard that:
+
 1. **Aggregates metrics** from multiple cloud providers
 2. **Provides predictive analytics** for capacity planning
 3. **Automates scaling decisions** based on historical patterns
@@ -23,6 +25,7 @@ A unified dashboard that:
 ## Technical Architecture
 
 ### Frontend
+
 - **Next.js 14** with App Router for optimal performance
 - **TypeScript** for type safety
 - **TailwindCSS** for responsive design
@@ -30,6 +33,7 @@ A unified dashboard that:
 - **React Query** for efficient data fetching
 
 ### Backend
+
 - **Python FastAPI** microservices
 - **Celery** for background task processing
 - **Redis** for caching and message queuing
@@ -37,6 +41,7 @@ A unified dashboard that:
 - **Prometheus** for metrics collection
 
 ### Infrastructure
+
 - **Kubernetes** for container orchestration
 - **Helm** charts for deployment
 - **ArgoCD** for GitOps
@@ -45,18 +50,23 @@ A unified dashboard that:
 ## Key Features
 
 ### 1. Real-Time Monitoring
+
 Monitor CPU, memory, disk, and network metrics across all your infrastructure with sub-second refresh rates.
 
 ### 2. Cost Analytics
+
 Track spending patterns, identify waste, and receive actionable recommendations to reduce costs.
 
 ### 3. Predictive Scaling
+
 Machine learning models analyze historical usage patterns to predict future resource needs and automatically scale resources.
 
 ### 4. Incident Management
+
 Automated incident detection with integration to PagerDuty, Slack, and email for immediate notifications.
 
 ### 5. Multi-Cloud Support
+
 Unified interface for AWS, Azure, and Google Cloud Platform.
 
 ## Results
@@ -69,14 +79,17 @@ Unified interface for AWS, Azure, and Google Cloud Platform.
 ## Challenges & Solutions
 
 ### Challenge 1: Data Volume
+
 **Problem**: Processing millions of metrics per minute.
 **Solution**: Implemented data aggregation pipeline with time-based rollups and sampling strategies.
 
 ### Challenge 2: Real-Time Updates
+
 **Problem**: Pushing updates to thousands of concurrent users.
 **Solution**: WebSocket connections with Redis pub/sub for efficient message distribution.
 
 ### Challenge 3: Cost Prediction Accuracy
+
 **Problem**: Initial ML models had 60% accuracy.
 **Solution**: Improved feature engineering and switched to ensemble methods (Random Forest + LSTM), achieving 92% accuracy.
 
@@ -89,14 +102,14 @@ from typing import List
 from datetime import datetime, timedelta
 
 class MetricsAggregator:
-    def __init__(self, redis_client, time_window: int = 60):
-        self.redis = redis_client
-        self.time_window = time_window
-    
+def **init**(self, redis_client, time_window: int = 60):
+self.redis = redis_client
+self.time_window = time_window
+
     async def aggregate(self, metrics: List[Metric]) -> AggregatedMetric:
         # Group metrics by time window
         windowed = self._group_by_window(metrics)
-        
+
         # Calculate statistics
         return AggregatedMetric(
             avg=sum(m.value for m in windowed) / len(windowed),
@@ -105,6 +118,7 @@ class MetricsAggregator:
             p95=self._percentile(windowed, 95),
             timestamp=datetime.utcnow()
         )
+
 \`\`\`
 
 ### Frontend Data Fetching
@@ -112,12 +126,12 @@ class MetricsAggregator:
 \`\`\`typescript
 // hooks/useMetrics.ts
 export function useMetrics(serverId: string, interval: number = 5000) {
-  return useQuery({
-    queryKey: ['metrics', serverId],
-    queryFn: () => fetchMetrics(serverId),
-    refetchInterval: interval,
-    staleTime: interval / 2,
-  })
+return useQuery({
+queryKey: ['metrics', serverId],
+queryFn: () => fetchMetrics(serverId),
+refetchInterval: interval,
+staleTime: interval / 2,
+})
 }
 \`\`\`
 
@@ -151,4 +165,4 @@ export function useMetrics(serverId: string, interval: number = 5000) {
 
 ---
 
-*Built with ❤️ by John Doe*
+_Built with ❤️ by John Doe_

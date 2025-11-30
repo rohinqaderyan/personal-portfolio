@@ -69,7 +69,7 @@ export function trackPageView(url: string) {
   }
 
   // Plausible automatically tracks page views
-  
+
   // Track with Google Analytics
   if (window.gtag) {
     window.gtag('config', getConfig().gaMeasurementId, {

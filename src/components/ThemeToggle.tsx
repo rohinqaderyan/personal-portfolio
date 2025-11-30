@@ -12,7 +12,7 @@ export function ThemeToggle() {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       onClick={toggleTheme}
-      className="relative rounded-full p-2 text-muted-foreground hover:bg-accent hover:text-accent-foreground focus-ring"
+      className="focus-ring relative rounded-full p-2 text-muted-foreground hover:bg-accent hover:text-accent-foreground"
       aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
       title={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
     >

@@ -17,6 +17,7 @@ This installs all required packages including Next.js, React, TypeScript, Tailwi
 The `.env.local` file has been created with default settings. You're ready to run in development mode!
 
 **For production**, update these values:
+
 - `NEXT_PUBLIC_SITE_URL` - Your domain (e.g., https://yourdomain.com)
 - Analytics keys (optional)
 
@@ -25,7 +26,9 @@ The `.env.local` file has been created with default settings. You're ready to ru
 Edit the JSON files in the `/content` directory:
 
 #### **`content/site.config.json`**
+
 Update with your personal information:
+
 ```json
 {
   "name": "Your Name",
@@ -43,7 +46,9 @@ Update with your personal information:
 ```
 
 #### **`content/projects.json`**
+
 Add your projects:
+
 ```json
 [
   {
@@ -60,9 +65,11 @@ Add your projects:
 ```
 
 #### **`content/skills.json`**
+
 Update your skills by category.
 
 #### **`content/experience.json`**
+
 Add your work experience.
 
 ### 4. Add Your Assets
@@ -89,6 +96,7 @@ The page auto-updates as you edit files.
 ### Change Colors
 
 Edit `tailwind.config.js`:
+
 ```javascript
 theme: {
   extend: {
@@ -105,6 +113,7 @@ theme: {
 ### Change Fonts
 
 Edit `src/app/layout.tsx`:
+
 ```typescript
 import { Inter, YourFont } from 'next/font/google'
 
@@ -126,6 +135,7 @@ Already configured! When users submit the form, it opens their email client with
 For server-side email sending:
 
 1. **Set up Flask backend**:
+
    ```powershell
    cd flask-backend
    python -m venv venv
@@ -138,6 +148,7 @@ For server-side email sending:
    - Add your email API key (SendGrid, Mailgun, etc.)
 
 3. **Run Flask server**:
+
    ```powershell
    python app.py
    ```

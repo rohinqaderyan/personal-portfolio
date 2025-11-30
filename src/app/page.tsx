@@ -28,7 +28,7 @@ export default function Home() {
         <div className="mt-12 text-center">
           <Link
             href="/projects"
-            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline focus-ring rounded"
+            className="focus-ring inline-flex items-center gap-2 rounded text-sm font-medium text-primary hover:underline"
           >
             View all projects
             <ArrowRight className="h-4 w-4" />
@@ -47,7 +47,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center rounded-lg bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground shadow-md transition-all hover:bg-primary/90 hover:shadow-lg focus-ring"
+            className="focus-ring inline-flex items-center justify-center rounded-lg bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground shadow-md transition-all hover:bg-primary/90 hover:shadow-lg"
           >
             Get in touch
           </Link>

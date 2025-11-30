@@ -41,13 +41,20 @@
   * {
     @apply border-border;
   }
-  
+
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-bold tracking-tight;
   }
 
@@ -92,7 +99,7 @@ html {
   }
 
   .scrollbar-thin::-webkit-scrollbar-thumb {
-    @apply bg-muted-foreground/50 rounded-full;
+    @apply rounded-full bg-muted-foreground/50;
   }
 
   .scrollbar-thin::-webkit-scrollbar-thumb:hover {
@@ -125,11 +132,11 @@ html {
 }
 
 .prose pre {
-  @apply bg-muted p-4 rounded-lg overflow-x-auto;
+  @apply overflow-x-auto rounded-lg bg-muted p-4;
 }
 
 .prose code {
-  @apply bg-muted px-1.5 py-0.5 rounded text-sm;
+  @apply rounded bg-muted px-1.5 py-0.5 text-sm;
 }
 
 .prose pre code {

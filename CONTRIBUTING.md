@@ -42,17 +42,20 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 ## Development Setup
 
 1. Fork and clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/personal-portfolio.git
    cd personal-portfolio
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create a branch:
+
    ```bash
    git checkout -b feature/your-feature-name
    ```
@@ -102,6 +105,7 @@ Follow the [Conventional Commits](https://www.conventionalcommits.org/) specific
 ```
 
 Types:
+
 - `feat`: New feature
 - `fix`: Bug fix
 - `docs`: Documentation changes
@@ -111,6 +115,7 @@ Types:
 - `chore`: Maintenance tasks
 
 Example:
+
 ```
 feat(projects): add project filtering by tags
 
@@ -131,6 +136,7 @@ Closes #123
 - Test accessibility with `@testing-library/react`
 
 Example:
+
 ```typescript
 describe('ProjectCard', () => {
   it('renders project title and description', () => {
@@ -151,6 +157,7 @@ describe('ProjectCard', () => {
 - Test both light and dark modes
 
 Example:
+
 ```typescript
 test('user can filter projects by tag', async ({ page }) => {
   await page.goto('/projects')

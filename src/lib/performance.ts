@@ -5,7 +5,7 @@
 export function reportWebVitals(metric: any) {
   // Log to console in development
   if (process.env.NODE_ENV === 'development') {
-    console.log(metric);
+    console.log(metric)
   }
 
   // Send to analytics in production
@@ -16,7 +16,7 @@ export function reportWebVitals(metric: any) {
         value: Math.round(metric.name === 'CLS' ? metric.value * 1000 : metric.value),
         event_label: metric.id,
         non_interaction: true,
-      });
+      })
     }
 
     // Plausible
@@ -26,7 +26,7 @@ export function reportWebVitals(metric: any) {
           metric: metric.name,
           value: Math.round(metric.name === 'CLS' ? metric.value * 1000 : metric.value),
         },
-      });
+      })
     }
   }
 }
@@ -36,14 +36,14 @@ export function prefetchResources() {
   if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
     requestIdleCallback(() => {
       // Prefetch critical routes
-      const criticalRoutes = ['/projects', '/about', '/contact'];
-      criticalRoutes.forEach(route => {
-        const link = document.createElement('link');
-        link.rel = 'prefetch';
-        link.href = route;
-        document.head.appendChild(link);
-      });
-    });
+      const criticalRoutes = ['/projects', '/about', '/contact']
+      criticalRoutes.forEach((route) => {
+        const link = document.createElement('link')
+        link.rel = 'prefetch'
+        link.href = route
+        document.head.appendChild(link)
+      })
+    })
   }
 }
 
@@ -53,26 +53,26 @@ export function lazyLoadImages() {
     const imageObserver = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          const img = entry.target as HTMLImageElement;
+          const img = entry.target as HTMLImageElement
           if (img.dataset.src) {
-            img.src = img.dataset.src;
-            img.removeAttribute('data-src');
-            imageObserver.unobserve(img);
+            img.src = img.dataset.src
+            img.removeAttribute('data-src')
+            imageObserver.unobserve(img)
           }
         }
-      });
-    });
+      })
+    })
 
     document.querySelectorAll('img[data-src]').forEach((img) => {
-      imageObserver.observe(img);
-    });
+      imageObserver.observe(img)
+    })
   }
 }
 
 // Type declarations for analytics
 declare global {
   interface Window {
-    gtag?: (...args: any[]) => void;
-    plausible?: (event: string, options?: { props?: Record<string, string | number> }) => void;
+    gtag?: (...args: any[]) => void
+    plausible?: (event: string, options?: { props?: Record<string, string | number> }) => void
   }
 }

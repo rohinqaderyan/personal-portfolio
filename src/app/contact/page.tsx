@@ -20,7 +20,7 @@ export default function ContactPage() {
     <>
       <Section
         title="Get In Touch"
-        description="I&apos;d love to hear from you. Send me a message and I&apos;ll get back to you as soon as possible."
+        description="I'd love to hear from you. Send me a message and I'll get back to you as soon as possible."
         className="pt-24"
       >
         <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-5">
@@ -37,7 +37,7 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <a
                     href={`mailto:${config.email}`}
-                    className="flex items-start gap-3 text-muted-foreground transition-colors hover:text-foreground focus-ring rounded"
+                    className="focus-ring flex items-start gap-3 rounded text-muted-foreground transition-colors hover:text-foreground"
                   >
                     <Mail className="mt-0.5 h-5 w-5 flex-shrink-0" />
                     <span>{config.email}</span>
@@ -50,7 +50,7 @@ export default function ContactPage() {
                     href={config.social.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-start gap-3 text-muted-foreground transition-colors hover:text-foreground focus-ring rounded"
+                    className="focus-ring flex items-start gap-3 rounded text-muted-foreground transition-colors hover:text-foreground"
                   >
                     <Linkedin className="mt-0.5 h-5 w-5 flex-shrink-0" />
                     <span>Connect on LinkedIn</span>
@@ -66,8 +66,8 @@ export default function ContactPage() {
               <div className="rounded-lg border border-border bg-muted/30 p-6">
                 <h4 className="mb-2 font-semibold">Availability</h4>
                 <p className="text-sm text-muted-foreground">
-                  I&apos;m currently open to new opportunities and interesting projects. Feel free to
-                  reach out!
+                  I&apos;m currently open to new opportunities and interesting projects. Feel free
+                  to reach out!
                 </p>
               </div>
             </div>

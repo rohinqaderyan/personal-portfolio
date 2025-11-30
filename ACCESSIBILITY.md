@@ -7,18 +7,21 @@ This portfolio website is committed to providing an accessible experience for al
 ## Current Accessibility Features
 
 ### Keyboard Navigation
+
 - All interactive elements are keyboard accessible
 - Logical tab order throughout the site
 - Skip to main content link
 - Focus indicators on all interactive elements
 
 ### Screen Reader Support
+
 - Semantic HTML5 elements
 - ARIA labels and landmarks where appropriate
 - Alternative text for all images
 - Descriptive link text
 
 ### Visual Design
+
 - High contrast color schemes in both light and dark modes
 - Minimum contrast ratio of 4.5:1 for normal text
 - Minimum contrast ratio of 3:1 for large text
@@ -26,11 +29,13 @@ This portfolio website is committed to providing an accessible experience for al
 - No reliance on color alone to convey information
 
 ### Motion and Animation
+
 - Respects `prefers-reduced-motion` system setting
 - All animations can be disabled
 - No auto-playing content
 
 ### Forms
+
 - Clear labels for all form fields
 - Error messages are descriptive and helpful
 - Required fields are clearly marked
@@ -51,6 +56,7 @@ We welcome feedback on the accessibility of this website. If you encounter any b
 - **Subject**: Accessibility Feedback
 
 Please provide:
+
 1. The URL of the page with the issue
 2. A description of the problem
 3. The assistive technology you were using (if applicable)
@@ -61,6 +67,7 @@ We aim to respond to accessibility feedback within 2 business days.
 ## Technical Specifications
 
 This website's accessibility relies on the following technologies:
+
 - HTML5
 - CSS3
 - JavaScript (with graceful degradation)
@@ -69,6 +76,7 @@ This website's accessibility relies on the following technologies:
 ## Standards Compliance
 
 This website aims to conform to:
+
 - WCAG 2.1 Level AA
 - Section 508 standards
 - EN 301 549 (European accessibility standard)
@@ -76,6 +84,7 @@ This website aims to conform to:
 ## Testing
 
 This website has been tested with:
+
 - Keyboard-only navigation
 - Screen readers (NVDA, JAWS, VoiceOver)
 - Browser zoom (up to 200%)

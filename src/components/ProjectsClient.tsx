@@ -18,8 +18,7 @@ export function ProjectsClient({ allProjects, allTags }: ProjectsClientProps) {
     return allProjects.filter((project) => {
       // Filter by tags
       const matchesTags =
-        selectedTags.length === 0 ||
-        selectedTags.some((tag) => project.tags.includes(tag))
+        selectedTags.length === 0 || selectedTags.some((tag) => project.tags.includes(tag))
 
       // Filter by search query
       const matchesSearch =
@@ -33,9 +32,7 @@ export function ProjectsClient({ allProjects, allTags }: ProjectsClientProps) {
   }, [allProjects, selectedTags, searchQuery])
 
   const handleTagToggle = (tag: string) => {
-    setSelectedTags((prev) =>
-      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
-    )
+    setSelectedTags((prev) => (prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]))
   }
 
   const handleClearAll = () => {

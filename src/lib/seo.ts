@@ -114,11 +114,7 @@ export function generateStructuredData(config: SiteConfig) {
     jobTitle: config.role,
     description: config.bio,
     email: config.email,
-    sameAs: [
-      config.social.linkedin,
-      config.social.github,
-      config.social.twitter,
-    ].filter(Boolean),
+    sameAs: [config.social.linkedin, config.social.github, config.social.twitter].filter(Boolean),
     address: {
       '@type': 'PostalAddress',
       addressLocality: config.location,

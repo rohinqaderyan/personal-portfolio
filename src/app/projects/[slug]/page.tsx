@@ -49,7 +49,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
         <div className="mb-8">
           <Link
             href="/projects"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground focus-ring rounded"
+            className="focus-ring inline-flex items-center gap-2 rounded text-sm text-muted-foreground hover:text-foreground"
           >
             <ArrowLeft className="h-4 w-4" />
             Back to projects
@@ -57,9 +57,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
         </div>
 
         <div className="mx-auto max-w-4xl">
-          <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
-            {project.title}
-          </h1>
+          <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">{project.title}</h1>
           <p className="mb-6 text-xl text-muted-foreground">{project.description}</p>
 
           {/* Meta info */}
@@ -72,7 +70,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm text-primary hover:underline focus-ring rounded"
+                className="focus-ring inline-flex items-center gap-2 rounded text-sm text-primary hover:underline"
               >
                 <ExternalLink className="h-4 w-4" />
                 View Live Demo
@@ -83,7 +81,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
                 href={project.repo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground focus-ring rounded"
+                className="focus-ring inline-flex items-center gap-2 rounded text-sm text-muted-foreground hover:text-foreground"
               >
                 <Github className="h-4 w-4" />
                 View Code
@@ -93,7 +91,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
               href={linkedInShareUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground focus-ring rounded"
+              className="focus-ring inline-flex items-center gap-2 rounded text-sm text-muted-foreground hover:text-foreground"
             >
               <Share2 className="h-4 w-4" />
               Share on LinkedIn
@@ -130,7 +128,7 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
                   <ul className="space-y-3">
                     {project.highlights.map((highlight, index) => (
                       <li key={index} className="flex items-start gap-3">
-                        <div className="mt-1.5 h-2 w-2 rounded-full bg-primary flex-shrink-0" />
+                        <div className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-primary" />
                         <span className="text-muted-foreground">{highlight}</span>
                       </li>
                     ))}

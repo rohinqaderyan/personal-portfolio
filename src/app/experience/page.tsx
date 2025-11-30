@@ -31,7 +31,7 @@ export default function ExperiencePage() {
           {experiences.map((experience) => (
             <div key={experience.id} className="relative pl-0 md:pl-16">
               {/* Timeline dot */}
-              <div className="absolute left-0 top-2 hidden h-[15px] w-[15px] rounded-full border-4 border-background bg-primary md:block md:left-[22px]" />
+              <div className="absolute left-0 top-2 hidden h-[15px] w-[15px] rounded-full border-4 border-background bg-primary md:left-[22px] md:block" />
 
               <div className="rounded-lg border border-border bg-card p-6 shadow-sm transition-all hover:shadow-md">
                 {/* Header */}
@@ -66,7 +66,10 @@ export default function ExperiencePage() {
                     <h4 className="mb-2 text-sm font-semibold">Key Responsibilities:</h4>
                     <ul className="space-y-2">
                       {experience.responsibilities.map((responsibility, idx) => (
-                        <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <li
+                          key={idx}
+                          className="flex items-start gap-2 text-sm text-muted-foreground"
+                        >
                           <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary" />
                           <span>{responsibility}</span>
                         </li>
@@ -98,7 +101,10 @@ export default function ExperiencePage() {
                     <h4 className="mb-2 text-sm font-semibold">Achievements:</h4>
                     <ul className="space-y-2">
                       {experience.achievements.map((achievement, idx) => (
-                        <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <li
+                          key={idx}
+                          className="flex items-start gap-2 text-sm text-muted-foreground"
+                        >
                           <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-green-500" />
                           <span>{achievement}</span>
                         </li>

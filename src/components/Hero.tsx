@@ -12,7 +12,7 @@ interface HeroProps {
 
 export function Hero({ config }: HeroProps) {
   return (
-    <section 
+    <section
       className="relative flex min-h-[calc(100vh-4rem)] items-center justify-center px-6 py-12"
       aria-label="Introduction"
     >
@@ -23,8 +23,7 @@ export function Hero({ config }: HeroProps) {
           transition={{ duration: 0.4, ease: 'easeOut' }}
         >
           <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-            Hi, I&apos;m{' '}
-            <span className="gradient-text">{config.name.split(' ')[0]}</span>
+            Hi, I&apos;m <span className="gradient-text">{config.name.split(' ')[0]}</span>
           </h1>
         </motion.div>
 
@@ -63,14 +62,14 @@ export function Hero({ config }: HeroProps) {
         >
           <Link
             href="/projects"
-            className="inline-flex items-center justify-center rounded-lg bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground shadow-md transition-all hover:bg-primary/90 hover:shadow-lg focus-ring"
+            className="focus-ring inline-flex items-center justify-center rounded-lg bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground shadow-md transition-all hover:bg-primary/90 hover:shadow-lg"
             aria-label="View my projects and portfolio work"
           >
             View My Work
           </Link>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center rounded-lg border border-border bg-background px-8 py-3 text-sm font-semibold shadow-sm transition-all hover:bg-accent hover:shadow-md focus-ring"
+            className="focus-ring inline-flex items-center justify-center rounded-lg border border-border bg-background px-8 py-3 text-sm font-semibold shadow-sm transition-all hover:bg-accent hover:shadow-md"
             aria-label="Get in touch with me"
           >
             Get In Touch

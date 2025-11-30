@@ -13,7 +13,11 @@ export function formatDate(dateString: string): string {
   })
 }
 
-export function formatDateRange(startDate: string, endDate: string | null, current: boolean): string {
+export function formatDateRange(
+  startDate: string,
+  endDate: string | null,
+  current: boolean
+): string {
   const start = formatDate(startDate)
   const end = current ? 'Present' : endDate ? formatDate(endDate) : ''
   return `${start} - ${end}`
@@ -22,11 +26,12 @@ export function formatDateRange(startDate: string, endDate: string | null, curre
 export function calculateDuration(startDate: string, endDate: string | null): string {
   const start = new Date(startDate)
   const end = endDate ? new Date(endDate) : new Date()
-  
-  const months = (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth())
+
+  const months =
+    (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth())
   const years = Math.floor(months / 12)
   const remainingMonths = months % 12
-  
+
   if (years === 0) {
     return `${remainingMonths} ${remainingMonths === 1 ? 'month' : 'months'}`
   } else if (remainingMonths === 0) {

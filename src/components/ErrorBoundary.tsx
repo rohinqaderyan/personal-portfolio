@@ -12,10 +12,7 @@ interface ErrorBoundaryState {
   error?: Error
 }
 
-export class ErrorBoundary extends React.Component<
-  ErrorBoundaryProps,
-  ErrorBoundaryState
-> {
+export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundaryState> {
   constructor(props: ErrorBoundaryProps) {
     super(props)
     this.state = { hasError: false }
@@ -27,7 +24,7 @@ export class ErrorBoundary extends React.Component<
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
     console.error('Error caught by boundary:', error, errorInfo)
-    
+
     // Log to error tracking service in production
     if (process.env.NODE_ENV === 'production') {
       // Add your error tracking service here (e.g., Sentry, LogRocket)
@@ -40,7 +37,7 @@ export class ErrorBoundary extends React.Component<
         <div className="flex min-h-screen items-center justify-center px-6">
           <div className="max-w-md text-center">
             <div className="mb-6 flex justify-center">
-              <AlertCircle className="h-16 w-16 text-destructive" />
+              <AlertCircle className="text-destructive h-16 w-16" />
             </div>
             <h1 className="mb-4 text-3xl font-bold">Something went wrong</h1>
             <p className="mb-6 text-muted-foreground">
@@ -54,9 +51,7 @@ export class ErrorBoundary extends React.Component<
             </button>
             {process.env.NODE_ENV === 'development' && this.state.error && (
               <details className="mt-6 text-left">
-                <summary className="cursor-pointer text-sm font-semibold">
-                  Error Details
-                </summary>
+                <summary className="cursor-pointer text-sm font-semibold">Error Details</summary>
                 <pre className="mt-2 overflow-auto rounded-lg bg-muted p-4 text-xs">
                   {this.state.error.toString()}
                 </pre>

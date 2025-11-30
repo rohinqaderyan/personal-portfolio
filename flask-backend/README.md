@@ -15,6 +15,7 @@ This Flask microservice handles contact form submissions and sends emails via a 
 ### Local Development
 
 1. **Create a virtual environment**:
+
    ```bash
    python -m venv venv
    ```
@@ -24,20 +25,23 @@ This Flask microservice handles contact form submissions and sends emails via a 
    - Mac/Linux: `source venv/bin/activate`
 
 3. **Install dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Create `.env` file** (copy from `.env.example`):
+
    ```bash
    copy .env.example .env
    ```
 
 5. **Configure environment variables** in `.env`:
+
    ```env
    FLASK_ENV=development
    PORT=5000
-   
+
    # Email configuration
    MAIL_PROVIDER_API_KEY=your_api_key_here
    MAIL_FROM=noreply@yourdomain.com
@@ -76,7 +80,7 @@ def send_email(name, email, message):
             <p>{message}</p>
         '''
     )
-    
+
     sg = SendGridAPIClient(MAIL_PROVIDER_API_KEY)
     response = sg.send(mail)
     return response.status_code == 202
@@ -126,9 +130,11 @@ def send_email(name, email, message):
 ## API Endpoints
 
 ### `GET /health`
+
 Health check endpoint.
 
 **Response**:
+
 ```json
 {
   "status": "healthy",
@@ -137,9 +143,11 @@ Health check endpoint.
 ```
 
 ### `POST /send-email`
+
 Send contact form email.
 
 **Request Body**:
+
 ```json
 {
   "name": "John Doe",
@@ -149,6 +157,7 @@ Send contact form email.
 ```
 
 **Response** (Success):
+
 ```json
 {
   "message": "Email sent successfully",
@@ -157,6 +166,7 @@ Send contact form email.
 ```
 
 **Response** (Error):
+
 ```json
 {
   "error": "Error message here"
@@ -166,6 +176,7 @@ Send contact form email.
 ## Testing
 
 Run tests with pytest:
+
 ```bash
 pytest
 ```
@@ -175,6 +186,7 @@ pytest
 ### Heroku
 
 1. Create a `Procfile`:
+
    ```
    web: gunicorn app:app
    ```
@@ -191,11 +203,13 @@ pytest
 ### AWS Lambda (via Zappa)
 
 1. Install Zappa:
+
    ```bash
    pip install zappa
    ```
 
 2. Initialize:
+
    ```bash
    zappa init
    ```
@@ -208,6 +222,7 @@ pytest
 ### Docker
 
 1. Build image:
+
    ```bash
    docker build -t portfolio-contact-api .
    ```

@@ -88,13 +88,11 @@ export function ContactForm({ email }: ContactFormProps) {
           {...register('name')}
           type="text"
           id="name"
-          className="w-full rounded-lg border border-border bg-background px-4 py-3 text-sm focus-ring focus:border-primary disabled:opacity-50"
+          className="focus-ring w-full rounded-lg border border-border bg-background px-4 py-3 text-sm focus:border-primary disabled:opacity-50"
           placeholder="John Doe"
           disabled={status === 'loading'}
         />
-        {errors.name && (
-          <p className="mt-1 text-sm text-red-500">{errors.name.message}</p>
-        )}
+        {errors.name && <p className="mt-1 text-sm text-red-500">{errors.name.message}</p>}
       </div>
 
       {/* Email */}
@@ -106,13 +104,11 @@ export function ContactForm({ email }: ContactFormProps) {
           {...register('email')}
           type="email"
           id="email"
-          className="w-full rounded-lg border border-border bg-background px-4 py-3 text-sm focus-ring focus:border-primary disabled:opacity-50"
+          className="focus-ring w-full rounded-lg border border-border bg-background px-4 py-3 text-sm focus:border-primary disabled:opacity-50"
           placeholder="john@example.com"
           disabled={status === 'loading'}
         />
-        {errors.email && (
-          <p className="mt-1 text-sm text-red-500">{errors.email.message}</p>
-        )}
+        {errors.email && <p className="mt-1 text-sm text-red-500">{errors.email.message}</p>}
       </div>
 
       {/* Message */}
@@ -124,20 +120,18 @@ export function ContactForm({ email }: ContactFormProps) {
           {...register('message')}
           id="message"
           rows={6}
-          className="w-full rounded-lg border border-border bg-background px-4 py-3 text-sm focus-ring focus:border-primary disabled:opacity-50"
+          className="focus-ring w-full rounded-lg border border-border bg-background px-4 py-3 text-sm focus:border-primary disabled:opacity-50"
           placeholder="Tell me about your project or inquiry..."
           disabled={status === 'loading'}
         />
-        {errors.message && (
-          <p className="mt-1 text-sm text-red-500">{errors.message.message}</p>
-        )}
+        {errors.message && <p className="mt-1 text-sm text-red-500">{errors.message.message}</p>}
       </div>
 
       {/* Submit Button */}
       <motion.button
         type="submit"
         disabled={status === 'loading'}
-        className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-md transition-all hover:bg-primary/90 hover:shadow-lg focus-ring disabled:opacity-50 disabled:cursor-not-allowed"
+        className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-md transition-all hover:bg-primary/90 hover:shadow-lg disabled:cursor-not-allowed disabled:opacity-50"
         whileHover={{ scale: status === 'loading' ? 1 : 1.02 }}
         whileTap={{ scale: status === 'loading' ? 1 : 0.98 }}
       >
@@ -161,12 +155,12 @@ export function ContactForm({ email }: ContactFormProps) {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="flex items-center gap-2 rounded-lg bg-green-50 dark:bg-green-900/20 p-4 text-sm text-green-700 dark:text-green-400"
+            className="flex items-center gap-2 rounded-lg bg-green-50 p-4 text-sm text-green-700 dark:bg-green-900/20 dark:text-green-400"
           >
             <CheckCircle className="h-5 w-5" />
             <span>
               {config.contactMode === 'flask'
-                ? 'Message sent successfully! I\'ll get back to you soon.'
+                ? "Message sent successfully! I'll get back to you soon."
                 : 'Email client opened. Please complete sending the message from your email app.'}
             </span>
           </motion.div>
@@ -177,7 +171,7 @@ export function ContactForm({ email }: ContactFormProps) {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="flex items-center gap-2 rounded-lg bg-red-50 dark:bg-red-900/20 p-4 text-sm text-red-700 dark:text-red-400"
+            className="flex items-center gap-2 rounded-lg bg-red-50 p-4 text-sm text-red-700 dark:bg-red-900/20 dark:text-red-400"
           >
             <AlertCircle className="h-5 w-5" />
             <span>{errorMessage}</span>

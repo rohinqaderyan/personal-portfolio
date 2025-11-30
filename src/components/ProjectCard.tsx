@@ -36,9 +36,7 @@ export const ProjectCard = memo(function ProjectCard({ project, index = 0 }: Pro
             <CardDescription>{project.year}</CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="mb-4 line-clamp-3 text-sm text-muted-foreground">
-              {project.description}
-            </p>
+            <p className="mb-4 line-clamp-3 text-sm text-muted-foreground">{project.description}</p>
             <div className="flex flex-wrap gap-2">
               {project.tags.slice(0, 4).map((tag) => (
                 <span

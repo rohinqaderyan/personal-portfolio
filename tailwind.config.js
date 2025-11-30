@@ -57,13 +57,7 @@ module.exports = {
           'Roboto',
           'sans-serif',
         ],
-        mono: [
-          'JetBrains Mono',
-          'Menlo',
-          'Monaco',
-          'Courier New',
-          'monospace',
-        ],
+        mono: ['JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', 'monospace'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in',
@@ -110,7 +104,5 @@ module.exports = {
       }),
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [require('@tailwindcss/typography')],
 }

@@ -12,7 +12,7 @@ export function middleware(request: NextRequest) {
 
   // Add performance hints
   response.headers.set('X-Content-Type-Options', 'nosniff')
-  
+
   return response
 }
 

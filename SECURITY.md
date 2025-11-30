@@ -25,22 +25,26 @@ Please include the following information in your report:
 This project implements several security measures:
 
 ### Content Security
+
 - XSS protection headers
 - Content-Type-Options set to nosniff
 - Frame-Options configured
 - Strict Transport Security enabled
 
 ### Dependency Security
+
 - Regular dependency updates via Dependabot
 - Automated security scanning in CI/CD pipeline
 - No known high-severity vulnerabilities
 
 ### Data Protection
+
 - Environment variables for sensitive data
 - No hardcoded credentials or API keys
 - Secure form submission handling
 
 ### Best Practices
+
 - TypeScript for type safety
 - Input validation with Zod
 - Secure HTTP headers

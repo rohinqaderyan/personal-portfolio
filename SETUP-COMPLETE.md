@@ -3,6 +3,7 @@
 ## ✅ What's Been Updated
 
 ### Personal Information
+
 - **Name**: Rohin Qaderyan (preferred name)
 - **Role**: Senior Full Stack Developer & Data Scientist
 - **Location**: Alexandria, VA
@@ -11,48 +12,53 @@
 - **GitHub**: github.com/qaderyan
 
 ### Resume & Experience
+
 - ✅ All 7 work positions added (Pfizer → U.S. Army)
 - ✅ Detailed responsibilities and achievements
 - ✅ Technologies and metrics included
 - ✅ Resume file renamed to `Resume_Qaderyan.pdf`
 
 ### Skills Section
+
 - ✅ 60+ technical skills across 6 categories
 - ✅ Your resume skills + comprehensive previous skills
 - ✅ Includes: React, Angular, Python, AWS, Azure, Snowflake, etc.
 - ✅ Experience levels and years for each
 
 ### Projects Portfolio
+
 **9 impressive projects created:**
 
 #### Featured (Homepage)
+
 1. **AI-Driven Pharma Analytics Platform** (Pfizer work)
    - Enterprise AI platform processing 10M+ records daily
    - Angular, Java Spring Boot, Python, Snowflake
-   
 2. **FinTech Loan Processing Platform** (Parlay Protocol work)
    - B2B SaaS for community banks
    - Processed $50M+ in loans
-   
 3. **VMware to AWS Migration Framework** (Prominent Edge work)
    - Migrated 200+ VMs with zero downtime
    - 60% time reduction, 30% cost savings
 
 #### Additional Projects
+
 4. Real-Time Collaboration Platform
-5. Kubernetes Deployment Orchestrator  
+5. Kubernetes Deployment Orchestrator
 6. IoT Disaster Response Mesh Network
 7. AI Health & Fitness Tracker
 8. Microservices E-Commerce Platform
 9. Cybersecurity Operations Dashboard
 
 All projects have:
+
 - Professional descriptions highlighting impact
 - GitHub repo links (github.com/qaderyan/project-name)
 - Technology stacks
 - Key metrics and achievements
 
 ### Configuration
+
 - ✅ Analytics: Plausible enabled, Google Analytics ready
 - ✅ Contact form: Client-only mode (mailto)
 - ✅ LinkedIn embeds: Disabled (you don't post often)
@@ -96,6 +102,7 @@ All projects have:
 ## 🚀 Deployment Instructions
 
 ### Local Testing
+
 ```bash
 npm run dev
 # Visit: http://localhost:3000
@@ -104,6 +111,7 @@ npm run dev
 ### Deploy to Vercel (Recommended)
 
 1. **Push to GitHub**
+
    ```bash
    git add .
    git commit -m "Complete portfolio setup"
@@ -125,6 +133,7 @@ npm run dev
 ### Environment Variables on Vercel
 
 Add these in Vercel Dashboard → Settings → Environment Variables:
+
 ```
 NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
 NEXT_PUBLIC_CONTACT_MODE=client-only
@@ -135,6 +144,7 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX (if using GA)
 ## 📊 What Makes This Portfolio Stand Out
 
 ### For Big Tech Recruiters
+
 ✅ **Senior-Level Projects**: Enterprise-scale systems (10M+ records, $50M processed)
 ✅ **Modern Tech Stack**: React, Angular, Python, AWS, Snowflake, Kubernetes
 ✅ **Measurable Impact**: 15% time reduction, 30% cost optimization, 25% quality improvement
@@ -143,6 +153,7 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX (if using GA)
 ✅ **DevOps/CI/CD**: Automated pipelines, 50% release time reduction
 
 ### Featured Projects Appeal To:
+
 - **Pfizer Platform** → Healthcare tech, pharmaceutical companies
 - **FinTech Platform** → Banks, fintech startups, payment processors
 - **Cloud Migration** → Cloud consultancies, enterprise IT
@@ -154,6 +165,7 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX (if using GA)
 ### Want to Update Later?
 
 **Change Name/Bio:**
+
 ```json
 // Edit: content/site.config.json
 "name": "Your Name",
@@ -161,18 +173,21 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX (if using GA)
 ```
 
 **Add a Project:**
+
 ```json
 // Edit: content/projects.json
 // Add new project object to array
 ```
 
 **Update Experience:**
+
 ```json
 // Edit: content/experience.json
 // Modify existing or add new roles
 ```
 
 **Add Skills:**
+
 ```json
 // Edit: content/skills.json
 // Add to appropriate category
@@ -183,16 +198,19 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX (if using GA)
 ### Should You Enable LinkedIn Embeds?
 
 **Enable if:**
+
 - ✅ You post regularly (1-2x per week)
 - ✅ Your posts showcase technical expertise
 - ✅ You have engagement on posts
 
 **Keep Disabled if:**
+
 - ✅ You rarely post (current situation)
 - ✅ Posts aren't technical/professional
 - ✅ You prefer a cleaner portfolio
 
 **To Enable Later:**
+
 ```json
 // Edit: content/site.config.json
 "enableLinkedInEmbed": true,
@@ -202,12 +220,14 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX (if using GA)
 ## 🎨 Design & Branding
 
 ### Current Theme
+
 - **Primary Color**: Blue (#0ea5e9) - Professional, tech-focused
 - **Mode**: Light/Dark theme toggle
 - **Font**: Inter (clean, modern)
 - **Style**: Minimalist, content-focused
 
 ### Want to Change Colors?
+
 ```js
 // Edit: tailwind.config.js
 colors: {
@@ -220,6 +240,7 @@ colors: {
 ## 📈 Success Metrics
 
 ### Track These After Launch:
+
 - Page views and unique visitors
 - Time spent on Projects page
 - Resume download clicks
@@ -227,6 +248,7 @@ colors: {
 - LinkedIn/GitHub profile clicks
 
 ### Good Targets:
+
 - **Bounce Rate**: < 50%
 - **Avg Session**: > 2 minutes
 - **Projects Page**: > 30% of traffic
@@ -235,21 +257,27 @@ colors: {
 ## 🐛 Troubleshooting
 
 ### Site Not Loading?
+
 ```bash
 npm install  # Reinstall dependencies
 npm run dev  # Restart dev server
 ```
 
 ### TypeScript Errors?
+
 These are expected before deployment. Vercel will handle them.
 
 ### Images Not Showing?
+
 Check file names match exactly (case-sensitive):
+
 - `pharma-analytics.jpg` not `Pharma-Analytics.JPG`
 
 ### Forms Not Working?
+
 You're using "client-only" mode - opens email client.
 To use backend email:
+
 1. Setup Flask backend (see `flask-backend/README.md`)
 2. Change `NEXT_PUBLIC_CONTACT_MODE=flask`
 
@@ -265,6 +293,7 @@ To use backend email:
 ## 📞 Questions?
 
 Check these files for detailed guides:
+
 - `README.md` - Complete project documentation
 - `QUICKSTART.md` - 5-minute setup guide
 - `ANALYTICS-SETUP.md` - Google Analytics guide
@@ -274,6 +303,7 @@ Check these files for detailed guides:
 ## 🎓 Your Portfolio Highlights
 
 **What Recruiters Will See:**
+
 1. Senior Full Stack Developer with Pharma + FinTech + Cloud experience
 2. AI/ML expertise with measurable business impact
 3. Modern tech stack (React, Angular, Python, AWS, Snowflake)
@@ -283,6 +313,7 @@ Check these files for detailed guides:
 7. Open source contributions via GitHub
 
 **Perfect For Roles At:**
+
 - FAANG (Google, Meta, Amazon, Apple, Microsoft)
 - Healthcare Tech (Pfizer, GSK, J&J, Epic, Cerner)
 - FinTech (Stripe, Square, Coinbase, Robinhood)

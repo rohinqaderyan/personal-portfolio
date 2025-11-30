@@ -17,7 +17,7 @@ export function getLinkedInShareUrl(url: string, config: ReturnType<typeof getCo
   const params = new URLSearchParams({
     url: `${url}?utm_source=${config.utmSource}&utm_medium=${config.utmMedium}&utm_campaign=${config.utmCampaign}`,
   })
-  
+
   return `https://www.linkedin.com/sharing/share-offsite/?${params.toString()}`
 }
 

@@ -47,12 +47,7 @@
       "Integrated analytics to provide lenders with alternative creditworthiness insights",
       "Ensured application security, scalability, and robustness through best coding practices"
     ],
-    "technologies": [
-      "OutSystems",
-      "JavaScript",
-      "REST APIs",
-      "SQL"
-    ],
+    "technologies": ["OutSystems", "JavaScript", "REST APIs", "SQL"],
     "achievements": [
       "Launched MVP in 6 months",
       "Enabled seamless loan processing for community financial institutions"
@@ -75,16 +70,7 @@
       "Automated API testing using Fiddler/Selenium, reducing manual testing by 30%",
       "Implemented CI/CD processes, cutting software release time by 50%"
     ],
-    "technologies": [
-      "React.js",
-      "Python",
-      "AWS",
-      "Swift",
-      "Java",
-      "Spring",
-      "Selenium",
-      "CI/CD"
-    ],
+    "technologies": ["React.js", "Python", "AWS", "Swift", "Java", "Spring", "Selenium", "CI/CD"],
     "achievements": [
       "Cut software release time by 50%",
       "Reduced manual testing effort by 30%",
@@ -107,14 +93,7 @@
       "Designed and built applications using ASP.NET framework with comprehensive testing",
       "Troubleshot SharePoint issues and customized pages using SharePoint Designer"
     ],
-    "technologies": [
-      "C#",
-      ".NET",
-      "Azure",
-      "SQL",
-      "ASP.NET",
-      "SharePoint"
-    ],
+    "technologies": ["C#", ".NET", "Azure", "SQL", "ASP.NET", "SharePoint"],
     "achievements": [
       "Completed intensive 6-month program",
       "Built multiple production-ready applications"
@@ -134,17 +113,8 @@
       "Provided technical troubleshooting in Python and AWS for drone projects and Red Cross initiatives",
       "Led development team building mesh network with Xbees, Arduinos, Hyperduinos, and sensors"
     ],
-    "technologies": [
-      "Python",
-      "AWS",
-      "Arduino",
-      "IoT",
-      "Robotics"
-    ],
-    "achievements": [
-      "Mentored 50+ students",
-      "Led award-winning robotics projects"
-    ]
+    "technologies": ["Python", "AWS", "Arduino", "IoT", "Robotics"],
+    "achievements": ["Mentored 50+ students", "Led award-winning robotics projects"]
   },
   {
     "id": "nasa-data-analyst",
@@ -159,14 +129,8 @@
       "Created and managed Splunk dashboard incorporating security metrics from collected data",
       "Visualized security trends for 15+ operators to improve threat detection"
     ],
-    "technologies": [
-      "Splunk",
-      "Data Visualization",
-      "Security Analytics"
-    ],
-    "achievements": [
-      "Improved security visibility for NASA operations"
-    ]
+    "technologies": ["Splunk", "Data Visualization", "Security Analytics"],
+    "achievements": ["Improved security visibility for NASA operations"]
   },
   {
     "id": "us-army-linguist",
@@ -183,11 +147,7 @@
       "Conducted Joint Security Force Assistance (JSFA) course training",
       "Provided linguistic support for diplomatic engagements"
     ],
-    "technologies": [
-      "Translation",
-      "Cultural Advisory",
-      "Diplomacy"
-    ],
+    "technologies": ["Translation", "Cultural Advisory", "Diplomacy"],
     "achievements": [
       "6 years of honorable military service",
       "Facilitated critical diplomatic communications"

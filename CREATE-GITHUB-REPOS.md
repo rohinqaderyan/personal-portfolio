@@ -21,6 +21,7 @@ Create these repos (can be empty):
 ### For Each Repo:
 
 **Settings:**
+
 - Name: (use names above)
 - Description: (copy from your projects.json)
 - Public or Private: Your choice
@@ -28,22 +29,26 @@ Create these repos (can be empty):
 - License: MIT (recommended)
 
 **README Template:**
+
 ```markdown
 # [Project Name]
 
 [Project description from your portfolio]
 
 ## Technologies
+
 - Technology 1
 - Technology 2
 - Technology 3
 
 ## Highlights
+
 - Highlight 1
 - Highlight 2
 - Highlight 3
 
 ## Status
+
 🚧 This is a portfolio project. Code available upon request.
 
 ---
@@ -96,23 +101,27 @@ Don't want to create all repos? You can:
 ## Which Repos to Prioritize?
 
 Create these first (most impressive):
+
 1. ✅ **k8s-orchestrator** - Shows DevOps expertise
 2. ✅ **realtime-collab** - Shows real-time/WebSocket skills
 3. ✅ **ai-health-tracker** - Shows mobile + ML skills
 
 These can wait:
+
 - pharma-analytics-platform (work-related, keep private or skip)
 - fintech-loan-platform (work-related, keep private or skip)
 
 ## Private vs Public?
 
 **Make Public:**
+
 - Personal/side projects
 - Open-source contributions
 - Learning projects
 - Portfolio showcases
 
 **Keep Private:**
+
 - Work-related projects
 - Proprietary code
 - Client work
@@ -123,6 +132,7 @@ These can wait:
 ## Pro Tip
 
 For work projects (Pfizer, Parlay):
+
 - Either keep private
 - Or create "sanitized" versions with:
   - Fake data
@@ -133,6 +143,7 @@ For work projects (Pfizer, Parlay):
 ## Current Setup
 
 Your portfolio currently has:
+
 - ✅ All repo links pointing to: `github.com/rohinqaderyan/[project-name]`
 - ⏳ Repos don't exist yet (optional to create)
 

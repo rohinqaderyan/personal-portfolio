@@ -12,7 +12,7 @@ marked.setOptions({
 
 // Custom renderer for code blocks with syntax highlighting
 const renderer = new marked.Renderer()
-renderer.code = function(code: string, language: string | undefined) {
+renderer.code = function (code: string, language: string | undefined) {
   if (language && hljs.getLanguage(language)) {
     try {
       const highlighted = hljs.highlight(code, { language }).value
@@ -172,7 +172,7 @@ export function getProjectPost(id: string): ProjectPost | null {
   try {
     const postsDirectory = path.join(contentDirectory, 'posts')
     const fullPath = path.join(postsDirectory, `${id}.md`)
-    
+
     if (!fs.existsSync(fullPath)) {
       return null
     }
@@ -196,11 +196,11 @@ export function getProjectPost(id: string): ProjectPost | null {
 export function getAllProjectTags(): string[] {
   const projects = getAllProjects()
   const tagsSet = new Set<string>()
-  
+
   projects.forEach((project) => {
     project.tags.forEach((tag) => tagsSet.add(tag))
   })
-  
+
   return Array.from(tagsSet).sort()
 }
 
@@ -208,12 +208,12 @@ export function getAllProjectTags(): string[] {
 export function searchProjects(query: string): Project[] {
   const projects = getAllProjects()
   const lowerQuery = query.toLowerCase()
-  
+
   return projects.filter((project) => {
     const matchesTitle = project.title.toLowerCase().includes(lowerQuery)
     const matchesDescription = project.description.toLowerCase().includes(lowerQuery)
     const matchesTags = project.tags.some((tag) => tag.toLowerCase().includes(lowerQuery))
-    
+
     return matchesTitle || matchesDescription || matchesTags
   })
 }
@@ -221,7 +221,7 @@ export function searchProjects(query: string): Project[] {
 // Filter projects by tag
 export function filterProjectsByTag(tag: string): Project[] {
   const projects = getAllProjects()
-  return projects.filter((project) => 
+  return projects.filter((project) =>
     project.tags.some((t) => t.toLowerCase() === tag.toLowerCase())
   )
 }

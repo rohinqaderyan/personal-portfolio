@@ -14,18 +14,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 const config = getSiteConfig()
 
-export const metadata: Metadata = genMeta(
-  config.seo.title,
-  config.seo.description,
-  config,
-  ''
-)
+export const metadata: Metadata = genMeta(config.seo.title, config.seo.description, config, '')
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   const structuredData = generateStructuredData(config)
 
   return (
