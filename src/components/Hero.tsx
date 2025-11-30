@@ -12,7 +12,10 @@ interface HeroProps {
 
 export function Hero({ config }: HeroProps) {
   return (
-    <section className="relative flex min-h-[calc(100vh-4rem)] items-center justify-center px-6 py-12">
+    <section 
+      className="relative flex min-h-[calc(100vh-4rem)] items-center justify-center px-6 py-12"
+      aria-label="Introduction"
+    >
       <div className="mx-auto max-w-4xl text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -61,12 +64,14 @@ export function Hero({ config }: HeroProps) {
           <Link
             href="/projects"
             className="inline-flex items-center justify-center rounded-lg bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground shadow-md transition-all hover:bg-primary/90 hover:shadow-lg focus-ring"
+            aria-label="View my projects and portfolio work"
           >
             View My Work
           </Link>
           <Link
             href="/contact"
             className="inline-flex items-center justify-center rounded-lg border border-border bg-background px-8 py-3 text-sm font-semibold shadow-sm transition-all hover:bg-accent hover:shadow-md focus-ring"
+            aria-label="Get in touch with me"
           >
             Get In Touch
           </Link>
@@ -87,6 +92,7 @@ export function Hero({ config }: HeroProps) {
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.6, repeat: Infinity, repeatType: 'reverse' }}
+        aria-hidden="true"
       >
         <ArrowDown className="h-6 w-6 text-muted-foreground" />
       </motion.div>
