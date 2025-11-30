@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { ExternalLink, Github } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './Card'
 import type { Project } from '@/lib/content'
-import { motion } from 'framer-motion'
+import { m as motion } from 'framer-motion'
 import { memo } from 'react'
 
 interface ProjectCardProps {
@@ -14,13 +14,13 @@ interface ProjectCardProps {
 
 export const ProjectCard = memo(function ProjectCard({ project, index = 0 }: ProjectCardProps) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-    >
-      <Link href={`/projects/${project.id}`}>
+    <Link href={`/projects/${project.id}`}>
+      <motion.div
+        initial={false}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, margin: '-50px' }}
+        transition={{ duration: 0.3, delay: index * 0.05 }}
+      >
         <Card hover>
           {project.image && (
             <div className="relative mb-4 aspect-video w-full overflow-hidden rounded-md bg-muted">
@@ -82,7 +82,7 @@ export const ProjectCard = memo(function ProjectCard({ project, index = 0 }: Pro
             )}
           </CardFooter>
         </Card>
-      </Link>
-    </motion.div>
+      </motion.div>
+    </Link>
   )
 })

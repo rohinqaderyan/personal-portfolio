@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { m as motion } from 'framer-motion'
 import { ArrowDown } from 'lucide-react'
 import { SocialIcons } from './SocialIcons'
 import Link from 'next/link'
@@ -18,9 +18,9 @@ export function Hero({ config }: HeroProps) {
     >
       <div className="mx-auto max-w-4xl text-center">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.4, ease: 'easeOut' }}
         >
           <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
             Hi, I&apos;m{' '}
@@ -30,36 +30,36 @@ export function Hero({ config }: HeroProps) {
 
         <motion.p
           className="mb-4 text-2xl font-semibold text-primary sm:text-3xl"
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
+          transition={{ duration: 0.4, delay: 0.05 }}
         >
           {config.role}
         </motion.p>
 
         <motion.p
           className="mb-8 text-lg text-muted-foreground sm:text-xl"
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          transition={{ duration: 0.4, delay: 0.1 }}
         >
           {config.tagline}
         </motion.p>
 
         <motion.p
           className="mx-auto mb-10 max-w-2xl text-base text-muted-foreground sm:text-lg"
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+          transition={{ duration: 0.4, delay: 0.15 }}
         >
           {config.bio}
         </motion.p>
 
         <motion.div
           className="flex flex-col items-center gap-6 sm:flex-row sm:justify-center"
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          transition={{ duration: 0.4, delay: 0.2 }}
         >
           <Link
             href="/projects"
@@ -79,9 +79,9 @@ export function Hero({ config }: HeroProps) {
 
         <motion.div
           className="mt-10 flex justify-center"
-          initial={{ opacity: 0 }}
+          initial={false}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.4, delay: 0.25 }}
         >
           <SocialIcons social={config.social} size="lg" />
         </motion.div>
@@ -89,9 +89,9 @@ export function Hero({ config }: HeroProps) {
 
       <motion.div
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.6, repeat: Infinity, repeatType: 'reverse' }}
+        initial={false}
+        animate={{ opacity: 1, y: [0, 10, 0] }}
+        transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
         aria-hidden="true"
       >
         <ArrowDown className="h-6 w-6 text-muted-foreground" />

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ThemeProvider } from '@/components/ThemeProvider'
+import { MotionProvider } from '@/components/MotionProvider'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { getSiteConfig } from '@/lib/content'
@@ -37,11 +38,13 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <ThemeProvider>
-          <div className="flex min-h-screen flex-col">
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer config={config} />
-          </div>
+          <MotionProvider>
+            <div className="flex min-h-screen flex-col">
+              <Header />
+              <main className="flex-1">{children}</main>
+              <Footer config={config} />
+            </div>
+          </MotionProvider>
         </ThemeProvider>
       </body>
     </html>
