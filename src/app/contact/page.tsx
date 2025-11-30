@@ -20,7 +20,7 @@ export default function ContactPage() {
     <>
       <Section
         title="Get In Touch"
-        description="I'd love to hear from you. Send me a message and I'll get back to you as soon as possible."
+        description="I&apos;d love to hear from you. Send me a message and I&apos;ll get back to you as soon as possible."
         className="pt-24"
       >
         <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-5">
@@ -66,7 +66,7 @@ export default function ContactPage() {
               <div className="rounded-lg border border-border bg-muted/30 p-6">
                 <h4 className="mb-2 font-semibold">Availability</h4>
                 <p className="text-sm text-muted-foreground">
-                  I'm currently open to new opportunities and interesting projects. Feel free to
+                  I&apos;m currently open to new opportunities and interesting projects. Feel free to
                   reach out!
                 </p>
               </div>

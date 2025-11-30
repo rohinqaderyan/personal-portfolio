@@ -28,7 +28,7 @@ export default function ExperiencePage() {
           {/* Timeline line */}
           <div className="absolute left-0 top-0 h-full w-px bg-border md:left-[29px]" />
 
-          {experiences.map((experience, index) => (
+          {experiences.map((experience) => (
             <div key={experience.id} className="relative pl-0 md:pl-16">
               {/* Timeline dot */}
               <div className="absolute left-0 top-2 hidden h-[15px] w-[15px] rounded-full border-4 border-background bg-primary md:block md:left-[22px]" />

@@ -22,8 +22,8 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
-    '@typescript-eslint/no-explicit-any': 'warn',
+    '@typescript-eslint/no-explicit-any': 'off',
     'react/react-in-jsx-scope': 'off',
-    'no-console': ['warn', { allow: ['warn', 'error'] }],
+    'no-console': 'off',
   },
 }

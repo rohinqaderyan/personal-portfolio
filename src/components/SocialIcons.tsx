@@ -15,7 +15,7 @@ interface SocialIconsProps {
   showLabels?: boolean
 }
 
-export function SocialIcons({ social, size = 'md', showLabels = false }: SocialIconsProps) {
+export function SocialIcons({ social, size = 'md' }: SocialIconsProps) {
   const iconSizes = {
     sm: 'h-4 w-4',
     md: 'h-5 w-5',

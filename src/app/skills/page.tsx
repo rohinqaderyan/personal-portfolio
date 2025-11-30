@@ -29,7 +29,7 @@ export default function SkillsPage() {
       className="pt-24"
     >
       <div className="space-y-12">
-        {categories.map((category, categoryIndex) => (
+        {categories.map((category) => (
           <div key={category.name} className="mx-auto max-w-5xl">
             <h3 className="mb-6 text-2xl font-semibold">{category.name}</h3>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

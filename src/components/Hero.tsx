@@ -23,7 +23,7 @@ export function Hero({ config }: HeroProps) {
           transition={{ duration: 0.5 }}
         >
           <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="gradient-text">{config.name.split(' ')[0]}</span>
           </h1>
         </motion.div>

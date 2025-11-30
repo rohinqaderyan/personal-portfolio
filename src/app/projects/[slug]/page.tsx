@@ -34,7 +34,6 @@ export async function generateMetadata({
 export default function ProjectDetailPage({ params }: { params: { slug: string } }) {
   const project = getProjectById(params.slug)
   const projectPost = getProjectPost(params.slug)
-  const config = getSiteConfig()
   const appConfig = getConfig()
 
   if (!project) {

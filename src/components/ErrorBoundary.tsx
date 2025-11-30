@@ -44,7 +44,7 @@ export class ErrorBoundary extends React.Component<
             </div>
             <h1 className="mb-4 text-3xl font-bold">Something went wrong</h1>
             <p className="mb-6 text-muted-foreground">
-              We're sorry for the inconvenience. Please try refreshing the page.
+              We&apos;re sorry for the inconvenience. Please try refreshing the page.
             </p>
             <button
               onClick={() => window.location.reload()}
