@@ -9,15 +9,26 @@ const nextConfig = {
         hostname: '**',
       },
     ],
+    minimumCacheTTL: 60,
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
-  // Enable static export for GitHub Pages deployment
-  // Uncomment the following lines if deploying to GitHub Pages:
-  // output: 'export',
-  // basePath: '/your-repo-name',
-  // assetPrefix: '/your-repo-name/',
   
+  // Compiler optimizations
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+
   // Performance optimizations
   swcMinify: true,
+  productionBrowserSourceMaps: false,
+  poweredByHeader: false,
+  compress: true,
+  
+  // Experimental features for better performance
+  experimental: {
+    optimizePackageImports: ['lucide-react', 'framer-motion'],
+  },
   
   // Security headers
   async headers() {
@@ -48,6 +59,10 @@ const nextConfig = {
           {
             key: 'Referrer-Policy',
             value: 'origin-when-cross-origin'
+          },
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=()'
           },
         ],
       },

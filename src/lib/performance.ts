@@ -73,6 +73,6 @@ export function lazyLoadImages() {
 declare global {
   interface Window {
     gtag?: (...args: any[]) => void;
-    plausible?: (event: string, options?: any) => void;
+    plausible?: (event: string, options?: { props?: Record<string, string | number> }) => void;
   }
 }

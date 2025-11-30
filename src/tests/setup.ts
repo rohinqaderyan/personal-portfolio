@@ -1,6 +1,7 @@
 import '@testing-library/jest-dom'
-import { expect, afterEach } from 'vitest'
+import { expect, afterEach, vi } from 'vitest'
 import { cleanup } from '@testing-library/react'
+import React from 'react'
 
 // Cleanup after each test
 afterEach(() => {
@@ -20,12 +21,14 @@ vi.mock('next/navigation', () => ({
 
 // Mock Next.js Link
 vi.mock('next/link', () => ({
-  default: ({ children, href }: { children: React.ReactNode; href: string }) => (
-    <a href={href}>{children}</a>
-  ),
+  default: ({ children, href }: { children: React.ReactNode; href: string }) => {
+    return React.createElement('a', { href }, children)
+  },
 }))
 
 // Mock Next.js Image
 vi.mock('next/image', () => ({
-  default: ({ src, alt }: { src: string; alt: string }) => <img src={src} alt={alt} />,
+  default: ({ src, alt }: { src: string; alt: string }) => {
+    return React.createElement('img', { src, alt })
+  },
 }))

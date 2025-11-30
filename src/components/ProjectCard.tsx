@@ -6,13 +6,14 @@ import { ExternalLink, Github } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './Card'
 import type { Project } from '@/lib/content'
 import { motion } from 'framer-motion'
+import { memo } from 'react'
 
 interface ProjectCardProps {
   project: Project
   index?: number
 }
 
-export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
+export const ProjectCard = memo(function ProjectCard({ project, index = 0 }: ProjectCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -85,4 +86,4 @@ export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
       </Link>
     </motion.div>
   )
-}
+})
