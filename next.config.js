@@ -35,18 +35,6 @@ const nextConfig = {
     ],
   },
 
-  // Webpack optimizations for faster builds
-  webpack: (config, { dev, isServer }) => {
-    if (dev && !isServer) {
-      // Faster dev server
-      config.watchOptions = {
-        poll: 1000,
-        aggregateTimeout: 300,
-      }
-    }
-    return config
-  },
-
   // Security headers
   async headers() {
     return [
