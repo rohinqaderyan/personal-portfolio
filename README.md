@@ -1,6 +1,11 @@
-# Personal Portfolio Website
+# Ahmad Rohin Qaderyan - Portfolio Website
 
-A modern, responsive, and accessible personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. Designed for LinkedIn integration and optimal performance.
+A modern, high-performance personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. Optimized for FAANG-level technical interviews and showcasing enterprise-scale projects.
+
+[![CI/CD Pipeline](https://github.com/rohinqaderyan/personal-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/rohinqaderyan/personal-portfolio/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14.2-black)](https://nextjs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Portfolio Screenshot](public/og-image.png)
 
@@ -331,6 +336,12 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 ---
 
-**Made with ❤️ by John Doe**
+## 🔗 Connect With Me
 
-For questions or feedback, reach out at [john.doe@example.com](mailto:john.doe@example.com) or connect on [LinkedIn](https://www.linkedin.com/in/johndoe).
+- **Email**: [rohin.aryain@gmail.com](mailto:rohin.aryain@gmail.com)
+- **LinkedIn**: [Ahmad Rohin Qaderyan](https://www.linkedin.com/in/rohinqaderyan)
+- **GitHub**: [@rohinqaderyan](https://github.com/rohinqaderyan)
+- **Location**: Alexandria, VA
+
+**Built with ❤️ and Next.js 14 by Ahmad Rohin Qaderyan**  
+Senior Full Stack Developer & Data Scientist @ Pfizer
