@@ -1,0 +1,51 @@
+# API Documentation
+
+## Contact Form API
+
+### Endpoint
+
+`POST /api/contact`
+
+### Request Body
+
+```json
+{
+  "name": "string",
+  "email": "string",
+  "message": "string"
+}
+```
+
+### Response
+
+```json
+{
+  "success": true,
+  "message": "Message sent successfully"
+}
+```
+
+### Error Response
+
+```json
+{
+  "success": false,
+  "error": "Error message"
+}
+```
+
+## Rate Limiting
+
+- 5 requests per minute per IP
+- Returns 429 if exceeded
+
+## CORS
+
+- Allowed origins: Same origin only
+- Methods: POST only
+
+## Security
+
+- Input validation
+- XSS prevention
+- CSRF protection
