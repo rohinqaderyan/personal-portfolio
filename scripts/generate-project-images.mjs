@@ -136,7 +136,7 @@ function generateSVG(project) {
 // Generate all images
 console.log('🎨 Generating modern project images...\n')
 
-const outputDir = path.join(__dirname, '../projects')
+const outputDir = path.join(__dirname, '../public/projects')
 
 // Ensure output directory exists
 if (!fs.existsSync(outputDir)) {
