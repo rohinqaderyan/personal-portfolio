@@ -12,17 +12,29 @@ A modern, high-performance personal portfolio website built with Next.js 14, Typ
 
 ## ✨ Features
 
-- 🎨 **Modern Design**: Clean, minimal interface with smooth animations
+### Design & UX
+
+- 🎨 **Modern Design**: Clean, minimal interface with smooth animations and glassmorphism effects
 - 🌓 **Dark/Light Mode**: Persistent theme switching with system preference support
-- 📱 **Fully Responsive**: Optimized for all device sizes
+- 📱 **Fully Responsive**: Optimized for all device sizes (mobile, tablet, desktop)
 - ♿ **Accessible**: WCAG 2.1 AA compliant with proper ARIA labels and keyboard navigation
-- 🚀 **Performance**: Lighthouse scores ≥90 across all metrics
+- 🎭 **Stunning Visuals**: Professional gradient project images with modern design standards
+
+### Performance & SEO
+
+- ⚡ **Lightning Fast**: Lighthouse scores ≥90 across all metrics
 - 🔍 **SEO Optimized**: Open Graph and Twitter Card meta tags for rich social sharing
-- 📊 **Analytics Ready**: Plug-and-play support for Plausible (privacy-friendly) or Google Analytics
+- 📊 **Analytics Ready**: Plug-and-play support for Vercel Analytics and Google Analytics
+- 🗜️ **Optimized Assets**: Image optimization, code splitting, and lazy loading
+
+### Technical Features
+
 - 💼 **LinkedIn Integration**: Profile linking, rich previews, and share buttons
 - 📝 **Content Management**: Easy-to-edit JSON files for projects, skills, and experience
 - 📧 **Flexible Contact Form**: Support for Flask backend or client-side mailto fallback
 - 🧪 **Fully Tested**: Unit tests (Vitest) and E2E tests (Playwright)
+- 🔒 **Security Headers**: CSP, XSS protection, and secure defaults
+- 🌐 **Cross-Browser**: Tested on Chrome, Firefox, Safari, Edge
 
 ## 🚀 Quick Start
 
