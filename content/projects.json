@@ -7,7 +7,7 @@
     "tags": ["Angular", "Java", "Python", "Snowflake", "AI/ML", "AWS", "Dataiku", "Enterprise"],
     "link": "",
     "repo": "https://github.com/rohinqaderyan/pharma-analytics-platform",
-    "image": "/projects/pharma-analytics.jpg",
+    "image": "/projects/pharma-analytics.svg",
     "featured": true,
     "year": "2024",
     "highlights": [
@@ -26,7 +26,7 @@
     "tags": ["OutSystems", "JavaScript", "FinTech", "REST APIs", "Security", "SaaS"],
     "link": "",
     "repo": "https://github.com/rohinqaderyan/fintech-loan-platform",
-    "image": "/projects/fintech-platform.jpg",
+    "image": "/projects/fintech-platform.svg",
     "featured": true,
     "year": "2023",
     "highlights": [
@@ -45,7 +45,7 @@
     "tags": ["AWS", "Python", "React", "Cloud Migration", "DevOps", "Infrastructure"],
     "link": "",
     "repo": "https://github.com/rohinqaderyan/cloud-migration-framework",
-    "image": "/projects/cloud-migration.jpg",
+    "image": "/projects/cloud-migration.svg",
     "featured": true,
     "year": "2022",
     "highlights": [
@@ -64,7 +64,7 @@
     "tags": ["Next.js", "WebSocket", "WebRTC", "Redis", "PostgreSQL", "AI", "Real-time"],
     "link": "",
     "repo": "https://github.com/rohinqaderyan/realtime-collab",
-    "image": "/projects/realtime-collab.jpg",
+    "image": "/projects/realtime-collab.svg",
     "featured": false,
     "year": "2024",
     "highlights": [
@@ -83,7 +83,7 @@
     "tags": ["Kubernetes", "Go", "React", "DevOps", "CI/CD", "Monitoring"],
     "link": "",
     "repo": "https://github.com/rohinqaderyan/k8s-orchestrator",
-    "image": "/projects/k8s-orchestrator.jpg",
+    "image": "/projects/k8s-orchestrator.svg",
     "featured": false,
     "year": "2023",
     "highlights": [
@@ -102,7 +102,7 @@
     "tags": ["IoT", "Arduino", "AWS IoT", "Python", "React", "Robotics"],
     "link": "",
     "repo": "https://github.com/rohinqaderyan/iot-mesh-network",
-    "image": "/projects/iot-mesh.jpg",
+    "image": "/projects/iot-mesh.svg",
     "featured": false,
     "year": "2021",
     "highlights": [
@@ -121,7 +121,7 @@
     "tags": ["Swift", "SwiftUI", "CoreML", "HealthKit", "iOS", "Machine Learning"],
     "link": "",
     "repo": "https://github.com/rohinqaderyan/ai-health-tracker",
-    "image": "/projects/health-tracker.jpg",
+    "image": "/projects/health-tracker.svg",
     "featured": false,
     "year": "2023",
     "highlights": [
@@ -140,7 +140,7 @@
     "tags": ["Node.js", "React", "Kubernetes", "Kafka", "Elasticsearch", "Microservices"],
     "link": "",
     "repo": "https://github.com/rohinqaderyan/microservices-ecommerce",
-    "image": "/projects/ecommerce.jpg",
+    "image": "/projects/ecommerce.svg",
     "featured": false,
     "year": "2022",
     "highlights": [
@@ -159,7 +159,7 @@
     "tags": ["Splunk", "Python", "React", "Security", "Machine Learning", "DevSecOps"],
     "link": "",
     "repo": "https://github.com/rohinqaderyan/security-dashboard",
-    "image": "/projects/security-dashboard.jpg",
+    "image": "/projects/security-dashboard.svg",
     "featured": false,
     "year": "2017",
     "highlights": [
