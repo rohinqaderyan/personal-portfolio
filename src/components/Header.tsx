@@ -32,7 +32,7 @@ export function Header() {
             href="/"
             className="focus-ring rounded text-xl font-bold transition-colors hover:text-primary"
           >
-            <span className="gradient-text">JD</span>
+            <span className="gradient-text">RQ</span>
           </Link>
         </div>
 

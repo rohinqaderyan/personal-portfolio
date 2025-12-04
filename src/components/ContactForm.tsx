@@ -89,7 +89,7 @@ export function ContactForm({ email }: ContactFormProps) {
           type="text"
           id="name"
           className="focus-ring w-full rounded-lg border border-border bg-background px-4 py-3 text-sm focus:border-primary disabled:opacity-50"
-          placeholder="John Doe"
+          placeholder="Your Name"
           disabled={status === 'loading'}
         />
         {errors.name && <p className="mt-1 text-sm text-red-500">{errors.name.message}</p>}
