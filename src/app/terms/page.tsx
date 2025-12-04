@@ -12,7 +12,7 @@ export default function TermsPage() {
       
       <div className="prose prose-gray dark:prose-invert max-w-none">
         <p className="lead">
-          Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+          Last updated: December 3, 2025
         </p>
 
         <section className="mb-8">
