@@ -15,7 +15,7 @@ export function deepClone<T>(obj: T): T {
   if (obj instanceof Object) {
     const clonedObj = {} as T
     for (const key in obj) {
-      if (obj.hasOwnProperty(key)) {
+      if (Object.hasOwn(obj, key)) {
         clonedObj[key] = deepClone(obj[key])
       }
     }
@@ -34,12 +34,12 @@ export function deepMerge<T extends object>(target: T, source: Partial<T>): T {
   const output = { ...target }
   
   for (const key in source) {
-    if (source.hasOwnProperty(key)) {
+    if (Object.hasOwn(source, key)) {
       const targetValue = output[key]
       const sourceValue = source[key]
       
       if (isObject(targetValue) && isObject(sourceValue)) {
-        output[key] = deepMerge(targetValue, sourceValue)
+        output[key] = deepMerge(targetValue as any, sourceValue as any)
       } else {
         output[key] = sourceValue as T[Extract<keyof T, string>]
       }
@@ -149,7 +149,7 @@ export function mapValues<T extends object, R>(
   const result = {} as Record<keyof T, R>
   
   for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
+    if (Object.hasOwn(obj, key)) {
       result[key] = fn(obj[key], key)
     }
   }
@@ -170,7 +170,7 @@ export function mapKeys<T extends object>(
   const result: Record<string, T[keyof T]> = {}
   
   for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
+    if (Object.hasOwn(obj, key)) {
       const newKey = fn(key, obj[key])
       result[newKey] = obj[key]
     }
@@ -190,7 +190,7 @@ export function invert<T extends Record<string, string | number>>(
   const result: Record<string, keyof T> = {}
   
   for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
+    if (Object.hasOwn(obj, key)) {
       result[String(obj[key])] = key
     }
   }
@@ -270,7 +270,7 @@ export function flatten(obj: Record<string, any>, prefix: string = ''): Record<s
   const result: Record<string, any> = {}
   
   for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
+    if (Object.hasOwn(obj, key)) {
       const newKey = prefix ? `${prefix}.${key}` : key
       
       if (isObject(obj[key]) && !Array.isArray(obj[key])) {
@@ -293,7 +293,7 @@ export function unflatten(obj: Record<string, any>): Record<string, any> {
   const result: Record<string, any> = {}
   
   for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
+    if (Object.hasOwn(obj, key)) {
       set(result, key, obj[key])
     }
   }
@@ -310,7 +310,7 @@ export function compact<T extends object>(obj: T): Partial<T> {
   const result: Partial<T> = {}
   
   for (const key in obj) {
-    if (obj.hasOwnProperty(key) && obj[key] !== undefined) {
+    if (Object.hasOwn(obj, key) && obj[key] !== undefined) {
       result[key] = obj[key]
     }
   }
@@ -377,7 +377,7 @@ export function groupBy<T>(
   const result: Record<string, Record<string, T>> = {}
   
   for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
+    if (Object.hasOwn(obj, key)) {
       const groupKey = fn(obj[key], key)
       if (!result[groupKey]) {
         result[groupKey] = {}

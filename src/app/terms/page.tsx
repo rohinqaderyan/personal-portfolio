@@ -68,7 +68,7 @@ export default function TermsPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Disclaimer of Warranties</h2>
           <p className="text-muted-foreground">
-            This website is provided "as is" without warranties of any kind, either express or 
+            This website is provided &quot;as is&quot; without warranties of any kind, either express or 
             implied. I do not warrant that the website will be uninterrupted, error-free, or free 
             of viruses or other harmful components.
           </p>
