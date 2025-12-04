@@ -18,11 +18,12 @@ export const ProjectCard = memo(function ProjectCard({ project }: ProjectCardPro
         <Card hover>
           {project.image && (
             <div className="relative mb-4 aspect-video w-full overflow-hidden rounded-md bg-muted">
-              <div className="flex h-full items-center justify-center bg-gradient-to-br from-primary/20 to-primary/5 p-8">
-                <span className="text-4xl font-bold text-muted-foreground/20">
-                  {project.title.charAt(0)}
-                </span>
-              </div>
+              <img
+                src={project.image}
+                alt={project.title}
+                className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                loading="lazy"
+              />
             </div>
           )}
           <CardHeader>

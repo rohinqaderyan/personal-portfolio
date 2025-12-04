@@ -14,74 +14,83 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// Project configurations with beautiful gradients
+// Project configurations with stunning modern gradients
 const projects = [
   {
-    filename: 'pharma-analytics.jpg',
-    title: 'AI-Driven Pharma\nAnalytics Platform',
-    colors: ['#667eea', '#764ba2'],
-    icon: '🧬',
-    description: 'Enterprise AI Platform',
+    filename: 'pharma-analytics.svg',
+    title: 'Pharmaceutical Analytics',
+    subtitle: 'AI-Powered Platform',
+    colors: ['#6366f1', '#8b5cf6', '#d946ef'],
+    accent: '#a855f7',
+    description: 'Enterprise AI • 10M+ Records',
   },
   {
-    filename: 'fintech-platform.jpg',
-    title: 'FinTech Loan\nProcessing Platform',
-    colors: ['#f093fb', '#f5576c'],
-    icon: '💰',
-    description: 'B2B SaaS Solution',
+    filename: 'fintech-platform.svg',
+    title: 'FinTech Platform',
+    subtitle: 'Loan Processing',
+    colors: ['#ec4899', '#f43f5e', '#fb923c'],
+    accent: '#f472b6',
+    description: 'B2B SaaS • $50M+ Processed',
   },
   {
-    filename: 'cloud-migration.jpg',
-    title: 'VMware to AWS\nMigration Framework',
-    colors: ['#4facfe', '#00f2fe'],
-    icon: '☁️',
-    description: 'Cloud Infrastructure',
+    filename: 'cloud-migration.svg',
+    title: 'Cloud Migration',
+    subtitle: 'AWS Infrastructure',
+    colors: ['#06b6d4', '#3b82f6', '#6366f1'],
+    accent: '#0ea5e9',
+    description: 'Enterprise Cloud • 80% Faster',
   },
   {
-    filename: 'realtime-collab.jpg',
-    title: 'Real-Time\nCollaboration Platform',
-    colors: ['#43e97b', '#38f9d7'],
-    icon: '👥',
-    description: 'WebSocket Platform',
+    filename: 'realtime-collab.svg',
+    title: 'Real-Time Collab',
+    subtitle: 'WebSocket Platform',
+    colors: ['#10b981', '#14b8a6', '#06b6d4'],
+    accent: '#059669',
+    description: 'Live Updates • 10K+ Users',
   },
   {
-    filename: 'k8s-orchestrator.jpg',
-    title: 'Kubernetes\nDeployment Orchestrator',
-    colors: ['#fa709a', '#fee140'],
-    icon: '⚙️',
-    description: 'CI/CD Platform',
+    filename: 'k8s-orchestrator.svg',
+    title: 'Kubernetes CI/CD',
+    subtitle: 'Deployment Platform',
+    colors: ['#f59e0b', '#f97316', '#ef4444'],
+    accent: '#fb923c',
+    description: 'Automation • 60% Faster',
   },
   {
-    filename: 'iot-mesh.jpg',
-    title: 'IoT Disaster Response\nMesh Network',
-    colors: ['#30cfd0', '#330867'],
-    icon: '📡',
-    description: 'IoT System',
+    filename: 'iot-mesh.svg',
+    title: 'IoT Mesh Network',
+    subtitle: 'Disaster Response',
+    colors: ['#8b5cf6', '#6366f1', '#06b6d4'],
+    accent: '#7c3aed',
+    description: 'Critical Systems • 99.9% Uptime',
   },
   {
-    filename: 'health-tracker.jpg',
-    title: 'AI Health &\nFitness Tracker',
-    colors: ['#a8edea', '#fed6e3'],
-    icon: '💪',
-    description: 'iOS App',
+    filename: 'health-tracker.svg',
+    title: 'Health & Fitness',
+    subtitle: 'AI Tracker App',
+    colors: ['#ec4899', '#f472b6', '#fbbf24'],
+    accent: '#db2777',
+    description: 'iOS • ML-Powered',
   },
   {
-    filename: 'ecommerce.jpg',
-    title: 'Microservices\nE-Commerce Platform',
-    colors: ['#ff9a9e', '#fecfef'],
-    icon: '🛒',
-    description: 'Enterprise Platform',
+    filename: 'ecommerce.svg',
+    title: 'E-Commerce',
+    subtitle: 'Microservices',
+    colors: ['#f43f5e', '#ec4899', '#d946ef'],
+    accent: '#e11d48',
+    description: 'Enterprise • Scalable',
   },
   {
-    filename: 'security-dashboard.jpg',
-    title: 'Cybersecurity Operations\nDashboard',
-    colors: ['#ffecd2', '#fcb69f'],
-    icon: '🔒',
-    description: 'Security Platform',
+    filename: 'security-dashboard.svg',
+    title: 'Security Ops',
+    subtitle: 'Cyber Dashboard',
+    colors: ['#ef4444', '#f97316', '#fbbf24'],
+    accent: '#dc2626',
+    description: 'Real-Time • Threat Detection',
   },
 ]
 
-// SVG template for project images
+// Modern SVG template with glassmorphism and depth
 function generateSVG(project) {
   const width = 1200
   const height = 630
@@ -89,47 +98,99 @@ function generateSVG(project) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Multi-stop gradient for depth -->
+    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:${project.colors[0]};stop-opacity:1" />
-      <stop offset="100%" style="stop-color:${project.colors[1]};stop-opacity:1" />
+      <stop offset="50%" style="stop-color:${project.colors[1]};stop-opacity:1" />
+      <stop offset="100%" style="stop-color:${project.colors[2]};stop-opacity:1" />
     </linearGradient>
     
-    <!-- Subtle pattern overlay -->
-    <pattern id="pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <circle cx="20" cy="20" r="1" fill="rgba(255,255,255,0.03)"/>
+    <!-- Radial gradient for glow effect -->
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:${project.accent};stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:${project.accent};stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Mesh pattern -->
+    <pattern id="grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
     </pattern>
+    
+    <!-- Blur for glassmorphism -->
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+    </filter>
   </defs>
   
-  <!-- Gradient background -->
-  <rect width="${width}" height="${height}" fill="url(#grad)"/>
-  <rect width="${width}" height="${height}" fill="url(#pattern)"/>
+  <!-- Base gradient -->
+  <rect width="${width}" height="${height}" fill="url(#mainGrad)"/>
   
-  <!-- Icon (large, subtle) -->
-  <text x="${width / 2}" y="${height / 2 - 50}" 
-        font-size="200" 
-        text-anchor="middle" 
+  <!-- Glow orbs for depth -->
+  <circle cx="200" cy="150" r="300" fill="url(#glowGrad)" opacity="0.6"/>
+  <circle cx="1000" cy="500" r="350" fill="url(#glowGrad)" opacity="0.5"/>
+  
+  <!-- Grid overlay -->
+  <rect width="${width}" height="${height}" fill="url(#grid)"/>
+  
+  <!-- Floating geometric shapes -->
+  <rect x="850" y="80" width="200" height="200" rx="20" fill="rgba(255,255,255,0.08)" transform="rotate(-15 950 180)"/>
+  <circle cx="150" cy="450" r="80" fill="rgba(255,255,255,0.06)"/>
+  <polygon points="1050,400 1150,450 1100,550" fill="rgba(255,255,255,0.07)"/>
+  
+  <!-- Glassmorphic card -->
+  <rect x="50" y="${height - 240}" width="700" height="180" rx="24" 
         fill="rgba(255,255,255,0.15)" 
-        font-family="Arial, sans-serif">${project.icon}</text>
+        stroke="rgba(255,255,255,0.3)" 
+        stroke-width="1.5"
+        filter="url(#blur)" opacity="0.8"/>
+  <rect x="50" y="${height - 240}" width="700" height="180" rx="24" 
+        fill="rgba(255,255,255,0.1)" 
+        stroke="rgba(255,255,255,0.2)" 
+        stroke-width="1"/>
   
   <!-- Title -->
-  <text x="60" y="${height - 150}" 
-        font-size="54" 
-        font-weight="bold" 
+  <text x="80" y="${height - 170}" 
+        font-size="48" 
+        font-weight="800" 
         fill="white" 
-        font-family="Arial, sans-serif"
-        style="text-shadow: 2px 2px 4px rgba(0,0,0,0.3)">
-    <tspan x="60" dy="0">${project.title.split('\n')[0]}</tspan>
-    <tspan x="60" dy="65">${project.title.split('\n')[1] || ''}</tspan>
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        letter-spacing="-0.5">
+    ${project.title}
   </text>
   
+  <!-- Subtitle -->
+  <text x="80" y="${height - 125}" 
+        font-size="28" 
+        font-weight="500" 
+        fill="rgba(255,255,255,0.9)" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    ${project.subtitle}
+  </text>
+  
+  <!-- Accent line -->
+  <rect x="80" y="${height - 105}" width="60" height="4" rx="2" fill="rgba(255,255,255,0.8)"/>
+  
   <!-- Description badge -->
-  <rect x="60" y="${height - 60}" width="${project.description.length * 11 + 40}" height="36" 
-        rx="18" fill="rgba(255,255,255,0.2)"/>
-  <text x="80" y="${height - 37}" 
-        font-size="18" 
+  <rect x="80" y="${height - 85}" width="${project.description.length * 9 + 30}" height="32" 
+        rx="16" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="95" y="${height - 62}" 
+        font-size="15" 
         fill="white" 
-        font-family="Arial, sans-serif"
-        font-weight="600">${project.description}</text>
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-weight="600"
+        letter-spacing="0.3">
+    ${project.description}
+  </text>
+  
+  <!-- Tech badge in corner -->
+  <circle cx="${width - 100}" cy="80" r="50" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <text x="${width - 100}" y="95" 
+        font-size="40" 
+        text-anchor="middle" 
+        fill="white"
+        font-family="Arial, sans-serif">
+    ⚡
+  </text>
 </svg>`
 }
 

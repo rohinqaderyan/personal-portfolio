@@ -1,45 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    <!-- Multi-stop gradient for depth -->
+    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
     </linearGradient>
     
-    <!-- Subtle pattern overlay -->
-    <pattern id="pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <circle cx="20" cy="20" r="1" fill="rgba(255,255,255,0.03)"/>
+    <!-- Radial gradient for glow effect -->
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Mesh pattern -->
+    <pattern id="grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
     </pattern>
+    
+    <!-- Blur for glassmorphism -->
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+    </filter>
   </defs>
   
-  <!-- Gradient background -->
-  <rect width="1200" height="630" fill="url(#grad)"/>
-  <rect width="1200" height="630" fill="url(#pattern)"/>
+  <!-- Base gradient -->
+  <rect width="1200" height="630" fill="url(#mainGrad)"/>
   
-  <!-- Icon (large, subtle) -->
-  <text x="600" y="265" 
-        font-size="200" 
-        text-anchor="middle" 
+  <!-- Glow orbs for depth -->
+  <circle cx="200" cy="150" r="300" fill="url(#glowGrad)" opacity="0.6"/>
+  <circle cx="1000" cy="500" r="350" fill="url(#glowGrad)" opacity="0.5"/>
+  
+  <!-- Grid overlay -->
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Floating geometric shapes -->
+  <rect x="850" y="80" width="200" height="200" rx="20" fill="rgba(255,255,255,0.08)" transform="rotate(-15 950 180)"/>
+  <circle cx="150" cy="450" r="80" fill="rgba(255,255,255,0.06)"/>
+  <polygon points="1050,400 1150,450 1100,550" fill="rgba(255,255,255,0.07)"/>
+  
+  <!-- Glassmorphic card -->
+  <rect x="50" y="390" width="700" height="180" rx="24" 
         fill="rgba(255,255,255,0.15)" 
-        font-family="Arial, sans-serif">👥</text>
+        stroke="rgba(255,255,255,0.3)" 
+        stroke-width="1.5"
+        filter="url(#blur)" opacity="0.8"/>
+  <rect x="50" y="390" width="700" height="180" rx="24" 
+        fill="rgba(255,255,255,0.1)" 
+        stroke="rgba(255,255,255,0.2)" 
+        stroke-width="1"/>
   
   <!-- Title -->
-  <text x="60" y="480" 
-        font-size="54" 
-        font-weight="bold" 
+  <text x="80" y="460" 
+        font-size="48" 
+        font-weight="800" 
         fill="white" 
-        font-family="Arial, sans-serif"
-        style="text-shadow: 2px 2px 4px rgba(0,0,0,0.3)">
-    <tspan x="60" dy="0">Real-Time</tspan>
-    <tspan x="60" dy="65">Collaboration Platform</tspan>
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        letter-spacing="-0.5">
+    Real-Time Collab
   </text>
   
+  <!-- Subtitle -->
+  <text x="80" y="505" 
+        font-size="28" 
+        font-weight="500" 
+        fill="rgba(255,255,255,0.9)" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    WebSocket Platform
+  </text>
+  
+  <!-- Accent line -->
+  <rect x="80" y="525" width="60" height="4" rx="2" fill="rgba(255,255,255,0.8)"/>
+  
   <!-- Description badge -->
-  <rect x="60" y="570" width="238" height="36" 
-        rx="18" fill="rgba(255,255,255,0.2)"/>
-  <text x="80" y="593" 
-        font-size="18" 
+  <rect x="80" y="545" width="255" height="32" 
+        rx="16" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="95" y="568" 
+        font-size="15" 
         fill="white" 
-        font-family="Arial, sans-serif"
-        font-weight="600">WebSocket Platform</text>
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-weight="600"
+        letter-spacing="0.3">
+    Live Updates • 10K+ Users
+  </text>
+  
+  <!-- Tech badge in corner -->
+  <circle cx="1100" cy="80" r="50" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <text x="1100" y="95" 
+        font-size="40" 
+        text-anchor="middle" 
+        fill="white"
+        font-family="Arial, sans-serif">
+    ⚡
+  </text>
 </svg>
