@@ -5,6 +5,7 @@ A modern, high-performance personal portfolio website built with Next.js 14, Typ
 [![CI/CD Pipeline](https://github.com/rohinqaderyan/personal-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/rohinqaderyan/personal-portfolio/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-14.2-black)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Portfolio Screenshot](public/og-image.png)
