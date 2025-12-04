@@ -1,6 +1,5 @@
 'use client'
 
-import { m as motion } from 'framer-motion'
 import { ReactNode } from 'react'
 import { cn } from '@/lib/utils'
 
@@ -13,19 +12,16 @@ interface CardProps {
 
 export function Card({ children, className, hover = true, onClick }: CardProps) {
   return (
-    <motion.div
+    <div
       className={cn(
         'rounded-lg border border-border bg-card p-6 shadow-sm transition-all',
         hover && 'card-hover cursor-pointer',
         className
       )}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, ease: 'easeOut' }}
       onClick={onClick}
     >
       {children}
-    </motion.div>
+    </div>
   )
 }
 
