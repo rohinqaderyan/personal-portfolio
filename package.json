@@ -1,7 +1,6 @@
 {
   "name": "personal-portfolio",
   "version": "1.0.0",
-  "type": "module",
   "description": "Professional portfolio website for Ahmad Rohin Qaderyan - Senior Full Stack Developer & Data Scientist",
   "author": "Ahmad Rohin Qaderyan <rohin.aryain@gmail.com>",
   "repository": {
