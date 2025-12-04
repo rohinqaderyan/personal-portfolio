@@ -1,13 +1,26 @@
 {
   "name": "personal-portfolio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Professional portfolio website for Ahmad Rohin Qaderyan - Senior Full Stack Developer & Data Scientist",
   "author": "Ahmad Rohin Qaderyan <ahmad.qaderyan@pfizer.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/rohinqaderyan/personal-portfolio.git"
   },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwind",
+    "full-stack",
+    "data-science"
+  ],
   "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
