@@ -18,6 +18,7 @@ export const ProjectCard = memo(function ProjectCard({ project }: ProjectCardPro
         <Card hover>
           {project.image && (
             <div className="relative mb-4 aspect-video w-full overflow-hidden rounded-md bg-muted">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={project.image}
                 alt={project.title}
