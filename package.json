@@ -1,20 +1,36 @@
 {
   "name": "personal-portfolio",
-  "version": "1.1.0",
-  "description": "Professional portfolio website for Ahmad Rohin Qaderyan - Senior Full Stack Developer & Data Scientist",
+  "version": "1.2.0",
+  "description": "Professional portfolio website for Ahmad Rohin Qaderyan - Senior Full Stack Developer & Data Scientist. Built with Next.js 14, React 18, TypeScript, and Tailwind CSS.",
   "author": "Ahmad Rohin Qaderyan <ahmad.qaderyan@pfizer.com>",
+  "license": "MIT",
+  "homepage": "https://rqdev.vercel.app",
   "repository": {
     "type": "git",
     "url": "https://github.com/rohinqaderyan/personal-portfolio.git"
   },
+  "bugs": {
+    "url": "https://github.com/rohinqaderyan/personal-portfolio/issues",
+    "email": "ahmad.qaderyan@pfizer.com"
+  },
   "keywords": [
     "portfolio",
     "nextjs",
+    "next.js",
+    "next14",
     "react",
+    "react18",
     "typescript",
     "tailwind",
+    "tailwindcss",
     "full-stack",
-    "data-science"
+    "data-science",
+    "frontend",
+    "backend",
+    "web-development",
+    "FAANG",
+    "senior-developer",
+    "Alexandria-VA"
   ],
   "private": true,
   "engines": {
