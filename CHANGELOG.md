@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.1] - 2024-12-05
+
+### Fixed
+
+- **Test Configuration Error** - Excluded E2E Playwright tests from Vitest runner to prevent "test.describe() not expected here" error
+  - Cause: Playwright E2E tests (\*.spec.ts) were incorrectly picked up by Vitest
+  - Fix: Added explicit exclusions in vitest.config.ts for **/e2e/** and \*_/_.spec.ts
+  - Proof: All tests now pass (5/5) with no failures
+  - Commit: f1ad2f0
+
+### Verified
+
+- ✅ TypeScript compilation: No errors
+- ✅ ESLint: No warnings or errors
+- ✅ Unit tests: 5/5 passing
+- ✅ Build: Successful (23 pages generated)
+- ✅ All CI checks: Passing
+
 ## [1.2.0] - 2024-12-05
 
 ### Added
