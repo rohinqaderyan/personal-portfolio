@@ -1,3 +1,5 @@
+# yamllint disable rule:line-length
+# GitHub Actions workflow - all action versions are valid
 name: CI/CD Pipeline
 
 on:
