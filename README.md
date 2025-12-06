@@ -342,6 +342,40 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
+## ❓ Frequently Asked Questions
+
+### Q: Can I use this portfolio for free?
+
+**A:** Yes! This project is open-source under the MIT license. Feel free to fork, customize, and deploy it.
+
+### Q: How do I add my own projects?
+
+**A:** Edit `content/projects.json` and add your project details with title, description, tags, and links.
+
+### Q: How do I deploy to Vercel?
+
+**A:** Push your code to GitHub, import the repository in Vercel, and it auto-deploys. See [DEPLOYMENT.md](./DEPLOYMENT.md) for details.
+
+### Q: How do I enable Google Analytics?
+
+**A:** Set `gaEnabled: true` in `content/site.config.json` and add your GA_ID to `.env.local`.
+
+### Q: Can I customize the theme?
+
+**A:** Yes! Edit `tailwind.config.js` to modify colors, fonts, and spacing using CSS custom properties.
+
+### Q: How do I test my changes locally?
+
+**A:** Run `npm run dev` for development or `npm run build && npm run start` for production testing.
+
+### Q: Is the site SEO friendly?
+
+**A:** Yes! Includes meta tags, Open Graph support, structured data, and XML sitemap. See [SEO.md](./SEO.md).
+
+### Q: How do I handle contact form submissions?
+
+**A:** By default uses client-side `mailto:`. For backend processing, see [DOCKER.md](./DOCKER.md) for Flask backend setup.
+
 ## 🙏 Acknowledgments
 
 - Built with [Next.js](https://nextjs.org/)
