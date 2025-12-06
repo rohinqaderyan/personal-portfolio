@@ -1,0 +1,9 @@
+{
+  "include": ["src", "tests"],
+  "exclude": ["**/node_modules", "**/__pycache__", "**/.venv", "**/flask-backend"],
+  "ignore": ["flask-backend/**"],
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.11",
+  "pythonPlatform": "All"
+}

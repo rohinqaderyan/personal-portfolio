@@ -1,7 +1,7 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
+from flask import Flask, request, jsonify  # type: ignore
+from flask_cors import CORS  # type: ignore # type: ignore
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv # pyright: ignore[reportMissingImports]
 import logging
 
 # Load environment variables

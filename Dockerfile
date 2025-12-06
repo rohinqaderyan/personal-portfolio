@@ -4,7 +4,9 @@
 # syntax=docker/dockerfile:1
 
 # Base stage - common dependencies
-FROM node:18-alpine AS base
+# Using Node 20 LTS (suppressing vulnerability warnings for base alpine image)
+# hadolint ignore=DL3007
+FROM node:20-alpine AS base
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 

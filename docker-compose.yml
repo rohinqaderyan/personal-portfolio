@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   # Main application
@@ -17,7 +17,15 @@ services:
     networks:
       - portfolio-network
     healthcheck:
-      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/api/health"]
+      test:
+        [
+          "CMD",
+          "wget",
+          "--quiet",
+          "--tries=1",
+          "--spider",
+          "http://localhost:3000/api/health",
+        ]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -86,7 +94,6 @@ services:
 networks:
   portfolio-network:
     driver: bridge
-
 # Uncomment volumes if using database or Redis
 # volumes:
 #   postgres-data:
