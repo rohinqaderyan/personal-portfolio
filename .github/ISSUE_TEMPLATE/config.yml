@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/rohinqaderyan/personal-portfolio#readme
+    about: Check the README for setup and usage information
+  - name: 💬 Discussions
+    url: https://github.com/rohinqaderyan/personal-portfolio/discussions
+    about: Ask questions or share ideas in Discussions
+  - name: 🔒 Security Vulnerabilities
+    url: https://github.com/rohinqaderyan/personal-portfolio/security/policy
+    about: Report security vulnerabilities privately
