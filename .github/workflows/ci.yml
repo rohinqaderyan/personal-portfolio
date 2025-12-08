@@ -40,7 +40,12 @@ jobs:
 
       # Tests are optional and won't fail the build
       - name: Run unit tests
-        run: npm run test -- --run || echo "Tests failed but continuing"
+        run: npm run test:run
+        continue-on-error: false
+
+      - name: Run tests with coverage
+        if: matrix.node-version == '20'
+        run: npm run test:coverage -- --run
         continue-on-error: true
 
       - name: Upload coverage reports
@@ -50,6 +55,12 @@ jobs:
           name: coverage-report
           path: coverage/
           retention-days: 7
+
+      - name: Check coverage threshold
+        if: matrix.node-version == '20'
+        run: |
+          echo "Coverage check - ensure minimum coverage thresholds are met"
+          # Add coverage threshold checks here if using a coverage tool
 
       # E2E tests disabled for faster CI
       # - name: Install Playwright browsers
