@@ -94,12 +94,31 @@ jobs:
         with:
           name: next-build
           path: .next/
-          retention-days: 1      - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: build
-          path: .next/
           retention-days: 7
+
+  security:
+    name: Security Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run npm audit
+        run: npm audit --audit-level=high || echo "Vulnerabilities found, check report"
+        continue-on-error: true
+
+      - name: Check for outdated dependencies
+        run: npm outdated || true
 
   lighthouse:
     name: Lighthouse Performance
