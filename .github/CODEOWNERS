@@ -1,0 +1,48 @@
+﻿# CODEOWNERS - Defines code ownership for automatic review assignment
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything
+* @rohinqaderyan
+
+# Documentation changes
+*.md @rohinqaderyan
+/docs/ @rohinqaderyan
+
+# Frontend source code
+/src/components/ @rohinqaderyan
+/src/app/ @rohinqaderyan
+/src/styles/ @rohinqaderyan
+
+# Utility libraries - require careful review
+/src/lib/ @rohinqaderyan
+
+# API routes - security sensitive
+/src/app/api/ @rohinqaderyan
+
+# Test files
+/src/tests/ @rohinqaderyan
+*.test.ts @rohinqaderyan
+*.test.tsx @rohinqaderyan
+
+# Configuration files - critical changes
+package.json @rohinqaderyan
+package-lock.json @rohinqaderyan
+tsconfig.json @rohinqaderyan
+next.config.js @rohinqaderyan
+tailwind.config.js @rohinqaderyan
+vitest.config.ts @rohinqaderyan
+playwright.config.ts @rohinqaderyan
+
+# CI/CD and GitHub configuration
+/.github/ @rohinqaderyan
+
+# Security-sensitive files
+.env.example @rohinqaderyan
+vercel.json @rohinqaderyan
+Dockerfile @rohinqaderyan
+docker-compose.yml @rohinqaderyan
+
+# Build scripts
+/scripts/ @rohinqaderyan
+setup.ps1 @rohinqaderyan
+setup.sh @rohinqaderyan
