@@ -1,5 +1,7 @@
 # Monitoring & Observability
 
+> 📊 Powered by Vercel Analytics & Google Analytics 4
+
 ## Overview
 
 This guide covers monitoring, logging, and observability for your portfolio.
