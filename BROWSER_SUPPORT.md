@@ -1,5 +1,7 @@
 # Browser Support
 
+> 🌐 Tested on Chrome, Firefox, Safari, Edge | 95%+ global coverage
+
 ## Supported Browsers
 
 ### Desktop
