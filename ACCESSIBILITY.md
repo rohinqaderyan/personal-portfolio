@@ -1,5 +1,7 @@
 # Accessibility Statement
 
+> ♿ WCAG 2.1 AA | Screen Reader Tested | Keyboard Navigable
+
 ## Commitment to Accessibility
 
 This portfolio website is committed to providing an accessible experience for all users, regardless of ability or technology used. We strive to meet or exceed the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA standards.
