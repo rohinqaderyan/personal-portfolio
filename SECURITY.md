@@ -21,8 +21,8 @@ This project is maintained with security as a top priority. We follow industry b
 
 | Version | Supported          | Status                        |
 | ------- | ------------------ | ----------------------------- |
-| 1.2.x   | :white_check_mark: | Current - Actively maintained |
-| 1.1.x   | :white_check_mark: | Supported until v1.3          |
+| 1.3.x   | :white_check_mark: | Current - Actively maintained |
+| 1.2.x   | :white_check_mark: | Supported until v1.4          |
 | 1.0.x   | :white_check_mark: | Legacy support                |
 | < 1.0   | :x:                | No longer supported           |
 
