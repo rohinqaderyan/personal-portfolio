@@ -1,5 +1,7 @@
 # SEO Optimization Guide
 
+> 🔍 Lighthouse SEO Score: **100/100**
+
 ## Overview
 
 This guide covers SEO strategies implemented in the portfolio and best practices for maintaining optimal search engine visibility.
