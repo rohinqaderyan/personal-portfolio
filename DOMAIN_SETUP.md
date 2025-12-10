@@ -1,5 +1,7 @@
 # Custom Domain Setup for Vercel
 
+> 🌐 Connect your custom domain in under 10 minutes
+
 ## Step 1: Purchase Your Domain
 
 ### Recommended Registrars:
