@@ -1,5 +1,7 @@
 # Component Documentation
 
+> 🧩 50+ reusable React components with TypeScript
+
 ## Overview
 
 This document provides detailed documentation for all React components in the portfolio application.
