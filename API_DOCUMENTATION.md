@@ -1,5 +1,7 @@
 # API Documentation
 
+> 📡 RESTful API | TypeScript | Edge Functions
+
 Documentation for all API endpoints in this portfolio application.
 
 ## Base URL
