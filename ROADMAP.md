@@ -1,8 +1,8 @@
 # Roadmap
 
-## Current Version: 1.1.0
+## Current Version: 1.3.0
 
-### ✅ Completed (v1.0 - v1.1)
+### ✅ Completed (v1.0 - v1.3)
 
 - [x] Core portfolio structure
 - [x] Project showcase with 9 featured projects
