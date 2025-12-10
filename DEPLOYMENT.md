@@ -1,5 +1,7 @@
 # Deployment Guide
 
+> 🚀 Supports Vercel, Netlify, Docker, and self-hosted deployments
+
 Comprehensive guide for deploying this Next.js portfolio to various platforms.
 
 ## Table of Contents
