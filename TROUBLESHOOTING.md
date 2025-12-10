@@ -1,5 +1,7 @@
 # Troubleshooting Guide
 
+> 🔧 Quick fixes for common development issues
+
 ## Common Issues and Solutions
 
 This guide covers common issues you might encounter and how to resolve them.
