@@ -1,5 +1,7 @@
 # Docker Deployment Guide
 
+> 🐳 Compatible with Docker 20.10+ and Docker Compose v2
+
 ## Overview
 
 This guide covers containerizing and deploying the portfolio application using Docker and Docker Compose.
