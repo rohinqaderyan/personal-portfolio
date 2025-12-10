@@ -1,5 +1,7 @@
 # Code Style Guide
 
+> ✨ Enforced by ESLint + Prettier | Pre-commit hooks via Husky
+
 ## Overview
 
 This project follows industry-standard code style conventions to maintain consistency and readability.
