@@ -1,5 +1,7 @@
 # LinkedIn Embed - How to Update
 
+> 🔗 Embed LinkedIn posts on your About page
+
 LinkedIn embeds are now **ENABLED** on your About page!
 
 ## Current Setup
