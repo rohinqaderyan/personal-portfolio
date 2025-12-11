@@ -1,5 +1,7 @@
 # Google Analytics - Quick Setup for Rohin
 
+> ⏱️ Complete setup in under 10 minutes
+
 ## Step 1: Create Account (5 minutes)
 
 1. Go to: https://analytics.google.com
