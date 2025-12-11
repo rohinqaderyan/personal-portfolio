@@ -1,6 +1,8 @@
 # Release Notes - v1.2.0
 
-## 🎉 Version 1.2.0 - December 5, 2024
+> 📚 Documentation and developer experience improvements
+
+## 🎉 Version 1.2.0 - December 2025
 
 This release focuses on comprehensive documentation, developer experience improvements, and project metadata enhancements.
 
