@@ -1,5 +1,7 @@
 # Quick Guide: Change Your Vercel Project Name
 
+> ✏️ Rename your project URL in under 2 minutes
+
 Your current URL: https://personal-portfolio-ten-ruby-92.vercel.app/
 Better free options:
 
