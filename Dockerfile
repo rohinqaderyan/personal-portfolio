@@ -1,5 +1,6 @@
 # Dockerfile
 # Multi-stage build for optimized production image
+# Target size: ~100MB | Node 20 LTS | Alpine Linux
 
 # syntax=docker/dockerfile:1
 
