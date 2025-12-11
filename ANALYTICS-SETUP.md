@@ -1,5 +1,7 @@
 # Google Analytics Setup Guide
 
+> 📊 GA4 Integration | Real-time analytics | Privacy-focused
+
 ## Quick Start
 
 ### 1. Create Google Analytics Account
