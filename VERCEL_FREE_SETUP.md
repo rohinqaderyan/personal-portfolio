@@ -1,5 +1,7 @@
 # 🎯 Step-by-Step: Change Your Vercel Project URL (FREE)
 
+> 🆓 No credit card required | Free tier friendly
+
 ## Current Situation
 
 Your current URL: `https://personal-portfolio-ten-ruby-92.vercel.app/`
