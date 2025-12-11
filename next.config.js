@@ -1,4 +1,8 @@
-/** @type {import('next').NextConfig} */
+/**
+ * Next.js Configuration
+ * Optimized for performance, SEO, and security
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
   reactStrictMode: true,
   images: {
