@@ -1,5 +1,7 @@
 # 🚀 Portfolio Domain Action Plan
 
+> 🌐 Custom domain setup guide and DNS configuration
+
 ## Current Status
 
 ✅ **Live Site:** https://personal-portfolio-ten-ruby-92.vercel.app/
