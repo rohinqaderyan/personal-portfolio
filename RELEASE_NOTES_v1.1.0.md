@@ -1,5 +1,7 @@
 # Release Notes - v1.1.0
 
+> 🚀 Visual enhancements and performance improvements
+
 **Release Date:** December 4, 2025
 
 ## 🎨 Visual Enhancements
