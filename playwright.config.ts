@@ -1,3 +1,7 @@
+/**
+ * Playwright E2E Test Configuration
+ * Cross-browser testing for Chrome, Firefox, Safari
+ */
 import { defineConfig, devices } from '@playwright/test'
 
 export default defineConfig({
