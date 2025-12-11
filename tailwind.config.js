@@ -1,4 +1,8 @@
-/** @type {import('tailwindcss').Config} */
+/**
+ * Tailwind CSS Configuration
+ * Custom theme with dark mode and glassmorphism effects
+ * @type {import('tailwindcss').Config}
+ */
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
