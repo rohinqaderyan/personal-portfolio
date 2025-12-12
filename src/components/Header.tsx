@@ -1,12 +1,16 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import { ThemeToggle } from './ThemeToggle'
-import { m as motion } from 'framer-motion'
-import { Menu, X } from 'lucide-react'
-import { useState } from 'react'
-import { cn } from '@/lib/utils'
+/**
+ * Header Component
+ * @description Main navigation header with responsive mobile menu
+ */
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { ThemeToggle } from './ThemeToggle';
+import { m as motion } from 'framer-motion';
+import { Menu, X } from 'lucide-react';
+import { useState } from 'react';
+import { cn } from '@/lib/utils';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -15,11 +19,11 @@ const navigation = [
   { name: 'Skills', href: '/skills' },
   { name: 'Experience', href: '/experience' },
   { name: 'Contact', href: '/contact' },
-]
+];
 
 export function Header() {
-  const pathname = usePathname()
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const pathname = usePathname();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -110,5 +114,5 @@ export function Header() {
         </div>
       </motion.div>
     </header>
-  )
+  );
 }
