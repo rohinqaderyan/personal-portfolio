@@ -1,13 +1,17 @@
-'use client'
+'use client';
 
-import { m as motion } from 'framer-motion'
-import { ArrowDown } from 'lucide-react'
-import { SocialIcons } from './SocialIcons'
-import Link from 'next/link'
-import type { SiteConfig } from '@/lib/content'
+/**
+ * Hero Component
+ * @description Hero section with animated introduction
+ */
+import { m as motion } from 'framer-motion';
+import { ArrowDown } from 'lucide-react';
+import { SocialIcons } from './SocialIcons';
+import Link from 'next/link';
+import type { SiteConfig } from '@/lib/content';
 
 interface HeroProps {
-  config: SiteConfig
+  config: SiteConfig;
 }
 
 export function Hero({ config }: HeroProps) {
@@ -96,5 +100,5 @@ export function Hero({ config }: HeroProps) {
         <ArrowDown className="h-6 w-6 text-muted-foreground" />
       </motion.div>
     </section>
-  )
+  );
 }
