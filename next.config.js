@@ -1,6 +1,7 @@
 /**
  * Next.js Configuration
  * Optimized for performance, SEO, and security
+ * Updated: December 2024
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
@@ -80,8 +81,8 @@ const nextConfig = {
           },
         ],
       },
-    ]
+    ];
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
