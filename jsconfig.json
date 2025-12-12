@@ -1,4 +1,6 @@
 {
+  // JavaScript Configuration
+  // Path aliases for cleaner imports
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

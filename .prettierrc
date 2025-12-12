@@ -1,4 +1,6 @@
 {
+  // Prettier Configuration
+  // Code formatting with Tailwind CSS plugin
   "semi": false,
   "singleQuote": true,
   "tabWidth": 2,

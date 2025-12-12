@@ -1,3 +1,6 @@
+# Git Ignore Rules
+# Excludes build artifacts, dependencies, and sensitive files
+
 # Dependencies
 /node_modules
 /.pnp

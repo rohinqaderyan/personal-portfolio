@@ -1,19 +1,23 @@
-import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
+/**
+ * Next.js Middleware
+ * Handles security headers, caching, and request processing
+ */
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 
 export function middleware(request: NextRequest) {
   // Add security headers
-  const response = NextResponse.next()
+  const response = NextResponse.next();
 
   // Prevent caching of sensitive pages
   if (request.nextUrl.pathname.startsWith('/contact')) {
-    response.headers.set('Cache-Control', 'no-store, must-revalidate')
+    response.headers.set('Cache-Control', 'no-store, must-revalidate');
   }
 
   // Add performance hints
-  response.headers.set('X-Content-Type-Options', 'nosniff')
+  response.headers.set('X-Content-Type-Options', 'nosniff');
 
-  return response
+  return response;
 }
 
 export const config = {
@@ -27,4 +31,4 @@ export const config = {
      */
     '/((?!api|_next/static|_next/image|favicon.ico).*)',
   ],
-}
+};

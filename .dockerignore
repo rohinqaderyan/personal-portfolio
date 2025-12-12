@@ -1,4 +1,5 @@
 # .dockerignore
+# Optimizes Docker builds by excluding unnecessary files
 
 # Dependencies
 node_modules

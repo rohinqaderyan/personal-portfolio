@@ -1,3 +1,7 @@
+/**
+ * ESLint Configuration
+ * Next.js + TypeScript + Prettier integration
+ */
 module.exports = {
   root: true,
   extends: [
