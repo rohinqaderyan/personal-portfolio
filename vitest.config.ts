@@ -1,10 +1,11 @@
 /**
  * Vitest Configuration
  * Unit testing with React Testing Library and jsdom
+ * @version 1.3.1
  */
-import { defineConfig } from 'vitest/config'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+import { defineConfig } from 'vitest/config';
+import react from '@vitejs/plugin-react';
+import path from 'path';
 
 export default defineConfig({
   plugins: [react()] as any,
@@ -28,4 +29,4 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-})
+});
