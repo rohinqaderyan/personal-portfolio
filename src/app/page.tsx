@@ -1,13 +1,17 @@
-import { Hero } from '@/components/Hero'
-import { Section } from '@/components/Section'
-import { ProjectCard } from '@/components/ProjectCard'
-import { getSiteConfig, getFeaturedProjects } from '@/lib/content'
-import Link from 'next/link'
-import { ArrowRight } from 'lucide-react'
+/**
+ * Home Page Component
+ * @description Landing page featuring hero section and projects
+ */
+import { Hero } from '@/components/Hero';
+import { Section } from '@/components/Section';
+import { ProjectCard } from '@/components/ProjectCard';
+import { getSiteConfig, getFeaturedProjects } from '@/lib/content';
+import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
-  const config = getSiteConfig()
-  const featuredProjects = getFeaturedProjects().slice(0, 3)
+  const config = getSiteConfig();
+  const featuredProjects = getFeaturedProjects().slice(0, 3);
 
   return (
     <>
@@ -54,5 +58,5 @@ export default function Home() {
         </div>
       </Section>
     </>
-  )
+  );
 }
