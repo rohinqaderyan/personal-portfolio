@@ -1,6 +1,7 @@
 /**
  * Tailwind CSS Configuration
  * Custom theme with dark mode and glassmorphism effects
+ * Last Updated: December 2024
  * @type {import('tailwindcss').Config}
  */
 module.exports = {
@@ -112,4 +113,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
