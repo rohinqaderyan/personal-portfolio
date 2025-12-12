@@ -1,8 +1,12 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
-import { SocialIcons } from './SocialIcons'
-import type { SiteConfig } from '@/lib/content'
+/**
+ * Footer Component
+ * @description Site footer with navigation and social links
+ */
+import Link from 'next/link';
+import { SocialIcons } from './SocialIcons';
+import type { SiteConfig } from '@/lib/content';
 
 const navigation = {
   main: [
@@ -12,14 +16,14 @@ const navigation = {
     { name: 'Experience', href: '/experience' },
     { name: 'Contact', href: '/contact' },
   ],
-}
+};
 
 interface FooterProps {
-  config: SiteConfig
+  config: SiteConfig;
 }
 
 export function Footer({ config }: FooterProps) {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="border-t border-border bg-muted/30">
@@ -59,5 +63,5 @@ export function Footer({ config }: FooterProps) {
         </p>
       </div>
     </footer>
-  )
+  );
 }
