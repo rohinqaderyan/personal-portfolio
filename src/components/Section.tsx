@@ -1,14 +1,18 @@
-'use client'
+'use client';
 
-import { ReactNode } from 'react'
+/**
+ * Section Component
+ * @description Reusable page section with title and description
+ */
+import { ReactNode } from 'react';
 
 interface SectionProps {
-  id?: string
-  title?: string
-  description?: string
-  children: ReactNode
-  className?: string
-  containerClassName?: string
+  id?: string;
+  title?: string;
+  description?: string;
+  children: ReactNode;
+  className?: string;
+  containerClassName?: string;
 }
 
 export function Section({
@@ -35,5 +39,5 @@ export function Section({
         {children}
       </div>
     </section>
-  )
+  );
 }
