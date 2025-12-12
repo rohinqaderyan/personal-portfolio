@@ -1,23 +1,27 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { ThemeProvider } from '@/components/ThemeProvider'
-import { MotionProvider } from '@/components/MotionProvider'
-import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
-import { getSiteConfig } from '@/lib/content'
-import { generateMetadata as genMeta, generateStructuredData } from '@/lib/seo'
-import '@/styles/globals.css'
-import '@/styles/theme.css'
-import 'highlight.js/styles/github-dark.css'
+/**
+ * Root Layout Component
+ * @description Main app layout with theme, motion providers and common components
+ */
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import { ThemeProvider } from '@/components/ThemeProvider';
+import { MotionProvider } from '@/components/MotionProvider';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
+import { getSiteConfig } from '@/lib/content';
+import { generateMetadata as genMeta, generateStructuredData } from '@/lib/seo';
+import '@/styles/globals.css';
+import '@/styles/theme.css';
+import 'highlight.js/styles/github-dark.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
-const config = getSiteConfig()
+const config = getSiteConfig();
 
-export const metadata: Metadata = genMeta(config.seo.title, config.seo.description, config, '')
+export const metadata: Metadata = genMeta(config.seo.title, config.seo.description, config, '');
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const structuredData = generateStructuredData(config)
+  const structuredData = generateStructuredData(config);
 
   return (
     <html lang="en" suppressHydrationWarning>
@@ -39,5 +43,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
