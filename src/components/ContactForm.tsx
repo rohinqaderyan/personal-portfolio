@@ -1,30 +1,34 @@
-'use client'
+'use client';
 
-import { useState } from 'react'
-import { useForm } from 'react-hook-form'
-import { zodResolver } from '@hookform/resolvers/zod'
-import { z } from 'zod'
-import { Send, CheckCircle, AlertCircle } from 'lucide-react'
-import { m as motion, AnimatePresence } from 'framer-motion'
-import { getConfig } from '@/lib/config'
-import { trackEvent } from '@/lib/analytics'
+/**
+ * ContactForm Component
+ * @description Contact form with validation and submission handling
+ */
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
+import { Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { m as motion, AnimatePresence } from 'framer-motion';
+import { getConfig } from '@/lib/config';
+import { trackEvent } from '@/lib/analytics';
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
   email: z.string().email('Please enter a valid email'),
   message: z.string().min(10, 'Message must be at least 10 characters'),
-})
+});
 
-type ContactFormData = z.infer<typeof contactSchema>
+type ContactFormData = z.infer<typeof contactSchema>;
 
 interface ContactFormProps {
-  email: string
+  email: string;
 }
 
 export function ContactForm({ email }: ContactFormProps) {
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
-  const [errorMessage, setErrorMessage] = useState('')
-  const config = getConfig()
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
+  const config = getConfig();
 
   const {
     register,
@@ -33,11 +37,11 @@ export function ContactForm({ email }: ContactFormProps) {
     reset,
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
-  })
+  });
 
   const onSubmit = async (data: ContactFormData) => {
-    setStatus('loading')
-    setErrorMessage('')
+    setStatus('loading');
+    setErrorMessage('');
 
     try {
       if (config.contactMode === 'flask') {
@@ -48,34 +52,34 @@ export function ContactForm({ email }: ContactFormProps) {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify(data),
-        })
+        });
 
         if (!response.ok) {
-          throw new Error('Failed to send message')
+          throw new Error('Failed to send message');
         }
 
-        setStatus('success')
-        trackEvent('contact_form_submit', { method: 'flask' })
-        reset()
+        setStatus('success');
+        trackEvent('contact_form_submit', { method: 'flask' });
+        reset();
       } else {
         // Client-only mode: use mailto
-        const subject = encodeURIComponent(`Portfolio Inquiry from ${data.name}`)
+        const subject = encodeURIComponent(`Portfolio Inquiry from ${data.name}`);
         const body = encodeURIComponent(
           `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
-        )
-        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`
-        setStatus('success')
-        trackEvent('contact_form_submit', { method: 'mailto' })
-        reset()
+        );
+        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+        setStatus('success');
+        trackEvent('contact_form_submit', { method: 'mailto' });
+        reset();
       }
     } catch (error) {
-      setStatus('error')
+      setStatus('error');
       setErrorMessage(
         error instanceof Error ? error.message : 'Something went wrong. Please try again.'
-      )
-      trackEvent('contact_form_error', { error: String(error) })
+      );
+      trackEvent('contact_form_error', { error: String(error) });
     }
-  }
+  };
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="mx-auto max-w-2xl space-y-6">
@@ -179,5 +183,5 @@ export function ContactForm({ email }: ContactFormProps) {
         )}
       </AnimatePresence>
     </form>
-  )
+  );
 }
