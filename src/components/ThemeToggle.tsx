@@ -1,11 +1,15 @@
-'use client'
+'use client';
 
-import { Moon, Sun } from 'lucide-react'
-import { useTheme } from './ThemeProvider'
-import { m as motion } from 'framer-motion'
+/**
+ * ThemeToggle Component
+ * @description Toggle button for dark/light mode switching
+ */
+import { Moon, Sun } from 'lucide-react';
+import { useTheme } from './ThemeProvider';
+import { m as motion } from 'framer-motion';
 
 export function ThemeToggle() {
-  const { theme, toggleTheme } = useTheme()
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <motion.button
@@ -29,5 +33,5 @@ export function ThemeToggle() {
         />
       </div>
     </motion.button>
-  )
+  );
 }
