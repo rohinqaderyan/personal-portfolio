@@ -1,17 +1,21 @@
-'use client'
+'use client';
 
-import { useState } from 'react'
-import { Search, X } from 'lucide-react'
-import { m as motion, AnimatePresence } from 'framer-motion'
-import { cn } from '@/lib/utils'
+/**
+ * ProjectFilters Component
+ * @description Filter and search controls for projects
+ */
+import { useState } from 'react';
+import { Search, X } from 'lucide-react';
+import { m as motion, AnimatePresence } from 'framer-motion';
+import { cn } from '@/lib/utils';
 
 interface ProjectFiltersProps {
-  tags: string[]
-  selectedTags: string[]
-  searchQuery: string
-  onTagToggle: (tag: string) => void
-  onSearchChange: (query: string) => void
-  onClearAll: () => void
+  tags: string[];
+  selectedTags: string[];
+  searchQuery: string;
+  onTagToggle: (tag: string) => void;
+  onSearchChange: (query: string) => void;
+  onClearAll: () => void;
 }
 
 export function ProjectFilters({
@@ -22,9 +26,9 @@ export function ProjectFilters({
   onSearchChange,
   onClearAll,
 }: ProjectFiltersProps) {
-  const [showAllTags, setShowAllTags] = useState(false)
-  const visibleTags = showAllTags ? tags : tags.slice(0, 10)
-  const hasActiveFilters = selectedTags.length > 0 || searchQuery.length > 0
+  const [showAllTags, setShowAllTags] = useState(false);
+  const visibleTags = showAllTags ? tags : tags.slice(0, 10);
+  const hasActiveFilters = selectedTags.length > 0 || searchQuery.length > 0;
 
   return (
     <div className="space-y-4">
@@ -65,7 +69,7 @@ export function ProjectFilters({
         <div className="flex flex-wrap gap-2">
           <AnimatePresence>
             {visibleTags.map((tag) => {
-              const isSelected = selectedTags.includes(tag)
+              const isSelected = selectedTags.includes(tag);
               return (
                 <motion.button
                   key={tag}
@@ -84,7 +88,7 @@ export function ProjectFilters({
                 >
                   {tag}
                 </motion.button>
-              )
+              );
             })}
           </AnimatePresence>
           {tags.length > 10 && (
@@ -112,5 +116,5 @@ export function ProjectFilters({
         </motion.p>
       )}
     </div>
-  )
+  );
 }
