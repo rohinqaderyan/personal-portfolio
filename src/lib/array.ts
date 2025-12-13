@@ -1,5 +1,6 @@
 /**
  * Array utility functions
+ * @module array
  * Helper functions for array manipulation and processing
  */
 
@@ -9,7 +10,7 @@
  * @returns Array with unique values
  */
 export function unique<T>(array: T[]): T[] {
-  return [...new Set(array)]
+  return [...new Set(array)];
 }
 
 /**
@@ -21,15 +22,15 @@ export function unique<T>(array: T[]): T[] {
 export function groupBy<T>(array: T[], keyFn: (item: T) => string): Record<string, T[]> {
   return array.reduce(
     (acc, item) => {
-      const key = keyFn(item)
+      const key = keyFn(item);
       if (!acc[key]) {
-        acc[key] = []
+        acc[key] = [];
       }
-      acc[key].push(item)
-      return acc
+      acc[key].push(item);
+      return acc;
     },
     {} as Record<string, T[]>
-  )
+  );
 }
 
 /**
@@ -39,11 +40,11 @@ export function groupBy<T>(array: T[], keyFn: (item: T) => string): Record<strin
  * @returns Array of chunks
  */
 export function chunk<T>(array: T[], size: number): T[][] {
-  const chunks: T[][] = []
+  const chunks: T[][] = [];
   for (let i = 0; i < array.length; i += size) {
-    chunks.push(array.slice(i, i + size))
+    chunks.push(array.slice(i, i + size));
   }
-  return chunks
+  return chunks;
 }
 
 /**
@@ -53,16 +54,16 @@ export function chunk<T>(array: T[], size: number): T[][] {
  * @returns Flattened array
  */
 export function flatten<T>(array: T[], depth: number = 1): T[] {
-  if (depth === 0) return array
+  if (depth === 0) return array;
 
   return array.reduce((acc: T[], item) => {
     if (Array.isArray(item)) {
-      acc.push(...flatten(item, depth - 1))
+      acc.push(...flatten(item, depth - 1));
     } else {
-      acc.push(item)
+      acc.push(item);
     }
-    return acc
-  }, [])
+    return acc;
+  }, []);
 }
 
 /**
@@ -71,12 +72,12 @@ export function flatten<T>(array: T[], depth: number = 1): T[] {
  * @returns Shuffled array (new array)
  */
 export function shuffle<T>(array: T[]): T[] {
-  const shuffled = [...array]
+  const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
-  return shuffled
+  return shuffled;
 }
 
 /**
@@ -85,7 +86,7 @@ export function shuffle<T>(array: T[]): T[] {
  * @returns Random element
  */
 export function sample<T>(array: T[]): T | undefined {
-  return array[Math.floor(Math.random() * array.length)]
+  return array[Math.floor(Math.random() * array.length)];
 }
 
 /**
@@ -95,8 +96,8 @@ export function sample<T>(array: T[]): T | undefined {
  * @returns Array of random elements
  */
 export function sampleSize<T>(array: T[], n: number): T[] {
-  const shuffled = shuffle(array)
-  return shuffled.slice(0, Math.min(n, array.length))
+  const shuffled = shuffle(array);
+  return shuffled.slice(0, Math.min(n, array.length));
 }
 
 /**
@@ -108,13 +109,13 @@ export function sampleSize<T>(array: T[], n: number): T[] {
  */
 export function sortBy<T>(array: T[], key: keyof T, order: 'asc' | 'desc' = 'asc'): T[] {
   return [...array].sort((a, b) => {
-    const aVal = a[key]
-    const bVal = b[key]
+    const aVal = a[key];
+    const bVal = b[key];
 
-    if (aVal < bVal) return order === 'asc' ? -1 : 1
-    if (aVal > bVal) return order === 'asc' ? 1 : -1
-    return 0
-  })
+    if (aVal < bVal) return order === 'asc' ? -1 : 1;
+    if (aVal > bVal) return order === 'asc' ? 1 : -1;
+    return 0;
+  });
 }
 
 /**
@@ -124,18 +125,18 @@ export function sortBy<T>(array: T[], key: keyof T, order: 'asc' | 'desc' = 'asc
  * @returns Tuple of [passing, failing] arrays
  */
 export function partition<T>(array: T[], predicate: (item: T) => boolean): [T[], T[]] {
-  const pass: T[] = []
-  const fail: T[] = []
+  const pass: T[] = [];
+  const fail: T[] = [];
 
   array.forEach((item) => {
     if (predicate(item)) {
-      pass.push(item)
+      pass.push(item);
     } else {
-      fail.push(item)
+      fail.push(item);
     }
-  })
+  });
 
-  return [pass, fail]
+  return [pass, fail];
 }
 
 /**
@@ -146,12 +147,12 @@ export function partition<T>(array: T[], predicate: (item: T) => boolean): [T[],
 export function countBy<T>(array: T[]): Record<string, number> {
   return array.reduce(
     (acc, item) => {
-      const key = String(item)
-      acc[key] = (acc[key] || 0) + 1
-      return acc
+      const key = String(item);
+      acc[key] = (acc[key] || 0) + 1;
+      return acc;
     },
     {} as Record<string, number>
-  )
+  );
 }
 
 /**
@@ -161,8 +162,8 @@ export function countBy<T>(array: T[]): Record<string, number> {
  * @returns Elements in arr1 but not in arr2
  */
 export function difference<T>(arr1: T[], arr2: T[]): T[] {
-  const set2 = new Set(arr2)
-  return arr1.filter((item) => !set2.has(item))
+  const set2 = new Set(arr2);
+  return arr1.filter((item) => !set2.has(item));
 }
 
 /**
@@ -172,8 +173,8 @@ export function difference<T>(arr1: T[], arr2: T[]): T[] {
  * @returns Elements common to both arrays
  */
 export function intersection<T>(arr1: T[], arr2: T[]): T[] {
-  const set2 = new Set(arr2)
-  return arr1.filter((item) => set2.has(item))
+  const set2 = new Set(arr2);
+  return arr1.filter((item) => set2.has(item));
 }
 
 /**
@@ -183,7 +184,7 @@ export function intersection<T>(arr1: T[], arr2: T[]): T[] {
  * @returns All unique elements from both arrays
  */
 export function union<T>(arr1: T[], arr2: T[]): T[] {
-  return unique([...arr1, ...arr2])
+  return unique([...arr1, ...arr2]);
 }
 
 /**
@@ -192,14 +193,14 @@ export function union<T>(arr1: T[], arr2: T[]): T[] {
  * @returns Array of tuples
  */
 export function zip<T>(...arrays: T[][]): T[][] {
-  const maxLength = Math.max(...arrays.map((arr) => arr.length))
-  const result: T[][] = []
+  const maxLength = Math.max(...arrays.map((arr) => arr.length));
+  const result: T[][] = [];
 
   for (let i = 0; i < maxLength; i++) {
-    result.push(arrays.map((arr) => arr[i]))
+    result.push(arrays.map((arr) => arr[i]));
   }
 
-  return result
+  return result;
 }
 
 /**
@@ -208,7 +209,7 @@ export function zip<T>(...arrays: T[][]): T[][] {
  * @returns Object
  */
 export function fromPairs<T>(pairs: [string, T][]): Record<string, T> {
-  return Object.fromEntries(pairs)
+  return Object.fromEntries(pairs);
 }
 
 /**
@@ -218,7 +219,7 @@ export function fromPairs<T>(pairs: [string, T][]): Record<string, T> {
  * @returns Array of property values
  */
 export function pluck<T, K extends keyof T>(array: T[], key: K): T[K][] {
-  return array.map((item) => item[key])
+  return array.map((item) => item[key]);
 }
 
 /**
@@ -227,7 +228,7 @@ export function pluck<T, K extends keyof T>(array: T[], key: K): T[K][] {
  * @returns Array without falsy values
  */
 export function compact<T>(array: (T | null | undefined | false | 0 | '')[]): T[] {
-  return array.filter(Boolean) as T[]
+  return array.filter(Boolean) as T[];
 }
 
 /**
@@ -237,7 +238,7 @@ export function compact<T>(array: (T | null | undefined | false | 0 | '')[]): T[
  * @returns First n elements
  */
 export function take<T>(array: T[], n: number): T[] {
-  return array.slice(0, n)
+  return array.slice(0, n);
 }
 
 /**
@@ -247,7 +248,7 @@ export function take<T>(array: T[], n: number): T[] {
  * @returns Last n elements
  */
 export function takeLast<T>(array: T[], n: number): T[] {
-  return array.slice(-n)
+  return array.slice(-n);
 }
 
 /**
@@ -257,7 +258,7 @@ export function takeLast<T>(array: T[], n: number): T[] {
  * @returns Array without first n elements
  */
 export function drop<T>(array: T[], n: number): T[] {
-  return array.slice(n)
+  return array.slice(n);
 }
 
 /**
@@ -267,7 +268,7 @@ export function drop<T>(array: T[], n: number): T[] {
  * @returns Array without last n elements
  */
 export function dropLast<T>(array: T[], n: number): T[] {
-  return array.slice(0, -n)
+  return array.slice(0, -n);
 }
 
 /**
@@ -277,7 +278,7 @@ export function dropLast<T>(array: T[], n: number): T[] {
  * @returns Index of first match or -1
  */
 export function findIndex<T>(array: T[], predicate: (item: T) => boolean): number {
-  return array.findIndex(predicate)
+  return array.findIndex(predicate);
 }
 
 /**
@@ -288,9 +289,9 @@ export function findIndex<T>(array: T[], predicate: (item: T) => boolean): numbe
  */
 export function findLastIndex<T>(array: T[], predicate: (item: T) => boolean): number {
   for (let i = array.length - 1; i >= 0; i--) {
-    if (predicate(array[i])) return i
+    if (predicate(array[i])) return i;
   }
-  return -1
+  return -1;
 }
 
 /**
@@ -300,7 +301,7 @@ export function findLastIndex<T>(array: T[], predicate: (item: T) => boolean): n
  * @returns True if all elements are present
  */
 export function includesAll<T>(array: T[], elements: T[]): boolean {
-  return elements.every((el) => array.includes(el))
+  return elements.every((el) => array.includes(el));
 }
 
 /**
@@ -310,7 +311,7 @@ export function includesAll<T>(array: T[], elements: T[]): boolean {
  * @returns True if any element is present
  */
 export function includesAny<T>(array: T[], elements: T[]): boolean {
-  return elements.some((el) => array.includes(el))
+  return elements.some((el) => array.includes(el));
 }
 
 /**
@@ -321,11 +322,11 @@ export function includesAny<T>(array: T[], elements: T[]): boolean {
  * @returns Array of numbers
  */
 export function range(start: number, end: number, step: number = 1): number[] {
-  const result: number[] = []
+  const result: number[] = [];
   for (let i = start; i < end; i += step) {
-    result.push(i)
+    result.push(i);
   }
-  return result
+  return result;
 }
 
 /**
@@ -336,10 +337,10 @@ export function range(start: number, end: number, step: number = 1): number[] {
  * @returns New array with moved element
  */
 export function move<T>(array: T[], fromIndex: number, toIndex: number): T[] {
-  const result = [...array]
-  const [removed] = result.splice(fromIndex, 1)
-  result.splice(toIndex, 0, removed)
-  return result
+  const result = [...array];
+  const [removed] = result.splice(fromIndex, 1);
+  result.splice(toIndex, 0, removed);
+  return result;
 }
 
 /**
@@ -349,9 +350,9 @@ export function move<T>(array: T[], fromIndex: number, toIndex: number): T[] {
  * @returns Rotated array
  */
 export function rotate<T>(array: T[], n: number): T[] {
-  const len = array.length
-  const offset = ((n % len) + len) % len
-  return [...array.slice(offset), ...array.slice(0, offset)]
+  const len = array.length;
+  const offset = ((n % len) + len) % len;
+  return [...array.slice(offset), ...array.slice(0, offset)];
 }
 
 /**
@@ -360,7 +361,7 @@ export function rotate<T>(array: T[], n: number): T[] {
  * @returns Sum
  */
 export function sum(array: number[]): number {
-  return array.reduce((acc, val) => acc + val, 0)
+  return array.reduce((acc, val) => acc + val, 0);
 }
 
 /**
@@ -369,7 +370,7 @@ export function sum(array: number[]): number {
  * @returns Average
  */
 export function average(array: number[]): number {
-  return array.length === 0 ? 0 : sum(array) / array.length
+  return array.length === 0 ? 0 : sum(array) / array.length;
 }
 
 /**
@@ -378,7 +379,7 @@ export function average(array: number[]): number {
  * @returns Minimum value
  */
 export function min(array: number[]): number {
-  return Math.min(...array)
+  return Math.min(...array);
 }
 
 /**
@@ -387,7 +388,7 @@ export function min(array: number[]): number {
  * @returns Maximum value
  */
 export function max(array: number[]): number {
-  return Math.max(...array)
+  return Math.max(...array);
 }
 
 /**
@@ -396,8 +397,8 @@ export function max(array: number[]): number {
  * @returns Median value
  */
 export function median(array: number[]): number {
-  const sorted = [...array].sort((a, b) => a - b)
-  const mid = Math.floor(sorted.length / 2)
+  const sorted = [...array].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
 
-  return sorted.length % 2 === 0 ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid]
+  return sorted.length % 2 === 0 ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid];
 }
