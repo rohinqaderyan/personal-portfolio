@@ -1,5 +1,6 @@
 /**
  * Application-wide constants
+ * @module constants
  * Centralized configuration values for maintainability
  */
 
@@ -9,7 +10,7 @@ export const ANIMATION_DURATION = {
   NORMAL: 0.3,
   SLOW: 0.5,
   VERY_SLOW: 0.8,
-} as const
+} as const;
 
 /** Animation delays for stagger effects */
 export const ANIMATION_DELAY = {
@@ -17,14 +18,14 @@ export const ANIMATION_DELAY = {
   SHORT: 0.05,
   MEDIUM: 0.1,
   LONG: 0.2,
-} as const
+} as const;
 
 /** Animation easing curves */
 export const ANIMATION_EASE = {
   DEFAULT: [0.6, -0.05, 0.01, 0.99],
   SMOOTH: [0.43, 0.13, 0.23, 0.96],
   BOUNCE: [0.68, -0.55, 0.265, 1.55],
-} as const
+} as const;
 
 /** Breakpoints for responsive design (matching Tailwind) */
 export const BREAKPOINTS = {
@@ -33,7 +34,7 @@ export const BREAKPOINTS = {
   LG: 1024,
   XL: 1280,
   '2XL': 1536,
-} as const
+} as const;
 
 /** Z-index layers for consistent stacking */
 export const Z_INDEX = {
@@ -44,7 +45,7 @@ export const Z_INDEX = {
   MODAL: 1050,
   POPOVER: 1060,
   TOOLTIP: 1070,
-} as const
+} as const;
 
 /** Page metadata defaults */
 export const DEFAULT_METADATA = {
@@ -65,14 +66,14 @@ export const DEFAULT_METADATA = {
   ],
   OG_IMAGE: '/og-image.png',
   OG_TYPE: 'website',
-} as const
+} as const;
 
 /** Social media links */
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/rohinqaderyan',
   LINKEDIN: 'https://www.linkedin.com/in/rohinqaderyan',
   EMAIL: 'rohin.aryain@gmail.com',
-} as const
+} as const;
 
 /** Form validation constants */
 export const FORM_VALIDATION = {
@@ -81,14 +82,14 @@ export const FORM_VALIDATION = {
   EMAIL_PATTERN: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
   MESSAGE_MIN_LENGTH: 10,
   MESSAGE_MAX_LENGTH: 1000,
-} as const
+} as const;
 
 /** Performance budgets (in KB) */
 export const PERFORMANCE_BUDGET = {
   FIRST_LOAD_JS: 150,
   ROUTE_BUNDLE: 50,
   SHARED_BUNDLE: 100,
-} as const
+} as const;
 
 /** HTTP status codes */
 export const HTTP_STATUS = {
@@ -102,13 +103,13 @@ export const HTTP_STATUS = {
   TOO_MANY_REQUESTS: 429,
   INTERNAL_SERVER_ERROR: 500,
   SERVICE_UNAVAILABLE: 503,
-} as const
+} as const;
 
 /** API rate limiting */
 export const RATE_LIMIT = {
   MAX_REQUESTS: 10,
   WINDOW_MS: 60 * 1000, // 1 minute
-} as const
+} as const;
 
 /** Cache durations (in seconds) */
 export const CACHE_DURATION = {
@@ -116,7 +117,7 @@ export const CACHE_DURATION = {
   PAGE: 3600, // 1 hour
   API: 300, // 5 minutes
   REVALIDATE: 60, // 1 minute
-} as const
+} as const;
 
 /** Feature flags */
 export const FEATURES = {
@@ -124,25 +125,25 @@ export const FEATURES = {
   ENABLE_BLOG: false, // TODO: Enable when blog is implemented
   ENABLE_DARK_MODE: true,
   ENABLE_ANIMATIONS: true,
-} as const
+} as const;
 
 /** External API URLs */
 export const API_URLS = {
   GITHUB_API: 'https://api.github.com',
   FLASK_BACKEND: process.env.FLASK_API_URL || 'http://localhost:5000',
-} as const
+} as const;
 
 /** File size limits (in bytes) */
 export const FILE_SIZE_LIMITS = {
   IMAGE: 5 * 1024 * 1024, // 5MB
   DOCUMENT: 10 * 1024 * 1024, // 10MB
-} as const
+} as const;
 
 /** Pagination defaults */
 export const PAGINATION = {
   DEFAULT_PAGE_SIZE: 9,
   MAX_PAGE_SIZE: 50,
-} as const
+} as const;
 
 /** Error messages */
 export const ERROR_MESSAGES = {
@@ -151,34 +152,34 @@ export const ERROR_MESSAGES = {
   NOT_FOUND: 'The requested resource was not found.',
   VALIDATION: 'Please check your input and try again.',
   RATE_LIMIT: 'Too many requests. Please try again later.',
-} as const
+} as const;
 
 /** Success messages */
 export const SUCCESS_MESSAGES = {
   FORM_SUBMITTED: 'Thank you! Your message has been sent successfully.',
   COPIED_TO_CLIPBOARD: 'Copied to clipboard!',
   SETTINGS_SAVED: 'Settings saved successfully.',
-} as const
+} as const;
 
 /** Local storage keys */
 export const STORAGE_KEYS = {
   THEME: 'theme',
   FILTERS: 'project-filters',
   PREFERENCES: 'user-preferences',
-} as const
+} as const;
 
 /** Cookie names */
 export const COOKIE_NAMES = {
   CONSENT: 'cookie-consent',
   SESSION: 'session',
-} as const
+} as const;
 
 /** Date formats */
 export const DATE_FORMATS = {
   FULL: 'MMMM d, yyyy',
   SHORT: 'MMM yyyy',
   ISO: 'yyyy-MM-dd',
-} as const
+} as const;
 
 /** Regex patterns */
 export const PATTERNS = {
@@ -186,7 +187,7 @@ export const PATTERNS = {
   USERNAME: /^[a-zA-Z0-9_-]{3,20}$/,
   PHONE: /^\+?[\d\s-()]+$/,
   URL: /^https?:\/\/.+/,
-} as const
+} as const;
 
 /** Content limits */
 export const CONTENT_LIMITS = {
@@ -195,4 +196,4 @@ export const CONTENT_LIMITS = {
   BIO: 500,
   SKILL_ITEMS: 50,
   EXPERIENCE_ITEMS: 20,
-} as const
+} as const;
