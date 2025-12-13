@@ -1,18 +1,22 @@
-'use client'
+'use client';
 
-import { Linkedin, Github, Twitter, Mail } from 'lucide-react'
-import { m as motion } from 'framer-motion'
-import { cn } from '@/lib/utils'
+/**
+ * SocialIcons Component
+ * @description Social media links with icons
+ */
+import { Linkedin, Github, Twitter, Mail } from 'lucide-react';
+import { m as motion } from 'framer-motion';
+import { cn } from '@/lib/utils';
 
 interface SocialIconsProps {
   social: {
-    linkedin: string
-    github: string
-    twitter?: string
-    email: string
-  }
-  size?: 'sm' | 'md' | 'lg'
-  showLabels?: boolean
+    linkedin: string;
+    github: string;
+    twitter?: string;
+    email: string;
+  };
+  size?: 'sm' | 'md' | 'lg';
+  showLabels?: boolean;
 }
 
 export function SocialIcons({ social, size = 'md' }: SocialIconsProps) {
@@ -20,13 +24,13 @@ export function SocialIcons({ social, size = 'md' }: SocialIconsProps) {
     sm: 'h-4 w-4',
     md: 'h-5 w-5',
     lg: 'h-6 w-6',
-  }
+  };
 
   const buttonSizes = {
     sm: 'p-1.5',
     md: 'p-2',
     lg: 'p-2.5',
-  }
+  };
 
   const socials = [
     {
@@ -57,7 +61,7 @@ export function SocialIcons({ social, size = 'md' }: SocialIconsProps) {
       icon: Mail,
       color: 'hover:text-primary',
     },
-  ]
+  ];
 
   return (
     <div className="flex items-center gap-3">
@@ -84,5 +88,5 @@ export function SocialIcons({ social, size = 'md' }: SocialIconsProps) {
         </motion.a>
       ))}
     </div>
-  )
+  );
 }
