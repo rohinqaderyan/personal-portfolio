@@ -1,10 +1,14 @@
-'use client'
+'use client';
 
-import { ProjectCard } from './ProjectCard'
-import type { Project } from '@/lib/content'
+/**
+ * ProjectGrid Component
+ * @description Grid layout for displaying projects
+ */
+import { ProjectCard } from './ProjectCard';
+import type { Project } from '@/lib/content';
 
 interface ProjectGridProps {
-  projects: Project[]
+  projects: Project[];
 }
 
 export function ProjectGrid({ projects }: ProjectGridProps) {
@@ -13,7 +17,7 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
       <div className="py-12 text-center">
         <p className="text-lg text-muted-foreground">No projects found.</p>
       </div>
-    )
+    );
   }
 
   return (
@@ -22,5 +26,5 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
         <ProjectCard key={project.id} project={project} index={index} />
       ))}
     </div>
-  )
+  );
 }
