@@ -1,14 +1,18 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
-import { ExternalLink, Github } from 'lucide-react'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './Card'
-import type { Project } from '@/lib/content'
-import { memo } from 'react'
+/**
+ * ProjectCard Component
+ * @description Card for displaying project details
+ */
+import Link from 'next/link';
+import { ExternalLink, Github } from 'lucide-react';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './Card';
+import type { Project } from '@/lib/content';
+import { memo } from 'react';
 
 interface ProjectCardProps {
-  project: Project
-  index?: number
+  project: Project;
+  index?: number;
 }
 
 export const ProjectCard = memo(function ProjectCard({ project }: ProjectCardProps) {
@@ -78,5 +82,5 @@ export const ProjectCard = memo(function ProjectCard({ project }: ProjectCardPro
         </Card>
       </div>
     </Link>
-  )
-})
+  );
+});
