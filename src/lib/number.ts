@@ -1,5 +1,6 @@
 /**
  * Number utility functions
+ * @module number
  * Helper functions for number formatting and manipulation
  */
 
@@ -9,7 +10,7 @@
  * @returns Formatted string (e.g., "1,234,567")
  */
 export function formatNumber(num: number): string {
-  return num.toLocaleString('en-US')
+  return num.toLocaleString('en-US');
 }
 
 /**
@@ -27,7 +28,7 @@ export function formatCurrency(
   return new Intl.NumberFormat(locale, {
     style: 'currency',
     currency,
-  }).format(amount)
+  }).format(amount);
 }
 
 /**
@@ -37,7 +38,7 @@ export function formatCurrency(
  * @returns Formatted percentage string
  */
 export function formatPercentage(value: number, decimals: number = 0): string {
-  return `${(value * 100).toFixed(decimals)}%`
+  return `${(value * 100).toFixed(decimals)}%`;
 }
 
 /**
@@ -47,16 +48,16 @@ export function formatPercentage(value: number, decimals: number = 0): string {
  * @returns Formatted string (e.g., "1.2K", "3.5M")
  */
 export function formatCompact(num: number, decimals: number = 1): string {
-  const suffixes = ['', 'K', 'M', 'B', 'T']
-  const tier = Math.floor(Math.log10(Math.abs(num)) / 3)
-  
-  if (tier === 0) return num.toString()
-  
-  const suffix = suffixes[tier]
-  const scale = Math.pow(10, tier * 3)
-  const scaled = num / scale
-  
-  return scaled.toFixed(decimals) + suffix
+  const suffixes = ['', 'K', 'M', 'B', 'T'];
+  const tier = Math.floor(Math.log10(Math.abs(num)) / 3);
+
+  if (tier === 0) return num.toString();
+
+  const suffix = suffixes[tier];
+  const scale = Math.pow(10, tier * 3);
+  const scaled = num / scale;
+
+  return scaled.toFixed(decimals) + suffix;
 }
 
 /**
@@ -66,13 +67,13 @@ export function formatCompact(num: number, decimals: number = 1): string {
  * @returns Formatted string (e.g., "1.5 MB")
  */
 export function formatBytes(bytes: number, decimals: number = 2): string {
-  if (bytes === 0) return '0 Bytes'
-  
-  const k = 1024
-  const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB']
-  const i = Math.floor(Math.log(bytes) / Math.log(k))
-  
-  return `${parseFloat((bytes / Math.pow(k, i)).toFixed(decimals))} ${sizes[i]}`
+  if (bytes === 0) return '0 Bytes';
+
+  const k = 1024;
+  const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB'];
+  const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+  return `${parseFloat((bytes / Math.pow(k, i)).toFixed(decimals))} ${sizes[i]}`;
 }
 
 /**
@@ -83,7 +84,7 @@ export function formatBytes(bytes: number, decimals: number = 2): string {
  * @returns Clamped value
  */
 export function clamp(value: number, min: number, max: number): number {
-  return Math.min(Math.max(value, min), max)
+  return Math.min(Math.max(value, min), max);
 }
 
 /**
@@ -94,7 +95,7 @@ export function clamp(value: number, min: number, max: number): number {
  * @returns True if in range
  */
 export function inRange(value: number, min: number, max: number): boolean {
-  return value >= min && value <= max
+  return value >= min && value <= max;
 }
 
 /**
@@ -104,8 +105,8 @@ export function inRange(value: number, min: number, max: number): boolean {
  * @returns Rounded value
  */
 export function round(value: number, decimals: number = 0): number {
-  const multiplier = Math.pow(10, decimals)
-  return Math.round(value * multiplier) / multiplier
+  const multiplier = Math.pow(10, decimals);
+  return Math.round(value * multiplier) / multiplier;
 }
 
 /**
@@ -115,7 +116,7 @@ export function round(value: number, decimals: number = 0): number {
  * @returns Random integer
  */
 export function randomInt(min: number, max: number): number {
-  return Math.floor(Math.random() * (max - min + 1)) + min
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 /**
@@ -125,7 +126,7 @@ export function randomInt(min: number, max: number): number {
  * @returns Random float
  */
 export function randomFloat(min: number, max: number): number {
-  return Math.random() * (max - min) + min
+  return Math.random() * (max - min) + min;
 }
 
 /**
@@ -135,7 +136,7 @@ export function randomFloat(min: number, max: number): number {
  * @returns Percentage (0-100)
  */
 export function percentage(value: number, total: number): number {
-  return total === 0 ? 0 : (value / total) * 100
+  return total === 0 ? 0 : (value / total) * 100;
 }
 
 /**
@@ -145,7 +146,7 @@ export function percentage(value: number, total: number): number {
  * @returns Percentage change
  */
 export function percentageChange(oldValue: number, newValue: number): number {
-  return oldValue === 0 ? 0 : ((newValue - oldValue) / oldValue) * 100
+  return oldValue === 0 ? 0 : ((newValue - oldValue) / oldValue) * 100;
 }
 
 /**
@@ -156,7 +157,7 @@ export function percentageChange(oldValue: number, newValue: number): number {
  * @returns Interpolated value
  */
 export function lerp(start: number, end: number, t: number): number {
-  return start + (end - start) * t
+  return start + (end - start) * t;
 }
 
 /**
@@ -175,7 +176,7 @@ export function map(
   outMin: number,
   outMax: number
 ): number {
-  return ((value - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin
+  return ((value - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
 }
 
 /**
@@ -184,7 +185,7 @@ export function map(
  * @returns True if even
  */
 export function isEven(num: number): boolean {
-  return num % 2 === 0
+  return num % 2 === 0;
 }
 
 /**
@@ -193,7 +194,7 @@ export function isEven(num: number): boolean {
  * @returns True if odd
  */
 export function isOdd(num: number): boolean {
-  return num % 2 !== 0
+  return num % 2 !== 0;
 }
 
 /**
@@ -202,15 +203,15 @@ export function isOdd(num: number): boolean {
  * @returns True if prime
  */
 export function isPrime(num: number): boolean {
-  if (num <= 1) return false
-  if (num <= 3) return true
-  if (num % 2 === 0 || num % 3 === 0) return false
-  
+  if (num <= 1) return false;
+  if (num <= 3) return true;
+  if (num % 2 === 0 || num % 3 === 0) return false;
+
   for (let i = 5; i * i <= num; i += 6) {
-    if (num % i === 0 || num % (i + 2) === 0) return false
+    if (num % i === 0 || num % (i + 2) === 0) return false;
   }
-  
-  return true
+
+  return true;
 }
 
 /**
@@ -219,9 +220,9 @@ export function isPrime(num: number): boolean {
  * @returns Factorial
  */
 export function factorial(num: number): number {
-  if (num < 0) return NaN
-  if (num === 0 || num === 1) return 1
-  return num * factorial(num - 1)
+  if (num < 0) return NaN;
+  if (num === 0 || num === 1) return 1;
+  return num * factorial(num - 1);
 }
 
 /**
@@ -231,7 +232,7 @@ export function factorial(num: number): number {
  * @returns GCD
  */
 export function gcd(a: number, b: number): number {
-  return b === 0 ? a : gcd(b, a % b)
+  return b === 0 ? a : gcd(b, a % b);
 }
 
 /**
@@ -241,7 +242,7 @@ export function gcd(a: number, b: number): number {
  * @returns LCM
  */
 export function lcm(a: number, b: number): number {
-  return (a * b) / gcd(a, b)
+  return (a * b) / gcd(a, b);
 }
 
 /**
@@ -250,8 +251,8 @@ export function lcm(a: number, b: number): number {
  * @returns Fibonacci number
  */
 export function fibonacci(n: number): number {
-  if (n <= 1) return n
-  return fibonacci(n - 1) + fibonacci(n - 2)
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 /**
@@ -260,7 +261,7 @@ export function fibonacci(n: number): number {
  * @returns Angle in radians
  */
 export function degreesToRadians(degrees: number): number {
-  return (degrees * Math.PI) / 180
+  return (degrees * Math.PI) / 180;
 }
 
 /**
@@ -269,7 +270,7 @@ export function degreesToRadians(degrees: number): number {
  * @returns Angle in degrees
  */
 export function radiansToDegrees(radians: number): number {
-  return (radians * 180) / Math.PI
+  return (radians * 180) / Math.PI;
 }
 
 /**
@@ -278,7 +279,7 @@ export function radiansToDegrees(radians: number): number {
  * @returns Average
  */
 export function average(numbers: number[]): number {
-  return numbers.length === 0 ? 0 : numbers.reduce((a, b) => a + b, 0) / numbers.length
+  return numbers.length === 0 ? 0 : numbers.reduce((a, b) => a + b, 0) / numbers.length;
 }
 
 /**
@@ -287,9 +288,9 @@ export function average(numbers: number[]): number {
  * @returns Standard deviation
  */
 export function standardDeviation(numbers: number[]): number {
-  const avg = average(numbers)
-  const squareDiffs = numbers.map((num) => Math.pow(num - avg, 2))
-  return Math.sqrt(average(squareDiffs))
+  const avg = average(numbers);
+  const squareDiffs = numbers.map((num) => Math.pow(num - avg, 2));
+  return Math.sqrt(average(squareDiffs));
 }
 
 /**
@@ -299,7 +300,7 @@ export function standardDeviation(numbers: number[]): number {
  * @returns Padded string
  */
 export function padZero(num: number, length: number): string {
-  return String(num).padStart(length, '0')
+  return String(num).padStart(length, '0');
 }
 
 /**
@@ -308,9 +309,9 @@ export function padZero(num: number, length: number): string {
  * @returns Ordinal string
  */
 export function toOrdinal(num: number): string {
-  const suffixes = ['th', 'st', 'nd', 'rd']
-  const v = num % 100
-  return num + (suffixes[(v - 20) % 10] || suffixes[v] || suffixes[0])
+  const suffixes = ['th', 'st', 'nd', 'rd'];
+  const v = num % 100;
+  return num + (suffixes[(v - 20) % 10] || suffixes[v] || suffixes[0]);
 }
 
 /**
@@ -319,18 +320,18 @@ export function toOrdinal(num: number): string {
  * @returns Roman numeral string
  */
 export function toRoman(num: number): string {
-  if (num < 1 || num > 3999) return ''
-  
-  const values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
-  const symbols = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
-  let result = ''
-  
+  if (num < 1 || num > 3999) return '';
+
+  const values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+  const symbols = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
+  let result = '';
+
   for (let i = 0; i < values.length; i++) {
     while (num >= values[i]) {
-      result += symbols[i]
-      num -= values[i]
+      result += symbols[i];
+      num -= values[i];
     }
   }
-  
-  return result
+
+  return result;
 }
