@@ -1,3 +1,7 @@
+/**
+ * Configuration Module
+ * @description Environment and app configuration utilities
+ */
 export function getConfig() {
   return {
     siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
@@ -10,17 +14,17 @@ export function getConfig() {
     utmSource: process.env.NEXT_PUBLIC_UTM_SOURCE || 'portfolio',
     utmMedium: process.env.NEXT_PUBLIC_UTM_MEDIUM || 'website',
     utmCampaign: process.env.NEXT_PUBLIC_UTM_CAMPAIGN || 'project-share',
-  }
+  };
 }
 
 export function getLinkedInShareUrl(url: string, config: ReturnType<typeof getConfig>) {
   const params = new URLSearchParams({
     url: `${url}?utm_source=${config.utmSource}&utm_medium=${config.utmMedium}&utm_campaign=${config.utmCampaign}`,
-  })
+  });
 
-  return `https://www.linkedin.com/sharing/share-offsite/?${params.toString()}`
+  return `https://www.linkedin.com/sharing/share-offsite/?${params.toString()}`;
 }
 
 export function isProduction() {
-  return process.env.NODE_ENV === 'production'
+  return process.env.NODE_ENV === 'production';
 }
