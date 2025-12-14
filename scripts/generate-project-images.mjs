@@ -2,6 +2,7 @@
 
 /**
  * Project Image Generator
+ * @version 1.3.2
  * Generates modern, gradient-based project images
  *
  * Usage: node generate-project-images.js
