@@ -1,19 +1,23 @@
-import { Section } from '@/components/Section'
-import { ContactForm } from '@/components/ContactForm'
-import { SocialIcons } from '@/components/SocialIcons'
-import { getSiteConfig } from '@/lib/content'
-import { generateMetadata as genMeta } from '@/lib/seo'
-import { Mail, MapPin, Linkedin } from 'lucide-react'
-import type { Metadata } from 'next'
+/**
+ * Contact Page
+ * @description Contact form and social links
+ */
+import { Section } from '@/components/Section';
+import { ContactForm } from '@/components/ContactForm';
+import { SocialIcons } from '@/components/SocialIcons';
+import { getSiteConfig } from '@/lib/content';
+import { generateMetadata as genMeta } from '@/lib/seo';
+import { Mail, MapPin, Linkedin } from 'lucide-react';
+import type { Metadata } from 'next';
 
-const config = getSiteConfig()
+const config = getSiteConfig();
 
 export const metadata: Metadata = genMeta(
   'Contact',
   `Get in touch with ${config.name}`,
   config,
   '/contact'
-)
+);
 
 export default function ContactPage() {
   return (
@@ -75,5 +79,5 @@ export default function ContactPage() {
         </div>
       </Section>
     </>
-  )
+  );
 }
