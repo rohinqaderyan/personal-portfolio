@@ -1,3 +1,8 @@
+"""
+Flask Backend API
+Contact form email service for portfolio website
+Version: 1.3.2
+"""
 from flask import Flask, request, jsonify  # type: ignore
 from flask_cors import CORS  # type: ignore # type: ignore
 import os
