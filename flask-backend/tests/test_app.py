@@ -1,3 +1,7 @@
+"""
+Flask Backend Tests
+Unit tests for contact form API endpoints
+"""
 import pytest  # type: ignore
 from app import app  # type: ignore
 
