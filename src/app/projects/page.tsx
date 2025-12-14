@@ -1,10 +1,14 @@
-import { Section } from '@/components/Section'
-import { ProjectsClient } from '@/components/ProjectsClient'
-import { getAllProjects, getAllProjectTags } from '@/lib/content'
+/**
+ * Projects Page
+ * @description Portfolio projects gallery with filters
+ */
+import { Section } from '@/components/Section';
+import { ProjectsClient } from '@/components/ProjectsClient';
+import { getAllProjects, getAllProjectTags } from '@/lib/content';
 
 export default function ProjectsPage() {
-  const allProjects = getAllProjects()
-  const allTags = getAllProjectTags()
+  const allProjects = getAllProjects();
+  const allTags = getAllProjectTags();
 
   return (
     <Section
@@ -14,5 +18,5 @@ export default function ProjectsPage() {
     >
       <ProjectsClient allProjects={allProjects} allTags={allTags} />
     </Section>
-  )
+  );
 }
