@@ -1,5 +1,6 @@
 /**
  * Next.js Middleware
+ * @version 1.3.2
  * Handles security headers, caching, and request processing
  */
 import { NextResponse } from 'next/server';
