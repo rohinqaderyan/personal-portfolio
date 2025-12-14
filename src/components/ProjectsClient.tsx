@@ -1,44 +1,50 @@
-'use client'
+'use client';
 
-import { useState, useMemo } from 'react'
-import { ProjectGrid } from './ProjectGrid'
-import { ProjectFilters } from './ProjectFilters'
-import type { Project } from '@/lib/content'
+/**
+ * ProjectsClient Component
+ * @description Client-side projects page with filtering
+ */
+import { useState, useMemo } from 'react';
+import { ProjectGrid } from './ProjectGrid';
+import { ProjectFilters } from './ProjectFilters';
+import type { Project } from '@/lib/content';
 
 interface ProjectsClientProps {
-  allProjects: Project[]
-  allTags: string[]
+  allProjects: Project[];
+  allTags: string[];
 }
 
 export function ProjectsClient({ allProjects, allTags }: ProjectsClientProps) {
-  const [selectedTags, setSelectedTags] = useState<string[]>([])
-  const [searchQuery, setSearchQuery] = useState('')
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const filteredProjects = useMemo(() => {
     return allProjects.filter((project) => {
       // Filter by tags
       const matchesTags =
-        selectedTags.length === 0 || selectedTags.some((tag) => project.tags.includes(tag))
+        selectedTags.length === 0 || selectedTags.some((tag) => project.tags.includes(tag));
 
       // Filter by search query
       const matchesSearch =
         searchQuery === '' ||
         project.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         project.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        project.tags.some((tag) => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+        project.tags.some((tag) => tag.toLowerCase().includes(searchQuery.toLowerCase()));
 
-      return matchesTags && matchesSearch
-    })
-  }, [allProjects, selectedTags, searchQuery])
+      return matchesTags && matchesSearch;
+    });
+  }, [allProjects, selectedTags, searchQuery]);
 
   const handleTagToggle = (tag: string) => {
-    setSelectedTags((prev) => (prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]))
-  }
+    setSelectedTags((prev) =>
+      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
+    );
+  };
 
   const handleClearAll = () => {
-    setSelectedTags([])
-    setSearchQuery('')
-  }
+    setSelectedTags([]);
+    setSearchQuery('');
+  };
 
   return (
     <>
@@ -59,5 +65,5 @@ export function ProjectsClient({ allProjects, allTags }: ProjectsClientProps) {
 
       <ProjectGrid projects={filteredProjects} />
     </>
-  )
+  );
 }
