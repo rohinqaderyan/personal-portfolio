@@ -1,18 +1,22 @@
-import { Section } from '@/components/Section'
-import { getSiteConfig } from '@/lib/content'
-import { generateMetadata as genMeta } from '@/lib/seo'
-import { Download, MapPin } from 'lucide-react'
-import Link from 'next/link'
-import type { Metadata } from 'next'
+/**
+ * About Page
+ * @description Personal bio and background information
+ */
+import { Section } from '@/components/Section';
+import { getSiteConfig } from '@/lib/content';
+import { generateMetadata as genMeta } from '@/lib/seo';
+import { Download, MapPin } from 'lucide-react';
+import Link from 'next/link';
+import type { Metadata } from 'next';
 
-const config = getSiteConfig()
+const config = getSiteConfig();
 
 export const metadata: Metadata = genMeta(
   'About',
   `Learn more about ${config.name} - ${config.about.headline}`,
   config,
   '/about'
-)
+);
 
 export default function AboutPage() {
   return (
@@ -118,5 +122,5 @@ export default function AboutPage() {
           </Section>
         )}
     </>
-  )
+  );
 }
