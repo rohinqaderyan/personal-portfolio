@@ -1,21 +1,25 @@
-import { Section } from '@/components/Section'
-import { getAllExperience, getSiteConfig } from '@/lib/content'
-import { generateMetadata as genMeta } from '@/lib/seo'
-import { formatDateRange, calculateDuration } from '@/lib/utils'
-import { MapPin, Calendar } from 'lucide-react'
-import type { Metadata } from 'next'
+/**
+ * Experience Page
+ * @description Work history and career timeline
+ */
+import { Section } from '@/components/Section';
+import { getAllExperience, getSiteConfig } from '@/lib/content';
+import { generateMetadata as genMeta } from '@/lib/seo';
+import { formatDateRange, calculateDuration } from '@/lib/utils';
+import { MapPin, Calendar } from 'lucide-react';
+import type { Metadata } from 'next';
 
-const config = getSiteConfig()
+const config = getSiteConfig();
 
 export const metadata: Metadata = genMeta(
   'Experience',
   `Work experience and career history of ${config.name}`,
   config,
   '/experience'
-)
+);
 
 export default function ExperiencePage() {
-  const experiences = getAllExperience()
+  const experiences = getAllExperience();
 
   return (
     <Section
@@ -118,5 +122,5 @@ export default function ExperiencePage() {
         </div>
       </div>
     </Section>
-  )
+  );
 }
