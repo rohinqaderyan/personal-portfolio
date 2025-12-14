@@ -1,26 +1,30 @@
-import { Section } from '@/components/Section'
-import { getAllSkills, getSiteConfig } from '@/lib/content'
-import { generateMetadata as genMeta } from '@/lib/seo'
-import type { Metadata } from 'next'
+/**
+ * Skills Page
+ * @description Technical skills and expertise showcase
+ */
+import { Section } from '@/components/Section';
+import { getAllSkills, getSiteConfig } from '@/lib/content';
+import { generateMetadata as genMeta } from '@/lib/seo';
+import type { Metadata } from 'next';
 
-const config = getSiteConfig()
+const config = getSiteConfig();
 
 export const metadata: Metadata = genMeta(
   'Skills',
   `Technical skills and expertise of ${config.name}`,
   config,
   '/skills'
-)
+);
 
 export default function SkillsPage() {
-  const { categories } = getAllSkills()
+  const { categories } = getAllSkills();
 
   const levelColors = {
     Beginner: 'bg-gray-200 dark:bg-gray-700',
     Intermediate: 'bg-blue-200 dark:bg-blue-800',
     Advanced: 'bg-green-200 dark:bg-green-800',
     Expert: 'bg-purple-200 dark:bg-purple-800',
-  }
+  };
 
   return (
     <Section
@@ -62,5 +66,5 @@ export default function SkillsPage() {
         ))}
       </div>
     </Section>
-  )
+  );
 }
