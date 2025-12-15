@@ -1,5 +1,10 @@
-import { Metadata } from 'next'
-import { SiteConfig } from './content'
+/**
+ * SEO Utilities
+ * @module seo
+ * @description Metadata and structured data generation
+ */
+import { Metadata } from 'next';
+import { SiteConfig } from './content';
 
 export function generateMetadata(
   title: string,
@@ -7,9 +12,9 @@ export function generateMetadata(
   config: SiteConfig,
   path: string = ''
 ): Metadata {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
-  const url = `${siteUrl}${path}`
-  const ogImage = `${siteUrl}${config.seo.ogImage}`
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const url = `${siteUrl}${path}`;
+  const ogImage = `${siteUrl}${config.seo.ogImage}`;
 
   return {
     title: {
@@ -60,7 +65,7 @@ export function generateMetadata(
       apple: '/site-icon.png',
     },
     manifest: '/manifest.json',
-  }
+  };
 }
 
 export function generateProjectMetadata(
@@ -69,9 +74,9 @@ export function generateProjectMetadata(
   config: SiteConfig,
   projectId: string
 ): Metadata {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
-  const url = `${siteUrl}/projects/${projectId}`
-  const ogImage = `${siteUrl}${config.seo.ogImage}`
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const url = `${siteUrl}/projects/${projectId}`;
+  const ogImage = `${siteUrl}${config.seo.ogImage}`;
 
   return {
     title: projectTitle,
@@ -99,11 +104,11 @@ export function generateProjectMetadata(
       images: [ogImage],
       creator: config.seo.twitterHandle,
     },
-  }
+  };
 }
 
 export function generateStructuredData(config: SiteConfig) {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
   return {
     '@context': 'https://schema.org',
@@ -119,5 +124,5 @@ export function generateStructuredData(config: SiteConfig) {
       '@type': 'PostalAddress',
       addressLocality: config.location,
     },
-  }
+  };
 }
