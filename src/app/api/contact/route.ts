@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server'
+/**\n * Contact API Route\n * @description Handles contact form submissions\n */\nimport { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
 import {
   handleApiError,
