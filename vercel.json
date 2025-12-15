@@ -1,6 +1,6 @@
 {
   // Vercel Deployment Configuration
-  // Optimized for Next.js with security headers
+  // Version: 1.3.2 | Optimized for Next.js with security headers
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
