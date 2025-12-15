@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server'
+/**\n * API Error Handler\n * @module errorHandler\n * @description Centralized error handling for API routes\n */\nimport { NextResponse } from 'next/server'
 import { ZodError } from 'zod'
 
 /**
