@@ -1,4 +1,5 @@
 # Dockerfile
+# Version: 1.3.2
 # Multi-stage build for optimized production image
 # Target size: ~100MB | Node 20 LTS | Alpine Linux
 
