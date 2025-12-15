@@ -1,1 +1,1 @@
-web: gunicorn app:app
+# Heroku deployment configuration\nweb: gunicorn app:app
