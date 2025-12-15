@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/nicholasscarpone/lighthouse-ci/main/packages/cli/src/lighthouserc.schema.json",
   "ci": {
     "collect": {
       "numberOfRuns": 3,
