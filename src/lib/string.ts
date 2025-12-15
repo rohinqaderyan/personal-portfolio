@@ -1,5 +1,6 @@
 /**
  * String utility functions
+ * @module string
  * Helper functions for string manipulation and formatting
  */
 
@@ -9,7 +10,7 @@
  * @returns Capitalized string
  */
 export function capitalize(str: string): string {
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
 
 /**
@@ -22,7 +23,7 @@ export function toTitleCase(str: string): string {
     .toLowerCase()
     .split(' ')
     .map((word) => capitalize(word))
-    .join(' ')
+    .join(' ');
 }
 
 /**
@@ -34,7 +35,7 @@ export function toKebabCase(str: string): string {
   return str
     .replace(/([a-z])([A-Z])/g, '$1-$2')
     .replace(/[\s_]+/g, '-')
-    .toLowerCase()
+    .toLowerCase();
 }
 
 /**
@@ -43,9 +44,7 @@ export function toKebabCase(str: string): string {
  * @returns Camel-cased string
  */
 export function toCamelCase(str: string): string {
-  return str
-    .toLowerCase()
-    .replace(/[^a-zA-Z0-9]+(.)/g, (_, chr) => chr.toUpperCase())
+  return str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (_, chr) => chr.toUpperCase());
 }
 
 /**
@@ -57,7 +56,7 @@ export function toSnakeCase(str: string): string {
   return str
     .replace(/([a-z])([A-Z])/g, '$1_$2')
     .replace(/[\s-]+/g, '_')
-    .toLowerCase()
+    .toLowerCase();
 }
 
 /**
@@ -68,8 +67,8 @@ export function toSnakeCase(str: string): string {
  * @returns Truncated string
  */
 export function truncate(str: string, maxLength: number, suffix: string = '...'): string {
-  if (str.length <= maxLength) return str
-  return str.slice(0, maxLength - suffix.length) + suffix
+  if (str.length <= maxLength) return str;
+  return str.slice(0, maxLength - suffix.length) + suffix;
 }
 
 /**
@@ -80,12 +79,12 @@ export function truncate(str: string, maxLength: number, suffix: string = '...')
  * @returns Truncated string at word boundary
  */
 export function truncateWords(str: string, maxLength: number, suffix: string = '...'): string {
-  if (str.length <= maxLength) return str
+  if (str.length <= maxLength) return str;
 
-  const truncated = str.slice(0, maxLength - suffix.length)
-  const lastSpace = truncated.lastIndexOf(' ')
+  const truncated = str.slice(0, maxLength - suffix.length);
+  const lastSpace = truncated.lastIndexOf(' ');
 
-  return (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated) + suffix
+  return (lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated) + suffix;
 }
 
 /**
@@ -94,7 +93,7 @@ export function truncateWords(str: string, maxLength: number, suffix: string = '
  * @returns Plain text string
  */
 export function stripHtml(str: string): string {
-  return str.replace(/<[^>]*>/g, '')
+  return str.replace(/<[^>]*>/g, '');
 }
 
 /**
@@ -109,8 +108,8 @@ export function escapeHtml(str: string): string {
     '>': '&gt;',
     '"': '&quot;',
     "'": '&#039;',
-  }
-  return str.replace(/[&<>"']/g, (char) => map[char])
+  };
+  return str.replace(/[&<>"']/g, (char) => map[char]);
 }
 
 /**
@@ -124,7 +123,7 @@ export function slugify(str: string): string {
     .trim()
     .replace(/[^\w\s-]/g, '')
     .replace(/[\s_-]+/g, '-')
-    .replace(/^-+|-+$/g, '')
+    .replace(/^-+|-+$/g, '');
 }
 
 /**
@@ -139,7 +138,7 @@ export function getInitials(name: string, maxInitials: number = 2): string {
     .filter(Boolean)
     .slice(0, maxInitials)
     .map((word) => word[0].toUpperCase())
-    .join('')
+    .join('');
 }
 
 /**
@@ -150,8 +149,8 @@ export function getInitials(name: string, maxInitials: number = 2): string {
  * @returns Pluralized word
  */
 export function pluralize(word: string, count: number, plural?: string): string {
-  if (count === 1) return word
-  return plural || `${word}s`
+  if (count === 1) return word;
+  return plural || `${word}s`;
 }
 
 /**
@@ -162,7 +161,7 @@ export function pluralize(word: string, count: number, plural?: string): string 
  * @returns Formatted string (e.g., "5 items")
  */
 export function formatCount(count: number, singular: string, plural?: string): string {
-  return `${count} ${pluralize(singular, count, plural)}`
+  return `${count} ${pluralize(singular, count, plural)}`;
 }
 
 /**
@@ -172,7 +171,7 @@ export function formatCount(count: number, singular: string, plural?: string): s
  * @returns True if found
  */
 export function includesIgnoreCase(str: string, searchStr: string): boolean {
-  return str.toLowerCase().includes(searchStr.toLowerCase())
+  return str.toLowerCase().includes(searchStr.toLowerCase());
 }
 
 /**
@@ -187,10 +186,10 @@ export function highlightText(
   searchTerm: string,
   className: string = 'highlight'
 ): string {
-  if (!searchTerm) return text
+  if (!searchTerm) return text;
 
-  const regex = new RegExp(`(${escapeRegExp(searchTerm)})`, 'gi')
-  return text.replace(regex, `<span class="${className}">$1</span>`)
+  const regex = new RegExp(`(${escapeRegExp(searchTerm)})`, 'gi');
+  return text.replace(regex, `<span class="${className}">$1</span>`);
 }
 
 /**
@@ -199,7 +198,7 @@ export function highlightText(
  * @returns Escaped string for use in RegExp
  */
 export function escapeRegExp(str: string): string {
-  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 /**
@@ -216,10 +215,10 @@ export function pad(
   char: string = ' ',
   position: 'start' | 'end' = 'start'
 ): string {
-  const padLength = Math.max(0, length - str.length)
-  const padding = char.repeat(padLength)
+  const padLength = Math.max(0, length - str.length);
+  const padding = char.repeat(padLength);
 
-  return position === 'start' ? padding + str : str + padding
+  return position === 'start' ? padding + str : str + padding;
 }
 
 /**
@@ -228,7 +227,7 @@ export function pad(
  * @returns Reversed string
  */
 export function reverse(str: string): string {
-  return str.split('').reverse().join('')
+  return str.split('').reverse().join('');
 }
 
 /**
@@ -243,10 +242,10 @@ export function countOccurrences(
   searchStr: string,
   caseSensitive: boolean = true
 ): number {
-  const text = caseSensitive ? str : str.toLowerCase()
-  const search = caseSensitive ? searchStr : searchStr.toLowerCase()
+  const text = caseSensitive ? str : str.toLowerCase();
+  const search = caseSensitive ? searchStr : searchStr.toLowerCase();
 
-  return (text.match(new RegExp(escapeRegExp(search), 'g')) || []).length
+  return (text.match(new RegExp(escapeRegExp(search), 'g')) || []).length;
 }
 
 /**
@@ -255,8 +254,8 @@ export function countOccurrences(
  * @returns Array of numbers
  */
 export function extractNumbers(str: string): number[] {
-  const matches = str.match(/-?\d+\.?\d*/g)
-  return matches ? matches.map(Number) : []
+  const matches = str.match(/-?\d+\.?\d*/g);
+  return matches ? matches.map(Number) : [];
 }
 
 /**
@@ -266,8 +265,8 @@ export function extractNumbers(str: string): number[] {
  * @returns Reading time in minutes
  */
 export function calculateReadingTime(text: string, wordsPerMinute: number = 200): number {
-  const wordCount = text.trim().split(/\s+/).length
-  return Math.ceil(wordCount / wordsPerMinute)
+  const wordCount = text.trim().split(/\s+/).length;
+  return Math.ceil(wordCount / wordsPerMinute);
 }
 
 /**
@@ -277,8 +276,8 @@ export function calculateReadingTime(text: string, wordsPerMinute: number = 200)
  * @returns Formatted reading time (e.g., "5 min read")
  */
 export function formatReadingTime(text: string, wordsPerMinute: number = 200): string {
-  const minutes = calculateReadingTime(text, wordsPerMinute)
-  return `${minutes} min read`
+  const minutes = calculateReadingTime(text, wordsPerMinute);
+  return `${minutes} min read`;
 }
 
 /**
@@ -287,8 +286,8 @@ export function formatReadingTime(text: string, wordsPerMinute: number = 200): s
  * @returns True if valid email format
  */
 export function isValidEmail(email: string): boolean {
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-  return emailRegex.test(email)
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
 }
 
 /**
@@ -299,13 +298,13 @@ export function isValidEmail(email: string): boolean {
  * @returns Masked string
  */
 export function maskString(str: string, visibleChars: number = 4, maskChar: string = '*'): string {
-  if (str.length <= visibleChars * 2) return str
+  if (str.length <= visibleChars * 2) return str;
 
-  const start = str.slice(0, visibleChars)
-  const end = str.slice(-visibleChars)
-  const maskLength = str.length - visibleChars * 2
+  const start = str.slice(0, visibleChars);
+  const end = str.slice(-visibleChars);
+  const maskLength = str.length - visibleChars * 2;
 
-  return `${start}${maskChar.repeat(maskLength)}${end}`
+  return `${start}${maskChar.repeat(maskLength)}${end}`;
 }
 
 /**
@@ -318,9 +317,9 @@ export function randomString(
   length: number,
   charset: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
 ): string {
-  let result = ''
+  let result = '';
   for (let i = 0; i < length; i++) {
-    result += charset.charAt(Math.floor(Math.random() * charset.length))
+    result += charset.charAt(Math.floor(Math.random() * charset.length));
   }
-  return result
+  return result;
 }
