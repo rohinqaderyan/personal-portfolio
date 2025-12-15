@@ -1,4 +1,5 @@
 # Development Environment Setup Script for Windows PowerShell
+# Version: 1.3.2
 # This script sets up the development environment for the portfolio project
 
 Write-Host "`n🚀 Portfolio Development Environment Setup" -ForegroundColor Cyan
