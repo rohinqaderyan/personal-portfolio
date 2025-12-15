@@ -1,5 +1,6 @@
 /**
  * Object utility functions
+ * @module object
  * Helper functions for object manipulation and processing
  */
 
@@ -9,19 +10,19 @@
  * @returns Deep cloned object
  */
 export function deepClone<T>(obj: T): T {
-  if (obj === null || typeof obj !== 'object') return obj
-  if (obj instanceof Date) return new Date(obj.getTime()) as T
-  if (obj instanceof Array) return obj.map((item) => deepClone(item)) as T
+  if (obj === null || typeof obj !== 'object') return obj;
+  if (obj instanceof Date) return new Date(obj.getTime()) as T;
+  if (obj instanceof Array) return obj.map((item) => deepClone(item)) as T;
   if (obj instanceof Object) {
-    const clonedObj = {} as T
+    const clonedObj = {} as T;
     for (const key in obj) {
       if (Object.hasOwn(obj, key)) {
-        clonedObj[key] = deepClone(obj[key])
+        clonedObj[key] = deepClone(obj[key]);
       }
     }
-    return clonedObj
+    return clonedObj;
   }
-  return obj
+  return obj;
 }
 
 /**
@@ -31,22 +32,22 @@ export function deepClone<T>(obj: T): T {
  * @returns Merged object
  */
 export function deepMerge<T extends object>(target: T, source: Partial<T>): T {
-  const output = { ...target }
-  
+  const output = { ...target };
+
   for (const key in source) {
     if (Object.hasOwn(source, key)) {
-      const targetValue = output[key]
-      const sourceValue = source[key]
-      
+      const targetValue = output[key];
+      const sourceValue = source[key];
+
       if (isObject(targetValue) && isObject(sourceValue)) {
-        output[key] = deepMerge(targetValue as any, sourceValue as any)
+        output[key] = deepMerge(targetValue as any, sourceValue as any);
       } else {
-        output[key] = sourceValue as T[Extract<keyof T, string>]
+        output[key] = sourceValue as T[Extract<keyof T, string>];
       }
     }
   }
-  
-  return output
+
+  return output;
 }
 
 /**
@@ -55,7 +56,7 @@ export function deepMerge<T extends object>(target: T, source: Partial<T>): T {
  * @returns True if plain object
  */
 export function isObject(value: unknown): value is Record<string, unknown> {
-  return value !== null && typeof value === 'object' && !Array.isArray(value)
+  return value !== null && typeof value === 'object' && !Array.isArray(value);
 }
 
 /**
@@ -66,17 +67,17 @@ export function isObject(value: unknown): value is Record<string, unknown> {
  * @returns Property value or default
  */
 export function get<T>(obj: unknown, path: string, defaultValue?: T): T | undefined {
-  const keys = path.split('.')
-  let result: unknown = obj
-  
+  const keys = path.split('.');
+  let result: unknown = obj;
+
   for (const key of keys) {
     if (result === null || result === undefined) {
-      return defaultValue
+      return defaultValue;
     }
-    result = (result as Record<string, unknown>)[key]
+    result = (result as Record<string, unknown>)[key];
   }
-  
-  return result !== undefined ? (result as T) : defaultValue
+
+  return result !== undefined ? (result as T) : defaultValue;
 }
 
 /**
@@ -87,19 +88,19 @@ export function get<T>(obj: unknown, path: string, defaultValue?: T): T | undefi
  * @returns Modified object
  */
 export function set<T extends object>(obj: T, path: string, value: unknown): T {
-  const keys = path.split('.')
-  const lastKey = keys.pop()!
-  let current: any = obj
-  
+  const keys = path.split('.');
+  const lastKey = keys.pop()!;
+  let current: any = obj;
+
   for (const key of keys) {
     if (!(key in current)) {
-      current[key] = {}
+      current[key] = {};
     }
-    current = current[key]
+    current = current[key];
   }
-  
-  current[lastKey] = value
-  return obj
+
+  current[lastKey] = value;
+  return obj;
 }
 
 /**
@@ -109,15 +110,15 @@ export function set<T extends object>(obj: T, path: string, value: unknown): T {
  * @returns New object with picked properties
  */
 export function pick<T extends object, K extends keyof T>(obj: T, keys: K[]): Pick<T, K> {
-  const result = {} as Pick<T, K>
-  
+  const result = {} as Pick<T, K>;
+
   for (const key of keys) {
     if (key in obj) {
-      result[key] = obj[key]
+      result[key] = obj[key];
     }
   }
-  
-  return result
+
+  return result;
 }
 
 /**
@@ -127,13 +128,13 @@ export function pick<T extends object, K extends keyof T>(obj: T, keys: K[]): Pi
  * @returns New object without omitted properties
  */
 export function omit<T extends object, K extends keyof T>(obj: T, keys: K[]): Omit<T, K> {
-  const result = { ...obj }
-  
+  const result = { ...obj };
+
   for (const key of keys) {
-    delete result[key]
+    delete result[key];
   }
-  
-  return result
+
+  return result;
 }
 
 /**
@@ -146,15 +147,15 @@ export function mapValues<T extends object, R>(
   obj: T,
   fn: (value: T[keyof T], key: keyof T) => R
 ): Record<keyof T, R> {
-  const result = {} as Record<keyof T, R>
-  
+  const result = {} as Record<keyof T, R>;
+
   for (const key in obj) {
     if (Object.hasOwn(obj, key)) {
-      result[key] = fn(obj[key], key)
+      result[key] = fn(obj[key], key);
     }
   }
-  
-  return result
+
+  return result;
 }
 
 /**
@@ -167,16 +168,16 @@ export function mapKeys<T extends object>(
   obj: T,
   fn: (key: keyof T, value: T[keyof T]) => string
 ): Record<string, T[keyof T]> {
-  const result: Record<string, T[keyof T]> = {}
-  
+  const result: Record<string, T[keyof T]> = {};
+
   for (const key in obj) {
     if (Object.hasOwn(obj, key)) {
-      const newKey = fn(key, obj[key])
-      result[newKey] = obj[key]
+      const newKey = fn(key, obj[key]);
+      result[newKey] = obj[key];
     }
   }
-  
-  return result
+
+  return result;
 }
 
 /**
@@ -184,18 +185,16 @@ export function mapKeys<T extends object>(
  * @param obj - Object to invert
  * @returns Inverted object
  */
-export function invert<T extends Record<string, string | number>>(
-  obj: T
-): Record<string, keyof T> {
-  const result: Record<string, keyof T> = {}
-  
+export function invert<T extends Record<string, string | number>>(obj: T): Record<string, keyof T> {
+  const result: Record<string, keyof T> = {};
+
   for (const key in obj) {
     if (Object.hasOwn(obj, key)) {
-      result[String(obj[key])] = key
+      result[String(obj[key])] = key;
     }
   }
-  
-  return result
+
+  return result;
 }
 
 /**
@@ -204,7 +203,7 @@ export function invert<T extends Record<string, string | number>>(
  * @returns True if empty
  */
 export function isEmpty(obj: object): boolean {
-  return Object.keys(obj).length === 0
+  return Object.keys(obj).length === 0;
 }
 
 /**
@@ -213,7 +212,7 @@ export function isEmpty(obj: object): boolean {
  * @returns Array of keys
  */
 export function keys<T extends object>(obj: T): (keyof T)[] {
-  return Object.keys(obj) as (keyof T)[]
+  return Object.keys(obj) as (keyof T)[];
 }
 
 /**
@@ -222,7 +221,7 @@ export function keys<T extends object>(obj: T): (keyof T)[] {
  * @returns Array of values
  */
 export function values<T extends object>(obj: T): T[keyof T][] {
-  return Object.values(obj)
+  return Object.values(obj);
 }
 
 /**
@@ -231,7 +230,7 @@ export function values<T extends object>(obj: T): T[keyof T][] {
  * @returns Array of [key, value] tuples
  */
 export function entries<T extends object>(obj: T): [keyof T, T[keyof T]][] {
-  return Object.entries(obj) as [keyof T, T[keyof T]][]
+  return Object.entries(obj) as [keyof T, T[keyof T]][];
 }
 
 /**
@@ -241,23 +240,23 @@ export function entries<T extends object>(obj: T): [keyof T, T[keyof T]][] {
  * @returns True if deeply equal
  */
 export function isEqual(obj1: unknown, obj2: unknown): boolean {
-  if (obj1 === obj2) return true
-  
+  if (obj1 === obj2) return true;
+
   if (typeof obj1 !== 'object' || typeof obj2 !== 'object' || obj1 === null || obj2 === null) {
-    return false
+    return false;
   }
-  
-  const keys1 = Object.keys(obj1)
-  const keys2 = Object.keys(obj2)
-  
-  if (keys1.length !== keys2.length) return false
-  
+
+  const keys1 = Object.keys(obj1);
+  const keys2 = Object.keys(obj2);
+
+  if (keys1.length !== keys2.length) return false;
+
   for (const key of keys1) {
-    if (!keys2.includes(key)) return false
-    if (!isEqual((obj1 as any)[key], (obj2 as any)[key])) return false
+    if (!keys2.includes(key)) return false;
+    if (!isEqual((obj1 as any)[key], (obj2 as any)[key])) return false;
   }
-  
-  return true
+
+  return true;
 }
 
 /**
@@ -267,21 +266,21 @@ export function isEqual(obj1: unknown, obj2: unknown): boolean {
  * @returns Flattened object
  */
 export function flatten(obj: Record<string, any>, prefix: string = ''): Record<string, any> {
-  const result: Record<string, any> = {}
-  
+  const result: Record<string, any> = {};
+
   for (const key in obj) {
     if (Object.hasOwn(obj, key)) {
-      const newKey = prefix ? `${prefix}.${key}` : key
-      
+      const newKey = prefix ? `${prefix}.${key}` : key;
+
       if (isObject(obj[key]) && !Array.isArray(obj[key])) {
-        Object.assign(result, flatten(obj[key], newKey))
+        Object.assign(result, flatten(obj[key], newKey));
       } else {
-        result[newKey] = obj[key]
+        result[newKey] = obj[key];
       }
     }
   }
-  
-  return result
+
+  return result;
 }
 
 /**
@@ -290,15 +289,15 @@ export function flatten(obj: Record<string, any>, prefix: string = ''): Record<s
  * @returns Nested object
  */
 export function unflatten(obj: Record<string, any>): Record<string, any> {
-  const result: Record<string, any> = {}
-  
+  const result: Record<string, any> = {};
+
   for (const key in obj) {
     if (Object.hasOwn(obj, key)) {
-      set(result, key, obj[key])
+      set(result, key, obj[key]);
     }
   }
-  
-  return result
+
+  return result;
 }
 
 /**
@@ -307,15 +306,15 @@ export function unflatten(obj: Record<string, any>): Record<string, any> {
  * @returns Object without undefined values
  */
 export function compact<T extends object>(obj: T): Partial<T> {
-  const result: Partial<T> = {}
-  
+  const result: Partial<T> = {};
+
   for (const key in obj) {
     if (Object.hasOwn(obj, key) && obj[key] !== undefined) {
-      result[key] = obj[key]
+      result[key] = obj[key];
     }
   }
-  
-  return result
+
+  return result;
 }
 
 /**
@@ -324,16 +323,16 @@ export function compact<T extends object>(obj: T): Partial<T> {
  * @returns Frozen object
  */
 export function deepFreeze<T extends object>(obj: T): Readonly<T> {
-  Object.freeze(obj)
-  
+  Object.freeze(obj);
+
   Object.getOwnPropertyNames(obj).forEach((prop) => {
-    const value = (obj as any)[prop]
+    const value = (obj as any)[prop];
     if (value && typeof value === 'object' && !Object.isFrozen(value)) {
-      deepFreeze(value)
+      deepFreeze(value);
     }
-  })
-  
-  return obj
+  });
+
+  return obj;
 }
 
 /**
@@ -345,7 +344,7 @@ export function toQueryString(obj: Record<string, any>): string {
   return Object.entries(obj)
     .filter(([_, value]) => value !== undefined && value !== null)
     .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(String(value))}`)
-    .join('&')
+    .join('&');
 }
 
 /**
@@ -354,14 +353,14 @@ export function toQueryString(obj: Record<string, any>): string {
  * @returns Parsed object
  */
 export function fromQueryString(queryString: string): Record<string, string> {
-  const params = new URLSearchParams(queryString)
-  const result: Record<string, string> = {}
-  
+  const params = new URLSearchParams(queryString);
+  const result: Record<string, string> = {};
+
   params.forEach((value, key) => {
-    result[key] = value
-  })
-  
-  return result
+    result[key] = value;
+  });
+
+  return result;
 }
 
 /**
@@ -374,17 +373,17 @@ export function groupBy<T>(
   obj: Record<string, T>,
   fn: (value: T, key: string) => string
 ): Record<string, Record<string, T>> {
-  const result: Record<string, Record<string, T>> = {}
-  
+  const result: Record<string, Record<string, T>> = {};
+
   for (const key in obj) {
     if (Object.hasOwn(obj, key)) {
-      const groupKey = fn(obj[key], key)
+      const groupKey = fn(obj[key], key);
       if (!result[groupKey]) {
-        result[groupKey] = {}
+        result[groupKey] = {};
       }
-      result[groupKey][key] = obj[key]
+      result[groupKey][key] = obj[key];
     }
   }
-  
-  return result
+
+  return result;
 }
