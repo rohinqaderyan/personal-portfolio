@@ -1,5 +1,6 @@
 #!/bin/bash
 # Development Environment Setup Script for Linux/macOS
+# Version: 1.3.2
 # This script sets up the development environment for the portfolio project
 
 set -e  # Exit on error
