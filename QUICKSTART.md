@@ -117,9 +117,9 @@ theme: {
 Edit `src/app/layout.tsx`:
 
 ```typescript
-import { Inter, YourFont } from 'next/font/google'
+import { Inter, YourFont } from 'next/font/google';
 
-const yourFont = YourFont({ subsets: ['latin'] })
+const yourFont = YourFont({ subsets: ['latin'] });
 ```
 
 ### Add More Projects
