@@ -1,4 +1,4 @@
-# Performance Optimization Guide
+# Performance Optimization  Guide
 
 > 🚀 Last benchmarked: December 2025 | Next.js 14.2.x
 
