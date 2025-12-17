@@ -1,5 +1,5 @@
 /**
- * Playwright E2E Test Configuration
+ * Playwright E2E Testing Configuration 
  * Cross-browser testing for Chrome, Firefox, Safari
  * @version 1.3.1
  */
