@@ -1,5 +1,5 @@
 /**
- * Tailwind CSS Configuration
+ * Tailwind CSS Configuration 
  * @version 1.3.2
  * Custom theme with dark mode and glassmorphism effects
  * Last Updated: December 2024
