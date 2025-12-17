@@ -1,4 +1,4 @@
-# Contributing to Personal Portfolio
+# Contributing to Personal Portfolio 
 
 > 🌟 We welcome contributions of all sizes - from typo fixes to major features!
 
