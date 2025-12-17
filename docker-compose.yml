@@ -1,4 +1,4 @@
-# Docker Compose configuration for portfolio application
+# Docker Compose configuration for portfolio application 
 # Version: 1.3.2
 # Supports development, production, and monitoring services
 version: "3.8"
