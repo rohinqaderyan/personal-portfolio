@@ -1,4 +1,4 @@
-# Architecture Overview
+# Architecture Overview 
 
 > 🏗️ Next.js 14 App Router | React Server Components | Edge Runtime
 
