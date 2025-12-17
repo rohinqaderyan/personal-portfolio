@@ -1,5 +1,5 @@
 /**
- * Vitest Configuration
+ * Vitest Configuration 
  * Unit testing with React Testing Library and jsdom
  * @version 1.3.1
  */
