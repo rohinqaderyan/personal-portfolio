@@ -1,5 +1,5 @@
 /**
- * Next.js Configuration
+ * Next.js Configuration 
  * @version 1.3.2
  * Optimized for performance, SEO, and security
  * Updated: December 2024
