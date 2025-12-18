@@ -1,4 +1,4 @@
-# Custom Domain Setup for Vercel
+# Custom Domain Setup for Vercel 
 
 > 🌐 Connect your custom domain in under 10 minutes
 
