@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * Hero Component
+ * Hero Component 
  * @description Hero section with animated introduction
  */
 import { m as motion } from 'framer-motion';
