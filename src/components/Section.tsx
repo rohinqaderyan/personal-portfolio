@@ -6,7 +6,7 @@
  */
 import { ReactNode } from 'react';
 
-interface SectionProps {
+interface SectionProps { 
   id?: string;
   title?: string;
   description?: string;
