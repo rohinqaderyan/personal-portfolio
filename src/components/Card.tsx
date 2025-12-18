@@ -7,7 +7,7 @@
 import { ReactNode } from 'react';
 import { cn } from '@/lib/utils';
 
-interface CardProps {
+interface CardProps { 
   children: ReactNode;
   className?: string;
   hover?: boolean;
