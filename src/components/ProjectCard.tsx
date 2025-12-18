@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * ProjectCard Component
+ * ProjectCard Component 
  * @description Card for displaying project details
  */
 import Link from 'next/link';
