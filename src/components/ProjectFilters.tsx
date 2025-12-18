@@ -10,7 +10,7 @@ import { m as motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
 interface ProjectFiltersProps {
-  tags: string[];
+  tags: string[]; 
   selectedTags: string[];
   searchQuery: string;
   onTagToggle: (tag: string) => void;
