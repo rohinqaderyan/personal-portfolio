@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * Footer Component
+ * Footer Component 
  * @description Site footer with navigation and social links
  */
 import Link from 'next/link';
