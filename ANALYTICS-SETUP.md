@@ -1,4 +1,4 @@
-# Google Analytics Setup Guide
+# Google Analytics Setup Guide 
 
 > 📊 GA4 Integration | Real-time analytics | Privacy-focused
 
