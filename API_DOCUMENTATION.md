@@ -1,4 +1,4 @@
-# API Documentation
+# API Documentation 
 
 > 📡 RESTful API | TypeScript | Edge Functions
 
