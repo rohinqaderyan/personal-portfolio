@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * Header Component
+ * Header Component 
  * @description Main navigation header with responsive mobile menu
  */
 import Link from 'next/link';
