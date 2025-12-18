@@ -1,4 +1,4 @@
-# Code Style Guide
+# Code Style Guide 
 
 > ✨ Enforced by ESLint + Prettier | Pre-commit hooks via Husky
 
