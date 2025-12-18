@@ -1,4 +1,4 @@
-# Contributor Covenant Code of Conduct
+# Contributor Covenant Code of Conduct 
 
 > 📅 Adopted: 2024 | Based on [Contributor Covenant 2.1](https://www.contributor-covenant.org/)
 
