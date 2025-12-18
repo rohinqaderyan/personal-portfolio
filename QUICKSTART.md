@@ -1,4 +1,4 @@
-# Quick Start Guide
+# Quick Start Guide 
 
 > ⏱️ Estimated setup time: **5 minutes**
 
