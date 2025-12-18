@@ -1,4 +1,4 @@
-# Component Documentation
+# Component Documentation 
 
 > 🧩 50+ reusable React components with TypeScript
 
