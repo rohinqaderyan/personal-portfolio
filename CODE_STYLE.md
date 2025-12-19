@@ -1,4 +1,4 @@
-# Code Style Guide 
+# Code Style Guide
 
 > ✨ Enforced by ESLint + Prettier | Pre-commit hooks via Husky
 
@@ -12,28 +12,28 @@ This project follows industry-standard code style conventions to maintain consis
 
 ```typescript
 // PascalCase for components, classes, types
-export const ProjectCard: React.FC<ProjectCardProps> = () => {}
+export const ProjectCard: React.FC<ProjectCardProps> = () => {};
 interface ProjectCardProps {}
-type Status = 'active' | 'inactive'
+type Status = 'active' | 'inactive';
 
 // camelCase for variables, functions, methods
-const userName = 'John'
+const userName = 'John';
 function getUserData() {}
 
 // UPPER_SNAKE_CASE for constants
-const API_BASE_URL = 'https://api.example.com'
-const MAX_RETRY_ATTEMPTS = 3
+const API_BASE_URL = 'https://api.example.com';
+const MAX_RETRY_ATTEMPTS = 3;
 
 // kebab-case for file names
-project - card.tsx
-user - profile.ts
+project - card.tsx;
+user - profile.ts;
 ```
 
 ### Function Style
 
 ```typescript
 // Prefer arrow functions for callbacks
-const handleClick = () => {}
+const handleClick = () => {};
 
 // Use function declarations for top-level functions
 export function calculateTotal(items: Item[]) {}
@@ -46,26 +46,26 @@ async function fetchData(): Promise<Data> {}
 
 ```typescript
 // 1. React and Next.js
-import { useState } from 'react'
-import Link from 'next/link'
+import { useState } from 'react';
+import Link from 'next/link';
 
 // 2. External libraries
-import { motion } from 'framer-motion'
-import clsx from 'clsx'
+import { motion } from 'framer-motion';
+import clsx from 'clsx';
 
 // 3. Internal components
-import { Button } from '@/components/Button'
-import { Card } from '@/components/Card'
+import { Button } from '@/components/Button';
+import { Card } from '@/components/Card';
 
 // 4. Utils and hooks
-import { cn } from '@/lib/utils'
-import { useTheme } from '@/hooks/useTheme'
+import { cn } from '@/lib/utils';
+import { useTheme } from '@/hooks/useTheme';
 
 // 5. Types
-import type { Project } from '@/types'
+import type { Project } from '@/types';
 
 // 6. Styles
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 ```
 
 ### Component Structure
@@ -100,16 +100,16 @@ export const Component = ({ prop }: ComponentProps) => {
 
 ```typescript
 // Destructure props
-const Button = ({ children, onClick, disabled }: ButtonProps) => {}
+const Button = ({ children, onClick, disabled }: ButtonProps) => {};
 
 // Provide default values
-const Button = ({ size = 'medium', variant = 'primary' }: ButtonProps) => {}
+const Button = ({ size = 'medium', variant = 'primary' }: ButtonProps) => {};
 
 // Use TypeScript for prop validation
 interface ButtonProps {
-  children: React.ReactNode
-  onClick?: () => void
-  disabled?: boolean
+  children: React.ReactNode;
+  onClick?: () => void;
+  disabled?: boolean;
 }
 ```
 
@@ -120,10 +120,10 @@ interface ButtonProps {
 const [formData, setFormData] = useState({
   name: '',
   email: '',
-})
+});
 
 // Use updater function for state based on previous value
-setCount((prev) => prev + 1)
+setCount((prev) => prev + 1);
 ```
 
 ### Conditional Rendering
@@ -175,15 +175,15 @@ import { cn } from '@/lib/utils'
 ```typescript
 // Good: Explain WHY, not WHAT
 // Fallback to system locale if user preference not set
-const locale = userLocale || navigator.language
+const locale = userLocale || navigator.language;
 
 // Good: Complex business logic
 // Calculate discount: 10% for orders > $100, 20% for > $500
-const discount = total > 500 ? 0.2 : total > 100 ? 0.1 : 0
+const discount = total > 500 ? 0.2 : total > 100 ? 0.1 : 0;
 
 // Bad: Obvious comments
 // Set the name to John
-const name = 'John'
+const name = 'John';
 ```
 
 ### JSDoc for Functions
@@ -295,16 +295,16 @@ describe('Component', () => {
 
 ```typescript
 // Memoize expensive components
-export const ExpensiveComponent = memo(({ data }: Props) => {})
+export const ExpensiveComponent = memo(({ data }: Props) => {});
 
 // Memoize expensive calculations
-const result = useMemo(() => expensiveOperation(data), [data])
+const result = useMemo(() => expensiveOperation(data), [data]);
 
 // Memoize callbacks
-const handleClick = useCallback(() => {}, [])
+const handleClick = useCallback(() => {}, []);
 
 // Dynamic imports for code splitting
-const HeavyComponent = dynamic(() => import('./HeavyComponent'))
+const HeavyComponent = dynamic(() => import('./HeavyComponent'));
 ```
 
 ## Accessibility
