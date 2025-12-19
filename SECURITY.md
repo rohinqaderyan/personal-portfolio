@@ -13,7 +13,7 @@
 - [CORS Configuration](#cors-configuration)
 - [Deployment Security](#deployment-security)
 
-## Security Policy 
+## Security Policy
 
 This project is maintained with security as a top priority. We follow industry best practices and implement multiple layers of protection to keep user data safe.
 
@@ -65,18 +65,18 @@ const contactSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
   email: z.string().email('Invalid email address'),
   message: z.string().min(10, 'Message must be at least 10 characters'),
-})
+});
 ```
 
 **Server-side validation** prevents attackers from bypassing client checks:
 
 ```typescript
 try {
-  const body = await parseJsonBody(request)
-  const validatedData = contactSchema.parse(body)
+  const body = await parseJsonBody(request);
+  const validatedData = contactSchema.parse(body);
   // Process valid data only
 } catch (error) {
-  return handleApiError(error)
+  return handleApiError(error);
 }
 ```
 
@@ -197,7 +197,7 @@ Source maps are disabled in production:
 // next.config.js
 const config = {
   productionBrowserSourceMaps: false,
-}
+};
 ```
 
 This prevents exposing original source code in browser tools.
@@ -213,9 +213,9 @@ FLASK_API_URL=https://your-flask-backend.com
 Validate at startup:
 
 ```typescript
-const flaskUrl = checkEnvVariable('FLASK_API_URL')
+const flaskUrl = checkEnvVariable('FLASK_API_URL');
 if (!flaskUrl) {
-  throw new Error('FLASK_API_URL not configured')
+  throw new Error('FLASK_API_URL not configured');
 }
 ```
 
@@ -285,18 +285,18 @@ Consider implementing rate limiting for production:
 
 ```typescript
 // Example using next-rate-limit
-import rateLimit from 'express-rate-limit'
+import rateLimit from 'express-rate-limit';
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 5, // 5 requests per window
   message: 'Too many requests, please try again later',
-})
+});
 
 export async function POST(request, res) {
   return limiter(request, res, () => {
     /* handler */
-  })
+  });
 }
 ```
 
@@ -331,7 +331,7 @@ headers: [
       .trim()
       .replace(/\n/g, ' '),
   },
-]
+];
 ```
 
 ### CSP Best Practices
@@ -369,7 +369,7 @@ export async function OPTIONS(request: Request) {
       'Access-Control-Allow-Headers': 'Content-Type',
       'Access-Control-Max-Age': '86400',
     },
-  })
+  });
 }
 ```
 
