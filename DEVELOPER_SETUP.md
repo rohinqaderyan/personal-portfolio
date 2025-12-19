@@ -1,4 +1,4 @@
-# Developer Setup Guide 
+# Developer Setup Guide
 
 > ⏱️ Get started in under 5 minutes with automated scripts
 
