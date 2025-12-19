@@ -1,4 +1,4 @@
-# Testing Guide 
+# Testing Guide
 
 ## Overview
 
@@ -62,21 +62,21 @@ Current test coverage includes:
 ### Example: Testing Utilities
 
 ```typescript
-import { formatNumber } from '@/lib/number'
+import { formatNumber } from '@/lib/number';
 
 describe('formatNumber', () => {
   it('formats numbers with commas', () => {
-    expect(formatNumber(1234567)).toBe('1,234,567')
-  })
+    expect(formatNumber(1234567)).toBe('1,234,567');
+  });
 
   it('handles negative numbers', () => {
-    expect(formatNumber(-1234567)).toBe('-1,234,567')
-  })
+    expect(formatNumber(-1234567)).toBe('-1,234,567');
+  });
 
   it('handles zero', () => {
-    expect(formatNumber(0)).toBe('0')
-  })
-})
+    expect(formatNumber(0)).toBe('0');
+  });
+});
 ```
 
 ## E2E Tests
@@ -99,12 +99,12 @@ npm run e2e:headed
 E2E tests are located in the `tests/` directory.
 
 ```typescript
-import { test, expect } from '@playwright/test'
+import { test, expect } from '@playwright/test';
 
 test('homepage loads correctly', async ({ page }) => {
-  await page.goto('/')
-  await expect(page).toHaveTitle(/Portfolio/)
-})
+  await page.goto('/');
+  await expect(page).toHaveTitle(/Portfolio/);
+});
 ```
 
 ## Test Coverage
