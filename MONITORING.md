@@ -39,16 +39,16 @@ This guide covers monitoring, logging, and observability for your portfolio.
 Track important user interactions:
 
 ```typescript
-import { trackEvent } from '@/lib/analytics'
+import { trackEvent } from '@/lib/analytics';
 
 // Track downloads
-trackEvent('resume_download', { format: 'pdf' })
+trackEvent('resume_download', { format: 'pdf' });
 
 // Track contact form
-trackEvent('contact_form_submit', { source: 'contact_page' })
+trackEvent('contact_form_submit', { source: 'contact_page' });
 
 // Track project views
-trackEvent('project_view', { project_id: 'project-name' })
+trackEvent('project_view', { project_id: 'project-name' });
 ```
 
 ## Error Monitoring
@@ -62,13 +62,13 @@ npm install @sentry/nextjs
 Configure in `sentry.client.config.js`:
 
 ```javascript
-import * as Sentry from '@sentry/nextjs'
+import * as Sentry from '@sentry/nextjs';
 
 Sentry.init({
   dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
   tracesSampleRate: 1.0,
   environment: process.env.NODE_ENV,
-})
+});
 ```
 
 ## Performance Monitoring
@@ -95,8 +95,8 @@ Monitor Core Web Vitals:
 
 ```typescript
 // Use structured logging
-console.log('[INFO]', 'User action', { userId, action })
-console.error('[ERROR]', 'API failed', { endpoint, error })
+console.log('[INFO]', 'User action', { userId, action });
+console.error('[ERROR]', 'API failed', { endpoint, error });
 ```
 
 ### Production Logs
