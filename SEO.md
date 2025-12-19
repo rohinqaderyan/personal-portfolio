@@ -29,7 +29,7 @@ Each page should have unique meta tags:
 
 ```typescript
 // app/page.tsx
-import { Metadata } from 'next'
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Ahmad Rohin Qaderyan | Senior Full Stack Developer & Data Scientist',
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     google: 'your-google-verification-code',
     yandex: 'your-yandex-verification-code',
   },
-}
+};
 ```
 
 ### Dynamic Metadata
@@ -93,10 +93,10 @@ For dynamic pages:
 
 ```typescript
 // app/projects/[id]/page.tsx
-import { Metadata } from 'next'
+import { Metadata } from 'next';
 
 export async function generateMetadata({ params }): Promise<Metadata> {
-  const project = await getProject(params.id)
+  const project = await getProject(params.id);
 
   return {
     title: `${project.title} | RQ Projects`,
@@ -106,7 +106,7 @@ export async function generateMetadata({ params }): Promise<Metadata> {
       description: project.description,
       images: [project.image],
     },
-  }
+  };
 }
 ```
 
@@ -174,7 +174,7 @@ const projectSchema = {
   datePublished: '2024-01-15',
   url: 'https://rqdev.vercel.app/projects/pharma-analytics',
   keywords: ['React', 'Python', 'Data Science', 'Healthcare'],
-}
+};
 ```
 
 ## XML Sitemap
@@ -183,10 +183,10 @@ const projectSchema = {
 
 ```typescript
 // app/sitemap.ts
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://rqdev.vercel.app'
+  const baseUrl = 'https://rqdev.vercel.app';
 
   return [
     {
@@ -213,7 +213,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
-  ]
+  ];
 }
 ```
 
@@ -221,16 +221,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
 ```typescript
 export default async function sitemap(): MetadataRoute.Sitemap {
-  const projects = await getAllProjects()
+  const projects = await getAllProjects();
 
   const projectUrls = projects.map((project) => ({
     url: `https://rqdev.vercel.app/projects/${project.id}`,
     lastModified: project.updatedAt,
     changeFrequency: 'monthly' as const,
     priority: 0.8,
-  }))
+  }));
 
-  return [...staticPages, ...projectUrls]
+  return [...staticPages, ...projectUrls];
 }
 ```
 
@@ -238,7 +238,7 @@ export default async function sitemap(): MetadataRoute.Sitemap {
 
 ```typescript
 // app/robots.ts
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -250,7 +250,7 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: 'https://rqdev.vercel.app/sitemap.xml',
-  }
+  };
 }
 ```
 
@@ -278,7 +278,7 @@ export default function robots(): MetadataRoute.Robots {
 const slug = title
   .toLowerCase()
   .replace(/[^a-z0-9]+/g, '-')
-  .replace(/(^-|-$)/g, '')
+  .replace(/(^-|-$)/g, '');
 ```
 
 ## Image SEO
@@ -379,7 +379,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://rqdev.vercel.app/projects',
   },
-}
+};
 ```
 
 ### Hreflang Tags
@@ -411,7 +411,7 @@ const breadcrumbSchema = {
       item: 'https://rqdev.vercel.app/projects',
     },
   ],
-}
+};
 ```
 
 ## Local SEO
@@ -434,7 +434,7 @@ const localBusinessSchema = {
     latitude: 38.8048,
     longitude: -77.0469,
   },
-}
+};
 ```
 
 ## Link Building
