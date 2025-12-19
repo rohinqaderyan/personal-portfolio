@@ -439,7 +439,7 @@ export async function GET() {
     timestamp: new Date().toISOString(),
     uptime: process.uptime(),
     memory: process.memoryUsage(),
-  })
+  });
 }
 ```
 
