@@ -1,4 +1,4 @@
-# TODO  - Future Enhancements
+# TODO - Future Enhancements
 
 > Last updated: December 2025
 
@@ -256,18 +256,21 @@ This document tracks planned features, improvements, and technical debt for the 
 ## 🚀 Release Planning
 
 ### v1.1.0 (Next Minor Release)
+
 - Blog system
 - Enhanced project pages
 - Analytics dashboard
 - Service worker
 
 ### v1.2.0
+
 - CMS integration
 - Advanced animations
 - Social integrations
 - Testimonials section
 
 ### v2.0.0 (Major Release)
+
 - Complete redesign
 - Multi-language support
 - Advanced personalization
