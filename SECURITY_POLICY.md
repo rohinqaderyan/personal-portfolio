@@ -1,4 +1,4 @@
-# Security Policy 
+# Security Policy
 
 > 🔒 Responsible disclosure encouraged | Security patches within 48 hours
 
