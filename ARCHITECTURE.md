@@ -1,4 +1,4 @@
-# Architecture Overview 
+# Architecture Overview
 
 > 🏗️ Next.js 14 App Router | React Server Components | Edge Runtime
 
@@ -95,40 +95,40 @@ personal-portfolio/
 
 ### Frontend
 
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| Next.js | 14.x | React framework with App Router |
-| React | 18.x | UI component library |
-| TypeScript | 5.x | Type-safe JavaScript |
-| Tailwind CSS | 3.x | Utility-first CSS framework |
-| Framer Motion | 11.x | Animation library |
+| Technology    | Version | Purpose                         |
+| ------------- | ------- | ------------------------------- |
+| Next.js       | 14.x    | React framework with App Router |
+| React         | 18.x    | UI component library            |
+| TypeScript    | 5.x     | Type-safe JavaScript            |
+| Tailwind CSS  | 3.x     | Utility-first CSS framework     |
+| Framer Motion | 11.x    | Animation library               |
 
 ### Backend (API Routes)
 
-| Technology | Purpose |
-|------------|---------|
-| Next.js API Routes | Serverless functions |
-| Zod | Runtime validation |
+| Technology           | Purpose                      |
+| -------------------- | ---------------------------- |
+| Next.js API Routes   | Serverless functions         |
+| Zod                  | Runtime validation           |
 | Custom Error Handler | Standardized error responses |
 
 ### Development Tools
 
-| Tool | Purpose |
-|------|---------|
-| ESLint | Linting |
-| Prettier | Code formatting |
-| Vitest | Unit testing |
-| Playwright | E2E testing |
-| Husky | Git hooks |
+| Tool        | Purpose           |
+| ----------- | ----------------- |
+| ESLint      | Linting           |
+| Prettier    | Code formatting   |
+| Vitest      | Unit testing      |
+| Playwright  | E2E testing       |
+| Husky       | Git hooks         |
 | lint-staged | Pre-commit checks |
 
 ### Infrastructure
 
-| Service | Purpose |
-|---------|---------|
-| Vercel | Hosting & CDN |
-| GitHub Actions | CI/CD |
-| GitHub | Version control |
+| Service        | Purpose         |
+| -------------- | --------------- |
+| Vercel         | Hosting & CDN   |
+| GitHub Actions | CI/CD           |
+| GitHub         | Version control |
 
 ## Data Flow
 
@@ -184,17 +184,20 @@ App (Root Layout)
 ### Component Categories
 
 #### UI Components (`/components/ui/`)
+
 - **Card**: Reusable card container
 - **Button**: Styled button variants
 - **Input**: Form input components
 - **Badge**: Status/tag badges
 
 #### Layout Components (`/components/layout/`)
+
 - **Header**: Site header with navigation
 - **Footer**: Site footer with links
 - **Section**: Page section wrapper
 
 #### Feature Components (`/components/`)
+
 - **Hero**: Landing page hero section
 - **ProjectCard**: Project showcase card
 - **ContactForm**: Contact form with validation
@@ -203,6 +206,7 @@ App (Root Layout)
 ### Component Patterns
 
 #### Compound Components
+
 ```typescript
 // Example: Card with sub-components
 <Card>
@@ -213,6 +217,7 @@ App (Root Layout)
 ```
 
 #### Render Props
+
 ```typescript
 // Example: Data fetching component
 <DataFetcher
@@ -248,19 +253,19 @@ export class ApiError extends Error {
     public code: ErrorCode,
     public details?: unknown
   ) {
-    super(message)
+    super(message);
   }
 }
 
 // Standard error response format
 interface ErrorResponse {
-  success: false
+  success: false;
   error: {
-    code: string
-    message: string
-    details?: unknown
-    timestamp: string
-  }
+    code: string;
+    message: string;
+    details?: unknown;
+    timestamp: string;
+  };
 }
 ```
 
@@ -286,6 +291,7 @@ This application uses minimal client-side state:
 ### No External State Library Needed
 
 Given the static nature of the portfolio:
+
 - No global state management library (Redux, Zustand)
 - Server state handled via React Server Components
 - Form state handled via react-hook-form
@@ -301,7 +307,7 @@ const ThemeContext = createContext<ThemeContextType>({
 
 export function ThemeProvider({ children }) {
   const [theme, setTheme] = useState<Theme>('system')
-  
+
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}
@@ -335,10 +341,10 @@ Tailwind Base ──▶ Tailwind Components ──▶ Tailwind Utilities
 ```css
 /* Mobile-first approach */
 .component {
-  @apply w-full;           /* Mobile */
-  @apply sm:w-1/2;         /* ≥640px */
-  @apply md:w-1/3;         /* ≥768px */
-  @apply lg:w-1/4;         /* ≥1024px */
+  @apply w-full; /* Mobile */
+  @apply sm:w-1/2; /* ≥640px */
+  @apply md:w-1/3; /* ≥768px */
+  @apply lg:w-1/4; /* ≥1024px */
 }
 ```
 
@@ -364,12 +370,12 @@ Tailwind Base ──▶ Tailwind Components ──▶ Tailwind Utilities
 
 ### Test Categories
 
-| Category | Location | Tools | Coverage Target |
-|----------|----------|-------|-----------------|
-| Unit | `src/tests/unit/` | Vitest | 80%+ |
-| Component | `src/tests/unit/*.tsx` | Vitest + RTL | 70%+ |
-| Integration | `src/tests/integration/` | Vitest | 60%+ |
-| E2E | `e2e/` | Playwright | Critical paths |
+| Category    | Location                 | Tools        | Coverage Target |
+| ----------- | ------------------------ | ------------ | --------------- |
+| Unit        | `src/tests/unit/`        | Vitest       | 80%+            |
+| Component   | `src/tests/unit/*.tsx`   | Vitest + RTL | 70%+            |
+| Integration | `src/tests/integration/` | Vitest       | 60%+            |
+| E2E         | `e2e/`                   | Playwright   | Critical paths  |
 
 ### Running Tests
 
@@ -405,13 +411,13 @@ npm run e2e
 
 ### Current Metrics
 
-| Metric | Target | Current |
-|--------|--------|---------|
-| First Load JS | < 90KB | 87.4KB ✅ |
-| LCP | < 2.5s | < 1.5s ✅ |
-| FID | < 100ms | < 50ms ✅ |
-| CLS | < 0.1 | < 0.05 ✅ |
-| Lighthouse | ≥ 90 | 95+ ✅ |
+| Metric        | Target  | Current   |
+| ------------- | ------- | --------- |
+| First Load JS | < 90KB  | 87.4KB ✅ |
+| LCP           | < 2.5s  | < 1.5s ✅ |
+| FID           | < 100ms | < 50ms ✅ |
+| CLS           | < 0.1   | < 0.05 ✅ |
+| Lighthouse    | ≥ 90    | 95+ ✅    |
 
 ---
 
