@@ -1,4 +1,4 @@
-# Performance Optimization  Guide
+# Performance Optimization Guide
 
 > 🚀 Last benchmarked: December 2025 | Next.js 14.2.x
 
@@ -65,13 +65,13 @@ import Image from 'next/image'
 
 ```typescript
 // next/font for zero-layout-shift fonts
-import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google';
 
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap', // Prevent FOIT
   preload: true,
-})
+});
 ```
 
 #### Static Generation
@@ -79,9 +79,9 @@ const inter = Inter({
 ```typescript
 // Pre-render pages at build time
 export const generateStaticParams = async () => {
-  const projects = await getProjects()
-  return projects.map((project) => ({ slug: project.id }))
-}
+  const projects = await getProjects();
+  return projects.map((project) => ({ slug: project.id }));
+};
 ```
 
 ### 2. Code Splitting & Lazy Loading
@@ -133,13 +133,13 @@ export const ProjectCard = memo<ProjectCardProps>(({ project }) => {
 ```typescript
 // Expensive computations
 const filteredProjects = useMemo(() => {
-  return projects.filter((p) => p.tags.includes(selectedTag))
-}, [projects, selectedTag])
+  return projects.filter((p) => p.tags.includes(selectedTag));
+}, [projects, selectedTag]);
 
 // Stable function references
 const handleClick = useCallback(() => {
   // handler logic
-}, [dependencies])
+}, [dependencies]);
 ```
 
 ### 4. Asset Optimization
@@ -186,7 +186,7 @@ async headers() {
 const withPWA = require('next-pwa')({
   dest: 'public',
   disable: process.env.NODE_ENV === 'development',
-})
+});
 ```
 
 ### 6. Network Optimizations
@@ -227,7 +227,7 @@ const variants = {
     y: 0,
     transition: { duration: 0.3 },
   },
-}
+};
 ```
 
 **Prefer:**
@@ -251,7 +251,7 @@ const prefersReducedMotion = useMediaQuery('(prefers-reduced-motion: reduce)')
 
 ```typescript
 // JSON files for static content - no DB queries needed
-import projects from '@/content/projects.json'
+import projects from '@/content/projects.json';
 ```
 
 #### API Routes
@@ -259,10 +259,10 @@ import projects from '@/content/projects.json'
 ```typescript
 // Efficient API routes with caching
 export async function GET(request: Request) {
-  const data = await getCachedData()
+  const data = await getCachedData();
   return Response.json(data, {
     headers: { 'Cache-Control': 'public, s-maxage=3600' },
-  })
+  });
 }
 ```
 
@@ -293,14 +293,14 @@ npm run build -- --profile
 ```typescript
 // Web Vitals tracking
 export function reportWebVitals(metric: NextWebVitalsMetric) {
-  console.log(metric)
+  console.log(metric);
 
   // Send to analytics
   if (metric.label === 'web-vital') {
     analytics.track('Web Vital', {
       name: metric.name,
       value: metric.value,
-    })
+    });
   }
 }
 ```
@@ -357,10 +357,10 @@ export function reportWebVitals(metric: NextWebVitalsMetric) {
 
 ```typescript
 // Bad: 500KB moment.js
-import moment from 'moment'
+import moment from 'moment';
 
 // Good: 2KB date-fns
-import { format } from 'date-fns'
+import { format } from 'date-fns';
 ```
 
 ❌ **Unoptimized Images**
@@ -377,10 +377,10 @@ import { format } from 'date-fns'
 
 ```typescript
 // Bad: Everything imported upfront
-import AllFeatures from './all-features'
+import AllFeatures from './all-features';
 
 // Good: Code splitting
-const Feature = dynamic(() => import('./Feature'))
+const Feature = dynamic(() => import('./Feature'));
 ```
 
 ❌ **Unnecessary Re-renders**
@@ -572,7 +572,7 @@ function MyApp({ Component, pageProps }) {
 ```typescript
 // lib/analytics/vitals.ts
 export function reportWebVitals(metric) {
-  const { id, name, value, label } = metric
+  const { id, name, value, label } = metric;
 
   // Send to analytics service
   if (window.gtag) {
@@ -581,12 +581,12 @@ export function reportWebVitals(metric) {
       value: Math.round(name === 'CLS' ? value * 1000 : value),
       event_label: id,
       non_interaction: true,
-    })
+    });
   }
 
   // Log in development
   if (process.env.NODE_ENV === 'development') {
-    console.log({ name, value, label })
+    console.log({ name, value, label });
   }
 }
 ```
