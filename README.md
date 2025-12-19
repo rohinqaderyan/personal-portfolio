@@ -1,6 +1,6 @@
 # Ahmad Rohin Qaderyan - Portfolio Website
 
-A modern, high-performance personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. Optimized for FAANG-level technical interviews and showcasing enterprise-scale projects. 
+A modern, high-performance personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. Optimized for FAANG-level technical interviews and showcasing enterprise-scale projects.
 
 [![CI/CD Pipeline](https://github.com/rohinqaderyan/personal-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/rohinqaderyan/personal-portfolio/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)](https://www.typescriptlang.org/)
