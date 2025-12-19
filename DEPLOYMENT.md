@@ -1,4 +1,4 @@
-# Deployment Guide 
+# Deployment Guide
 
 > 🚀 Supports Vercel, Netlify, Docker, and self-hosted deployments
 
@@ -168,6 +168,7 @@ Enable in `vercel.json`:
 ```
 
 **Metrics Tracked:**
+
 - Core Web Vitals (LCP, FID, CLS)
 - Real User Monitoring (RUM)
 - Page views by route
@@ -194,7 +195,7 @@ Create a health endpoint at `/api/health`:
 
 ```typescript
 // src/app/api/health/route.ts
-import { NextResponse } from 'next/server'
+import { NextResponse } from 'next/server';
 
 export async function GET() {
   return NextResponse.json({
@@ -202,7 +203,7 @@ export async function GET() {
     timestamp: new Date().toISOString(),
     version: process.env.npm_package_version || '1.0.0',
     environment: process.env.NODE_ENV,
-  })
+  });
 }
 ```
 
@@ -215,6 +216,7 @@ export async function GET() {
 **Symptom:** Build fails with memory errors
 
 **Solution:**
+
 ```json
 // vercel.json
 {
@@ -232,6 +234,7 @@ export async function GET() {
 **Symptom:** `undefined` values in production
 
 **Checklist:**
+
 1. Verify variables are set in Vercel dashboard
 2. Check variable names start with `NEXT_PUBLIC_` for client-side access
 3. Redeploy after adding new variables
@@ -245,9 +248,7 @@ export async function GET() {
 
 ```json
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
 ```
 
@@ -256,6 +257,7 @@ export async function GET() {
 **Symptom:** API calls fail in production
 
 **Checklist:**
+
 1. Check function logs in Vercel dashboard
 2. Verify environment variables are set
 3. Check CORS configuration
@@ -331,10 +333,10 @@ For faster global response:
 
 ```typescript
 // src/app/api/example/route.ts
-export const runtime = 'edge'
+export const runtime = 'edge';
 
 export async function GET() {
-  return new Response('Hello from Edge!')
+  return new Response('Hello from Edge!');
 }
 ```
 
