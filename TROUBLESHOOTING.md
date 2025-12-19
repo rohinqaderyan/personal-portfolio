@@ -1,4 +1,4 @@
-# Troubleshooting Guide 
+# Troubleshooting Guide
 
 > 🔧 Quick fixes for common development issues
 
@@ -22,10 +22,10 @@ Error: Can't resolve '@/components/Header'
 
 ```typescript
 // ✅ Correct
-import { Header } from '@/components/Header'
+import { Header } from '@/components/Header';
 
 // ❌ Incorrect
-import { Header } from '@/components/header' // Case sensitive
+import { Header } from '@/components/header'; // Case sensitive
 ```
 
 2. **Verify jsconfig.json:**
@@ -179,8 +179,8 @@ if (!mounted) return null;
 
 ```typescript
 useEffect(() => {
-  console.log('Running') // Logs twice
-}, [])
+  console.log('Running'); // Logs twice
+}, []);
 ```
 
 **Cause:**
@@ -193,18 +193,18 @@ React 18 Strict Mode runs effects twice in development.
 
 ```typescript
 useEffect(() => {
-  let cancelled = false
+  let cancelled = false;
 
   fetchData().then((data) => {
     if (!cancelled) {
-      setData(data)
+      setData(data);
     }
-  })
+  });
 
   return () => {
-    cancelled = true
-  }
-}, [])
+    cancelled = true;
+  };
+}, []);
 ```
 
 ### Error: "useState not updating"
@@ -212,9 +212,9 @@ useEffect(() => {
 **Problem:**
 
 ```typescript
-const [count, setCount] = useState(0)
-setCount(count + 1)
-console.log(count) // Still shows old value
+const [count, setCount] = useState(0);
+setCount(count + 1);
+console.log(count); // Still shows old value
 ```
 
 **Solution:**
@@ -222,19 +222,19 @@ console.log(count) // Still shows old value
 State updates are asynchronous:
 
 ```typescript
-const [count, setCount] = useState(0)
-setCount(count + 1) // Async
+const [count, setCount] = useState(0);
+setCount(count + 1); // Async
 
 // Use useEffect to see updated value
 useEffect(() => {
-  console.log(count) // Shows new value
-}, [count])
+  console.log(count); // Shows new value
+}, [count]);
 
 // Or use functional update
 setCount((prevCount) => {
-  console.log('Previous:', prevCount)
-  return prevCount + 1
-})
+  console.log('Previous:', prevCount);
+  return prevCount + 1;
+});
 ```
 
 ## Style Issues
@@ -255,14 +255,14 @@ setCount((prevCount) => {
 // tailwind.config.js
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
-}
+};
 ```
 
 2. **Ensure globals.css is imported:**
 
 ```typescript
 // app/layout.tsx
-import '@/styles/globals.css'
+import '@/styles/globals.css';
 ```
 
 3. **Restart dev server:**
@@ -296,7 +296,7 @@ Styles work in dev but not in production build.
 // tailwind.config.js
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
-}
+};
 ```
 
 2. **Check for dynamic classes:**
@@ -315,7 +315,7 @@ module.exports = {
 // tailwind.config.js
 module.exports = {
   safelist: ['text-red-500', 'text-blue-500', 'text-green-500'],
-}
+};
 ```
 
 ## API Issues
@@ -335,9 +335,9 @@ Access to fetch at 'https://api.example.com' has been blocked by CORS policy
 ```typescript
 // app/api/proxy/route.ts
 export async function GET(request: Request) {
-  const response = await fetch('https://external-api.com/data')
-  const data = await response.json()
-  return Response.json(data)
+  const response = await fetch('https://external-api.com/data');
+  const data = await response.json();
+  return Response.json(data);
 }
 ```
 
@@ -354,9 +354,9 @@ module.exports = {
           { key: 'Access-Control-Allow-Methods', value: 'GET,POST,PUT,DELETE' },
         ],
       },
-    ]
+    ];
   },
-}
+};
 ```
 
 ### Error: "API route not found"
@@ -397,7 +397,7 @@ export default async function handler(req, res) {
 ```typescript
 // If file is: app/api/contact/route.ts
 // URL should be: /api/contact
-fetch('/api/contact', { method: 'POST' })
+fetch('/api/contact', { method: 'POST' });
 ```
 
 ## Database Issues
@@ -415,24 +415,24 @@ Error: too many clients already
 1. **Use connection pooling:**
 
 ```typescript
-import { Pool } from 'pg'
+import { Pool } from 'pg';
 
 const pool = new Pool({
   max: 20, // Maximum connections
   idleTimeoutMillis: 30000,
-})
+});
 
-export const query = (text, params) => pool.query(text, params)
+export const query = (text, params) => pool.query(text, params);
 ```
 
 2. **Close connections properly:**
 
 ```typescript
-const client = await pool.connect()
+const client = await pool.connect();
 try {
-  await client.query('SELECT * FROM users')
+  await client.query('SELECT * FROM users');
 } finally {
-  client.release() // Always release
+  client.release(); // Always release
 }
 ```
 
@@ -451,7 +451,7 @@ Error: Connection terminated unexpectedly
 ```typescript
 const pool = new Pool({
   connectionTimeoutMillis: 5000,
-})
+});
 ```
 
 2. **Check database status:**
@@ -650,13 +650,13 @@ import Image from 'next/image';
 ```typescript
 // app/api/data/route.ts
 export async function GET() {
-  const data = await fetchData()
+  const data = await fetchData();
 
   return Response.json(data, {
     headers: {
       'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
     },
-  })
+  });
 }
 ```
 
@@ -669,21 +669,21 @@ export async function GET() {
 ```typescript
 // Clean up subscriptions
 useEffect(() => {
-  const subscription = subscribe()
+  const subscription = subscribe();
 
   return () => {
-    subscription.unsubscribe() // Cleanup
-  }
-}, [])
+    subscription.unsubscribe(); // Cleanup
+  };
+}, []);
 ```
 
 2. **Limit concurrent operations:**
 
 ```typescript
 // Use Promise.all with batching
-const chunks = chunkArray(items, 10)
+const chunks = chunkArray(items, 10);
 for (const chunk of chunks) {
-  await Promise.all(chunk.map((item) => processItem(item)))
+  await Promise.all(chunk.map((item) => processItem(item)));
 }
 ```
 
@@ -714,7 +714,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./tests/setup.ts'],
   },
-})
+});
 ```
 
 3. **Update snapshots:**
