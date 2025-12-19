@@ -1,4 +1,4 @@
-# Performance Optimization Guide 
+# Performance Optimization Guide
 
 > ⚡ Lighthouse Performance: 95+ | Core Web Vitals: Passing
 
