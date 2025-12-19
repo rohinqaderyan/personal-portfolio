@@ -1,4 +1,4 @@
-# Contributing to Personal Portfolio 
+# Contributing to Personal Portfolio
 
 > 🌟 We welcome contributions of all sizes - from typo fixes to major features!
 
@@ -129,17 +129,17 @@ These scripts will:
 ```typescript
 // ✅ Explicit types
 interface ProjectCardProps {
-  project: Project
-  onDelete?: () => void
+  project: Project;
+  onDelete?: () => void;
 }
 
 function useProjects(): Project[] {
-  return []
+  return [];
 }
 
 // ❌ Avoid
 function someFunction(data: any): any {
-  return data
+  return data;
 }
 ```
 
@@ -340,28 +340,28 @@ describe('ProjectCard', () => {
 
 ```typescript
 // src/tests/unit/string.test.ts
-import { describe, it, expect } from 'vitest'
-import { capitalize, truncate } from '@/utils/string'
+import { describe, it, expect } from 'vitest';
+import { capitalize, truncate } from '@/utils/string';
 
 describe('String utilities', () => {
   it('capitalizes first letter', () => {
-    expect(capitalize('hello')).toBe('Hello')
-    expect(capitalize('hELLO')).toBe('Hello')
-  })
+    expect(capitalize('hello')).toBe('Hello');
+    expect(capitalize('hELLO')).toBe('Hello');
+  });
 
   it('truncates long strings with ellipsis', () => {
-    const text = 'This is a very long text that needs truncating'
-    const result = truncate(text, 20)
+    const text = 'This is a very long text that needs truncating';
+    const result = truncate(text, 20);
 
-    expect(result).toHaveLength(20)
-    expect(result.endsWith('...')).toBe(true)
-  })
+    expect(result).toHaveLength(20);
+    expect(result.endsWith('...')).toBe(true);
+  });
 
   it('handles edge cases', () => {
-    expect(capitalize('')).toBe('')
-    expect(truncate('short', 20)).toBe('short')
-  })
-})
+    expect(capitalize('')).toBe('');
+    expect(truncate('short', 20)).toBe('short');
+  });
+});
 ```
 
 ### Running Tests
@@ -526,7 +526,7 @@ export function formatCurrency(amount: number, currency: string = 'USD'): string
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency,
-  }).format(amount)
+  }).format(amount);
 }
 ````
 
