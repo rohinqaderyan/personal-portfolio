@@ -1,4 +1,4 @@
-# Component Documentation 
+# Component Documentation
 
 > 🧩 50+ reusable React components with TypeScript
 
@@ -41,8 +41,8 @@ Main navigation header component.
 
 ```typescript
 interface HeaderProps {
-  sticky?: boolean
-  transparent?: boolean
+  sticky?: boolean;
+  transparent?: boolean;
 }
 ```
 
@@ -130,14 +130,14 @@ Navigation menu component.
 
 ```typescript
 interface NavigationProps {
-  items: NavigationItem[]
-  orientation?: 'horizontal' | 'vertical'
+  items: NavigationItem[];
+  orientation?: 'horizontal' | 'vertical';
 }
 
 interface NavigationItem {
-  label: string
-  href: string
-  icon?: React.ReactNode
+  label: string;
+  href: string;
+  icon?: React.ReactNode;
 }
 ```
 
@@ -166,11 +166,11 @@ Reusable button component with variants.
 
 ```typescript
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'outline' | 'ghost'
-  size?: 'sm' | 'md' | 'lg'
-  loading?: boolean
-  icon?: React.ReactNode
-  fullWidth?: boolean
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  loading?: boolean;
+  icon?: React.ReactNode;
+  fullWidth?: boolean;
 }
 ```
 
@@ -196,13 +196,13 @@ const variants = {
   secondary: 'bg-gray-600 text-white hover:bg-gray-700',
   outline: 'border-2 border-blue-600 text-blue-600 hover:bg-blue-50',
   ghost: 'text-blue-600 hover:bg-blue-50',
-}
+};
 
 const sizes = {
   sm: 'px-3 py-1.5 text-sm',
   md: 'px-4 py-2 text-base',
   lg: 'px-6 py-3 text-lg',
-}
+};
 ```
 
 **Example:**
@@ -252,13 +252,13 @@ Container component for content.
 
 ```typescript
 interface CardProps {
-  title?: string
-  description?: string
-  image?: string
-  footer?: React.ReactNode
-  variant?: 'default' | 'outlined' | 'elevated'
-  hoverable?: boolean
-  children: React.ReactNode
+  title?: string;
+  description?: string;
+  image?: string;
+  footer?: React.ReactNode;
+  variant?: 'default' | 'outlined' | 'elevated';
+  hoverable?: boolean;
+  children: React.ReactNode;
 }
 ```
 
@@ -286,11 +286,11 @@ Modal dialog component.
 
 ```typescript
 interface ModalProps {
-  isOpen: boolean
-  onClose: () => void
-  title?: string
-  size?: 'sm' | 'md' | 'lg' | 'xl'
-  children: React.ReactNode
+  isOpen: boolean;
+  onClose: () => void;
+  title?: string;
+  size?: 'sm' | 'md' | 'lg' | 'xl';
+  children: React.ReactNode;
 }
 ```
 
@@ -329,13 +329,13 @@ Homepage hero section.
 
 ```typescript
 interface HeroProps {
-  title: string
-  subtitle: string
+  title: string;
+  subtitle: string;
   cta?: {
-    label: string
-    href: string
-  }
-  image?: string
+    label: string;
+    href: string;
+  };
+  image?: string;
 }
 ```
 
@@ -360,16 +360,16 @@ About section component.
 
 ```typescript
 interface AboutProps {
-  bio: string
-  skills: string[]
-  experience: ExperienceItem[]
+  bio: string;
+  skills: string[];
+  experience: ExperienceItem[];
 }
 
 interface ExperienceItem {
-  title: string
-  company: string
-  period: string
-  description: string
+  title: string;
+  company: string;
+  period: string;
+  description: string;
 }
 ```
 
@@ -383,19 +383,19 @@ Projects showcase section.
 
 ```typescript
 interface ProjectsProps {
-  projects: Project[]
-  limit?: number
-  showFilters?: boolean
+  projects: Project[];
+  limit?: number;
+  showFilters?: boolean;
 }
 
 interface Project {
-  id: string
-  title: string
-  description: string
-  image: string
-  tags: string[]
-  link?: string
-  github?: string
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  tags: string[];
+  link?: string;
+  github?: string;
 }
 ```
 
@@ -421,15 +421,15 @@ Contact form with validation.
 
 ```typescript
 interface ContactFormProps {
-  onSuccess?: (data: FormData) => void
-  onError?: (error: Error) => void
+  onSuccess?: (data: FormData) => void;
+  onError?: (error: Error) => void;
 }
 
 interface FormData {
-  name: string
-  email: string
-  subject: string
-  message: string
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
 }
 ```
 
@@ -553,15 +553,15 @@ Individual project card component.
 ```typescript
 interface ProjectCardProps {
   project: {
-    id: string
-    title: string
-    description: string
-    image: string
-    tags: string[]
-    link?: string
-    github?: string
-  }
-  variant?: 'grid' | 'list'
+    id: string;
+    title: string;
+    description: string;
+    image: string;
+    tags: string[];
+    link?: string;
+    github?: string;
+  };
+  variant?: 'grid' | 'list';
 }
 ```
 
@@ -590,23 +590,23 @@ Responsive design hook.
 
 ```typescript
 export const useMediaQuery = (query: string) => {
-  const [matches, setMatches] = useState(false)
+  const [matches, setMatches] = useState(false);
 
   useEffect(() => {
-    const media = window.matchMedia(query)
-    setMatches(media.matches)
+    const media = window.matchMedia(query);
+    setMatches(media.matches);
 
-    const listener = () => setMatches(media.matches)
-    media.addEventListener('change', listener)
+    const listener = () => setMatches(media.matches);
+    media.addEventListener('change', listener);
 
-    return () => media.removeEventListener('change', listener)
-  }, [query])
+    return () => media.removeEventListener('change', listener);
+  }, [query]);
 
-  return matches
-}
+  return matches;
+};
 
 // Usage
-const isMobile = useMediaQuery('(max-width: 768px)')
+const isMobile = useMediaQuery('(max-width: 768px)');
 ```
 
 ### useDebounce
@@ -615,18 +615,18 @@ Debounce hook for performance.
 
 ```typescript
 export const useDebounce = <T>(value: T, delay: number): T => {
-  const [debouncedValue, setDebouncedValue] = useState(value)
+  const [debouncedValue, setDebouncedValue] = useState(value);
 
   useEffect(() => {
-    const timer = setTimeout(() => setDebouncedValue(value), delay)
-    return () => clearTimeout(timer)
-  }, [value, delay])
+    const timer = setTimeout(() => setDebouncedValue(value), delay);
+    return () => clearTimeout(timer);
+  }, [value, delay]);
 
-  return debouncedValue
-}
+  return debouncedValue;
+};
 
 // Usage
-const debouncedSearchTerm = useDebounce(searchTerm, 300)
+const debouncedSearchTerm = useDebounce(searchTerm, 300);
 ```
 
 ### useLocalStorage
@@ -636,31 +636,31 @@ Persist state in localStorage.
 ```typescript
 export const useLocalStorage = <T>(key: string, initialValue: T) => {
   const [storedValue, setStoredValue] = useState<T>(() => {
-    if (typeof window === 'undefined') return initialValue
+    if (typeof window === 'undefined') return initialValue;
 
     try {
-      const item = window.localStorage.getItem(key)
-      return item ? JSON.parse(item) : initialValue
+      const item = window.localStorage.getItem(key);
+      return item ? JSON.parse(item) : initialValue;
     } catch (error) {
-      return initialValue
+      return initialValue;
     }
-  })
+  });
 
   const setValue = (value: T | ((val: T) => T)) => {
     try {
-      const valueToStore = value instanceof Function ? value(storedValue) : value
-      setStoredValue(valueToStore)
-      window.localStorage.setItem(key, JSON.stringify(valueToStore))
+      const valueToStore = value instanceof Function ? value(storedValue) : value;
+      setStoredValue(valueToStore);
+      window.localStorage.setItem(key, JSON.stringify(valueToStore));
     } catch (error) {
-      console.error(error)
+      console.error(error);
     }
-  }
+  };
 
-  return [storedValue, setValue] as const
-}
+  return [storedValue, setValue] as const;
+};
 
 // Usage
-const [theme, setTheme] = useLocalStorage('theme', 'light')
+const [theme, setTheme] = useLocalStorage('theme', 'light');
 ```
 
 ## Best Practices
@@ -686,9 +686,9 @@ Always define props interfaces:
 
 ```typescript
 interface ComponentProps {
-  required: string
-  optional?: number
-  children?: React.ReactNode
+  required: string;
+  optional?: number;
+  children?: React.ReactNode;
 }
 ```
 
