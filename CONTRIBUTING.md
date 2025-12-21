@@ -45,10 +45,6 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 ### Quick Start with Setup Scripts
 
-The easiest way to set up your development environment:
-
-**Windows (PowerShell):**
-
 ```powershell
 .\setup.ps1
 ```
@@ -60,13 +56,9 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-These scripts will:
-
-- Check Node.js installation (v18 or v20 required)
 - Install dependencies
 - Create `.env.local` from `.env.example`
 - Run all quality checks
-- Execute test suite
 
 ### Manual Setup
 
@@ -79,12 +71,6 @@ These scripts will:
    ```
 
 2. Verify Node.js version:
-
-   ```bash
-   node --version  # Should be v18 or v20
-   npm --version
-   ```
-
 3. Install dependencies:
 
    ```bash
@@ -114,40 +100,26 @@ These scripts will:
    npm run build        # Production build
    ```
 
-## Code Style Guidelines
-
 ### TypeScript & Type Safety
 
 - Use TypeScript for all new files (strict mode enabled)
 - Define proper types/interfaces; avoid `any` type
 - Add JSDoc comments for complex functions
-- Use functional components with hooks in React
-- Follow existing naming conventions
-
-**Good Examples:**
+  **Good Examples:**
 
 ```typescript
 // ✅ Explicit types
 interface ProjectCardProps {
-  project: Project;
-  onDelete?: () => void;
-}
 
 function useProjects(): Project[] {
   return [];
 }
 
-// ❌ Avoid
-function someFunction(data: any): any {
-  return data;
 }
 ```
 
 ### React Components
 
-- Use functional components with hooks
-- Keep components small and focused (single responsibility)
-- Extract reusable logic into custom hooks
 - Use proper prop types with TypeScript interfaces
 - Memoize components if needed with `React.memo`
 
@@ -192,12 +164,7 @@ function Card(props: any) {
   "bg-gray-200": !isActive
 })}>
   Button
-</div>
-
-// ❌ Avoid
-<div style={{ backgroundColor: isActive ? "#3b82f6" : "#e5e7eb" }}>
   Button
-</div>
 ```
 
 ### File Naming

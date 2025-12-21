@@ -18,12 +18,6 @@ This guide covers monitoring, logging, and observability for your portfolio.
 
 ### Metrics Tracked
 
-- **Page views**
-- **Unique visitors**
-- **Web Vitals (CLS, FID, LCP)**
-- **Geographic distribution**
-- **Device breakdown**
-
 ## Google Analytics
 
 ### Setup
@@ -85,10 +79,6 @@ npm run lighthouse
 
 Monitor Core Web Vitals:
 
-- **LCP (Largest Contentful Paint)**: < 2.5s
-- **FID (First Input Delay)**: < 100ms
-- **CLS (Cumulative Layout Shift)**: < 0.1
-
 ## Logging
 
 ### Development Logs
@@ -121,10 +111,6 @@ View logs in Vercel dashboard:
 
 Built-in health checks:
 
-- Automatic failure detection
-- Email notifications
-- Status page integration
-
 ## Custom Metrics Dashboard
 
 ### KPIs to Track
@@ -153,16 +139,7 @@ Built-in health checks:
 
 ### Set Up Alerts For
 
-- ⚠️ Site downtime (>1 minute)
-- ⚠️ Error rate spike (>5%)
-- ⚠️ Performance degradation (LCP >4s)
-- ⚠️ Traffic anomalies
-
 ### Notification Channels
-
-- Email
-- Slack
-- SMS (critical only)
 
 ## Best Practices
 

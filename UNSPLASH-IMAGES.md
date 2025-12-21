@@ -85,7 +85,3 @@ Download these images and save them in `/public/projects/` with the exact filena
 ## Quick Alternative:
 
 Use this search query on Unsplash and pick what looks best:
-
-- "dark dashboard interface"
-- "modern tech ui"
-- "data visualization screen"
