@@ -1,14 +1,19 @@
-/**\n * API Error Handler\n * @module errorHandler\n * @description Centralized error handling for API routes\n */\nimport { NextResponse } from 'next/server'
-import { ZodError } from 'zod'
+/**
+ * API Error Handler
+ * @module errorHandler
+ * @description Centralized error handling for API routes
+ */
+import { NextResponse } from 'next/server';
+import { ZodError } from 'zod';
 
 /**
  * HTTP Error Response
  */
 export interface ErrorResponse {
-  error: string
-  details?: Record<string, any> | string[]
-  timestamp?: string
-  path?: string
+  error: string;
+  details?: Record<string, any> | string[];
+  timestamp?: string;
+  path?: string;
 }
 
 /**
@@ -36,8 +41,8 @@ export class ApiError extends Error {
     message: string,
     public details?: Record<string, any> | string[]
   ) {
-    super(message)
-    this.name = 'ApiError'
+    super(message);
+    this.name = 'ApiError';
   }
 }
 
@@ -55,14 +60,14 @@ export function createErrorResponse(
     ...(details && { details }),
     timestamp: new Date().toISOString(),
     ...(path && { path }),
-  }
+  };
 }
 
 /**
  * Handle API errors and return standardized JSON response
  */
 export function handleApiError(error: unknown, path?: string) {
-  console.error('[API Error]', error)
+  console.error('[API Error]', error);
 
   // Handle Zod validation errors
   if (error instanceof ZodError) {
@@ -78,7 +83,7 @@ export function handleApiError(error: unknown, path?: string) {
         path
       ),
       { status: 400 }
-    )
+    );
   }
 
   // Handle custom API errors
@@ -86,7 +91,7 @@ export function handleApiError(error: unknown, path?: string) {
     return NextResponse.json(
       createErrorResponse(error.statusCode, error.message, error.details, path),
       { status: error.statusCode }
-    )
+    );
   }
 
   // Handle standard Error objects
@@ -96,7 +101,7 @@ export function handleApiError(error: unknown, path?: string) {
       return NextResponse.json(
         createErrorResponse(400, 'Invalid JSON in request body', undefined, path),
         { status: 400 }
-      )
+      );
     }
 
     if (error.message.includes('fetch')) {
@@ -108,7 +113,7 @@ export function handleApiError(error: unknown, path?: string) {
           path
         ),
         { status: 503 }
-      )
+      );
     }
 
     return NextResponse.json(
@@ -119,7 +124,7 @@ export function handleApiError(error: unknown, path?: string) {
         path
       ),
       { status: 500 }
-    )
+    );
   }
 
   // Handle unknown errors
@@ -134,7 +139,7 @@ export function handleApiError(error: unknown, path?: string) {
       path
     ),
     { status: 500 }
-  )
+  );
 }
 
 /**
@@ -147,9 +152,9 @@ export function validateMethod(allowedMethods: string[], actualMethod?: string):
       ErrorCode.BAD_REQUEST,
       `Method ${actualMethod || 'unknown'} not allowed`,
       { allowed: allowedMethods }
-    )
+    );
   }
-  return null
+  return null;
 }
 
 /**
@@ -157,22 +162,22 @@ export function validateMethod(allowedMethods: string[], actualMethod?: string):
  */
 export async function parseJsonBody(request: Request): Promise<unknown> {
   try {
-    const contentType = request.headers.get('content-type')
+    const contentType = request.headers.get('content-type');
     if (!contentType?.includes('application/json')) {
-      throw new ApiError(400, ErrorCode.BAD_REQUEST, 'Content-Type must be application/json')
+      throw new ApiError(400, ErrorCode.BAD_REQUEST, 'Content-Type must be application/json');
     }
 
-    const body = await request.json()
+    const body = await request.json();
     if (!body || typeof body !== 'object') {
-      throw new ApiError(400, ErrorCode.BAD_REQUEST, 'Request body must be a JSON object')
+      throw new ApiError(400, ErrorCode.BAD_REQUEST, 'Request body must be a JSON object');
     }
 
-    return body
+    return body;
   } catch (error) {
     if (error instanceof ApiError) {
-      throw error
+      throw error;
     }
-    throw new ApiError(400, ErrorCode.INVALID_INPUT, 'Failed to parse request body')
+    throw new ApiError(400, ErrorCode.INVALID_INPUT, 'Failed to parse request body');
   }
 }
 
@@ -180,15 +185,15 @@ export async function parseJsonBody(request: Request): Promise<unknown> {
  * Check for required environment variables
  */
 export function checkEnvVariable(name: string, defaultValue?: string): string {
-  const value = process.env[name] || defaultValue
+  const value = process.env[name] || defaultValue;
   if (!value) {
     throw new ApiError(
       500,
       ErrorCode.SERVER_ERROR,
       `Required environment variable ${name} is not configured`
-    )
+    );
   }
-  return value
+  return value;
 }
 
 /**
@@ -198,9 +203,9 @@ export function validateRequiredFields(
   data: Record<string, any>,
   requiredFields: string[]
 ): string[] {
-  const missing = requiredFields.filter((field) => !data[field])
+  const missing = requiredFields.filter((field) => !data[field]);
   if (missing.length > 0) {
-    throw new ApiError(400, ErrorCode.INVALID_INPUT, 'Missing required fields', { missing })
+    throw new ApiError(400, ErrorCode.INVALID_INPUT, 'Missing required fields', { missing });
   }
-  return missing
+  return missing;
 }
