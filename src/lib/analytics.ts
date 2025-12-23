@@ -2,6 +2,7 @@
 
 /**
  * Analytics Module
+ * @module analytics
  * @description Google Analytics integration and tracking
  */
 import { useEffect } from 'react';
