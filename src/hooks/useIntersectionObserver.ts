@@ -1,5 +1,6 @@
 /**
  * useIntersectionObserver Hook
+ * @module useIntersectionObserver
  * @description Observe element visibility in viewport
  */
 import { useEffect, useRef, useState } from 'react';
