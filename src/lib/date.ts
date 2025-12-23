@@ -1,7 +1,7 @@
 /**
  * Date utility functions
  * @module date
- * Helper functions for date formatting and manipulation
+ * @description Helper functions for date formatting and manipulation
  */
 
 /**
