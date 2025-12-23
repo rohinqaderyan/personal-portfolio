@@ -4,6 +4,8 @@
 
 This document tracks planned features, improvements, and technical debt for the portfolio website.
 
+
+
 ## 🎯 High Priority
 
 ### Content & Features
