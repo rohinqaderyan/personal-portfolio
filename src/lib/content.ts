@@ -1,5 +1,6 @@
 /**
  * Content Module
+ * @module content
  * @description CMS utilities for loading site content
  */
 import fs from 'fs';
