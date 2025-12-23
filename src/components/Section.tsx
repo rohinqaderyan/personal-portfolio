@@ -2,11 +2,12 @@
 
 /**
  * Section Component
+ * @module Section
  * @description Reusable page section with title and description
  */
 import { ReactNode } from 'react';
 
-interface SectionProps { 
+interface SectionProps {
   id?: string;
   title?: string;
   description?: string;
