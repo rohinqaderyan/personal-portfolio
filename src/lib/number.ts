@@ -1,7 +1,7 @@
 /**
  * Number utility functions
  * @module number
- * Helper functions for number formatting and manipulation
+ * @description Helper functions for number formatting and manipulation
  */
 
 /**
