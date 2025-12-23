@@ -2,6 +2,7 @@
 
 /**
  * ContactForm Component
+ * @module ContactForm
  * @description Contact form with validation and submission handling
  */
 import { useState } from 'react';
