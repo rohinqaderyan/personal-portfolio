@@ -1,5 +1,6 @@
 /**
  * Configuration Module
+ * @module config
  * @description Environment and app configuration utilities
  */
 export function getConfig() {
