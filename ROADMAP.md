@@ -4,6 +4,7 @@
 
 ### ✅ Completed (v1.0 - v1.3)
 
+
 - [x] Core portfolio structure
 - [x] Project showcase with 9 featured projects
 - [x] Skills and experience sections
