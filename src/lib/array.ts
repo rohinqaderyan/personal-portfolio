@@ -1,7 +1,7 @@
 /**
  * Array utility functions
  * @module array
- * Helper functions for array manipulation and processing
+ * @description Helper functions for array manipulation and processing
  */
 
 /**
