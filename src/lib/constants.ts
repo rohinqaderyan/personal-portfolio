@@ -1,7 +1,7 @@
 /**
  * Application-wide constants
  * @module constants
- * Centralized configuration values for maintainability
+ * @description Centralized configuration values for maintainability
  */
 
 /** Animation timing constants (in seconds) */
