@@ -2,6 +2,7 @@
 
 /**
  * MotionProvider Component
+ * @module MotionProvider
  * @description Framer Motion lazy loading wrapper
  */
 import { LazyMotion, domAnimation } from 'framer-motion';
