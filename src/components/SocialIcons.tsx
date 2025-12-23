@@ -2,6 +2,7 @@
 
 /**
  * SocialIcons Component
+ * @module SocialIcons
  * @description Social media links with icons
  */
 import { Linkedin, Github, Twitter, Mail } from 'lucide-react';
