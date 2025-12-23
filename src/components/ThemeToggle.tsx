@@ -1,7 +1,8 @@
 'use client';
 
 /**
- * ThemeToggle Component 
+ * ThemeToggle Component
+ * @module ThemeToggle
  * @description Toggle button for dark/light mode switching
  */
 import { Moon, Sun } from 'lucide-react';
