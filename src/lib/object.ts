@@ -1,7 +1,7 @@
 /**
  * Object utility functions
  * @module object
- * Helper functions for object manipulation and processing
+ * @description Helper functions for object manipulation and processing
  */
 
 /**
