@@ -2,6 +2,7 @@
 
 /**
  * ThemeProvider Component
+ * @module ThemeProvider
  * @description Context provider for dark/light theme
  */
 import { createContext, useContext, useEffect, useState } from 'react';
