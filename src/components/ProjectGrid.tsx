@@ -1,7 +1,8 @@
 'use client';
 
 /**
- * ProjectGrid Component 
+ * ProjectGrid Component
+ * @module ProjectGrid
  * @description Grid layout for displaying projects
  */
 import { ProjectCard } from './ProjectCard';
