@@ -2,12 +2,13 @@
 
 /**
  * Card Component
+ * @module Card
  * @description Reusable card with glassmorphism effects
  */
 import { ReactNode } from 'react';
 import { cn } from '@/lib/utils';
 
-interface CardProps { 
+interface CardProps {
   children: ReactNode;
   className?: string;
   hover?: boolean;
