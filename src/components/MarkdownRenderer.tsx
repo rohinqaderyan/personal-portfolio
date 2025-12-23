@@ -2,6 +2,7 @@
 
 /**
  * MarkdownRenderer Component
+ * @module MarkdownRenderer
  * @description Renders markdown with syntax highlighting
  */
 import { useEffect } from 'react';
