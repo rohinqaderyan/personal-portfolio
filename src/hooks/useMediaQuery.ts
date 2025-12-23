@@ -1,5 +1,6 @@
 /**
  * useMediaQuery Hook
+ * @module useMediaQuery
  * @description Responsive breakpoint detection hook
  */
 import { useEffect, useState } from 'react';
