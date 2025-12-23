@@ -2,6 +2,7 @@
 
 /**
  * ErrorBoundary Component
+ * @module ErrorBoundary
  * @description Catches and displays React errors gracefully
  */
 import React from 'react';
