@@ -1,5 +1,7 @@
 # Architecture Overview
 
+<!-- Technical architecture documentation -->
+
 > 🏗️ Next.js 14 App Router | React Server Components | Edge Runtime
 
 Technical architecture documentation for the Next.js portfolio application.
