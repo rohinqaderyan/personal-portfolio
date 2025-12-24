@@ -1,5 +1,7 @@
 # Security Best Practices & Policy
 
+<!-- Security documentation and reporting -->
+
 ## Table of Contents
 
 - [Security Policy](#security-policy)
