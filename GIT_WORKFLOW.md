@@ -1,5 +1,7 @@
 # Git Workflow
 
+<!-- Git branching and commit guidelines -->
+
 > 🔄 This project uses [Conventional Commits](https://www.conventionalcommits.org/) and [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow).
 
 ## Branch Strategy
