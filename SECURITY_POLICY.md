@@ -1,5 +1,7 @@
 # Security Policy
 
+<!-- Security vulnerability reporting -->
+
 > 🔒 Responsible disclosure encouraged | Security patches within 48 hours
 
 ## Supported Versions
