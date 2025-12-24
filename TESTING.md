@@ -1,5 +1,7 @@
 # Testing Guide
 
+<!-- Testing setup and guidelines -->
+
 ## Overview
 
 This project uses **Vitest** for unit testing and **Playwright** for end-to-end testing.
