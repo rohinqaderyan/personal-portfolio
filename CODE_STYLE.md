@@ -1,5 +1,7 @@
 # Code Style Guide
 
+<!-- Coding standards and style guidelines -->
+
 > ✨ Enforced by ESLint + Prettier | Pre-commit hooks via Husky
 
 ## Overview
