@@ -1,5 +1,7 @@
 # Monitoring & Observability
 
+<!-- Monitoring and analytics setup -->
+
 > 📊 Powered by Vercel Analytics & Google Analytics 4
 
 ## Overview
