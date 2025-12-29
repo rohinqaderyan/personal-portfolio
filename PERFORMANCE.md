@@ -2,7 +2,7 @@
 
 <!-- Performance best practices and metrics -->
 
-> 🚀 Last benchmarked: December 2025 | Next.js 14.2.x
+> 🚀 Last benchmarked: December 2025 | Next.js 14.2.x 
 
 This document outlines the performance optimizations implemented in this portfolio and provides guidelines for maintaining optimal performance.
 
