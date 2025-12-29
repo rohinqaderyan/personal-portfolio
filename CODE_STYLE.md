@@ -2,7 +2,7 @@
 
 <!-- Coding standards and style guidelines -->
 
-> ✨ Enforced by ESLint + Prettier | Pre-commit hooks via Husky
+> ✨ Enforced by ESLint + Prettier | Pre-commit hooks via Husky 
 
 ## Overview
 
