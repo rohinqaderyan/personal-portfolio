@@ -1,6 +1,6 @@
 # API Documentation 
 
-> 📡 RESTful API | TypeScript | Edge Functions
+> 📡 RESTful API | TypeScript | Edge Functions 
 
 Documentation for all API endpoints in this portfolio application.
 
