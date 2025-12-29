@@ -2,7 +2,7 @@
 
 <!-- Docker container setup and deployment -->
 
-> 🐳 Compatible with Docker 20.10+ and Docker Compose v2
+> 🐳 Compatible with Docker 20.10+ and Docker Compose v2 
 
 ## Overview
 
