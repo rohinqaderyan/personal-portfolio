@@ -2,7 +2,7 @@
 
 <!-- Environment configuration guide -->
 
-> ⚙️ Node.js 18+ | npm 9+ | TypeScript 5.4
+> ⚙️ Node.js 18+ | npm 9+ | TypeScript 5.4 
 
 ## Prerequisites
 
