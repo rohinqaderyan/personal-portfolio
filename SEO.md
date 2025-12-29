@@ -2,7 +2,7 @@
 
 <!-- Search engine optimization guide -->
 
-> 🔍 Lighthouse SEO Score: **100/100**
+> 🔍 Lighthouse SEO Score: **100/100** 
 
 ## Overview
 
