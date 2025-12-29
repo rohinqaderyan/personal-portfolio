@@ -2,7 +2,7 @@
 
 <!-- Development environment setup -->
 
-> ⏱️ Get started in under 5 minutes with automated scripts
+> ⏱️ Get started in under 5 minutes with automated scripts 
 
 Quick setup guide for new contributors to get the project running locally.
 
