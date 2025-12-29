@@ -2,7 +2,7 @@
 
 <!-- React component reference -->
 
-> 🧩 50+ reusable React components with TypeScript
+> 🧩 50+ reusable React components with TypeScript 
 
 ## Overview
 
