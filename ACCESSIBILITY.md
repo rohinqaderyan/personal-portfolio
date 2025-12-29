@@ -2,7 +2,7 @@
 
 <!-- Accessibility compliance and features -->
 
-> ♿ WCAG 2.1 AA | Screen Reader Tested | Keyboard Navigable
+> ♿ WCAG 2.1 AA | Screen Reader Tested | Keyboard Navigable 
 
 ## Commitment to Accessibility
 
