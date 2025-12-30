@@ -1,8 +1,9 @@
 # Component Documentation
 
 <!-- React component reference -->
+<!-- Version: 1.3.1 -->
 
-> 🧩 50+ reusable React components with TypeScript 
+> 🧩 50+ reusable React components with TypeScript
 
 ## Overview
 
