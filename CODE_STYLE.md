@@ -1,8 +1,9 @@
 # Code Style Guide
 
 <!-- Coding standards and style guidelines -->
+<!-- Last reviewed: 2025-12-30 -->
 
-> ✨ Enforced by ESLint + Prettier | Pre-commit hooks via Husky 
+> ✨ Enforced by ESLint + Prettier | Pre-commit hooks via Husky
 
 ## Overview
 
