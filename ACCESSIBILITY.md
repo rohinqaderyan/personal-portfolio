@@ -1,8 +1,9 @@
 # Accessibility Statement
 
 <!-- Accessibility compliance and features -->
+<!-- Last updated: 2025-12-30 -->
 
-> ♿ WCAG 2.1 AA | Screen Reader Tested | Keyboard Navigable 
+> ♿ WCAG 2.1 AA | Screen Reader Tested | Keyboard Navigable
 
 ## Commitment to Accessibility
 
