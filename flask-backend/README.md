@@ -1,6 +1,8 @@
 # Flask Backend for Portfolio Contact Form
 
-This Flask microservice handles contact form submissions and sends emails via a transactional email provider. 
+<!-- Backend API documentation -->
+
+This Flask microservice handles contact form submissions and sends emails via a transactional email provider.
 
 ## Features
 
