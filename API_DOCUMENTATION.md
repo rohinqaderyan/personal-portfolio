@@ -1,6 +1,8 @@
-# API Documentation 
+# API Documentation
 
-> 📡 RESTful API | TypeScript | Edge Functions 
+<!-- API reference documentation -->
+
+> 📡 RESTful API | TypeScript | Edge Functions
 
 Documentation for all API endpoints in this portfolio application.
 
@@ -173,7 +175,7 @@ The API uses standardized error responses:
 
 ```typescript
 // Example rate limiting implementation
-import rateLimit from 'express-rate-limit'
+import rateLimit from 'express-rate-limit';
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
@@ -182,7 +184,7 @@ const limiter = rateLimit({
     error: 'Too many requests, please try again later',
     retryAfter: '15 minutes',
   },
-})
+});
 ```
 
 ## Error Response Format
@@ -191,16 +193,16 @@ All errors follow this structure:
 
 ```typescript
 interface ErrorResponse {
-  error: string // Human-readable error message
-  details?: Array<ValidationError> | object // Optional validation details
-  timestamp?: string // ISO 8601 timestamp
-  path?: string // API endpoint path
+  error: string; // Human-readable error message
+  details?: Array<ValidationError> | object; // Optional validation details
+  timestamp?: string; // ISO 8601 timestamp
+  path?: string; // API endpoint path
 }
 
 interface ValidationError {
-  field: string // Name of invalid field
-  message: string // Description of error
-  code: string // Error code (e.g., 'invalid_type', 'too_small')
+  field: string; // Name of invalid field
+  message: string; // Description of error
+  code: string; // Error code (e.g., 'invalid_type', 'too_small')
 }
 ```
 
@@ -269,18 +271,18 @@ async function sendContactForm(data: ContactFormData) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(data),
-    })
+    });
 
     if (!response.ok) {
-      const error = await response.json()
-      throw new Error(error.error || 'Failed to send message')
+      const error = await response.json();
+      throw new Error(error.error || 'Failed to send message');
     }
 
-    const result = await response.json()
-    return result
+    const result = await response.json();
+    return result;
   } catch (error) {
-    console.error('Contact form error:', error)
-    throw error
+    console.error('Contact form error:', error);
+    throw error;
   }
 }
 
@@ -289,11 +291,11 @@ const formData = {
   name: 'John Doe',
   email: 'john@example.com',
   message: 'Hello, I would like to connect.',
-}
+};
 
 sendContactForm(formData)
   .then((result) => console.log('Success:', result))
-  .catch((error) => console.error('Error:', error))
+  .catch((error) => console.error('Error:', error));
 ```
 
 ## Environment Variables
@@ -352,17 +354,17 @@ Content-Type: application/json
 Requests to Flask backend have a 10-second timeout:
 
 ```typescript
-const controller = new AbortController()
-const timeoutId = setTimeout(() => controller.abort(), 10000)
+const controller = new AbortController();
+const timeoutId = setTimeout(() => controller.abort(), 10000);
 
 try {
   const response = await fetch(`${flaskUrl}/send-email`, {
     method: 'POST',
     signal: controller.signal,
     // ...
-  })
+  });
 } finally {
-  clearTimeout(timeoutId)
+  clearTimeout(timeoutId);
 }
 ```
 
@@ -379,7 +381,7 @@ const contactSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
   email: z.string().email('Invalid email address'),
   message: z.string().min(10, 'Message must be at least 10 characters'),
-})
+});
 ```
 
 ### CORS
@@ -398,7 +400,7 @@ export async function OPTIONS(request: Request) {
       'Access-Control-Allow-Methods': 'POST',
       'Access-Control-Allow-Headers': 'Content-Type',
     },
-  })
+  });
 }
 ```
 
@@ -407,9 +409,9 @@ export async function OPTIONS(request: Request) {
 Only `application/json` accepted:
 
 ```typescript
-const contentType = request.headers.get('content-type')
+const contentType = request.headers.get('content-type');
 if (!contentType?.includes('application/json')) {
-  throw new ApiError(400, 'Content-Type must be application/json')
+  throw new ApiError(400, 'Content-Type must be application/json');
 }
 ```
 
