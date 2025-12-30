@@ -1,5 +1,7 @@
 # Profile Photo Instructions
 
+<!-- Photo upload guide -->
+
 Please add your professional photo with these specifications:
 
 ## File Details
