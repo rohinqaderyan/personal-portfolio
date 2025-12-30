@@ -1,9 +1,9 @@
 # Changelog
 
 <!-- Project changelog and version history -->
+<!-- Updated: 2025-12-30 -->
 
-All notable changes to this project will be documented in this file. 
-
+All notable changes to this project will be documented in this file.
 
 ## [1.3.1] - 2024-12-12
 
