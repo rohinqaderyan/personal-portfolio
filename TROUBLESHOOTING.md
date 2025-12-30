@@ -1,8 +1,9 @@
 # Troubleshooting Guide
 
 <!-- Common issues and solutions -->
+<!-- Last updated: 2025-12-30 -->
 
-> 🔧 Quick fixes for common development issues 
+> 🔧 Quick fixes for common development issues
 
 ## Common Issues and Solutions
 
