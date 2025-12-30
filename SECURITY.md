@@ -1,6 +1,7 @@
 # Security Best Practices & Policy
 
 <!-- Security documentation and reporting -->
+<!-- Last updated: 2025-12-30 -->
 
 ## Table of Contents
 
@@ -15,7 +16,7 @@
 - [CORS Configuration](#cors-configuration)
 - [Deployment Security](#deployment-security)
 
-## Security Policy 
+## Security Policy
 
 This project is maintained with security as a top priority. We follow industry best practices and implement multiple layers of protection to keep user data safe.
 
