@@ -1,8 +1,9 @@
 # Contributing to Personal Portfolio
 
 <!-- Contribution guidelines -->
+<!-- Last reviewed: 2025-12-30 -->
 
-> 🌟 We welcome contributions of all sizes - from typo fixes to major features! 
+> 🌟 We welcome contributions of all sizes - from typo fixes to major features!
 
 Thank you for considering contributing to this project! This document provides guidelines and instructions for contributing.
 
