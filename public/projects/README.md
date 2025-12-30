@@ -1,5 +1,7 @@
 # Project Images Guide
 
+<!-- Project image specifications -->
+
 For the best visual impact, add modern, tech-focused images for each project.
 
 ## Required Images (1200x800px recommended):
