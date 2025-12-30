@@ -1,8 +1,9 @@
 # Quick Start Guide
 
 <!-- Fast setup instructions -->
+<!-- Version: 1.0 -->
 
-> ⏱️ Estimated setup time: **5 minutes** 
+> ⏱️ Estimated setup time: **5 minutes**
 
 Get your portfolio up and running in minutes!
 
