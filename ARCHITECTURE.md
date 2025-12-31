@@ -1,7 +1,7 @@
 # Architecture Overview
 
 <!-- Technical architecture documentation -->
-<!-- Version: 1.3.1 -->
+<!-- Version: 1.3.2 -->
 
 > 🏭️ Next.js 14 App Router | React Server Components | Edge Runtime
 
