@@ -1,8 +1,9 @@
 # Performance Optimization Guide
 
 <!-- Performance tips and benchmarks -->
+<!-- Version: 1.1 -->
 
-> ⚡ Lighthouse Performance: 95+ | Core Web Vitals: Passing 
+> ⚡ Lighthouse Performance: 95+ | Core Web Vitals: Passing
 
 This portfolio is highly optimized for performance. Here are the key optimizations:
 
