@@ -1,7 +1,7 @@
 # Docker Deployment Guide
 
 <!-- Docker container setup and deployment -->
-<!-- Updated: 2025-12-30 -->
+<!-- Updated: 2025-12-31 -->
 
 > 🐳 Compatible with Docker 20.10+ and Docker Compose v2
 
