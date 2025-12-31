@@ -1,7 +1,7 @@
 # Developer Setup Guide
 
 <!-- Development environment setup -->
-<!-- Version: 1.0 -->
+<!-- Version: 1.1 -->
 
 > ⏱️ Get started in under 5 minutes with automated scripts
 
