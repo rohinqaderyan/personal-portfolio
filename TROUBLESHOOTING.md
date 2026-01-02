@@ -1,7 +1,7 @@
 # Troubleshooting Guide
 
 <!-- Common issues and solutions -->
-<!-- Last updated: 2025-12-31 -->
+<!-- Last updated: 2026-01-02 -->
 
 > 🔧 Quick fixes for common development issues
 
