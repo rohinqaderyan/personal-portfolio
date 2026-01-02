@@ -1,6 +1,6 @@
 # TODO - Future Enhancements
 
-> Last updated: December 31, 2025
+> Last updated: January 2, 2026
 
 This document tracks planned features, improvements, and technical debt for the portfolio website.
 
