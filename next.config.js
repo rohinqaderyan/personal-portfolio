@@ -1,8 +1,8 @@
 /**
- * Next.js Configuration 
- * @version 1.3.2
+ * Next.js Configuration
+ * @version 1.3.3
  * Optimized for performance, SEO, and security
- * Updated: December 2024
+ * Updated: January 2026
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
