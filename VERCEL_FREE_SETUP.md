@@ -1,6 +1,7 @@
 # 🎯 Step-by-Step: Change Your Vercel Project URL (FREE)
 
 <!-- Vercel free tier setup guide -->
+<!-- Version: 1.0.1 -->
 
 > 🆓 No credit card required | Free tier friendly
 
