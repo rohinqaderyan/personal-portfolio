@@ -1,7 +1,7 @@
 # API Documentation
 
 <!-- API reference documentation -->
-<!-- Version: 1.1 -->
+<!-- Version: 1.1.1 -->
 
 > 📡 RESTful API | TypeScript | Edge Functions
 
