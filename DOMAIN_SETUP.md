@@ -1,6 +1,7 @@
 # Custom Domain Setup for Vercel
 
 <!-- Custom domain configuration -->
+<!-- Version: 1.0.1 -->
 
 > 🌐 Connect your custom domain in under 10 minutes
 
