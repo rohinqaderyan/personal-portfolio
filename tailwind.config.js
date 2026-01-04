@@ -1,8 +1,8 @@
 /**
- * Tailwind CSS Configuration 
- * @version 1.3.2
+ * Tailwind CSS Configuration
+ * @version 1.3.3
  * Custom theme with dark mode and glassmorphism effects
- * Last Updated: December 2024
+ * Last Updated: January 2026
  * @type {import('tailwindcss').Config}
  */
 module.exports = {
