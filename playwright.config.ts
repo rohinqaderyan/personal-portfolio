@@ -1,7 +1,7 @@
 /**
- * Playwright E2E Testing Configuration 
+ * Playwright E2E Testing Configuration
  * Cross-browser testing for Chrome, Firefox, Safari
- * @version 1.3.1
+ * @version 1.3.2
  */
 import { defineConfig, devices } from '@playwright/test';
 
