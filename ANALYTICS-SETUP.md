@@ -1,6 +1,7 @@
 # Google Analytics Setup Guide
 
 <!-- Google Analytics integration guide -->
+<!-- Version: 1.0.1 -->
 
 > 📊 GA4 Integration | Real-time analytics | Privacy-focused
 
