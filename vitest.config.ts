@@ -1,7 +1,7 @@
 /**
- * Vitest Configuration 
+ * Vitest Configuration
  * Unit testing with React Testing Library and jsdom
- * @version 1.3.1
+ * @version 1.3.2
  */
 import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
