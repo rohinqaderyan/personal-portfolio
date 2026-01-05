@@ -1,7 +1,7 @@
 # Environment Setup Guide
 
 <!-- Environment configuration guide -->
-<!-- Version: 1.2.1 -->
+<!-- Version: 1.2.2 -->
 
 > ⚙️ Node.js 18+ | npm 9+ | TypeScript 5.4
 
