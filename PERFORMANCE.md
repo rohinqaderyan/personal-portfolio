@@ -1,7 +1,7 @@
 # Performance Optimization Guide
 
 <!-- Performance best practices and metrics -->
-<!-- Document version: 1.2.2 -->
+<!-- Document version: 1.2.3 -->
 
 > 🚀 Last benchmarked: December 2025 | Next.js 14.2.x
 
