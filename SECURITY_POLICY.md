@@ -1,7 +1,7 @@
 # Security Policy
 
 <!-- Security vulnerability reporting -->
-<!-- Last updated: 2026-01-06 -->
+<!-- Last updated: 2026-01-08 -->
 
 > 🔒 Responsible disclosure encouraged | Security patches within 48 hours
 
