@@ -1,7 +1,7 @@
 # Testing Guide
 
 <!-- Testing setup and guidelines -->
-<!-- Last reviewed: 2026-01-07 -->
+<!-- Last reviewed: 2026-01-08 -->
 
 ## Overview
 
