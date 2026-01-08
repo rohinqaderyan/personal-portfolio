@@ -1,7 +1,7 @@
 # SEO Optimization Guide
 
 <!-- Search engine optimization guide -->
-<!-- Version: 1.2.5 -->
+<!-- Version: 1.2.6 -->
 
 > 🔍 Lighthouse SEO Score: **100/100**
 
