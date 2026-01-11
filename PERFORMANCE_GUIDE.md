@@ -1,7 +1,7 @@
 # Performance Optimization Guide
 
 <!-- Performance tips and benchmarks -->
-<!-- Version: 1.1.5 -->
+<!-- Version: 1.1.6 -->
 
 > ⚡ Lighthouse Performance: 95+ | Core Web Vitals: Passing
 
