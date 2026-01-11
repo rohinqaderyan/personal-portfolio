@@ -1,7 +1,7 @@
 # Quick Start Guide
 
 <!-- Fast setup instructions -->
-<!-- Version: 1.2.5 -->
+<!-- Version: 1.2.6 -->
 
 > ⏱️ Estimated setup time: **5 minutes**
 
