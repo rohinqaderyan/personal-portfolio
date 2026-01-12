@@ -1,0 +1,13 @@
+# Build Optimization
+
+## Bundle Size
+
+- Analyze bundle regularly
+- Use code splitting
+- Lazy load components
+
+## Performance
+
+- Minimize dependencies
+- Tree-shake unused code
+- Compress assets
