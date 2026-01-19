@@ -19,3 +19,4 @@
 - Use SVG
 - Inline small icons
 - Sprite sheets for many icons
+<!-- Reviewed 2026 -->
