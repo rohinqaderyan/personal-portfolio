@@ -13,3 +13,4 @@
 **SSR**: Server-Side Rendering
 **SPA**: Single Page Application
 **PWA**: Progressive Web App
+<!-- Reviewed 2026 -->
