@@ -19,3 +19,4 @@
 - Implement cache invalidation
 - Use stale-while-revalidate
 - Monitor cache hit rates
+<!-- Reviewed 2026 -->
