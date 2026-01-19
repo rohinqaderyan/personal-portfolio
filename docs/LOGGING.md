@@ -12,3 +12,4 @@
 - Include timestamps
 - Add context
 - Avoid sensitive data
+<!-- Reviewed 2026 -->
