@@ -18,3 +18,4 @@
 - Pre-commit hooks
 - Run on staged files
 - Prevent bad commits
+<!-- Reviewed 2026 -->
