@@ -17,3 +17,4 @@
 - Use Lighthouse
 - Track real user metrics
 - Set up alerts
+<!-- Reviewed 2026 -->
