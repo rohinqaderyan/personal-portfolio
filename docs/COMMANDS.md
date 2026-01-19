@@ -30,3 +30,4 @@ npm test          # Run tests
 npm run test:watch # Watch mode
 npm run test:coverage # Coverage report
 ```
+<!-- Reviewed 2026 -->
