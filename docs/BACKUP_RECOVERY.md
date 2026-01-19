@@ -33,3 +33,4 @@ git push --tags
 2. Restore from backup
 3. Verify functionality
 4. Document incident
+<!-- Reviewed 2026 -->
