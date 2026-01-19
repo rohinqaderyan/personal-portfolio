@@ -17,3 +17,4 @@
 - [ ] Sufficient color contrast
 - [ ] Text resizable
 - [ ] No content flash
+<!-- Reviewed 2026 -->
