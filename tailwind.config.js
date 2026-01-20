@@ -6,6 +6,7 @@
  * @type {import('tailwindcss').Config}
  */
 module.exports = {
+  // Content paths for Tailwind CSS
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
