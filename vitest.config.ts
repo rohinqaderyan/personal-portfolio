@@ -2,6 +2,7 @@
  * Vitest Configuration
  * Unit testing with React Testing Library and jsdom
  * @version 1.3.2
+ * Updated: January 2026
  */
 import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
