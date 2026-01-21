@@ -5,6 +5,7 @@
  * Updated: January 2026
  */
 module.exports = {
+  // PostCSS plugins configuration
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
