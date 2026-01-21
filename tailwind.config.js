@@ -12,6 +12,7 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  // Dark mode using class strategy
   darkMode: 'class',
   future: {
     hoverOnlyWhenSupported: true,
