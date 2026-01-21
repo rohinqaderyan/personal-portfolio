@@ -21,7 +21,7 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 
-  // Compiler optimizations
+  // Compiler optimizations for production
   compiler: {
     removeConsole:
       process.env.NODE_ENV === 'production'
