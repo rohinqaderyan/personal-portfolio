@@ -2,6 +2,7 @@
  * Playwright E2E Testing Configuration
  * Cross-browser testing for Chrome, Firefox, Safari
  * @version 1.3.2
+ * Updated: January 2026
  */
 import { defineConfig, devices } from '@playwright/test';
 
