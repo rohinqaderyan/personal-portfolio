@@ -1,5 +1,7 @@
 # Content Management
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Markdown Files
 
 - Store in content/ directory
