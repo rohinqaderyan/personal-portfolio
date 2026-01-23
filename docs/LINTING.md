@@ -1,5 +1,7 @@
 # Linting Configuration
 
+<!-- Last updated: 2026-01-23 -->
+
 ## ESLint
 
 - Extends recommended configs
