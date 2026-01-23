@@ -1,5 +1,7 @@
 # API Guidelines
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Naming Conventions
 
 - Use camelCase for functions
