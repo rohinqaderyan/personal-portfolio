@@ -1,5 +1,7 @@
 # Routing Guide
 
+<!-- Last updated: 2026-01-23 -->
+
 ## File-based Routing
 
 - `app/page.tsx` → `/`
