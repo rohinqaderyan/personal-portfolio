@@ -1,5 +1,7 @@
 # Build Optimization
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Bundle Size
 
 - Analyze bundle regularly
