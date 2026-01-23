@@ -1,5 +1,7 @@
 # Testing Strategy
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Unit Tests
 
 - Test individual functions
