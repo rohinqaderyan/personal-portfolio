@@ -1,5 +1,7 @@
 # API Design Principles
 
+<!-- Last updated: 2026-01-23 -->
+
 ## RESTful Design
 
 - Use HTTP methods correctly
