@@ -1,5 +1,7 @@
 # SEO Best Practices
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Meta Tags
 
 - Title: < 60 characters
