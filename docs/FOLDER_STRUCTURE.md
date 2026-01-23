@@ -1,5 +1,7 @@
 # Folder Structure
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Root Directory
 
 - `/src` - Source code
