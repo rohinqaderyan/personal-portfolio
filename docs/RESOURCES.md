@@ -1,5 +1,7 @@
 # Useful Resources
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Documentation
 
 - [Next.js Docs](https://nextjs.org/docs)
