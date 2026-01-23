@@ -1,5 +1,7 @@
 # Browser Compatibility
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Supported Browsers
 
 - Chrome: Last 2 versions
