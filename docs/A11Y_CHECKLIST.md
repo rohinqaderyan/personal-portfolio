@@ -1,5 +1,7 @@
 # Accessibility Checklist
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Keyboard Navigation
 
 - [ ] All interactive elements focusable
