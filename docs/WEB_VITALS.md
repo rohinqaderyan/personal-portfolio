@@ -1,5 +1,7 @@
 # Performance Optimization
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Core Web Vitals
 
 - LCP < 2.5s
