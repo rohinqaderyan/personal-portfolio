@@ -1,5 +1,7 @@
 # Tailwind CSS Guide
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Utility Classes
 
 - Spacing: p-4, m-2, gap-4
