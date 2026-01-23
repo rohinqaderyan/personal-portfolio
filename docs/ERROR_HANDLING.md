@@ -1,5 +1,7 @@
 # Error Handling
 
+<!-- Last updated: 2026-01-23 -->
+
 ## Client-Side Errors
 
 - Use error boundaries
