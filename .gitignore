@@ -53,3 +53,4 @@ venv/
 ENV/
 *.egg-info/
 .pytest_cache/
+# Build artifacts
