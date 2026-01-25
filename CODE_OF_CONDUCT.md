@@ -1,7 +1,7 @@
 # Contributor Covenant Code of Conduct
 
 <!-- Community Code of Conduct -->
-<!-- Last reviewed: 2026-01-22 -->
+<!-- Last reviewed: 2026-01-25 -->
 
 > 📅 Adopted: 2024 | Based on [Contributor Covenant 2.1](https://www.contributor-covenant.org/)
 
