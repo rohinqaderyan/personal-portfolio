@@ -2,6 +2,7 @@
 
 <!-- Development environment setup -->
 <!-- Version: 1.2.9 -->
+<!-- Last reviewed: 2026-01-25 -->
 
 > ⏱️ Get started in under 5 minutes with automated scripts
 
