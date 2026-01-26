@@ -348,3 +348,4 @@ export async function GET() {
 **Last Updated:** December 2025
 **Deployment Target:** Vercel (Primary)
 **Minimum Node Version:** 18.0.0
+<!-- Reviewed 2026-01-26 -->
