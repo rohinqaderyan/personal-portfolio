@@ -123,3 +123,4 @@ For best experience:
 - Monitor browser usage analytics
 - Add polyfills if needed for wider support
 - Consider removing older browser support in future versions
+<!-- Reviewed 2026-01-26 -->
