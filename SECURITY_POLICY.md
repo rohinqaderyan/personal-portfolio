@@ -53,3 +53,4 @@ This portfolio follows these security practices:
 ## Updates
 
 Security updates are released as soon as possible after discovery.
+<!-- Reviewed 2026-01-26 -->
