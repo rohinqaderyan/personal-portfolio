@@ -494,3 +494,4 @@ curl -X POST http://localhost:3000/api/contact \
 - We ask that you do not publicly disclose the issue until we've addressed it
 
 Thank you for helping keep this project secure!
+<!-- Reviewed 2026-01-26 -->
