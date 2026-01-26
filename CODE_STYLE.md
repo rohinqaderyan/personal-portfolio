@@ -338,3 +338,4 @@ const HeavyComponent = dynamic(() => import('./HeavyComponent'));
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/)
 - [Tailwind CSS Best Practices](https://tailwindcss.com/docs/reusing-styles)
+<!-- Reviewed 2026-01-26 -->
