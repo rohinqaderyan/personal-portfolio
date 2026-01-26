@@ -1,6 +1,6 @@
 # Changelog
 
-<!-- Project changelog and version history -->
+<!-- Changelog file and version history -->
 <!-- Updated: 2026-01-26 -->
 
 All notable changes to this project will be documented in this file.
