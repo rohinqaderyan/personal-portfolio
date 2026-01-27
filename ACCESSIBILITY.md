@@ -1,7 +1,7 @@
 # Accessibility Statement
 
 <!-- Accessibility compliance and features -->
-<!-- Last updated: 2026-01-25 -->
+<!-- Last updated: 2026-01-27 -->
 
 > ♿ WCAG 2.1 AA | Screen Reader Tested | Keyboard Navigable
 
@@ -101,4 +101,5 @@ This website has been tested with:
 This accessibility statement was last updated on November 30, 2025.
 
 We continually review and improve our accessibility practices and will update this statement as changes are made.
+
 <!-- Reviewed 2026-01-26 -->
