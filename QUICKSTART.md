@@ -2,7 +2,7 @@
 
 <!-- Fast setup instructions -->
 <!-- Version: 1.2.8 -->
-<!-- Last reviewed: 2026-01-25 -->
+<!-- Last reviewed: 2026-01-27 -->
 
 > ⏱️ Estimated setup time: **5 minutes**
 
@@ -286,4 +286,5 @@ Run: `npm run type-check` to see all type errors.
 ---
 
 **You're all set!** Start customizing and make it yours. 🚀
+
 <!-- Reviewed 2026-01-26 -->
