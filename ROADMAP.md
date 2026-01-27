@@ -1,7 +1,7 @@
 # Roadmap
 
 <!-- Product Roadmap -->
-<!-- Last updated: 2026-01-25 -->
+<!-- Last updated: 2026-01-27 -->
 
 ## Current Version: 1.3.0
 
@@ -132,4 +132,5 @@ Have a feature request or suggestion?
 ---
 
 _Last updated: December 2025_
+
 <!-- Reviewed 2026-01-26 -->
