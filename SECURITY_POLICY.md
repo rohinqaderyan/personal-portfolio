@@ -1,7 +1,7 @@
 # Security Policy
 
 <!-- Security vulnerability reporting -->
-<!-- Last updated: 2026-01-25 -->
+<!-- Last updated: 2026-01-27 -->
 
 > 🔒 Responsible disclosure encouraged | Security patches within 48 hours
 
@@ -53,4 +53,5 @@ This portfolio follows these security practices:
 ## Updates
 
 Security updates are released as soon as possible after discovery.
+
 <!-- Reviewed 2026-01-26 -->
