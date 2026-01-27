@@ -1,7 +1,7 @@
 # Contributor Covenant Code of Conduct
 
 <!-- Community Code of Conduct -->
-<!-- Last reviewed: 2026-01-25 -->
+<!-- Last reviewed: 2026-01-27 -->
 
 > 📅 Adopted: 2024 | Based on [Contributor Covenant 2.1](https://www.contributor-covenant.org/)
 
@@ -136,4 +136,5 @@ For answers to common questions about this code of conduct, see the FAQ at
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
+
 <!-- Reviewed 2026-01-26 -->
