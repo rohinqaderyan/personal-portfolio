@@ -1,7 +1,7 @@
 # Roadmap
 
 <!-- Product Roadmap -->
-<!-- Last updated: 2026-01-28 -->
+<!-- Last updated: 2026-01-29 -->
 
 ## Current Version: 1.3.0
 
