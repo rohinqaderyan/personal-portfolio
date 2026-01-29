@@ -2,7 +2,7 @@
 
 <!-- Git branching and commit guidelines -->
 <!-- Version: 1.2.9 -->
-<!-- Last reviewed: 2026-01-28 -->
+<!-- Last reviewed: 2026-01-29 -->
 
 > 🔄 This project uses [Conventional Commits](https://www.conventionalcommits.org/) and [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow).
 
