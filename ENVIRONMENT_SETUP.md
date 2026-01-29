@@ -2,7 +2,7 @@
 
 <!-- Environment configuration guide -->
 <!-- Version: 1.2.9 -->
-<!-- Last reviewed: 2026-01-27 -->
+<!-- Last reviewed: 2026-01-28 -->
 
 > ⚙️ Node.js 18+ | npm 9+ | TypeScript 5.4
 
