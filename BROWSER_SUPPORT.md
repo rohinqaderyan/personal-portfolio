@@ -1,7 +1,7 @@
 # Browser Support
 
 <!-- Browser compatibility information -->
-<!-- Last updated: 2026-01-27 -->
+<!-- Last updated: 2026-01-28 -->
 
 > 🌐 Tested on Chrome, Firefox, Safari, Edge | 95%+ global coverage
 
