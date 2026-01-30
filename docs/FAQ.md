@@ -29,4 +29,5 @@ A: Deployed on Vercel.
 
 **Q: How do I deploy updates?**
 A: Push to main branch for automatic deployment.
-<!-- Reviewed 2026 -->
+
+<!-- Reviewed 2026-01-30 -->
