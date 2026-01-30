@@ -33,4 +33,4 @@
 - Blog section
 - Newsletter integration
 - Multi-language support
-<!-- Reviewed 2026 -->
+<!-- Reviewed 2026-01-30 -->
