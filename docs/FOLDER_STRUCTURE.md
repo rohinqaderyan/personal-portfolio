@@ -1,6 +1,6 @@
 # Folder Structure
 
-<!-- Last updated: 2026-01-23 -->
+<!-- Last updated: 2026-01-31 -->
 
 ## Root Directory
 
