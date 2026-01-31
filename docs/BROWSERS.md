@@ -1,6 +1,6 @@
 # Browser Compatibility
 
-<!-- Last updated: 2026-01-30 -->
+<!-- Last updated: 2026-01-31 -->
 
 ## Supported Browsers
 
