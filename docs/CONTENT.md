@@ -1,6 +1,6 @@
 # Content Management
 
-<!-- Last updated: 2026-01-23 -->
+<!-- Last updated: 2026-01-31 -->
 
 ## Markdown Files
 
