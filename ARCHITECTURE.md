@@ -2,7 +2,7 @@
 
 <!-- Technical architecture documentation -->
 <!-- Version: 1.3.12 -->
-<!-- Last reviewed: 2026-02-04 -->
+<!-- Last reviewed: 2026-02-06 -->
 
 > 🏭️ Next.js 14 App Router | React Server Components | Edge Runtime
 
