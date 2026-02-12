@@ -37,3 +37,4 @@ function Component() {
 - Remove old flags
 - Use descriptive names
 - Clean up unused flags
+<!-- Reviewed: 2026-02-12 -->
