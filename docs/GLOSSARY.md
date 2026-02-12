@@ -15,3 +15,4 @@
 **PWA**: Progressive Web App
 
 <!-- Reviewed 2026-01-31 -->
+<!-- Reviewed: 2026-02-12 -->
