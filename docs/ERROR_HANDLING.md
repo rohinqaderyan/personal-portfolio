@@ -13,3 +13,4 @@
 - Return appropriate status codes
 - Sanitize error messages
 - Log full stack traces
+<!-- Reviewed: 2026-02-12 -->
