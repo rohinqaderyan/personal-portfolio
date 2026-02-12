@@ -20,3 +20,4 @@
 - Disable submit on invalid
 - Show loading states
 - Handle success/error states
+<!-- Reviewed: 2026-02-12 -->
