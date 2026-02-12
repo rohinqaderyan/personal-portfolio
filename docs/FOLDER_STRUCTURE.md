@@ -16,3 +16,4 @@
 - `/src/lib` - Utility functions
 - `/src/hooks` - Custom hooks
 - `/src/types` - TypeScript types
+<!-- Reviewed: 2026-02-12 -->
