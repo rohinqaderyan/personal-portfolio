@@ -1,8 +1,8 @@
 # API Documentation
 
 <!-- API reference documentation -->
-<!-- Version: 1.1.8 -->
-<!-- Last reviewed: 2026-02-06 -->
+<!-- Version: 1.1.9 -->
+<!-- Last reviewed: 2026-02-13 -->
 
 > 📡 RESTful API | TypeScript | Edge Functions
 
