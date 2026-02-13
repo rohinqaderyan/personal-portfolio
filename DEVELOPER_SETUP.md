@@ -1,8 +1,8 @@
 # Developer Setup Guide
 
 <!-- Development environment setup -->
-<!-- Version: 1.2.9 -->
-<!-- Last reviewed: 2026-02-06 -->
+<!-- Version: 1.3.0 -->
+<!-- Last reviewed: 2026-02-13 -->
 
 > ⏱️ Get started in under 5 minutes with automated scripts
 
