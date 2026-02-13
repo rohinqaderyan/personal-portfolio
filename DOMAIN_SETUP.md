@@ -1,7 +1,7 @@
 # Custom Domain Setup for Vercel
 
 <!-- Custom domain configuration -->
-<!-- Version: 1.0.1 -->
+<!-- Version: 1.0.2 -->
 
 > 🌐 Connect your custom domain in under 10 minutes
 
@@ -139,4 +139,5 @@ NEXT_PUBLIC_SITE_URL=https://rohinqaderyan.com
 ```
 
 Then rebuild and deploy!
+
 <!-- Reviewed 2026-01-26 -->
