@@ -1,7 +1,7 @@
 # API Documentation
 
 <!-- API endpoints and usage -->
-<!-- Last updated: 2026-02-05 -->
+<!-- Last updated: 2026-02-13 -->
 
 > 📡 API Version: v1 | Next.js App Router
 
