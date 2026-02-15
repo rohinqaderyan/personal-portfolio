@@ -1,5 +1,7 @@
 # Authentication Strategies
 
+<!-- Last reviewed: 2026-02-15 -->
+
 ## Methods
 
 - Email/Password
