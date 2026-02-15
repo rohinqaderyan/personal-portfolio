@@ -1,5 +1,7 @@
 # Asset Management
 
+<!-- Last reviewed: 2026-02-15 -->
+
 ## Images
 
 - Store in public/ or assets/
