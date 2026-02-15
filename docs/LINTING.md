@@ -1,6 +1,6 @@
 # Linting Configuration
 
-<!-- Last updated: 2026-01-31 -->
+<!-- Last updated: 2026-02-15 -->
 
 ## ESLint
 
@@ -20,5 +20,5 @@
 - Pre-commit hooks
 - Run on staged files
 - Prevent bad commits
-<!-- Reviewed 2026-01-30 -->
-<!-- Reviewed: 2026-02-12 -->
+  <!-- Reviewed 2026-01-30 -->
+  <!-- Reviewed: 2026-02-12 -->
