@@ -1,5 +1,7 @@
 # Accessibility Testing
 
+<!-- Last reviewed: 2026-02-15 -->
+
 ## Manual Testing
 
 - Keyboard navigation test
