@@ -19,4 +19,4 @@
 - [ ] Sufficient color contrast
 - [ ] Text resizable
 - [ ] No content flash
-<!-- Reviewed 2026 -->
+<!-- Reviewed 2026-02-15 -->
