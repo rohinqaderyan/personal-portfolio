@@ -1,5 +1,7 @@
 # Animation Guidelines
 
+<!-- Last reviewed: 2026-02-15 -->
+
 ## CSS Animations
 
 - Use transform and opacity
