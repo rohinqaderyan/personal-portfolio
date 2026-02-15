@@ -1,5 +1,7 @@
 # Backup & Recovery
 
+<!-- Last reviewed: 2026-02-15 -->
+
 ## Git Backups
 
 ```bash
