@@ -20,3 +20,4 @@
 - Use GPU-accelerated properties
 - Test on lower-end devices
 <!-- Reviewed 2026-01-31 -->
+
