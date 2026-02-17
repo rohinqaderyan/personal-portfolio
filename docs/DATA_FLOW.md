@@ -11,3 +11,4 @@
 - Use SWR for caching
 - Handle loading states
 - Implement error handling
+
