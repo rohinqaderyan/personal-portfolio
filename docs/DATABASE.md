@@ -20,3 +20,4 @@
 - Index frequently queried fields
 - Sanitize queries
 - Handle migrations properly
+
