@@ -20,3 +20,4 @@
 
 **Issue**: Build fails on Vercel
 **Solution**: Check environment variables and build logs
+
