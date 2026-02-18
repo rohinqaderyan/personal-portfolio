@@ -6,7 +6,7 @@
 
 > ⏱️ Estimated setup time: **5 minutes**
 
-Get your portfolio up and running in minutes!
+Get your portfolio up and running in just minutes!
 
 ## 🚀 Installation
 
