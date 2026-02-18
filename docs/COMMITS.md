@@ -8,7 +8,7 @@
 
 ## Types
 
-- feat: New feature
+- feat: New feature added
 - fix: Bug fix
 - docs: Documentation
 - style: Formatting
