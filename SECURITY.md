@@ -18,7 +18,7 @@
 
 ## Security Policy
 
-This project is maintained with security as a top priority. We follow industry best practices and implement multiple layers of protection to keep user data safe.
+This project is maintained with security as a top priority. We follow industry best practices and implement multiple layers of protection to keep all user data safe.
 
 ## Supported Versions
 
