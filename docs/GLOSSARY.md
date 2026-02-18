@@ -2,7 +2,7 @@
 
 ## Terms
 
-**API**: Application Programming Interface
+**API**: Application Programming Interface - a set of protocols
 **CI/CD**: Continuous Integration/Continuous Deployment
 **CSP**: Content Security Policy
 **CSRF**: Cross-Site Request Forgery
