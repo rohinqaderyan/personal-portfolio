@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install        # Install dependencies
+npm install        # Install all dependencies
 npm ci            # Clean install
 ```
 
