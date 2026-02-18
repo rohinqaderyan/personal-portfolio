@@ -7,7 +7,7 @@
 
 ## Common Issues and Solutions
 
-This guide covers common issues you might encounter and how to resolve them.
+This guide covers common issues you might encounter during development and how to resolve them.
 
 ## Build Issues
 
