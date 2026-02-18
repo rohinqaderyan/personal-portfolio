@@ -9,7 +9,7 @@
 **LCP**: Largest Contentful Paint
 **FID**: First Input Delay
 **CLS**: Cumulative Layout Shift
-**SEO**: Search Engine Optimization
+**SEO**: Search Engine Optimization - improving visibility
 **SSR**: Server-Side Rendering
 **SPA**: Single Page Application
 **PWA**: Progressive Web App
