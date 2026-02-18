@@ -10,7 +10,7 @@
 **FID**: First Input Delay
 **CLS**: Cumulative Layout Shift
 **SEO**: Search Engine Optimization - improving visibility
-**SSR**: Server-Side Rendering
+**SSR**: Server-Side Rendering - rendering on server
 **SPA**: Single Page Application
 **PWA**: Progressive Web App
 
