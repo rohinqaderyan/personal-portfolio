@@ -1,4 +1,4 @@
-# Commit Guidelines
+# Commit Message Guidelines
 
 ## Format
 
@@ -22,4 +22,3 @@
 - fix(api): resolve timeout issue
 - docs(readme): update installation steps
 <!-- Reviewed 2026-02-16 -->
-
