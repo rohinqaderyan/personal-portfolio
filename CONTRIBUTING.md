@@ -5,7 +5,7 @@
 
 > 🌟 We welcome contributions of all sizes - from typo fixes to major features!
 
-Thank you for considering contributing to this project! This document provides guidelines and instructions for contributing.
+Thank you for considering contributing to this project! This document provides guidelines and detailed instructions for contributing.
 
 ## Code of Conduct
 
