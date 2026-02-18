@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project uses **Vitest** for unit testing and **Playwright** for end-to-end testing.
+This project uses **Vitest** for unit testing and **Playwright** for E2E testing.
 
 > 📊 **Current Coverage**: 400+ unit tests across 14 test files
 
