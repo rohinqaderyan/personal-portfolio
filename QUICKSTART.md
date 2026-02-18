@@ -16,7 +16,7 @@ Get your portfolio up and running in just minutes!
 npm install
 ```
 
-This installs all required packages including Next.js, React, TypeScript, Tailwind CSS, Framer Motion, and testing tools.
+This installs all required packages including Next.js, React, TypeScript, Tailwind CSS, Framer Motion, and all testing tools.
 
 ### 2. Configure Environment
 
