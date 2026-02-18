@@ -6,7 +6,7 @@
 A: Next.js, React, TypeScript, Tailwind CSS, and Framer Motion are used.
 
 **Q: How do I run the project locally?**
-A: Run `npm install` followed by `npm run dev`.
+A: Run `npm install` followed by `npm run dev` to start.
 
 **Q: Where is the documentation?**
 A: All documentation is in the `/docs` folder.
