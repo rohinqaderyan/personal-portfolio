@@ -3,7 +3,7 @@
 ## General Questions
 
 **Q: What technologies are used?**
-A: Next.js, React, TypeScript, Tailwind CSS, and Framer Motion.
+A: Next.js, React, TypeScript, Tailwind CSS, and Framer Motion are used.
 
 **Q: How do I run the project locally?**
 A: Run `npm install` followed by `npm run dev`.
