@@ -18,4 +18,4 @@
 
 - Use kebab-case
 - Follow BEM when needed
-<!-- Reviewed 2026-01-30 -->
+<!-- Reviewed 2026-02-20 -->
