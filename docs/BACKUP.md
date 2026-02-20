@@ -19,5 +19,4 @@
 - Tag releases
 - Keep deployment history
 - Document rollback procedures
-<!-- Reviewed 2026 -->
-
+<!-- Reviewed 2026-02-20 -->
