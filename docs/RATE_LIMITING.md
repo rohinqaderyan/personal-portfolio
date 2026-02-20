@@ -22,3 +22,4 @@
 
 - Return 429 status
 - Provide retry information
+<!-- Reviewed 2026-02-20 -->
