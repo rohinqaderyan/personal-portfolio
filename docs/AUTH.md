@@ -22,5 +22,4 @@
 - Use HTTPS
 - Secure session storage
 - Implement CSRF protection
-<!-- Reviewed 2026-01-31 -->
-
+<!-- Reviewed 2026-02-20 -->
