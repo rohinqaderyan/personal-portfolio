@@ -22,5 +22,4 @@ const Component = dynamic(() => import('./Component'));
 - Use webpack bundle analyzer
 - Monitor chunk sizes
 - Optimize dependencies
-<!-- Reviewed 2026 -->
-
+<!-- Reviewed 2026-02-20 -->
