@@ -27,3 +27,4 @@
 - Offline support
 - Add to home screen
 - Push notifications (optional)
+<!-- Reviewed 2026-02-20 -->
