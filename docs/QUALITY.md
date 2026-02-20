@@ -17,3 +17,4 @@
 - Document public APIs
 - Keep README updated
 - Add inline comments for complex logic
+<!-- Reviewed 2026-02-20 -->
