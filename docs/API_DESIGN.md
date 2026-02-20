@@ -24,5 +24,4 @@
 - URL versioning: /api/v1
 - Header versioning
 - Backward compatibility
-<!-- Reviewed 2026 -->
-
+<!-- Reviewed 2026-02-20 -->
