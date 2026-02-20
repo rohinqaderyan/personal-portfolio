@@ -22,3 +22,4 @@
 - robots.txt
 - Fast page speed
 - Mobile-friendly
+<!-- Reviewed 2026-02-20 -->
