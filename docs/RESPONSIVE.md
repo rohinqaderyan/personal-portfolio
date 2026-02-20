@@ -17,3 +17,4 @@
 - Test on real devices
 - Use browser dev tools
 - Check portrait and landscape
+<!-- Reviewed 2026-02-20 -->
