@@ -26,3 +26,4 @@
 
 - `Ctrl+C`: Cancel command
 - `Ctrl+L`: Clear terminal
+<!-- Reviewed 2026-02-21 -->
