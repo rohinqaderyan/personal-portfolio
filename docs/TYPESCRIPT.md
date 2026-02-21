@@ -18,3 +18,4 @@
 - Target: ES2020
 - Module: ESNext
 - JSX: preserve
+<!-- Reviewed 2026-02-21 -->
