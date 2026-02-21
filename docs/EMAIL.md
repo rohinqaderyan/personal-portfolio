@@ -19,4 +19,4 @@
 - HTML templates
 - Plain text fallback
 - Responsive design
-<!-- Reviewed: 2026-02-12 -->
+<!-- Reviewed: 2026-02-21 -->
