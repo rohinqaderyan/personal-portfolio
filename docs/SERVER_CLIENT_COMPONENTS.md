@@ -29,3 +29,5 @@ export default function ClientComponent() {
   return <button onClick={() => setCount(count + 1)}>{count}</button>
 }
 ```
+
+<!-- Reviewed 2026-02-21 -->
