@@ -16,4 +16,4 @@
 
 - Never commit secrets
 - Use .env.local for local overrides
-<!-- Reviewed: 2026-02-12 -->
+<!-- Reviewed: 2026-02-21 -->
