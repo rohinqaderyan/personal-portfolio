@@ -19,3 +19,4 @@
 - ESLint
 - Prettier
 - Tailwind CSS IntelliSense
+<!-- Reviewed 2026-02-21 -->
