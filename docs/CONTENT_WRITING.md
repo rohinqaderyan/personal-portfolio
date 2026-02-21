@@ -38,5 +38,5 @@ tags: ['tag1', 'tag2']
 - Break into sections
 - Add code examples
 - Include images where helpful
+<!-- Reviewed 2026-02-21 -->
 - Keep paragraphs short
-
