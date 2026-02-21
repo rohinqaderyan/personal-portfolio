@@ -17,3 +17,4 @@
 - List props
 - Show usage examples
 - Document events
+<!-- Reviewed 2026-02-21 -->
