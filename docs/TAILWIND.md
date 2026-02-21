@@ -19,3 +19,4 @@
 - Use design tokens
 - Avoid arbitrary values
 - Keep consistent spacing
+<!-- Reviewed 2026-02-21 -->
