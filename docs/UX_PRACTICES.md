@@ -24,3 +24,4 @@
 - Loading indicators
 - Error feedback
 - Success confirmations
+<!-- Reviewed 2026-02-21 -->
