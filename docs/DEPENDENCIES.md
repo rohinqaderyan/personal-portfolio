@@ -11,3 +11,5 @@
 - Pin major versions
 - Allow minor/patch updates
 - Document peer dependencies
+
+<!-- reviewed 2026-02-23 -->
