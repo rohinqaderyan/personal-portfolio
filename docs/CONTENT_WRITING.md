@@ -40,3 +40,4 @@ tags: ['tag1', 'tag2']
 - Include images where helpful
 <!-- Reviewed 2026-02-21 -->
 - Keep paragraphs short
+
