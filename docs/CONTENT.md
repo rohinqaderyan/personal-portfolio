@@ -21,5 +21,3 @@
 - Build-time generation
 
 <!-- reviewed 2026-02-23 -->
-
-
