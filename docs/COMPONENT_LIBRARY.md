@@ -19,5 +19,3 @@
 - ErrorBoundary
 
 <!-- reviewed 2026-02-23 -->
-
-
