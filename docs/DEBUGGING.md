@@ -22,4 +22,3 @@
 - Debug console
 
 <!-- reviewed 2026-02-23 -->
-
