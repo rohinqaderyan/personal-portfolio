@@ -14,3 +14,5 @@
 - Sanitize error messages
 - Log full stack traces
 <!-- Reviewed: 2026-02-12 -->
+
+<!-- Last reviewed: 2026-02-28 -->
