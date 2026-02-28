@@ -13,4 +13,3 @@
 - Implement error handling
 
 <!-- reviewed 2026-02-23 -->
-
