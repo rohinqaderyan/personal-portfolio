@@ -340,3 +340,4 @@ const HeavyComponent = dynamic(() => import('./HeavyComponent'));
 - [Tailwind CSS Best Practices](https://tailwindcss.com/docs/reusing-styles)
 <!-- Reviewed 2026-01-26 -->
 
+
