@@ -607,3 +607,4 @@ Docker deployment questions?
 - **Issues**: https://github.com/rohinqaderyan/personal-portfolio/issues
 <!-- Reviewed 2026-01-26 -->
 
+
