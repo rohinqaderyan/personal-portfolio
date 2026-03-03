@@ -551,3 +551,4 @@ SEO questions or optimization help?
 - **Issues**: https://github.com/rohinqaderyan/personal-portfolio/issues
 <!-- Reviewed 2026-01-26 -->
 
+
