@@ -430,5 +430,3 @@ npm run e2e
 **Maintainer:** Ahmad Rohin Qaderyan
 
 <!-- Reviewed 2026-01-26 -->
-
-
