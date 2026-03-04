@@ -606,5 +606,3 @@ Docker deployment questions?
 - **Email**: ahmad.qaderyan@pfizer.com
 - **Issues**: https://github.com/rohinqaderyan/personal-portfolio/issues
 <!-- Reviewed 2026-01-26 -->
-
-
