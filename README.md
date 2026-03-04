@@ -1,6 +1,6 @@
 # Ahmad Rohin Qaderyan - Portfolio Website
 
-<!-- Last updated: 2026-02-19 -->
+<!-- Last updated: 2026-03-04 -->
 
 A modern, high-performance personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. Optimized for FAANG-level technical interviews and showcasing enterprise-scale projects.
 
@@ -396,6 +396,3 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 **Built with ❤️ and Next.js 14 by Ahmad Rohin Qaderyan**  
 Senior Full Stack Developer & Data Scientist @ Pfizer
-
-
-
