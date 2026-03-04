@@ -134,5 +134,3 @@ Tests run automatically on:
 4. **Use data-testid for reliable selectors**
 5. **Mock external dependencies**
 6. **Test accessibility**
-
-
