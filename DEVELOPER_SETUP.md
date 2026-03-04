@@ -435,5 +435,3 @@ After setup:
 **Welcome to the project! Happy coding! 🎉**
 
 <!-- Reviewed 2026-01-26 -->
-
-
