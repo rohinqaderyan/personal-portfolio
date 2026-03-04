@@ -288,5 +288,3 @@ Run: `npm run type-check` to see all type errors.
 **You're all set!** Start customizing and make it yours. 🚀
 
 <!-- Reviewed 2026-01-26 -->
-
-
