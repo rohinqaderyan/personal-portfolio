@@ -202,6 +202,24 @@ export function escapeRegExp(str: string): string {
 }
 
 /**
+ * Counts the number of words in a string
+ * @param str - String to count words in
+ * @returns Word count
+ */
+export function countWords(str: string): number {
+  return str.trim().split(/\s+/).filter(Boolean).length;
+}
+
+/**
+ * Checks if a string is empty or contains only whitespace
+ * @param str - String to check
+ * @returns True if the string is empty or whitespace-only
+ */
+export function isEmpty(str: string): boolean {
+  return !str || str.trim().length === 0;
+}
+
+/**
  * Pads string to specified length
  * @param str - String to pad
  * @param length - Target length
