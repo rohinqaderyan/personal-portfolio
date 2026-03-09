@@ -120,6 +120,24 @@ export function randomInt(min: number, max: number): number {
 }
 
 /**
+ * Checks if a number is an integer (no decimal part)
+ * @param value - Number to check
+ * @returns True if integer
+ */
+export function isInteger(value: number): boolean {
+  return Number.isInteger(value);
+}
+
+/**
+ * Checks if a number is a float (has decimal part)
+ * @param value - Number to check
+ * @returns True if float
+ */
+export function isFloat(value: number): boolean {
+  return Number.isFinite(value) && !Number.isInteger(value);
+}
+
+/**
  * Generates random float between min and max
  * @param min - Minimum value
  * @param max - Maximum value
