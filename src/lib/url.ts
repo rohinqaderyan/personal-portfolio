@@ -1,7 +1,7 @@
 /**
  * URL utility functions
  * @module url
- * Helper functions for URL manipulation and validation
+ * @description Helper functions for URL manipulation, validation, and query parameter management
  */
 
 /**
