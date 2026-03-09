@@ -179,6 +179,18 @@ export function parseDate(dateString: string): Date | null {
 }
 
 /**
+ * Adds months to a date
+ * @param date - Starting date
+ * @param months - Number of months to add (can be negative)
+ * @returns New date with months added
+ */
+export function addMonths(date: Date, months: number): Date {
+  const result = new Date(date);
+  result.setMonth(result.getMonth() + months);
+  return result;
+}
+
+/**
  * Gets age from birthdate
  * @param birthdate - Date of birth
  * @returns Age in years
@@ -202,11 +214,13 @@ export function getAge(birthdate: Date | string): number {
  * @param date2 - Second date
  * @returns True if same day
  */
-export function isSameDay(date1: Date, date2: Date): boolean {
+export function isSameDay(date1: Date | string, date2: Date | string): boolean {
+  const d1 = typeof date1 === 'string' ? new Date(date1) : date1;
+  const d2 = typeof date2 === 'string' ? new Date(date2) : date2;
   return (
-    date1.getFullYear() === date2.getFullYear() &&
-    date1.getMonth() === date2.getMonth() &&
-    date1.getDate() === date2.getDate()
+    d1.getFullYear() === d2.getFullYear() &&
+    d1.getMonth() === d2.getMonth() &&
+    d1.getDate() === d2.getDate()
   );
 }
 
