@@ -1,9 +1,25 @@
 # Changelog
 
 <!-- Changelog file and version history -->
-<!-- Updated: 2026-03-04 -->
+<!-- Updated: 2026-03-09 -->
 
 All notable changes to this project will be documented in this file.
+
+## [1.3.2] - 2026-03-09
+
+### Added
+
+- `isInteger` and `isFloat` utility functions in `number.ts`
+- `isSameDay` and `addMonths` utility functions in `date.ts`
+- `countWords` and `isEmpty` utility functions in `string.ts`
+- `CONFLICT` (409) and `UNPROCESSABLE_ENTITY` (422) HTTP status codes in `constants.ts`
+
+### Improved
+
+- `performance.ts`: Added module-level JSDoc and normalized semicolon style for consistency
+- `url.ts`: Added missing `@description` tag to module JSDoc
+- Refreshed `last-reviewed` / `last-updated` dates across all documentation files
+- `ROADMAP.md`: Updated current version to `1.3.2`
 
 ## [1.3.1] - 2024-12-12
 
