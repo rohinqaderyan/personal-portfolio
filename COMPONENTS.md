@@ -750,3 +750,5 @@ Questions about components?
 - **Email**: ahmad.qaderyan@pfizer.com
 - **Issues**: https://github.com/rohinqaderyan/personal-portfolio/issues
 <!-- Reviewed 2026-01-26 -->
+
+Note (2026-03-10): Keep component props documented when introducing new optional inputs.
