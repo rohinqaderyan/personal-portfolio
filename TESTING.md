@@ -134,3 +134,5 @@ Tests run automatically on:
 4. **Use data-testid for reliable selectors**
 5. **Mock external dependencies**
 6. **Test accessibility**
+
+Note (2026-03-10): Run focused tests first, then full test suite before opening a PR.
