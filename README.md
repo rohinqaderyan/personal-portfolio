@@ -396,3 +396,5 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 **Built with ❤️ and Next.js 14 by Ahmad Rohin Qaderyan**  
 Senior Full Stack Developer & Data Scientist @ Pfizer
+
+Note (2026-03-10): Command examples assume execution from the repository root.
