@@ -339,3 +339,5 @@ const HeavyComponent = dynamic(() => import('./HeavyComponent'));
 - [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/)
 - [Tailwind CSS Best Practices](https://tailwindcss.com/docs/reusing-styles)
 <!-- Reviewed 2026-01-26 -->
+
+Note (2026-03-10): Prefer readability over compact syntax in non-critical paths.
