@@ -772,3 +772,5 @@ When encountering issues:
 - [Vercel Docs](https://vercel.com/docs)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/next.js)
 - [GitHub Issues](https://github.com/vercel/next.js/issues)
+
+Note (2026-03-10): Capture exact command output when reporting reproducible issues.
