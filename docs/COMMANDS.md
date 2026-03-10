@@ -37,3 +37,5 @@ npm run test:coverage # Coverage report
 <!-- reviewed 2026-02-23 -->
 
 <!-- reviewed 2026-03-01 -->
+
+Note (2026-03-10): Prefer non-destructive command variants in shared documentation.
