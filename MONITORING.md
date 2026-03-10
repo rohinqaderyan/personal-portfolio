@@ -152,3 +152,5 @@ Built-in health checks:
 4. **Regular audits** - Review metrics monthly
 5. **Privacy compliance** - Respect user privacy
 <!-- Reviewed 2026-01-26 -->
+
+Note (2026-03-10): Annotate major releases in monitoring timelines for quicker incident triage.
