@@ -360,3 +360,5 @@ Add all variables from `.env.local` to Vercel dashboard:
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 <!-- Reviewed 2026-01-26 -->
+
+Note (2026-03-10): Record local overrides so teammates can reproduce setup issues.
