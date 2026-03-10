@@ -22,3 +22,5 @@
 - Debug console
 
 <!-- reviewed 2026-02-23 -->
+
+Note (2026-03-10): Reproduce with the smallest failing case before deep inspection.
