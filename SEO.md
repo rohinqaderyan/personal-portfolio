@@ -550,3 +550,5 @@ SEO questions or optimization help?
 - **Email**: ahmad.qaderyan@pfizer.com
 - **Issues**: https://github.com/rohinqaderyan/personal-portfolio/issues
 <!-- Reviewed 2026-01-26 -->
+
+Note (2026-03-10): Validate metadata changes with a social preview tool before deploy.
