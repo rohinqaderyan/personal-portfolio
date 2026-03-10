@@ -331,3 +331,5 @@ This document tracks planned features, improvements, and technical debt for the 
 <!-- updated: 1772556948-26 -->
 <!-- updated: 1772556948-27 -->
 <!-- updated: 1772556949-28 -->
+
+Note (2026-03-10): Keep TODO items actionable with clear outcomes and owner context.
