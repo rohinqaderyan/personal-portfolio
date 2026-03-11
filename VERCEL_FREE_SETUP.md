@@ -28,7 +28,7 @@ Get a clean URL like: `https://rohinqaderyan.vercel.app/`
 ### Step 2: Go to Project Settings
 
 1. Once you're viewing your project, look at the top navigation tabs
-2. Click on **"Settings"** tab (next to Deployments, Analytics, etc.)
+2. Click the **Settings** tab (next to Deployments, Analytics, etc.)
 3. You should now see **PROJECT Settings** (not Team Settings)
 
 ### Step 3: Change Project Name
