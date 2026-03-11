@@ -19,11 +19,11 @@
 
 ### Mobile
 
-| Browser          | Version | Support Level |
-| ---------------- | ------- | ------------- |
-| iOS Safari       | Last 2  | ✅ Full       |
-| Chrome Android   | Last 2  | ✅ Full       |
-| Samsung Internet | Last 2  | ✅ Full       |
+| Browser          | Version         | Support Level |
+| ---------------- | --------------- | ------------- |
+| iOS Safari       | Last 2 versions | ✅ Full       |
+| Chrome Android   | Last 2          | ✅ Full       |
+| Samsung Internet | Last 2          | ✅ Full       |
 
 ## Browser Features Used
 
