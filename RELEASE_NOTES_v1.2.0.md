@@ -170,7 +170,7 @@ This release specifically benefits:
 ### 🔗 Links
 
 - **Live Site**: https://rqdev.vercel.app
-- **Repository**: https://github.com/rohinqaderyan/personal-portfolio
+- **Repository**: [https://github.com/rohinqaderyan/personal-portfolio](https://github.com/rohinqaderyan/personal-portfolio)
 - **Issues**: https://github.com/rohinqaderyan/personal-portfolio/issues
 - **Documentation**: See all .md files in repository root
 
