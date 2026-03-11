@@ -56,7 +56,7 @@ Name: www
 Value: cname.vercel-dns.com
 ```
 
-### In Your Domain Registrar (e.g., Namecheap):
+### In your domain registrar (e.g., Namecheap):
 
 1. Log into your registrar account
 2. Find **DNS Management** or **Advanced DNS**
@@ -141,4 +141,3 @@ NEXT_PUBLIC_SITE_URL=https://rohinqaderyan.com
 Then rebuild and deploy!
 
 <!-- Reviewed 2026-01-26 -->
-
