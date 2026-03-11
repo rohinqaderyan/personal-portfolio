@@ -31,7 +31,7 @@ This project is maintained with security as a top priority. We follow industry b
 
 ## Reporting Vulnerabilities
 
-If you discover a security vulnerability, **DO NOT** open a public GitHub issue.
+If you discover a security vulnerability, **do not** open a public GitHub issue.
 
 **Instead, please:**
 
