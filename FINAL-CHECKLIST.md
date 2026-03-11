@@ -62,7 +62,7 @@ git push origin main
 
 ### Deploy to Vercel
 
-1. Go to https://vercel.com
+1. Go to [Vercel](https://vercel.com)
 2. Sign in with GitHub
 3. Click "New Project"
 4. Import: `rohinqaderyan/personal-portfolio`
