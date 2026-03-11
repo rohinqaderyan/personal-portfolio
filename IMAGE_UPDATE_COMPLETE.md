@@ -104,7 +104,7 @@ Your portfolio is now **FAANG-ready**! 🚀
 Senior Full Stack Developer & Data Scientist | AI/ML Expert
 
 Portfolio: https://rohinqaderyan.vercel.app
-GitHub: github.com/rohinqaderyan
+GitHub: https://github.com/rohinqaderyan
 📍 Alexandria, VA
 ```
 
