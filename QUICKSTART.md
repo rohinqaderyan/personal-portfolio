@@ -197,7 +197,7 @@ npm run start
 ### Vercel (Recommended)
 
 1. Push code to GitHub
-2. Import project on [vercel.com](https://vercel.com)
+2. Import project on [Vercel](https://vercel.com)
 3. Set environment variables
 4. Deploy!
 
