@@ -86,7 +86,7 @@ Use <Nav> instead of <Navigation>."
 
 1. **Use imperative mood**: "add feature" not "added feature"
 2. **Don't capitalize first letter**
-3. **No period at the end**
+3. **Do not include a period at the end**
 4. **Limit subject to 50 characters**
 5. **Separate subject from body with blank line**
 6. **Wrap body at 72 characters**
