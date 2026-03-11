@@ -9,13 +9,13 @@
 
 ### Desktop
 
-| Browser | Version | Support Level |
-| ------- | ------- | ------------- |
-| Chrome  | Last 2  | ✅ Full       |
-| Firefox | Last 2  | ✅ Full       |
-| Safari  | Last 2  | ✅ Full       |
-| Edge    | Last 2  | ✅ Full       |
-| Opera   | Last 2  | ✅ Full       |
+| Browser | Version         | Support Level |
+| ------- | --------------- | ------------- |
+| Chrome  | Last 2 versions | ✅ Full       |
+| Firefox | Last 2          | ✅ Full       |
+| Safari  | Last 2          | ✅ Full       |
+| Edge    | Last 2          | ✅ Full       |
+| Opera   | Last 2          | ✅ Full       |
 
 ### Mobile
 
