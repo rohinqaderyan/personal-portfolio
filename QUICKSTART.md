@@ -228,7 +228,7 @@ npm run start
 
 ### Plausible (Privacy-Friendly)
 
-1. Sign up at [plausible.io](https://plausible.io)
+1. Sign up at [Plausible](https://plausible.io)
 2. Add site
 3. Update `.env.local`:
    ```env
