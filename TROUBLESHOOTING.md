@@ -16,7 +16,7 @@ This guide covers common issues you might encounter during development and how t
 **Problem:**
 
 ```
-Error: Can't resolve '@/components/Header'
+Error: Cannot resolve '@/components/Header'
 ```
 
 **Solutions:**
