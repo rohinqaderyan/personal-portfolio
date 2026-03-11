@@ -17,7 +17,7 @@
 
 ## Verify Setup
 
-- Check Node version: `node --version`
+- Check Node.js version: `node --version`
 - Check npm version: `npm --version`
 - Test build: `npm run build`
 - Run tests: `npm test`
