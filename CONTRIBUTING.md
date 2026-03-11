@@ -507,7 +507,7 @@ export function formatCurrency(amount: number, currency: string = 'USD'): string
 **Issue:** Tests fail locally but pass in CI
 
 - Solution: Update dependencies with `npm install`
-- Check Node version: `node --version` (should be v18 or v20)
+- Check Node.js version: `node --version` (should be v18.x or v20.x)
 - Clear cache: `npm run test -- --run --no-cache`
 
 ### Linting Errors
