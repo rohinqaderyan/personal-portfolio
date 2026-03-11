@@ -11,7 +11,7 @@
 - **Location**: Alexandria, VA
 - **Email**: rohin.aryain@gmail.com
 - **LinkedIn**: linkedin.com/in/rohinqaderyan
-- **GitHub**: github.com/qaderyan
+- **GitHub**: https://github.com/qaderyan
 
 ### Resume & Experience
 
