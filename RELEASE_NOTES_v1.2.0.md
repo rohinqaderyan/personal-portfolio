@@ -207,7 +207,7 @@ Planned features for next release:
 We welcome feedback and contributions!
 
 - **Email**: ahmad.qaderyan@pfizer.com
-- **GitHub Discussions**: https://github.com/rohinqaderyan/personal-portfolio/discussions
+- **GitHub Discussions**: [https://github.com/rohinqaderyan/personal-portfolio/discussions](https://github.com/rohinqaderyan/personal-portfolio/discussions)
 - **Issues**: https://github.com/rohinqaderyan/personal-portfolio/issues
 
 ### 📄 License
