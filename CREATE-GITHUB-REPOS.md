@@ -6,7 +6,7 @@ Your portfolio links to 9 GitHub repos. Here's how to create them:
 
 ## Quick Create (Recommended)
 
-Go to: https://github.com/new
+Go to: <https://github.com/new>
 
 Create these repos (can be empty):
 
