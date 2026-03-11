@@ -55,7 +55,7 @@
 All projects have:
 
 - Professional descriptions highlighting impact
-- GitHub repo links (github.com/qaderyan/project-name)
+- GitHub repo links (https://github.com/qaderyan/project-name)
 - Technology stacks
 - Key metrics and achievements
 
