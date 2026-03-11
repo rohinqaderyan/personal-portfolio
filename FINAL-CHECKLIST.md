@@ -27,7 +27,7 @@
 
 ### 2. Setup Google Analytics (5 minutes)
 
-- [ ] Go to https://analytics.google.com
+- [ ] Go to [Google Analytics](https://analytics.google.com)
 - [ ] Create account following: `GA-SETUP-NOW.md`
 - [ ] Get your Measurement ID (G-XXXXXXXXXX)
 - [ ] Add to `.env.local`: `NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX`
@@ -198,4 +198,3 @@ Your portfolio is:
 **Just add the images and deploy!**
 
 Questions? Check the docs above or ask me! 🚀
-
