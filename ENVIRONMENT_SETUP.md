@@ -349,7 +349,7 @@ Add all variables from `.env.local` to Vercel dashboard:
 
 ## Getting Help
 
-- **Issues**: https://github.com/rohinqaderyan/personal-portfolio/issues
+- **Issues**: [https://github.com/rohinqaderyan/personal-portfolio/issues](https://github.com/rohinqaderyan/personal-portfolio/issues)
 - **Discussions**: https://github.com/rohinqaderyan/personal-portfolio/discussions
 - **Email**: ahmad.qaderyan@pfizer.com
 
