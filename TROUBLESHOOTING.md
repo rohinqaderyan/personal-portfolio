@@ -242,7 +242,7 @@ setCount((prevCount) => {
 
 ## Style Issues
 
-### Issue: Tailwind classes not working
+### Issue: Tailwind CSS classes not working
 
 **Problem:**
 
