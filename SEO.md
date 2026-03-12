@@ -2,7 +2,7 @@
 
 <!-- Search engine optimization guide -->
 <!-- Version: 1.3.0 -->
-<!-- Last reviewed: 2026-03-09 -->
+<!-- Last reviewed: 2026-03-12 -->
 
 > 🔍 Lighthouse SEO Score: **100/100**
 
