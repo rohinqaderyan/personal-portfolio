@@ -1,7 +1,7 @@
 # Deployment Guide
 
 <!-- Deployment instructions for multiple platforms -->
-<!-- Updated: 2026-02-19 -->
+<!-- Updated: 2026-03-12 -->
 
 > 🚀 Supports Vercel, Netlify, Docker, and self-hosted deployments
 
