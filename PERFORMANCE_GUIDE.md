@@ -2,7 +2,7 @@
 
 <!-- Performance tips and benchmarks -->
 <!-- Version: 1.2.0 -->
-<!-- Last reviewed: 2026-02-13 -->
+<!-- Last reviewed: 2026-03-12 -->
 
 > ⚡ Lighthouse Performance: 95+ | Core Web Vitals: Passing
 
