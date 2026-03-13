@@ -1,5 +1,7 @@
 # Commit Message Guidelines
 
+<!-- Last reviewed: 2026-03-13 -->
+
 ## Format
 
 ```
