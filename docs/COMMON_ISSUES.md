@@ -1,5 +1,7 @@
 # Common Issues & Solutions
 
+<!-- Last reviewed: 2026-03-13 -->
+
 ## Build Errors
 
 **Issue**: Module not found
