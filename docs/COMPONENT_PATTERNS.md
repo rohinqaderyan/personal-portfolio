@@ -1,5 +1,7 @@
 # Component Patterns
 
+<!-- Last reviewed: 2026-03-13 -->
+
 ## Functional Components
 
 ```typescript
