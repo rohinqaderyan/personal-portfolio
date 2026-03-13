@@ -1,5 +1,7 @@
 # Component Library
 
+<!-- Last reviewed: 2026-03-13 -->
+
 ## Core Components
 
 - Header
