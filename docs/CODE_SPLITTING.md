@@ -1,5 +1,7 @@
 # Code Splitting
 
+<!-- Last reviewed: 2026-03-13 -->
+
 ## Dynamic Imports
 
 ```javascript
