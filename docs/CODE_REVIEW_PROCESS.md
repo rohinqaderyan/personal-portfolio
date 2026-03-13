@@ -1,5 +1,7 @@
 # Code Review Process
 
+<!-- Last reviewed: 2026-03-13 -->
+
 ## Before Submitting PR
 
 - Self-review changes
