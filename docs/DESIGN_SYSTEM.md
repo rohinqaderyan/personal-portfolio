@@ -1,5 +1,7 @@
 # Design System
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Colors
 
 - Primary: #000000
