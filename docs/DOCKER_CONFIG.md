@@ -1,5 +1,7 @@
 # Docker Configuration
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Dockerfile Example
 
 ```dockerfile
