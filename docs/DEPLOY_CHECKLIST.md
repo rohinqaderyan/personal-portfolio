@@ -1,5 +1,7 @@
 # Deployment Checklist
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Pre-deployment
 
 - [ ] All tests pass
