@@ -1,5 +1,7 @@
 # Third-party Integrations
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Analytics
 
 - Google Analytics
@@ -31,5 +33,5 @@
 3. Add to environment variables
 4. Implement SDK
 5. Test integration
-<!-- Reviewed 2026-01-30 -->
-<!-- Reviewed: 2026-02-12 -->
+   <!-- Reviewed 2026-01-30 -->
+   <!-- Reviewed: 2026-02-12 -->
