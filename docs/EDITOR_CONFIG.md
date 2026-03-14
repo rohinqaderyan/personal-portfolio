@@ -1,5 +1,7 @@
 # Editor Configuration
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## VS Code Settings
 
 ```json
