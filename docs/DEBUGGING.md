@@ -1,5 +1,7 @@
 # Debugging Techniques
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Browser DevTools
 
 - Console logging
