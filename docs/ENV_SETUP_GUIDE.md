@@ -1,5 +1,7 @@
 # Environment Setup Guide
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Required Software
 
 - Node.js 18+ (LTS recommended)
