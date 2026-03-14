@@ -1,5 +1,7 @@
 # Local Development Setup
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Prerequisites
 
 - Node.js 18+
