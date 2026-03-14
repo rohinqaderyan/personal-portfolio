@@ -1,5 +1,7 @@
 # React Hooks Guide
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Built-in Hooks
 
 - useState: Component state
