@@ -1,5 +1,7 @@
 # CSS Utility Patterns
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Layout Utilities
 
 - flex, grid: Flexbox and Grid
