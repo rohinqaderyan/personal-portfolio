@@ -1,5 +1,7 @@
 # Project Dependencies
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Production Dependencies
 
 - next: React framework
