@@ -1,5 +1,7 @@
 # Logging Standards
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Log Levels
 
 - ERROR: Critical issues
