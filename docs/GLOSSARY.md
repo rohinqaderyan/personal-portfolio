@@ -1,5 +1,7 @@
 # Project Glossary
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Terms
 
 **API**: Application Programming Interface - a set of protocols
