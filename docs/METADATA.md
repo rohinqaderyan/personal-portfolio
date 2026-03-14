@@ -1,5 +1,7 @@
 # Metadata Management
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Page Metadata
 
 - Title (50-60 characters)
