@@ -1,5 +1,7 @@
 # Feature Flags
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Implementation
 
 ```typescript
