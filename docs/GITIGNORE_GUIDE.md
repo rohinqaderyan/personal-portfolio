@@ -1,5 +1,7 @@
 # Git Ignore Patterns
 
+<!-- Last reviewed: 2026-03-14 -->
+
 ## Node Modules
 
 - node_modules/
