@@ -1,5 +1,7 @@
 # Performance Tips
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Image Optimization
 
 - Use next/image component
