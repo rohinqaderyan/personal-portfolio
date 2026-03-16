@@ -1,5 +1,7 @@
 # Project Timeline
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## January 2026
 
 - Week 1: Initial setup and configuration
