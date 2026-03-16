@@ -1,5 +1,7 @@
 # LinkedIn Embed - How to Update
 
+<!-- Last reviewed: 2026-03-16 -->
+
 > 🔗 Embed LinkedIn posts on your About page
 
 LinkedIn embeds are now **ENABLED** on your About page!
