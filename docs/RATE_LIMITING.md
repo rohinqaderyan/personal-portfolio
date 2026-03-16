@@ -1,5 +1,7 @@
 # API Rate Limiting
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Implementation
 
 - Use express-rate-limit
