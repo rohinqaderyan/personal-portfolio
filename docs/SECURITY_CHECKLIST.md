@@ -1,5 +1,7 @@
 # Security Checklist
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Authentication
 
 - [ ] Use secure password hashing
