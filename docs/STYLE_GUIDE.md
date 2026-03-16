@@ -1,5 +1,7 @@
 # Style Guide
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Code Formatting
 
 - Use 2 spaces for indentation
