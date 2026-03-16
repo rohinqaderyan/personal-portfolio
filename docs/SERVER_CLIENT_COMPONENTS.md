@@ -1,5 +1,7 @@
 # Server Components vs Client Components
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Server Components (Default)
 
 - Render on server
