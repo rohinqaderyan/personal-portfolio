@@ -1,5 +1,7 @@
 # Code Quality Standards
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Metrics
 
 - Test coverage > 80%
