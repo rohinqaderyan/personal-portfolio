@@ -1,5 +1,7 @@
 # TypeScript Configuration
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Strict Mode
 
 - Enable strict type checking
