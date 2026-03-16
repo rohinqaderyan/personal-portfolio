@@ -1,5 +1,7 @@
 # Docker Deployment Guide
 
+<!-- Last reviewed: 2026-03-16 -->
+
 <!-- Docker container setup and deployment -->
 <!-- Updated: 2026-03-12 -->
 
