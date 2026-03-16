@@ -1,5 +1,7 @@
 # Performance Metrics
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Core Web Vitals
 
 - LCP: < 2.5s
