@@ -1,5 +1,7 @@
 # Monitoring & Observability
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Error Tracking
 
 - Sentry
