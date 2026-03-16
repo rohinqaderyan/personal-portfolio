@@ -1,5 +1,7 @@
 # Responsive Design
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Breakpoints
 
 - mobile: < 640px
