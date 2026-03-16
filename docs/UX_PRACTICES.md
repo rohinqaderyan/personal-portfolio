@@ -1,5 +1,7 @@
 # UI/UX Best Practices
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Layout
 
 - Consistent spacing scale
