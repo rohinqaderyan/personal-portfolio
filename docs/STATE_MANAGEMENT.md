@@ -1,5 +1,7 @@
 # State Management
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Local State
 
 - useState for component state
