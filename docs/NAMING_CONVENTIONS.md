@@ -1,5 +1,7 @@
 # Naming Conventions
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Files
 
 - Components: PascalCase (Button.tsx)
