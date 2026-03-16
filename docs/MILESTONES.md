@@ -1,5 +1,7 @@
 # Project Milestones
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## Phase 1: Foundation (Completed)
 
 - [x] Project setup
