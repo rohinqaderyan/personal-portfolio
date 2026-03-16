@@ -1,5 +1,7 @@
 # Release Notes - v1.2.0
 
+<!-- Last reviewed: 2026-03-16 -->
+
 > 📚 Documentation and developer experience improvements
 
 ## 🎉 Version 1.2.0 - December 2025
