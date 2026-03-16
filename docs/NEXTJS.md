@@ -1,5 +1,7 @@
 # Next.js Patterns
 
+<!-- Last reviewed: 2026-03-16 -->
+
 ## File-based Routing
 
 - app/ directory structure
