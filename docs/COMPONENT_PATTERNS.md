@@ -1,6 +1,6 @@
 # Component Patterns
 
-<!-- Last reviewed: 2026-03-13 -->
+<!-- Last reviewed: 2026-03-17 -->
 
 ## Functional Components
 
