@@ -1,5 +1,7 @@
 # Project Images - Recommended Unsplash URLs
 
+<!-- Last reviewed: 2026-03-17 -->
+
 > 🖼️ High-quality free stock images for projects
 
 Download these images and save them in `/public/projects/` with the exact filenames:
