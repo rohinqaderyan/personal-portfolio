@@ -20,3 +20,5 @@
 <!-- reviewed 2026-03-01 -->
 
 Note (2026-03-10): Treat build-time improvements as measurable, testable changes.
+
+<!-- reviewed 2026-03-18 -->
