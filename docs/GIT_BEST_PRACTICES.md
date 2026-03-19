@@ -15,3 +15,5 @@
 - feature/\*: new features
 
 Note (2026-03-10): Keep commit scope small to simplify audit and revert paths.
+
+<!-- reviewed 2026-03-19 -->
