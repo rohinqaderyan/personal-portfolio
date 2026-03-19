@@ -24,3 +24,5 @@
   <!-- Reviewed: 2026-02-12 -->
 
 Note (2026-03-10): Run lint auto-fixes separately from functional changes when possible.
+
+<!-- reviewed 2026-03-19 -->
