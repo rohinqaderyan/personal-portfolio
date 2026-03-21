@@ -597,3 +597,5 @@ Feel free to:
 <!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Submit narrowly scoped pull requests for faster and safer review.
+
+<!-- reviewed 2026-03-21 -->
