@@ -126,3 +126,5 @@ For best experience:
 <!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Validate critical flows on at least one evergreen browser per engine.
+
+<!-- reviewed 2026-03-21 -->
