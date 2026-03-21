@@ -57,3 +57,5 @@
 <!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Keep example payload fields in sync with current schema names.
+
+<!-- reviewed 2026-03-21 -->
