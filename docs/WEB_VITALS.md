@@ -21,3 +21,5 @@
 - Lighthouse CI
 - Web Vitals library
 - Real user monitoring
+
+<!-- reviewed 2026-03-21 -->
