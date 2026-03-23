@@ -13,10 +13,6 @@
 - Return appropriate status codes
 - Sanitize error messages
 - Log full stack traces
-<!-- Reviewed: 2026-02-12 -->
-
-<!-- Last reviewed: 2026-03-13 -->
-
-Note (2026-03-10): Ensure user-facing errors remain actionable and non-sensitive.
+  Note (2026-03-10): Ensure user-facing errors remain actionable and non-sensitive.
 
 <!-- reviewed 2026-03-18 -->
