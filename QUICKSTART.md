@@ -290,3 +290,5 @@ Run: `npm run type-check` to see all type errors.
 <!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): If a step fails, re-run from a clean terminal session before continuing.
+
+<!-- reviewed 2026-03-22 -->
