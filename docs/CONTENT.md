@@ -20,6 +20,4 @@
 - API-based content
 - Build-time generation
 
-<!-- reviewed 2026-02-23 -->
-
 <!-- reviewed 2026-03-01 -->
