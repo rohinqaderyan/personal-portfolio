@@ -162,3 +162,5 @@ You now have a **professional, modern portfolio** with:
 - `DOMAIN_SETUP.md` - Custom domain guide
 - `VERCEL_RENAME.md` - Project renaming steps
 - `VERCEL_FREE_SETUP.md` - Vercel settings walkthrough
+
+<!-- reviewed 2026-03-22 -->
