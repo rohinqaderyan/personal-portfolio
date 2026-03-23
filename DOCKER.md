@@ -610,3 +610,5 @@ Docker deployment questions?
 <!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Rebuild images after dependency updates to avoid stale layers.
+
+<!-- reviewed 2026-03-22 -->
