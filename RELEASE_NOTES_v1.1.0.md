@@ -61,3 +61,5 @@
 Found a bug or have a suggestion?
 
 **Full Changelog**: https://github.com/rohinqaderyan/personal-portfolio/compare/v1.0.0...v1.1.0
+
+<!-- reviewed 2026-03-22 -->
