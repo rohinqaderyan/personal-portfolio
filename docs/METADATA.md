@@ -23,8 +23,5 @@
 - twitter:title
 - twitter:description
 - twitter:image
-  <!-- Reviewed 2026-02-20 -->
-  <!-- Reviewed: 2026-02-12 -->
-  <!-- Reviewed: 2026-02-16 -->
 
 <!-- reviewed 2026-03-19 -->
