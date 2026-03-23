@@ -28,6 +28,4 @@
 
 - Docker for containerization
 - Postman for API testing
-<!-- Reviewed 2026-02-21 -->
-
 <!-- reviewed 2026-03-18 -->
