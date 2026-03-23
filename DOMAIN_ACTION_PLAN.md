@@ -129,3 +129,5 @@ Your portfolio is ready when:
 Your portfolio is production-ready and perfect for FAANG applications!
 
 <!-- Reviewed 2026-01-26 -->
+
+<!-- reviewed 2026-03-22 -->
