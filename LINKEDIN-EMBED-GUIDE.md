@@ -110,3 +110,5 @@ This will:
 ⏳ Waiting for: Your actual post URN
 
 Once you add your post URN, it will appear on your About page automatically!
+
+<!-- reviewed 2026-03-22 -->
