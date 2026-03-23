@@ -16,8 +16,5 @@
 - Extract reusable logic
 - Follow naming convention (use\*)
 - Can use other hooks
-  <!-- Reviewed 2026-01-31 -->
-  <!-- Reviewed: 2026-02-12 -->
-  <!-- Reviewed: 2026-02-16 -->
 
 <!-- reviewed 2026-03-19 -->
