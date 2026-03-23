@@ -221,3 +221,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Full Changelog**: https://github.com/rohinqaderyan/personal-portfolio/compare/v1.1.0...v1.2.0
 
 **Download**: https://github.com/rohinqaderyan/personal-portfolio/releases/tag/v1.2.0
+
+<!-- reviewed 2026-03-22 -->
