@@ -136,3 +136,5 @@ Tests run automatically on:
 6. **Test accessibility**
 
 Note (2026-03-10): Run focused tests first, then full test suite before opening a PR.
+
+<!-- reviewed 2026-03-22 -->
