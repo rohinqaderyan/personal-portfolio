@@ -552,3 +552,5 @@ SEO questions or optimization help?
 <!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Validate metadata changes with a social preview tool before deploy.
+
+<!-- reviewed 2026-03-22 -->
