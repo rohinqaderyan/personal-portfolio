@@ -672,3 +672,5 @@ Current Test Coverage: 182 tests (100% passing)
 <!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Measure before and after each optimization to avoid assumption-driven changes.
+
+<!-- reviewed 2026-03-22 -->
