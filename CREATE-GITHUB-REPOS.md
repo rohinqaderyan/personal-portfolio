@@ -152,3 +152,5 @@ Your portfolio currently has:
 - ⏳ Repos don't exist yet (optional to create)
 
 Repos are **optional** but add credibility. Even empty repos with good READMEs help!
+
+<!-- reviewed 2026-03-22 -->
