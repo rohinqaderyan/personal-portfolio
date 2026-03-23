@@ -1,7 +1,7 @@
 /**
  * Validation utility functions
  * @module validation
- * Comprehensive validation helpers for forms and user input
+ * @description Comprehensive validation helpers for forms and user input
  */
 
 import { FORM_VALIDATION, PATTERNS } from './constants';
