@@ -1,7 +1,7 @@
 /**
  * String utility functions
  * @module string
- * Helper functions for string manipulation and formatting
+ * @description Helper functions for string manipulation and formatting
  */
 
 /**
