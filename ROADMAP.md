@@ -136,3 +136,5 @@ _Last updated: December 2025_
 <!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Re-prioritize roadmap items after each release retrospective.
+
+<!-- reviewed 2026-03-22 -->
