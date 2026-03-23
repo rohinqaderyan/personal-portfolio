@@ -45,3 +45,5 @@ Target Lighthouse scores:
 Use Vercel Analytics or Google Lighthouse CI for continuous monitoring.
 
 <!-- Reviewed 2026-01-26 -->
+
+<!-- reviewed 2026-03-22 -->
