@@ -32,12 +32,6 @@
 - [ ] Forms are properly labeled
 - [ ] Error messages are clear
 - [ ] Color is not the only indicator
-<!-- Reviewed 2026-02-21 -->
-
-<!-- reviewed 2026-02-23 -->
-
-<!-- reviewed 2026-03-01 -->
-
-Note (2026-03-10): Pair automated accessibility checks with manual screen-reader spot checks.
+      Note (2026-03-10): Pair automated accessibility checks with manual screen-reader spot checks.
 
 <!-- reviewed 2026-03-21 -->
