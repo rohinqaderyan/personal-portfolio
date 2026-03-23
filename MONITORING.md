@@ -154,3 +154,5 @@ Built-in health checks:
 <!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Annotate major releases in monitoring timelines for quicker incident triage.
+
+<!-- reviewed 2026-03-22 -->
