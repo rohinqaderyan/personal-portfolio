@@ -20,8 +20,6 @@ npm run dev
 1. Copy .env.example to .env.local
 2. Configure variables
 3. Restart dev server
-   <!-- Reviewed 2026-02-20 -->
-   <!-- Reviewed: 2026-02-12 -->
 
 Note (2026-03-10): Verify shell profile changes in a new terminal before documenting success.
 
