@@ -13,12 +13,6 @@
 - Minimize dependencies
 - Tree-shake unused code
 - Compress assets
-<!-- Reviewed 2026-02-21 -->
-
-<!-- reviewed 2026-02-23 -->
-
-<!-- reviewed 2026-03-01 -->
-
-Note (2026-03-10): Treat build-time improvements as measurable, testable changes.
+  Note (2026-03-10): Treat build-time improvements as measurable, testable changes.
 
 <!-- reviewed 2026-03-18 -->
