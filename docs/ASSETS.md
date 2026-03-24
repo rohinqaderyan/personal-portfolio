@@ -21,10 +21,5 @@
 - Use SVG
 - Inline small icons
 - Sprite sheets for many icons
-<!-- Reviewed 2026-02-20 -->
-
-<!-- reviewed 2026-02-23 -->
-
-<!-- reviewed 2026-03-01 -->
 
 <!-- reviewed 2026-03-18 -->
