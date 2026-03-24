@@ -33,13 +33,6 @@ npm run test:watch # Watch mode
 npm run test:coverage # Coverage report
 ```
 
-<!-- Reviewed 2026-01-30 -->
-<!-- Reviewed: 2026-02-16 -->
-
-<!-- reviewed 2026-02-23 -->
-
-<!-- reviewed 2026-03-01 -->
-
 Note (2026-03-10): Prefer non-destructive command variants in shared documentation.
 
 <!-- reviewed 2026-03-18 -->
