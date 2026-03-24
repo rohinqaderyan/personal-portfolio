@@ -19,10 +19,5 @@
 - Keep animations under 60fps
 - Use GPU-accelerated properties
 - Test on lower-end devices
-<!-- Reviewed 2026-02-20 -->
-
-<!-- reviewed 2026-02-23 -->
-
-<!-- reviewed 2026-03-01 -->
 
 <!-- reviewed 2026-03-18 -->
