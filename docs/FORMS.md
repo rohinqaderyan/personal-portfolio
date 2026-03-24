@@ -20,6 +20,5 @@
 - Disable submit on invalid
 - Show loading states
 - Handle success/error states
-<!-- Reviewed: 2026-02-12 -->
 
 <!-- reviewed 2026-03-19 -->
