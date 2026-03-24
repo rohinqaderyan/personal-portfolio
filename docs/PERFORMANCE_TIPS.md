@@ -29,6 +29,5 @@
 - Debounce/throttle events
 - Virtual scrolling for long lists
 - Avoid unnecessary re-renders
-<!-- Reviewed 2026-02-20 -->
 
 <!-- reviewed 2026-03-19 -->
