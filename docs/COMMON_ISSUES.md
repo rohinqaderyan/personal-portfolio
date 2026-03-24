@@ -23,8 +23,4 @@
 **Issue**: Build fails on Vercel
 **Solution**: Check environment variables and build logs
 
-<!-- reviewed 2026-02-23 -->
-
-<!-- reviewed 2026-03-01 -->
-
 <!-- reviewed 2026-03-18 -->
