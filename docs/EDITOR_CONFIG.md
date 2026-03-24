@@ -27,6 +27,5 @@
 - Prettier - Code formatter
 - Tailwind CSS IntelliSense
 - GitLens
-<!-- Reviewed: 2026-02-12 -->
 
 <!-- reviewed 2026-03-18 -->
