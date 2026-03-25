@@ -1,6 +1,6 @@
 # Linting Configuration
 
-<!-- Last updated: 2026-03-13 -->
+<!-- Last updated: 2026-03-25 -->
 
 ## ESLint
 
@@ -21,6 +21,6 @@
 - Run on staged files
 - Prevent bad commits
 
-Note (2026-03-10): Run lint auto-fixes separately from functional changes when possible.
+Note (2026-03-25): Run lint auto-fixes separately from functional changes when possible.
 
-<!-- reviewed 2026-03-19 -->
+<!-- reviewed 2026-03-25 -->
