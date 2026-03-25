@@ -1,6 +1,6 @@
 # Project Dependencies
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## Production Dependencies
 
@@ -23,4 +23,4 @@
 - Tailwind CSS IntelliSense
 <!-- Reviewed 2026-02-21 -->
 
-<!-- reviewed 2026-03-18 -->
+<!-- reviewed 2026-03-25 -->
