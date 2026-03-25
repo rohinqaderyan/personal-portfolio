@@ -1,6 +1,6 @@
 # Routing Guide
 
-<!-- Last updated: 2026-03-13 -->
+<!-- Last updated: 2026-03-25 -->
 
 ## File-based Routing
 
@@ -37,4 +37,4 @@ const router = useRouter();
 router.push('/about');
 ```
 
-<!-- reviewed 2026-03-19 -->
+<!-- reviewed 2026-03-25 -->
