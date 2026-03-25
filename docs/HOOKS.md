@@ -1,6 +1,6 @@
 # React Hooks Guide
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## Built-in Hooks
 
@@ -17,4 +17,4 @@
 - Follow naming convention (use\*)
 - Can use other hooks
 
-<!-- reviewed 2026-03-19 -->
+<!-- reviewed 2026-03-25 -->
