@@ -1,6 +1,6 @@
 # Debugging Techniques
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## Browser DevTools
 
@@ -25,6 +25,6 @@
 
 <!-- reviewed 2026-02-23 -->
 
-Note (2026-03-10): Reproduce with the smallest failing case before deep inspection.
+Note (2026-03-25): Reproduce with the smallest failing case before deep inspection.
 
-<!-- reviewed 2026-03-18 -->
+<!-- reviewed 2026-03-25 -->
