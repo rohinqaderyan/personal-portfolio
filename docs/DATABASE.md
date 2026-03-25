@@ -1,6 +1,6 @@
 # Database Integration
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## Options
 
@@ -22,4 +22,4 @@
 - Index frequently queried fields
 - Sanitize queries
 - Handle migrations properly
-<!-- reviewed 2026-03-18 -->
+<!-- reviewed 2026-03-25 -->
