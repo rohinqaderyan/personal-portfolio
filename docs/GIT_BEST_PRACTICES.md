@@ -1,6 +1,6 @@
 # Git Best Practices
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## Commit Messages
 
@@ -14,6 +14,6 @@
 - develop: development branch
 - feature/\*: new features
 
-Note (2026-03-10): Keep commit scope small to simplify audit and revert paths.
+Note (2026-03-25): Keep commit scope small to simplify audit and revert paths.
 
-<!-- reviewed 2026-03-19 -->
+<!-- reviewed 2026-03-25 -->
