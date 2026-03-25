@@ -1,6 +1,6 @@
 # Dependency Management
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## Package Updates
 
@@ -14,4 +14,4 @@
 - Allow minor/patch updates
 - Document peer dependencies
 
-<!-- reviewed 2026-03-18 -->
+<!-- reviewed 2026-03-25 -->
