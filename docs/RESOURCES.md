@@ -1,6 +1,6 @@
 # Useful Resources
 
-<!-- Last updated: 2026-03-13 -->
+<!-- Last updated: 2026-03-25 -->
 
 ## Documentation
 
@@ -22,4 +22,4 @@
 - Discord servers
 <!-- Reviewed 2026-02-20 -->
 
-<!-- reviewed 2026-03-19 -->
+<!-- reviewed 2026-03-25 -->
