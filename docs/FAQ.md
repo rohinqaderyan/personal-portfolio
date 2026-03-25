@@ -1,6 +1,6 @@
 # FAQ - Frequently Asked Questions
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## General Questions
 
@@ -32,4 +32,4 @@ A: Deployed on Vercel.
 **Q: How do I deploy updates?**
 A: Push to main branch for automatic deployment.
 
-<!-- reviewed 2026-03-18 -->
+<!-- reviewed 2026-03-25 -->
