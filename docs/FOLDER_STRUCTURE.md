@@ -1,6 +1,6 @@
 # Folder Structure
 
-<!-- Last updated: 2026-03-13 -->
+<!-- Last updated: 2026-03-25 -->
 
 ## Root Directory
 
@@ -17,4 +17,4 @@
 - `/src/hooks` - Custom hooks
 - `/src/types` - TypeScript types
 
-<!-- reviewed 2026-03-18 -->
+<!-- reviewed 2026-03-25 -->
