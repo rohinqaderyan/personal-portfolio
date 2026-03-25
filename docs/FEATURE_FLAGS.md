@@ -1,6 +1,6 @@
 # Feature Flags
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## Implementation
 
@@ -40,4 +40,4 @@ function Component() {
 - Use descriptive names
 - Clean up unused flags
 
-<!-- reviewed 2026-03-18 -->
+<!-- reviewed 2026-03-25 -->
