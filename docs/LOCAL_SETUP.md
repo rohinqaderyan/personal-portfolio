@@ -1,6 +1,6 @@
 # Local Development Setup
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## Prerequisites
 
@@ -21,6 +21,6 @@ npm run dev
 2. Configure variables
 3. Restart dev server
 
-Note (2026-03-10): Verify shell profile changes in a new terminal before documenting success.
+Note (2026-03-25): Verify shell profile changes in a new terminal before documenting success.
 
-<!-- reviewed 2026-03-19 -->
+<!-- reviewed 2026-03-25 -->
