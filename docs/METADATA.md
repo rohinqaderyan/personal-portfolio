@@ -1,6 +1,6 @@
 # Metadata Management
 
-<!-- Last reviewed: 2026-03-14 -->
+<!-- Last reviewed: 2026-03-25 -->
 
 ## Page Metadata
 
@@ -24,4 +24,4 @@
 - twitter:description
 - twitter:image
 
-<!-- reviewed 2026-03-19 -->
+<!-- reviewed 2026-03-25 -->
