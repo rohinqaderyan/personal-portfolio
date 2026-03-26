@@ -1,6 +1,6 @@
 # CSS Utility Patterns
 
-<!-- Last reviewed: 2026-03-25 -->
+<!-- Last reviewed: 2026-03-26 -->
 
 ## Layout Utilities
 
