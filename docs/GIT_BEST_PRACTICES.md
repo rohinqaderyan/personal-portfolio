@@ -1,6 +1,6 @@
 # Git Best Practices
 
-<!-- Last reviewed: 2026-03-25 -->
+<!-- Last reviewed: 2026-03-27 -->
 
 ## Commit Messages
 
