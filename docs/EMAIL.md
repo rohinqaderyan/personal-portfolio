@@ -1,6 +1,6 @@
 # Email Integration
 
-<!-- Last reviewed: 2026-03-23 -->
+<!-- Last reviewed: 2026-03-30 -->
 
 ## Services
 
