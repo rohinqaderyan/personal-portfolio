@@ -1,6 +1,6 @@
 # State Management
 
-<!-- Last reviewed: 2026-03-16 -->
+<!-- Last reviewed: 2026-03-30 -->
 
 ## Local State
 
