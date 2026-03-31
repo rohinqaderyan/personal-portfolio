@@ -1,6 +1,6 @@
 # Environment Setup Guide
 
-<!-- Last reviewed: 2026-03-27 -->
+<!-- Last reviewed: 2026-03-31 -->
 
 ## Required Software
 
