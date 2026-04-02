@@ -1,6 +1,6 @@
 # Common Issues & Solutions
 
-<!-- Last reviewed: 2026-04-01 -->
+<!-- Last reviewed: 2026-04-02 -->
 
 ## Build Errors
 
