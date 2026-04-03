@@ -34,4 +34,4 @@ function useDebounce<T>(value: T, delay: number): T {
 }
 ```
 
-<!-- reviewed 2026-03-21 -->
+<!-- Reviewed: 2026-03-21 -->
