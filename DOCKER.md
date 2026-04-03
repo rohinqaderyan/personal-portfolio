@@ -3,7 +3,7 @@
 <!-- Last reviewed: 2026-03-16 -->
 
 <!-- Docker container setup and deployment -->
-<!-- Updated: 2026-03-12 -->
+<!-- Last updated: 2026-03-12 -->
 
 > 🐳 Compatible with Docker 20.10+ and Docker Compose v2
 
