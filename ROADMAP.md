@@ -133,7 +133,7 @@ Have a feature request or suggestion?
 
 _Last updated: March 2026_
 
-<!-- Reviewed 2026-01-26 -->
+<!-- Reviewed: 2026-01-26 -->
 
 Note (2026-03-10): Re-prioritize roadmap items after each release retrospective.
 
