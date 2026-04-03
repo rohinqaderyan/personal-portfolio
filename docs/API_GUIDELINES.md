@@ -12,10 +12,5 @@
 
 - Keep functions small
 - Write clear documentation
-<!-- Reviewed 2026-02-21 -->
-
-<!-- reviewed 2026-02-23 -->
-
-<!-- reviewed 2026-03-01 -->
 
 <!-- reviewed 2026-03-18 -->
