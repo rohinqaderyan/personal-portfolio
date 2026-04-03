@@ -8,6 +8,7 @@
 - Firefox: Last 2 versions
 - Safari: Last 2 versions
 - Edge: Last 2 versions
+- Opera: Last 2 versions
 
 ## Mobile Support
 
