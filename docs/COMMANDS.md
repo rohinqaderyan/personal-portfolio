@@ -35,4 +35,4 @@ npm run test:coverage # Coverage report
 
 Note (2026-03-10): Prefer non-destructive command variants in shared documentation.
 
-<!-- reviewed 2026-03-18 -->
+<!-- Reviewed: 2026-03-18 -->
