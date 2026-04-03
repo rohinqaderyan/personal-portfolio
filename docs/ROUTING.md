@@ -37,4 +37,4 @@ const router = useRouter();
 router.push('/about');
 ```
 
-<!-- reviewed 2026-03-25 -->
+<!-- Reviewed: 2026-03-25 -->
