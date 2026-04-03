@@ -20,6 +20,5 @@
 - Stack Overflow
 - Reddit r/webdev
 - Discord servers
-<!-- Reviewed 2026-02-20 -->
 
 <!-- reviewed 2026-03-25 -->
