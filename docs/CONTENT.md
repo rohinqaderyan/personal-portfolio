@@ -17,7 +17,7 @@
 ## CMS Integration
 
 - Headless CMS options
-- API-based content
+- API-based content delivery
 - Build-time generation
 
 <!-- reviewed 2026-03-01 -->
