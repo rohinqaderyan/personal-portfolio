@@ -1,6 +1,6 @@
 # Error Handling Best Practices
 
-<!-- Last reviewed: 2026-04-03 -->
+<!-- Last reviewed: 2026-04-04 -->
 
 ## Try-Catch Blocks
 
