@@ -1,6 +1,6 @@
 # Email Integration
 
-<!-- Last reviewed: 2026-04-03 -->
+<!-- Last reviewed: 2026-04-04 -->
 
 ## Services
 
@@ -23,6 +23,6 @@
 - Responsive design
 <!-- Reviewed: 2026-02-21 -->
 
-<!-- Last reviewed: 2026-03-13 -->
+<!-- Last reviewed: 2026-04-04 -->
 
 <!-- reviewed 2026-03-18 -->
