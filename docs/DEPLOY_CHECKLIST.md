@@ -1,6 +1,6 @@
 # Deployment Checklist
 
-<!-- Last reviewed: 2026-04-02 -->
+<!-- Last reviewed: 2026-04-06 -->
 
 ## Pre-deployment
 
