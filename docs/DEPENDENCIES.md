@@ -14,4 +14,4 @@
 - Allow minor/patch updates
 - Document peer dependencies
 
-<!-- reviewed 2026-03-25 -->
+<!-- reviewed 2026-04-09 -->
