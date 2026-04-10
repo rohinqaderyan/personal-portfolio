@@ -19,6 +19,6 @@
 - Document public APIs
 - Keep README updated
 - Add inline comments for complex logic
-<!-- Reviewed 2026-02-20 -->
+<!-- Reviewed 2026-04-10 -->
 
 <!-- reviewed 2026-04-07 -->
