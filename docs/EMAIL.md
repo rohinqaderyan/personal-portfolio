@@ -21,7 +21,7 @@
 - HTML templates
 - Plain text fallback
 - Responsive design
-<!-- Reviewed: 2026-02-21 -->
+<!-- Reviewed: 2026-04-10 -->
 
 <!-- Last reviewed: 2026-04-04 -->
 
