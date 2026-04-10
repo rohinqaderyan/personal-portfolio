@@ -1,6 +1,6 @@
 # Commit Message Guidelines
 
-<!-- Last reviewed: 2026-04-05 -->
+<!-- Last reviewed: 2026-04-10 -->
 
 ## Format
 
