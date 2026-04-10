@@ -24,7 +24,7 @@
 - [ ] Test critical flows
 <!-- Reviewed: 2026-04-10 -->
 
-<!-- reviewed 2026-02-23 -->
+<!-- reviewed 2026-04-10 -->
 
 Note (2026-03-25): Include rollback confirmation as a required release checkpoint.
 
