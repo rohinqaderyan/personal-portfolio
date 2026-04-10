@@ -24,6 +24,6 @@
 
 - Return 429 status
 - Provide retry information
-<!-- Reviewed 2026-02-20 -->
+<!-- Reviewed 2026-04-10 -->
 
 <!-- reviewed 2026-04-07 -->
