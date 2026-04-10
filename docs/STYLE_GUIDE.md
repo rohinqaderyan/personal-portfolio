@@ -13,6 +13,6 @@
 - Group imports by type
 - Keep files under 300 lines
 - One component per file
-<!-- Reviewed 2026-02-21 -->
+<!-- Reviewed 2026-04-10 -->
 
 <!-- reviewed 2026-04-08 -->
