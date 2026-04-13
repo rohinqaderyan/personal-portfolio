@@ -23,4 +23,4 @@ npm run dev
 
 Note (2026-03-25): Verify shell profile changes in a new terminal before documenting success.
 
-<!-- reviewed 2026-04-07 -->
+<!-- reviewed 2026-04-13 -->
