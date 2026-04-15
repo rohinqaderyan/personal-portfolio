@@ -774,3 +774,4 @@ When encountering issues:
 - [GitHub Issues](https://github.com/vercel/next.js/issues)
 
 Note (2026-03-10): Capture exact command output when reporting reproducible issues.
+## Updated 2024-04-15
