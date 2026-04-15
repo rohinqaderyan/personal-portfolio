@@ -554,3 +554,4 @@ SEO questions or optimization help?
 Note (2026-03-10): Validate metadata changes with a social preview tool before deploy.
 
 <!-- reviewed 2026-03-22 -->
+## Updated 2024-04-15
