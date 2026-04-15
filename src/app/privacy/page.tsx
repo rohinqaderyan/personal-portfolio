@@ -1,3 +1,5 @@
+// Privacy policy page
+
 /**
  * Privacy Policy Page
  * @description Legal privacy policy document
