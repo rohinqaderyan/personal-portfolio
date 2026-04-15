@@ -364,3 +364,4 @@ Add all variables from `.env.local` to Vercel dashboard:
 Note (2026-03-10): Record local overrides so teammates can reproduce setup issues.
 
 <!-- reviewed 2026-03-22 -->
+## Updated 2024-04-15
