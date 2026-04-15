@@ -88,3 +88,4 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+# Build configuration updated
