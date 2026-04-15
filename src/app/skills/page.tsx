@@ -1,3 +1,5 @@
+// Skills showcase page
+
 /**
  * Skills Page
  * @description Technical skills and expertise showcase
