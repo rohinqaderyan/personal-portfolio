@@ -1,3 +1,5 @@
+// About page component
+
 /**
  * About Page
  * @description Personal bio and background information
