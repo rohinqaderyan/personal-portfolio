@@ -1,3 +1,5 @@
+// Projects listing page
+
 /**
  * Projects Page
  * @description Portfolio projects gallery with filters
