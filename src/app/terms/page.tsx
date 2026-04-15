@@ -1,3 +1,5 @@
+// Terms of service page
+
 /**
  * Terms of Service Page
  * @description Legal terms and conditions document
