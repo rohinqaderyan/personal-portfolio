@@ -18,6 +18,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 const config = getSiteConfig();
 
+// Initialize theme and motion providers
+
 export const metadata: Metadata = genMeta(config.seo.title, config.seo.description, config, '');
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

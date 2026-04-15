@@ -1,5 +1,7 @@
 /**
  * Home Page Component
+// Displays featured projects and call-to-action sections
+
  * @description Landing page featuring hero section and projects
  */
 import { Hero } from '@/components/Hero';
