@@ -500,3 +500,4 @@ Thank you for helping keep this project secure!
 Note (2026-03-10): Prefer least-privilege credentials for local and CI environments.
 
 <!-- reviewed 2026-03-22 -->
+## Updated 2024-04-15
