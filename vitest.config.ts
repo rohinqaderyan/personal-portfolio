@@ -31,3 +31,4 @@ export default defineConfig({
     },
   },
 });
+# Vitest configuration reference
