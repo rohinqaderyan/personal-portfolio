@@ -147,3 +147,4 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=  # Add your ID here
 Google Analytics Help: [support.google.com/analytics](https://support.google.com/analytics)
 
 <!-- reviewed 2026-03-21 -->
+## Updated 2024-04-15
