@@ -1,3 +1,5 @@
+// Middleware for request handling and security
+
 /**
  * Next.js Middleware
  * @version 1.3.2
