@@ -1,3 +1,5 @@
+// Experience timeline page
+
 /**
  * Experience Page
  * @description Work history and career timeline
