@@ -15,4 +15,4 @@
 - Log full stack traces
   Note (2026-03-25): Ensure user-facing errors remain actionable and non-sensitive.
 
-<!-- reviewed 2026-04-13 -->
+<!-- reviewed 2026-04-16 -->
