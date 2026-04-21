@@ -20,4 +20,4 @@
 - Keep deployment history
 - Document rollback procedures
 
-<!-- reviewed 2026-04-19 -->
+<!-- reviewed 2026-04-21 -->
