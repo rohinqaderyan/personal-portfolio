@@ -20,4 +20,4 @@
 - [ ] Text resizable
 - [ ] No content flash
 
-<!-- reviewed 2026-04-19 -->
+<!-- reviewed 2026-04-21 -->
