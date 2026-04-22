@@ -1,6 +1,6 @@
 # Release Checklist
 
-<!-- Last reviewed: 2026-04-05 -->
+<!-- Last reviewed: 2026-04-22 -->
 
 ## Pre-release
 
