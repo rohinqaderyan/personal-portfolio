@@ -1,6 +1,6 @@
 # Performance Optimization
 
-<!-- Last updated: 2026-04-05 -->
+<!-- Last updated: 2026-04-22 -->
 
 ## Core Web Vitals
 
