@@ -1,6 +1,6 @@
 # Server Components vs Client Components
 
-<!-- Last reviewed: 2026-04-09 -->
+<!-- Last reviewed: 2026-04-22 -->
 
 ## Server Components (Default)
 
