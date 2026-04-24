@@ -1,6 +1,6 @@
 # Project Dependencies
 
-<!-- Last reviewed: 2026-04-12 -->
+<!-- Last reviewed: 2026-04-23 -->
 
 ## Production Dependencies
 
