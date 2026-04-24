@@ -1,6 +1,6 @@
 # Project Glossary
 
-<!-- Last reviewed: 2026-04-22 -->
+<!-- Last reviewed: 2026-04-24 -->
 
 ## Terms
 
