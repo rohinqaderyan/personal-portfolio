@@ -1,6 +1,6 @@
 # Accessibility Checklist
 
-<!-- Last updated: 2026-04-25 -->
+<!-- Last updated: 2026-04-28 -->
 
 ## Keyboard Navigation
 
