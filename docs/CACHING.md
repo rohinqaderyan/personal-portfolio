@@ -1,6 +1,6 @@
 # Caching Strategies
 
-<!-- Last updated: 2026-04-25 -->
+<!-- Last updated: 2026-04-28 -->
 
 ## Client-Side Caching
 
