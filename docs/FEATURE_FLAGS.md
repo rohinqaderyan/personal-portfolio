@@ -40,4 +40,4 @@ function Component() {
 - Use descriptive names
 - Clean up unused flags
 
-<!-- reviewed 2026-04-20 -->
+<!-- reviewed 2026-04-30 -->
