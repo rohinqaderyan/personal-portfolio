@@ -36,4 +36,4 @@ class ErrorBoundary extends React.Component {
 - Provide clear error messages
 - Log errors for debugging
 - Don't expose sensitive info
-<!-- reviewed 2026-04-20 -->
+<!-- reviewed 2026-04-30 -->
