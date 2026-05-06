@@ -1,6 +1,6 @@
 # Code Splitting
 
-<!-- Last reviewed: 2026-04-28 -->
+<!-- Last reviewed: 2026-05-06 -->
 
 ## Dynamic Imports
 
