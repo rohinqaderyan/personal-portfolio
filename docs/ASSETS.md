@@ -22,4 +22,4 @@
 - Inline small icons
 - Sprite sheets for many icons
 
-<!-- Reviewed: 2026-04-19 -->
+<!-- Reviewed: 2026-05-08 -->
