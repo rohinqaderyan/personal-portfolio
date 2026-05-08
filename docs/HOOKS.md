@@ -1,6 +1,6 @@
 # React Hooks Guide
 
-<!-- Last reviewed: 2026-04-29 -->
+<!-- Last reviewed: 2026-05-08 -->
 
 ## Built-in Hooks
 
