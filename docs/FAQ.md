@@ -1,6 +1,6 @@
 # FAQ - Frequently Asked Questions
 
-<!-- Last reviewed: 2026-04-29 -->
+<!-- Last reviewed: 2026-05-08 -->
 
 ## General Questions
 
