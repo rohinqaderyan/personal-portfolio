@@ -1,6 +1,6 @@
 # Debugging Techniques
 
-<!-- Last reviewed: 2026-05-06 -->
+<!-- Last reviewed: 2026-05-11 -->
 
 ## Browser DevTools
 
