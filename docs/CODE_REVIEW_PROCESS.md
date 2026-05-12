@@ -25,4 +25,4 @@
 
 Note (2026-03-10): Prioritize correctness and regression risk over style-only comments.
 
-<!-- reviewed 2026-05-07 -->
+<!-- reviewed 2026-05-12 -->
