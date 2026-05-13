@@ -28,4 +28,4 @@
 
 Note (2026-03-25): Include rollback confirmation as a required release checkpoint.
 
-<!-- reviewed 2026-05-12 -->
+<!-- reviewed 2026-05-13 -->
