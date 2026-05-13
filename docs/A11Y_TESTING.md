@@ -34,4 +34,4 @@
 - [ ] Color is not the only indicator
       Note (2026-03-10): Pair automated accessibility checks with manual screen-reader spot checks.
 
-<!-- reviewed 2026-05-12 -->
+<!-- reviewed 2026-05-13 -->
