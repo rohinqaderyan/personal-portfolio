@@ -17,4 +17,4 @@
 - `/src/hooks` - Custom hooks
 - `/src/types` - TypeScript types
 
-<!-- reviewed 2026-05-12 -->
+<!-- reviewed 2026-05-13 -->
