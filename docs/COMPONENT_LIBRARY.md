@@ -1,6 +1,6 @@
 # Component Library
 
-<!-- Last reviewed: 2026-05-11 -->
+<!-- Last reviewed: 2026-05-15 -->
 
 ## Core Components
 
