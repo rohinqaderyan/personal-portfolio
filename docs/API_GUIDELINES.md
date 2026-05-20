@@ -1,6 +1,6 @@
 # API Guidelines
 
-<!-- Last updated: 2026-05-18 -->
+<!-- Last updated: 2026-05-20 -->
 
 ## Naming Conventions
 
