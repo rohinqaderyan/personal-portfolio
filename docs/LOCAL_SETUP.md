@@ -1,6 +1,6 @@
 # Local Development Setup
 
-<!-- Last reviewed: 2026-05-19 -->
+<!-- Last reviewed: 2026-05-20 -->
 
 ## Prerequisites
 
