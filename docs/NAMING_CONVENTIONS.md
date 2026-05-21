@@ -22,4 +22,4 @@
 - Follow BEM when needed
 <!-- Reviewed 2026-04-10 -->
 
-<!-- reviewed 2026-04-19 -->
+<!-- reviewed 2026-05-21 -->
