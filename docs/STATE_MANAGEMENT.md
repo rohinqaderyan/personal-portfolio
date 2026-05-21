@@ -24,4 +24,4 @@
 - State machines (XState)
 <!-- Reviewed 2026-04-10 -->
 
-<!-- reviewed 2026-04-21 -->
+<!-- reviewed 2026-05-21 -->
