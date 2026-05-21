@@ -32,4 +32,4 @@ export default function ClientComponent() {
 }
 ```
 
-<!-- reviewed 2026-04-20 -->
+<!-- reviewed 2026-05-21 -->
