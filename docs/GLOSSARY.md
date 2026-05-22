@@ -16,6 +16,6 @@
 **SPA**: Single Page Application
 **PWA**: Progressive Web App
 
-<!-- Reviewed: 2026-05-08 -->
+<!-- Reviewed: 2026-05-22 -->
 
 <!-- reviewed 2026-05-21 -->
