@@ -173,4 +173,4 @@ Common issues:
 **Ready?** Go create your account now! Takes 5 minutes.
 https://analytics.google.com
 
-<!-- reviewed 2026-03-22 -->
+<!-- reviewed 2026-05-22 -->
