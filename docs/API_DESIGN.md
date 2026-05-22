@@ -25,4 +25,4 @@
 - Header versioning
 - Backward compatibility
 
-<!-- Reviewed: 2026-05-19 -->
+<!-- Reviewed: 2026-05-22 -->
