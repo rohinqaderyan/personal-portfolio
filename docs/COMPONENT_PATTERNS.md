@@ -34,4 +34,5 @@ export function useCustomHook() {
 - Create context
 - Provide context value
 - Consume with useContext
+
 <!-- reviewed 2026-05-21 -->
