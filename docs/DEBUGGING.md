@@ -23,7 +23,6 @@
 - Conditional breakpoints
 - Debug console
 
-<!-- reviewed 2026-04-10 -->
 
 Note (2026-03-25): Reproduce with the smallest failing case before deep inspection.
 
