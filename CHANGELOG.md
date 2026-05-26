@@ -3,7 +3,6 @@
 <!-- Last reviewed: 2026-03-16 -->
 
 <!-- Changelog file and version history -->
-<!-- Last updated: 2026-03-12 -->
 
 All notable changes to this project will be documented in this file.
 
