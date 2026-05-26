@@ -22,9 +22,7 @@
 - [ ] Monitor logs
 - [ ] Check performance metrics
 - [ ] Test critical flows
-<!-- Reviewed: 2026-05-22 -->
 
-<!-- reviewed 2026-04-10 -->
 
 Note (2026-03-25): Include rollback confirmation as a required release checkpoint.
 
