@@ -20,4 +20,4 @@
 - ThemeProvider
 - ErrorBoundary
 
-<!-- Reviewed: 2026-05-22 -->
+<!-- reviewed: 2026-05-22 -->
