@@ -19,8 +19,6 @@
 - List props
 - Show usage examples
 - Document events
-<!-- Reviewed 2026-04-10 -->
 
-<!-- reviewed 2026-04-10 -->
 
 <!-- reviewed 2026-05-13 -->
