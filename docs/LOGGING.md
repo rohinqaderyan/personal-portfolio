@@ -15,4 +15,4 @@
 - Add context
 - Avoid sensitive data
 
-<!-- reviewed 2026-05-21 -->
+<!-- reviewed: 2026-05-21 -->
