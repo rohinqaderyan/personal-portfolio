@@ -137,6 +137,5 @@ For answers to common questions about this code of conduct, see the FAQ at
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
 
-<!-- Reviewed 2026-01-26 -->
 
 <!-- reviewed 2026-03-21 -->
