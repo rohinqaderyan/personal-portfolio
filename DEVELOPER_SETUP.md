@@ -434,7 +434,6 @@ After setup:
 
 **Welcome to the project! Happy coding! 🎉**
 
-<!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Keep local Node and package manager versions aligned with project defaults.
 
