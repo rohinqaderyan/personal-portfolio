@@ -669,7 +669,6 @@ Last Updated: January 2025
 Current Bundle Size: 87.4 kB First Load JS  
 Current Test Coverage: 182 tests (100% passing)
 
-<!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Measure before and after each optimization to avoid assumption-driven changes.
 
