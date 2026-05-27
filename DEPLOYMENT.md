@@ -351,7 +351,6 @@ export async function GET() {
 **Deployment Target:** Vercel (Primary)
 **Minimum Node Version:** 18.0.0
 
-<!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Confirm environment variable presence before starting a release.
 
