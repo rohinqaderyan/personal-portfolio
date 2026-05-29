@@ -17,4 +17,4 @@
 - Follow naming convention (use\*)
 - Can use other hooks
 
-<!-- reviewed 2026-05-21 -->
+<!-- reviewed: 2026-05-21 -->
