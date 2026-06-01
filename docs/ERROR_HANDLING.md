@@ -16,4 +16,4 @@
 
 Note (2026-03-25): Ensure user-facing errors remain actionable and non-sensitive.
 
-<!-- reviewed: 2026-05-13 -->
+<!-- Reviewed: 2026-05-13 -->
