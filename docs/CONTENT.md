@@ -20,4 +20,4 @@
 - API-based content delivery
 - Build-time generation
 
-<!-- reviewed: 2026-05-13 -->
+<!-- Reviewed: 2026-05-13 -->
