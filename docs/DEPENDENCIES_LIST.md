@@ -23,4 +23,4 @@
 - Tailwind CSS IntelliSense
 <!-- Reviewed 2026-04-10 -->
 
-<!-- reviewed: 2026-05-13 -->
+<!-- Reviewed: 2026-05-13 -->
