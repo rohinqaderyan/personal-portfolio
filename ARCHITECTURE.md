@@ -429,7 +429,6 @@ npm run e2e
 **Last Updated:** December 2025
 **Maintainer:** Ahmad Rohin Qaderyan
 
-<!-- Reviewed 2026-01-26 -->
 
 Note (2026-03-10): Favor small, isolated changes to reduce cross-module side effects.
 
