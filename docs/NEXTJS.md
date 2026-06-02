@@ -19,6 +19,5 @@
 - Use next/image
 - Set width/height
 - Add alt text
-<!-- Reviewed 2026-04-10 -->
 
 <!-- Reviewed: 2026-05-21 -->
