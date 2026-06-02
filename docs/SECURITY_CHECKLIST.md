@@ -21,6 +21,5 @@
 - [ ] Audit packages regularly
 - [ ] Update vulnerable packages
 - [ ] Use lock files
-<!-- Reviewed 2026-04-10 -->
 
 <!-- reviewed: 2026-05-21 -->
