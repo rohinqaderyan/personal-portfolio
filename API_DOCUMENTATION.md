@@ -534,6 +534,5 @@ Add `Content-Type: application/json` header to request.
 **API Version:** 1.2.0
 **Maintained By:** Ahmad Rohin Qaderyan
 
-<!-- Reviewed 2026-01-26 -->
 
 <!-- reviewed 2026-03-21 -->
