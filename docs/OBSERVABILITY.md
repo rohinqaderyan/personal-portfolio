@@ -25,6 +25,5 @@
 - Structure logs
 - Log levels
 - Retention policies
-<!-- Reviewed 2026-04-10 -->
 
 <!-- reviewed: 2026-05-21 -->
