@@ -412,6 +412,5 @@ git reset --hard HEAD
 - [Git Documentation](https://git-scm.com/doc)
 - [GitHub Flow](https://guides.github.com/introduction/flow/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
-<!-- Reviewed 2026-01-26 -->
 
 <!-- reviewed 2026-03-22 -->
