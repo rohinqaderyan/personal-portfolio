@@ -1,6 +1,6 @@
 # Commit Message Guidelines
 
-<!-- Last reviewed: 2026-05-18 -->
+<!-- Last reviewed: 2026-06-03 -->
 
 ## Format
 
@@ -24,4 +24,4 @@
 - fix(api): resolve timeout issue
 - docs(readme): update installation steps
 
-<!-- reviewed: 2026-05-22 -->
+<!-- reviewed: 2026-06-03 -->
