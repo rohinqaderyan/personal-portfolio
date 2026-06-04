@@ -1,6 +1,6 @@
 # Code Splitting
 
-<!-- Last reviewed: 2026-05-18 -->
+<!-- Last reviewed: 2026-06-03 -->
 
 ## Dynamic Imports
 
@@ -25,4 +25,4 @@ const Component = dynamic(() => import('./Component'));
 - Monitor chunk sizes
 - Optimize dependencies
 
-<!-- reviewed: 2026-05-22 -->
+<!-- reviewed: 2026-06-03 -->
