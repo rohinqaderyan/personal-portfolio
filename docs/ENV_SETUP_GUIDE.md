@@ -1,6 +1,6 @@
 # Environment Setup Guide
 
-<!-- Last reviewed: 2026-05-18 -->
+<!-- Last reviewed: 2026-06-03 -->
 
 ## Required Software
 
@@ -28,4 +28,4 @@
 
 - Docker for containerization
 - Postman for API testing
-<!-- reviewed: 2026-05-13 -->
+<!-- reviewed: 2026-06-03 -->
