@@ -1,6 +1,6 @@
 # CI/CD Pipeline
 
-<!-- Last reviewed: 2026-05-18 -->
+<!-- Last reviewed: 2026-06-03 -->
 
 ## Continuous Integration
 
@@ -20,4 +20,4 @@
 - staging
 - production
 
-<!-- reviewed: 2026-05-22 -->
+<!-- reviewed: 2026-06-03 -->
