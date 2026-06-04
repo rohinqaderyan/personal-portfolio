@@ -1,6 +1,6 @@
 # Backup & Recovery
 
-<!-- Last reviewed: 2026-05-18 -->
+<!-- Last reviewed: 2026-06-03 -->
 
 ## Git Backups
 
@@ -36,4 +36,4 @@ git push --tags
 3. Verify functionality
 4. Document incident
 
-<!-- reviewed: 2026-05-13 -->
+<!-- reviewed: 2026-06-03 -->
