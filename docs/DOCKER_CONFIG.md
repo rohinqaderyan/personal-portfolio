@@ -1,6 +1,6 @@
 # Docker Configuration
 
-<!-- Last reviewed: 2026-05-11 -->
+<!-- Last reviewed: 2026-06-03 -->
 
 ## Dockerfile Example
 
@@ -42,4 +42,4 @@ docker build -t portfolio .
 docker run -p 3000:3000 portfolio
 ```
 
-<!-- reviewed: 2026-05-13 -->
+<!-- reviewed: 2026-06-03 -->
