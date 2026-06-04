@@ -1,6 +1,6 @@
 # Component Library
 
-<!-- Last reviewed: 2026-05-18 -->
+<!-- Last reviewed: 2026-06-03 -->
 
 ## Core Components
 
@@ -20,4 +20,4 @@
 - ThemeProvider
 - ErrorBoundary
 
-<!-- reviewed: 2026-05-22 -->
+<!-- reviewed: 2026-06-03 -->
