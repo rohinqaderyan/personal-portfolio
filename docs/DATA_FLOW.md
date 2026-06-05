@@ -1,6 +1,6 @@
 # Data Flow
 
-<!-- Last reviewed: 2026-06-03 -->
+<!-- Last reviewed: 2026-06-05 -->
 
 ## State Management
 
@@ -14,4 +14,4 @@
 - Handle loading states
 - Implement error handling
 
-<!-- reviewed: 2026-06-03 -->
+<!-- reviewed: 2026-06-05 -->
