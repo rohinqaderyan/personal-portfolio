@@ -1,6 +1,6 @@
 # Accessibility Testing
 
-<!-- Last reviewed: 2026-06-03 -->
+<!-- Last reviewed: 2026-06-05 -->
 
 ## Manual Testing
 
@@ -34,4 +34,4 @@
 - [ ] Color is not the only indicator
       Note (2026-03-10): Pair automated accessibility checks with manual screen-reader spot checks.
 
-<!-- reviewed: 2026-06-03 -->
+<!-- reviewed: 2026-06-05 -->
