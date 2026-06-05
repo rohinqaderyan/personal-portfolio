@@ -1,6 +1,6 @@
 # Design System
 
-<!-- Last reviewed: 2026-06-03 -->
+<!-- Last reviewed: 2026-06-05 -->
 
 ## Colors
 
@@ -13,4 +13,4 @@
 - Headings: System font
 - Body: Sans-serif
 
-<!-- reviewed: 2026-06-03 -->
+<!-- reviewed: 2026-06-05 -->
