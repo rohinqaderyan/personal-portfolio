@@ -1,6 +1,6 @@
 # Asset Management
 
-<!-- Last reviewed: 2026-06-03 -->
+<!-- Last reviewed: 2026-06-05 -->
 
 ## Images
 
@@ -22,4 +22,4 @@
 - Inline small icons
 - Sprite sheets for many icons
 
-<!-- Reviewed: 2026-06-03 -->
+<!-- Reviewed: 2026-06-05 -->
