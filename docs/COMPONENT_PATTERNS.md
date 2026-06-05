@@ -1,6 +1,6 @@
 # Component Patterns
 
-<!-- Last reviewed: 2026-06-03 -->
+<!-- Last reviewed: 2026-06-05 -->
 
 ## Functional Components
 
@@ -35,4 +35,4 @@ export function useCustomHook() {
 - Provide context value
 - Consume with useContext
 
-<!-- reviewed: 2026-06-03 -->
+<!-- reviewed: 2026-06-05 -->
