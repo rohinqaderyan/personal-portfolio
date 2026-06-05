@@ -1,6 +1,6 @@
 # Server Components vs Client Components
 
-<!-- Last reviewed: 2026-04-22 -->
+<!-- Last reviewed: 2026-06-04 -->
 
 ## Server Components (Default)
 
@@ -32,4 +32,4 @@ export default function ClientComponent() {
 }
 ```
 
-<!-- reviewed: 2026-05-21 -->
+<!-- reviewed: 2026-06-04 -->
