@@ -1,6 +1,6 @@
 # Unit Testing Guide
 
-<!-- Last reviewed: 2026-04-22 -->
+<!-- Last reviewed: 2026-06-04 -->
 
 ## Test Structure
 
@@ -32,4 +32,4 @@ describe('Component', () => {
 - Focus on critical paths
 - Test edge cases
 
-<!-- reviewed: 2026-05-21 -->
+<!-- reviewed: 2026-06-04 -->
