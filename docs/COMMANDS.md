@@ -1,6 +1,6 @@
 # Development Commands Reference
 
-<!-- Last reviewed: 2026-06-03 -->
+<!-- Last reviewed: 2026-06-05 -->
 
 ## Installation
 
@@ -35,4 +35,4 @@ npm run test:coverage # Coverage report
 
 Note (2026-03-10): Prefer non-destructive command variants in shared documentation.
 
-<!-- Reviewed: 2026-06-03 -->
+<!-- Reviewed: 2026-06-05 -->
