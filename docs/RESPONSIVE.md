@@ -1,6 +1,6 @@
 # Responsive Design
 
-<!-- Last reviewed: 2026-04-27 -->
+<!-- Last reviewed: 2026-06-04 -->
 
 ## Breakpoints
 
@@ -20,4 +20,4 @@
 - Use browser dev tools
 - Check portrait and landscape
 
-<!-- reviewed: 2026-05-21 -->
+<!-- reviewed: 2026-06-04 -->
