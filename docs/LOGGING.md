@@ -1,6 +1,6 @@
 # Logging Standards
 
-<!-- Last reviewed: 2026-05-20 -->
+<!-- Last reviewed: 2026-06-04 -->
 
 ## Log Levels
 
@@ -15,4 +15,4 @@
 - Add context
 - Avoid sensitive data
 
-<!-- reviewed: 2026-05-21 -->
+<!-- reviewed: 2026-06-04 -->
