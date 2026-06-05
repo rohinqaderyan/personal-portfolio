@@ -1,6 +1,6 @@
 # TypeScript Configuration
 
-<!-- Last reviewed: 2026-04-09 -->
+<!-- Last reviewed: 2026-06-04 -->
 
 ## Strict Mode
 
@@ -21,4 +21,4 @@
 - Module: ESNext
 - JSX: preserve
 
-<!-- reviewed: 2026-05-21 -->
+<!-- reviewed: 2026-06-04 -->
