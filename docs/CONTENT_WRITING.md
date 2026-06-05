@@ -1,6 +1,6 @@
 # Content Writing Guide
 
-<!-- Last reviewed: 2026-06-03 -->
+<!-- Last reviewed: 2026-06-05 -->
 
 ## Markdown Syntax
 
@@ -42,4 +42,4 @@ tags: ['tag1', 'tag2']
 - Include images where helpful
 - Keep paragraphs short
 
-<!-- reviewed: 2026-06-03 -->
+<!-- reviewed: 2026-06-05 -->
