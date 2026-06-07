@@ -1,6 +1,6 @@
 # Naming Conventions
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Files
 
@@ -21,4 +21,4 @@
 - Use kebab-case
 - Follow BEM when needed
 
-<!-- reviewed: 2026-06-04 -->
+<!-- reviewed: 2026-06-07 -->
