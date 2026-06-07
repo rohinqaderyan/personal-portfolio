@@ -1,6 +1,6 @@
 # Style Guide
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Code Formatting
 
@@ -14,4 +14,4 @@
 - Keep files under 300 lines
 - One component per file
 
-<!-- reviewed: 2026-06-04 -->
+<!-- reviewed: 2026-06-07 -->
