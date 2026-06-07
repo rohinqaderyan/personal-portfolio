@@ -1,6 +1,6 @@
 # Security Checklist
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Authentication
 
@@ -22,4 +22,4 @@
 - [ ] Update vulnerable packages
 - [ ] Use lock files
 
-<!-- reviewed: 2026-06-04 -->
+<!-- reviewed: 2026-06-07 -->
