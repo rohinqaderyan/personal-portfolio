@@ -1,6 +1,6 @@
 # Next.js Patterns
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## File-based Routing
 
@@ -20,4 +20,4 @@
 - Set width/height
 - Add alt text
 
-<!-- Reviewed: 2026-06-04 -->
+<!-- Reviewed: 2026-06-07 -->
