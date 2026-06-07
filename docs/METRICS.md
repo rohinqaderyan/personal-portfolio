@@ -1,6 +1,6 @@
 # Performance Metrics
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Core Web Vitals
 
@@ -20,4 +20,4 @@
 - Track real user metrics
 - Set up alerts
 
-<!-- reviewed: 2026-06-04 -->
+<!-- reviewed: 2026-06-07 -->
