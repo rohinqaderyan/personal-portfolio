@@ -1,6 +1,6 @@
 # Git Best Practices
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Commit Messages
 
@@ -16,4 +16,4 @@
 
 Note (2026-03-25): Keep commit scope small to simplify audit and revert paths.
 
-<!-- reviewed: 2026-06-04 -->
+<!-- reviewed: 2026-06-07 -->
