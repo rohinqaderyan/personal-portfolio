@@ -1,6 +1,6 @@
 # Code Quality Standards
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Metrics
 
@@ -20,4 +20,4 @@
 - Keep README updated
 - Add inline comments for complex logic
 
-<!-- reviewed: 2026-06-04 -->
+<!-- reviewed: 2026-06-07 -->
