@@ -1,6 +1,6 @@
 # Release Checklist
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Pre-release
 
@@ -13,4 +13,4 @@
 - [ ] Tag created
 - [ ] Release notes published
 
-<!-- reviewed: 2026-06-04 -->
+<!-- reviewed: 2026-06-07 -->
