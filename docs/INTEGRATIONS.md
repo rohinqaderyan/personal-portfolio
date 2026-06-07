@@ -1,6 +1,6 @@
 # Third-party Integrations
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Analytics
 
@@ -34,4 +34,4 @@
 4. Implement SDK
 5. Test integration
 
-<!-- reviewed: 2026-06-04 -->
+<!-- reviewed: 2026-06-07 -->
