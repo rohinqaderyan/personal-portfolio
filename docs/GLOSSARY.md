@@ -1,6 +1,6 @@
 # Project Glossary
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Terms
 
@@ -17,4 +17,4 @@
 **PWA**: Progressive Web App
 
 
-<!-- Reviewed: 2026-06-04 -->
+<!-- Reviewed: 2026-06-07 -->
