@@ -1,6 +1,6 @@
 # State Management
 
-<!-- Last reviewed: 2026-06-04 -->
+<!-- Last reviewed: 2026-06-07 -->
 
 ## Local State
 
@@ -23,4 +23,4 @@
 - useReducer for complex logic
 - State machines (XState)
 
-<!-- Reviewed: 2026-06-04 -->
+<!-- Reviewed: 2026-06-07 -->
