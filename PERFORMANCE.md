@@ -2,7 +2,7 @@
 
 <!-- Performance best practices and metrics -->
 <!-- Document version: 1.3.0 -->
-<!-- Last reviewed: 2026-03-12 -->
+<!-- Last reviewed: 2026-06-08 -->
 
 > 🚀 Last benchmarked: December 2025 | Next.js 14.2.x
 
