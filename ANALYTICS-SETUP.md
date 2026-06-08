@@ -27,7 +27,7 @@
 ### 3. Choose Platform
 
 1. Select "Web"
-2. Enter website URL: `https://your-domain.vercel.app`
+2. Enter your website URL: `https://your-domain.vercel.app`
 3. Enter stream name: "Portfolio Website"
 4. Click "Create stream"
 
