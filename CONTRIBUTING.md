@@ -1,7 +1,7 @@
 # Contributing to Personal Portfolio
 
 <!-- Contributing guidelines -->
-<!-- Last reviewed: 2026-03-12 -->
+<!-- Last reviewed: 2026-06-08 -->
 
 > 🌟 We welcome contributions of all sizes - from typo fixes to major features!
 
