@@ -19,7 +19,7 @@ Production: https://rqdev.vercel.app/api
 
 ### POST /api/contact
 
-Submit contact form to send email via Flask backend.
+Submit contact form to send email via the Flask backend.
 
 #### Request
 
