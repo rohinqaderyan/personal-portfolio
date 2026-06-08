@@ -7,7 +7,7 @@
 
 ## Commitment to Accessibility
 
-This portfolio website is committed to providing an accessible experience for all users, regardless of ability or technology used. We strive to meet or exceed the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA standards.
+This portfolio website is committed to providing an accessible experience for all users, regardless of ability or technology used. We aim to meet or exceed the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA standards.
 
 ## Current Accessibility Features
 
