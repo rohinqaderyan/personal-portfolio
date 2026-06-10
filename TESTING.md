@@ -137,4 +137,4 @@ Tests run automatically on:
 
 Note (2026-03-10): Run focused tests first, then full test suite before opening a PR.
 
-<!-- reviewed 2026-03-22 -->
+<!-- reviewed: 2026-03-22 -->
