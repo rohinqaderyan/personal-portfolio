@@ -334,4 +334,4 @@ This document tracks planned features, improvements, and technical debt for the 
 
 Note (2026-03-10): Keep TODO items actionable with clear outcomes and owner context.
 
-<!-- reviewed 2026-03-22 -->
+<!-- reviewed: 2026-03-22 -->
