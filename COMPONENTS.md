@@ -752,4 +752,4 @@ Questions about components?
 
 Note (2026-03-10): Keep component props documented when introducing new optional inputs.
 
-<!-- reviewed 2026-03-21 -->
+<!-- reviewed: 2026-03-21 -->
