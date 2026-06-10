@@ -598,4 +598,4 @@ Feel free to:
 
 Note (2026-03-10): Submit narrowly scoped pull requests for faster and safer review.
 
-<!-- reviewed 2026-03-21 -->
+<!-- reviewed: 2026-03-21 -->
