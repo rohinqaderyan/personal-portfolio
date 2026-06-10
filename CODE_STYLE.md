@@ -341,4 +341,4 @@ const HeavyComponent = dynamic(() => import('./HeavyComponent'));
 
 Note (2026-03-10): Prefer readability over compact syntax in non-critical paths.
 
-<!-- reviewed 2026-03-21 -->
+<!-- reviewed: 2026-03-21 -->
