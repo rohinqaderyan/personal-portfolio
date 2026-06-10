@@ -432,4 +432,4 @@ npm run e2e
 
 Note (2026-03-10): Favor small, isolated changes to reduce cross-module side effects.
 
-<!-- reviewed 2026-03-21 -->
+<!-- reviewed: 2026-03-21 -->
