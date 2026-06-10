@@ -413,4 +413,4 @@ git reset --hard HEAD
 - [GitHub Flow](https://guides.github.com/introduction/flow/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
 
-<!-- reviewed 2026-03-22 -->
+<!-- reviewed: 2026-03-22 -->
