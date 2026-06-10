@@ -133,8 +133,8 @@ Have a feature request or suggestion?
 
 _Last updated: March 2026_
 
-<!-- reviewed 2026-01-26 -->
+<!-- reviewed: 2026-01-26 -->
 
 Note (2026-03-10): Re-prioritize roadmap items after each release retrospective.
 
-<!-- reviewed 2026-05-22 -->
+<!-- reviewed: 2026-05-22 -->
