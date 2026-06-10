@@ -339,4 +339,4 @@ Check these files for detailed guides:
 
 Good luck! 🎯
 
-<!-- reviewed 2026-03-22 -->
+<!-- reviewed: 2026-03-22 -->
