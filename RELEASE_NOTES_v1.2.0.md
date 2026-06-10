@@ -222,4 +222,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Download**: https://github.com/rohinqaderyan/personal-portfolio/releases/tag/v1.2.0
 
-<!-- reviewed 2026-03-22 -->
+<!-- reviewed: 2026-03-22 -->
