@@ -509,4 +509,4 @@ See [TODO.md](TODO.md) for planned features:
 
 # Update 26
 
-<!-- reviewed 2026-03-22 -->
+<!-- reviewed: 2026-03-22 -->
