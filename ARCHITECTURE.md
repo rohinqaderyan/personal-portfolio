@@ -23,7 +23,7 @@ Technical architecture documentation for the Next.js portfolio web application.
 
 ## System Overview
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │                        CLIENT BROWSER                            │
 │  ┌─────────────────────────────────────────────────────────┐    │
