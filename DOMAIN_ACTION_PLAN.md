@@ -80,7 +80,7 @@ Once you have your final domain:
 
 ### Email Signature
 
-```
+```text
 Rohin Qaderyan
 Senior Full Stack Developer & Data Scientist
 Portfolio: rohinqaderyan.com
