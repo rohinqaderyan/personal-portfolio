@@ -98,7 +98,7 @@ cp .env.example .env.local
 
 Edit `.env.local` with your configuration:
 
-```
+```text
 FLASK_API_URL=http://localhost:5000
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX (optional)
 ```
