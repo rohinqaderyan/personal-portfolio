@@ -15,7 +15,7 @@ This guide covers monitoring, logging, and observability for your portfolio.
 
 1. Enable Vercel Analytics in your project dashboard
 2. Add the environment variable:
-   ```
+   ```text
    NEXT_PUBLIC_VERCEL_ANALYTICS_ID=your_id
    ```
 
