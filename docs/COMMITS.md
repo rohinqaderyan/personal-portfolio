@@ -4,7 +4,7 @@
 
 ## Format
 
-```
+```text
 <type>(<scope>): <subject>
 ```
 
