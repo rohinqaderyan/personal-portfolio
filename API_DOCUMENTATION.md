@@ -10,7 +10,7 @@ Documentation for all API endpoints in this portfolio application.
 
 ## Base URL
 
-```
+```text
 Local: http://localhost:3000/api
 Production: https://rqdev.vercel.app/api
 ```
