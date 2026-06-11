@@ -15,7 +15,7 @@ This guide covers common issues you might encounter during development and how t
 
 **Problem:**
 
-```
+```text
 Error: Cannot resolve '@/components/Header'
 ```
 
