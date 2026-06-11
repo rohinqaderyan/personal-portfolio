@@ -154,4 +154,4 @@ Built-in health checks:
 
 Note (2026-03-10): Annotate major releases in monitoring timelines for quicker incident triage.
 
-<!-- reviewed 2026-03-22 -->
+<!-- reviewed: 2026-03-22 -->
