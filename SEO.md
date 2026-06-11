@@ -262,7 +262,7 @@ export default function robots(): MetadataRoute.Robots {
 
 ### Best Practices
 
-```
+```text
 ✅ Good URLs:
 /projects
 /projects/pharma-analytics
