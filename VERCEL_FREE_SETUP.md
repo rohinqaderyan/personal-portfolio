@@ -69,7 +69,7 @@ All are professional and FREE!
 
 ## 🎨 Visual Guide - Where to Click
 
-```
+```text
 Dashboard View:
 ┌─────────────────────────────────────┐
 │  ◀ Vercel    [Your Projects]        │
