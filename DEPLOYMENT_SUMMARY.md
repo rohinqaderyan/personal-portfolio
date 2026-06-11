@@ -173,4 +173,4 @@ All commits appear in your GitHub contribution graph with green verification che
 **Version:** 1.2.0
 
 
-<!-- reviewed 2026-05-22 -->
+<!-- reviewed: 2026-05-22 -->
