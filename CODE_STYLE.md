@@ -203,7 +203,7 @@ export function formatDate(date: string, format: 'short' | 'long'): string {}
 
 ## File Organization
 
-```
+```text
 src/
 ├── app/              # Next.js pages
 ├── components/       # Reusable components
