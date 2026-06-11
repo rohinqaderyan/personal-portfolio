@@ -72,7 +72,7 @@ This release focuses on comprehensive documentation, developer experience improv
 
 **Improved Project Structure:**
 
-```
+```text
 docs/
 ├── ENVIRONMENT_SETUP.md     # Setup guide
 ├── CODE_STYLE.md            # Coding standards
