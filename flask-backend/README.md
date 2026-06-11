@@ -190,7 +190,7 @@ pytest
 
 1. Create a `Procfile`:
 
-   ```
+   ```text
    web: gunicorn app:app
    ```
 
