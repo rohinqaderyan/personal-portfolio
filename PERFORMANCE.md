@@ -25,7 +25,7 @@ This document outlines the performance optimizations implemented in this portfol
 
 ### Bundle Sizes
 
-```
+```text
 Route (app)                    Size     First Load JS
 ┌ ○ /                         2.89 kB         114 kB
 ├ ○ /about                    561 B           104 kB
