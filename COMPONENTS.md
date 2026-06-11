@@ -14,7 +14,7 @@ This document provides detailed documentation for all React components in the po
 
 ### Component Structure
 
-```
+```text
 src/components/
 ├── layout/          # Layout components
 │   ├── Header.tsx
