@@ -39,7 +39,7 @@ git checkout -b docs/update-readme
 
 ### Commit Message Format
 
-```
+```text
 type(scope): subject
 
 [optional body]
