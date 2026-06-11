@@ -110,7 +110,7 @@ This ensures sensitive implementation details aren't exposed to attackers.
 
 **Content Security Policy (CSP)** headers prevent XSS attacks:
 
-```
+```text
 default-src 'self';
 script-src 'self' 'unsafe-inline' https://www.googletagmanager.com;
 style-src 'self' 'unsafe-inline';
