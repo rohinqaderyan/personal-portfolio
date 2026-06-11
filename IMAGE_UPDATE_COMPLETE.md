@@ -102,7 +102,7 @@ Your portfolio is now **FAANG-ready**! 🚀
 
 **Sample LinkedIn About Section:**
 
-```
+```text
 Senior Full Stack Developer & Data Scientist | AI/ML Expert
 
 Portfolio: https://rohinqaderyan.vercel.app
