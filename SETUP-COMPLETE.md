@@ -138,7 +138,7 @@ npm run dev
 
 Add these in Vercel Dashboard → Settings → Environment Variables:
 
-```
+```text
 NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
 NEXT_PUBLIC_CONTACT_MODE=client-only
 NEXT_PUBLIC_PLAUSIBLE_DOMAIN=your-domain.vercel.app
