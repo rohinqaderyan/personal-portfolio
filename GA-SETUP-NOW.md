@@ -53,7 +53,7 @@ Select: **"Web"**
 
 You'll see a screen with:
 
-```
+```text
 Measurement ID
 G-XXXXXXXXXX
 ```
