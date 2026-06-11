@@ -181,7 +181,7 @@ function Card(props: any) {
 
 Follow the [Conventional Commits](https://www.conventionalcommits.org/) specification with detailed descriptions:
 
-```
+```text
 <type>(<scope>): <subject> -> <detail>
 
 <body>
