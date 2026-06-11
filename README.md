@@ -265,7 +265,7 @@ npm run format:check # Prettier (check only)
 
 ## 📁 Project Structure
 
-```
+```text
 ├── public/              # Static assets
 │   ├── favicon.ico
 │   ├── site-icon.png
