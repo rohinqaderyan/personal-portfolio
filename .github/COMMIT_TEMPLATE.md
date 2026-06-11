@@ -2,7 +2,7 @@
 
 ## Format
 
-```
+```text
 type(scope): subject
 
 body
