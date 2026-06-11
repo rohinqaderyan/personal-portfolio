@@ -44,7 +44,7 @@ Vercel will show you DNS records to add. You'll need to add these in your domain
 
 #### For Root Domain (rohinqaderyan.com):
 
-```
+```text
 Type: A
 Name: @
 Value: 76.76.21.21
