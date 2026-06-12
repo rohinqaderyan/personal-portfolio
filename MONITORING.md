@@ -1,6 +1,6 @@
 # Monitoring & Observability
 
-<!-- Monitoring and analytics setup -->
+<!-- Monitoring, logging and observability setup guide -->
 <!-- Last updated: 2026-03-12 -->
 
 > 📊 Powered by Vercel Analytics & Google Analytics 4
