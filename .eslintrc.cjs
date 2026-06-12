@@ -1,6 +1,6 @@
 /**
  * ESLint Configuration
- * Next.js + TypeScript + Prettier integration
+ * Rules for Next.js + TypeScript + Prettier code quality standards
  */
 module.exports = {
   root: true,
