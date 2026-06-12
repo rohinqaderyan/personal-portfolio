@@ -1,6 +1,6 @@
 # Component Documentation
 
-<!-- React component reference -->
+<!-- Comprehensive React component reference and guide -->
 <!-- Version: 1.3.13 -->
 <!-- Last reviewed: 2026-06-09 -->
 
