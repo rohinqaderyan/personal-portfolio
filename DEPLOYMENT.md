@@ -1,5 +1,6 @@
 # Deployment Guide
 
+<!-- Detailed deployment instructions for multiple hosting platforms -->
 <!-- Last reviewed: 2026-03-16 -->
 
 <!-- Deployment instructions for multiple platforms -->
