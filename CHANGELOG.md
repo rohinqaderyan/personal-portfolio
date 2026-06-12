@@ -1,8 +1,9 @@
 # Changelog
 
+<!-- Version history and release notes -->
 <!-- Last reviewed: 2026-03-16 -->
 
-<!-- Changelog file and version history -->
+<!-- Changelog file documenting all project versions -->
 
 All notable changes to this project will be documented in this file.
 
