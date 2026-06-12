@@ -1,6 +1,6 @@
 # Architecture Overview
 
-<!-- Technical architecture documentation -->
+<!-- Complete technical architecture documentation -->
 <!-- Version: 1.3.13 -->
 <!-- Last reviewed: 2026-06-09 -->
 
