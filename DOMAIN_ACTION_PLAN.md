@@ -1,5 +1,6 @@
 # 🚀 Portfolio Domain Action Plan
 
+<!-- Domain setup and DNS configuration guide -->
 <!-- Last reviewed: 2026-03-16 -->
 
 > 🌐 Custom domain setup guide and DNS configuration
