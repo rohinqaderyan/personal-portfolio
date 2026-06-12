@@ -1,6 +1,6 @@
 # Troubleshooting Guide
 
-<!-- Common issues and their solutions -->
+<!-- Common development issues and quick solutions -->
 <!-- Last updated: 2026-03-12 -->
 
 > 🔧 Quick fixes for common development issues
