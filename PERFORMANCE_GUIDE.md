@@ -1,6 +1,6 @@
 # Performance Optimization Guide
 
-<!-- Performance tips and benchmarks -->
+<!-- Performance optimization tips, strategies and benchmarks -->
 <!-- Version: 1.2.0 -->
 <!-- Last reviewed: 2026-06-09 -->
 
