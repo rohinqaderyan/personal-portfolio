@@ -1,7 +1,7 @@
 # Roadmap
 
 <!-- Product development roadmap and future plans -->
-<!-- Last updated: 2026-03-12 -->
+<!-- Last reviewed: 2026-03-12 -->
 
 ## Current Version: 1.3.2
 
@@ -131,7 +131,7 @@ Have a feature request or suggestion?
 
 ---
 
-_Last updated: March 2026_
+_Last reviewed: March 2026_
 
 <!-- reviewed: 2026-01-26 -->
 
