@@ -1,6 +1,6 @@
 # Code Snippets Library
 
-<!-- Last updated: 2026-04-22 -->
+<!-- Last reviewed: 2026-04-22 -->
 
 ## Fetch with Error Handling
 
