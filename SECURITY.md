@@ -1,7 +1,7 @@
 # Security Best Practices & Policy
 
 <!-- Security documentation, policy and vulnerability reporting -->
-<!-- Last updated: 2026-03-12 -->
+<!-- Last reviewed: 2026-03-12 -->
 
 ## Table of Contents
 
