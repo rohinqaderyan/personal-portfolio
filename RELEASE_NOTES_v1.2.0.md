@@ -1,6 +1,6 @@
 # Release Notes - v1.2.0
 
-<!-- Last reviewed: 2026-03-16 -->
+<!-- Last reviewed: 2026-06-15 -->
 
 > 📚 Documentation and developer experience improvements
 
