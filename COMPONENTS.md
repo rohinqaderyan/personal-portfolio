@@ -2,7 +2,7 @@
 
 <!-- Comprehensive React component reference and guide -->
 <!-- Version: 1.3.13 -->
-<!-- Last reviewed: 2026-06-09 -->
+<!-- Last reviewed: 2026-06-15 -->
 
 > 🧩 50+ reusable React components with TypeScript
 
