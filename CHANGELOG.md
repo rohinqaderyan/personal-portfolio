@@ -1,7 +1,7 @@
 # Changelog
 
 <!-- Version history and release notes -->
-<!-- Last reviewed: 2026-03-16 -->
+<!-- Last reviewed: 2026-06-15 -->
 
 <!-- Changelog file documenting all project versions -->
 
