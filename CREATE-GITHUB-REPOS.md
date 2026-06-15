@@ -1,6 +1,6 @@
 # Create GitHub Repositories
 
-<!-- Last reviewed: 2026-03-16 -->
+<!-- Last reviewed: 2026-06-15 -->
 
 > 🗂️ Guide to creating 9 project repositories
 
