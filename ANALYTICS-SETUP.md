@@ -1,6 +1,6 @@
 # Google Analytics Setup Guide
 
-<!-- Last reviewed: 2026-06-15 -->
+<!-- Last reviewed: 2026-06-16 -->
 
 <!-- Google Analytics integration guide -->
 <!-- Version: 1.0.1 -->
