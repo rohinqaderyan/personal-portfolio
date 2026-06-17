@@ -1,7 +1,7 @@
 # Accessibility Statement
 
 <!-- Accessibility compliance features and standards -->
-<!-- Last reviewed: 2026-06-16 -->
+<!-- Last reviewed: 2026-06-17 -->
 
 > ♿ WCAG 2.1 AA | Screen Reader Tested | Keyboard Navigable
 
