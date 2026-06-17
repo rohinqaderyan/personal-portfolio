@@ -2,7 +2,7 @@
 
 <!-- Complete API reference and endpoint documentation -->
 <!-- Version: 1.1.9 -->
-<!-- Last reviewed: 2026-06-16 -->
+<!-- Last reviewed: 2026-06-17 -->
 
 > 📡 RESTful API | TypeScript | Edge Functions
 
