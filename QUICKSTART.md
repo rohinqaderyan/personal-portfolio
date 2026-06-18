@@ -2,7 +2,7 @@
 
 <!-- Fast setup instructions -->
 <!-- Version: 1.2.9 -->
-<!-- Last reviewed: 2026-06-17 -->
+<!-- Last reviewed: 2026-06-18 -->
 
 > ⏱️ Estimated setup time: **5 minutes**
 
