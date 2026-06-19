@@ -1,6 +1,6 @@
 # Custom Domain Setup for Vercel
 
-<!-- Last reviewed: 2026-03-16 -->
+<!-- Last reviewed: 2026-06-19 -->
 
 <!-- Custom domain configuration -->
 <!-- Version: 1.0.2 -->
