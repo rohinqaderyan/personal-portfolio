@@ -1,7 +1,7 @@
 # Code Style Guide
 
 <!-- Coding standards and style guidelines -->
-<!-- Last reviewed: 2026-06-09 -->
+<!-- Last reviewed: 2026-06-19 -->
 
 > ✨ Enforced by ESLint and Prettier | Pre-commit hooks via Husky
 
