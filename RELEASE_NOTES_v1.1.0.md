@@ -1,6 +1,6 @@
 # Release Notes - v1.1.0
 
-<!-- Last reviewed: 2026-03-16 -->
+<!-- Last reviewed: 2026-06-19 -->
 
 > 🚀 Visual enhancements and performance improvements
 
