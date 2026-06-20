@@ -1,10 +1,10 @@
 # Deployment Guide
 
 <!-- Detailed deployment instructions for multiple hosting platforms -->
-<!-- Last reviewed: 2026-06-19 -->
+<!-- 2026-06-20 -->
 
 <!-- Deployment instructions for multiple platforms -->
-<!-- Last reviewed: 2026-03-12 -->
+<!-- 2026-06-20 -->
 
 > 🚀 Supports Vercel, Netlify, Docker, and self-hosted deployments
 
@@ -355,4 +355,4 @@ export async function GET() {
 
 Note (2026-03-10): Confirm environment variable presence before starting a release.
 
-<!-- reviewed: 2026-03-21 -->
+<!-- 2026-06-20 -->
