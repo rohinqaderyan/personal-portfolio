@@ -1,7 +1,7 @@
 # Code Style Guide
 
 <!-- Coding standards and style guidelines -->
-<!-- Last reviewed: 2026-06-19 -->
+<!-- 2026-06-20 -->
 
 > ✨ Enforced by ESLint and Prettier | Pre-commit hooks via Husky
 
@@ -341,4 +341,4 @@ const HeavyComponent = dynamic(() => import('./HeavyComponent'));
 
 Note (2026-03-10): Prefer readability over compact syntax in non-critical paths.
 
-<!-- reviewed: 2026-03-21 -->
+<!-- 2026-06-20 -->
