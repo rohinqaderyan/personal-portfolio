@@ -1,6 +1,6 @@
 # LinkedIn Embed - How to Update
 
-<!-- Last reviewed: 2026-03-16 -->
+<!-- 2026-06-20 -->
 
 > 🔗 Embed LinkedIn posts on your About page
 
@@ -111,4 +111,4 @@ This will:
 
 Once you add your post URN, it will appear on your About page automatically!
 
-<!-- reviewed: 2026-03-22 -->
+<!-- 2026-06-20 -->
