@@ -1,7 +1,7 @@
 # API Documentation
 
 <!-- API endpoints and usage -->
-<!-- Last reviewed: 2026-06-19 -->
+<!-- 2026-06-20 -->
 
 > 📡 API Version: v1 | Next.js App Router
 
@@ -57,4 +57,4 @@
 
 Note (2026-03-10): Keep example payload fields in sync with current schema names.
 
-<!-- reviewed: 2026-03-21 -->
+<!-- 2026-06-20 -->
