@@ -1,7 +1,7 @@
 # Contributor Covenant Code of Conduct
 
 <!-- Community standards and conduct guidelines -->
-<!-- Last reviewed: 2026-06-19 -->
+<!-- 2026-06-20 -->
 
 > 📅 Adopted: 2024 | Based on [Contributor Covenant 2.1](https://www.contributor-covenant.org/)
 
@@ -138,4 +138,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 [translations]: https://www.contributor-covenant.org/translations
 
 
-<!-- reviewed: 2026-03-21 -->
+<!-- 2026-06-20 -->
