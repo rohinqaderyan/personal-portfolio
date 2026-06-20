@@ -1,7 +1,7 @@
 # Changelog
 
 <!-- Version history and release notes -->
-<!-- Last reviewed: 2026-06-19 -->
+<!-- 2026-06-20 -->
 
 <!-- Changelog file documenting all project versions -->
 
@@ -510,4 +510,4 @@ See [TODO.md](TODO.md) for planned features:
 
 # Update 26
 
-<!-- reviewed: 2026-03-22 -->
+<!-- 2026-06-20 -->
