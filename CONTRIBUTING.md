@@ -1,7 +1,7 @@
 # Contributing to Personal Portfolio
 
 <!-- Contributing guidelines and standards -->
-<!-- Last reviewed: 2026-06-09 -->
+<!-- 2026-06-20 -->
 
 > 🌟 We welcome contributions of all sizes - from typo fixes to major features!
 
@@ -594,8 +594,8 @@ Feel free to:
 
 **Thank you for contributing! Your efforts help make this project better for everyone.** 🎉
 
-<!-- Reviewed: 2026-01-26 -->
+<!-- 2026-06-20 -->
 
 Note (2026-03-10): Submit narrowly scoped pull requests for faster and safer review.
 
-<!-- reviewed: 2026-03-21 -->
+<!-- 2026-06-20 -->
