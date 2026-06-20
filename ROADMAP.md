@@ -1,7 +1,7 @@
 # Roadmap
 
 <!-- Product development roadmap and future plans -->
-<!-- Last reviewed: 2026-06-19 -->
+<!-- 2026-06-20 -->
 
 ## Current Version: 1.3.2
 
@@ -133,8 +133,8 @@ Have a feature request or suggestion?
 
 _Last reviewed: March 2026_
 
-<!-- reviewed: 2026-01-26 -->
+<!-- 2026-06-20 -->
 
 Note (2026-03-10): Re-prioritize roadmap items after each release retrospective.
 
-<!-- reviewed: 2026-05-22 -->
+<!-- 2026-06-20 -->
