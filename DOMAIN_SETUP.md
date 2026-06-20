@@ -1,6 +1,6 @@
 # Custom Domain Setup for Vercel
 
-<!-- Last reviewed: 2026-06-19 -->
+<!-- 2026-06-20 -->
 
 <!-- Custom domain configuration -->
 <!-- Version: 1.0.2 -->
@@ -143,4 +143,4 @@ NEXT_PUBLIC_SITE_URL=https://rohinqaderyan.com
 Then rebuild and deploy!
 
 
-<!-- reviewed: 2026-03-22 -->
+<!-- 2026-06-20 -->
