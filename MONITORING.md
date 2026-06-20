@@ -1,7 +1,7 @@
 # Monitoring & Observability
 
 <!-- Monitoring, logging and observability setup guide -->
-<!-- Last reviewed: 2026-03-12 -->
+<!-- 2026-06-20 -->
 
 > 📊 Powered by Vercel Analytics & Google Analytics 4
 
@@ -154,4 +154,4 @@ Built-in health checks:
 
 Note (2026-03-10): Annotate major releases in monitoring timelines for quicker incident triage.
 
-<!-- reviewed: 2026-03-22 -->
+<!-- 2026-06-20 -->
