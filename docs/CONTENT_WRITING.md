@@ -1,6 +1,6 @@
 # Content Writing Guide
 
-<!-- Last reviewed: 2026-06-05 -->
+<!-- Last reviewed: 2026-06-21 -->
 
 ## Markdown Syntax
 
