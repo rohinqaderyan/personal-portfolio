@@ -1,6 +1,6 @@
 # API Design Principles
 
-<!-- Last reviewed: 2026-05-20 -->
+<!-- Last reviewed: 2026-06-21 -->
 
 ## RESTful Design
 
