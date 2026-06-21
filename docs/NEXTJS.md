@@ -1,6 +1,6 @@
 # Next.js Patterns
 
-<!-- Last reviewed: 2026-06-09 -->
+<!-- Last reviewed: 2026-06-21 -->
 
 ## File-based Routing
 
