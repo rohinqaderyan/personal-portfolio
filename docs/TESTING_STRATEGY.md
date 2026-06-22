@@ -17,4 +17,4 @@
 - Test user workflows
 - Verify full functionality
 
-<!-- reviewed: 2026-06-07 -->
+<!-- reviewed: 2026-06-22 -->
