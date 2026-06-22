@@ -32,4 +32,4 @@ describe('Component', () => {
 - Focus on critical paths
 - Test edge cases
 
-<!-- reviewed: 2026-06-07 -->
+<!-- reviewed: 2026-06-22 -->
