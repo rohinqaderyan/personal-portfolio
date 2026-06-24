@@ -30,4 +30,4 @@
 - Virtual scrolling for long lists
 - Avoid unnecessary re-renders
 
-<!-- reviewed: 2026-06-07 -->
+<!-- reviewed: 2026-06-09 -->
