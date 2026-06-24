@@ -22,4 +22,4 @@
 - Prettier
 - Tailwind CSS IntelliSense
 
-<!-- reviewed: 2026-06-05 -->
+<!-- reviewed: 2026-06-21 -->
