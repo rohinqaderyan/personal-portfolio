@@ -1,7 +1,7 @@
 # Project Images Guide
 
 <!-- Project image specifications -->
-<!-- Last reviewed: 2026-01-07 -->
+<!-- Last reviewed: 2026-06-25 -->
 
 For the best visual impact, add modern, tech-focused images for each project.
 
