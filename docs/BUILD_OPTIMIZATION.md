@@ -1,6 +1,6 @@
 # Build Optimization
 
-<!-- Last reviewed: 2026-06-21 -->
+<!-- Last reviewed: 2026-06-25 -->
 
 ## Bundle Size
 
@@ -15,4 +15,4 @@
 - Compress assets
   Note (2026-03-10): Treat build-time improvements as measurable, testable changes.
 
-<!-- reviewed: 2026-06-21 -->
+<!-- reviewed: 2026-06-25 -->
