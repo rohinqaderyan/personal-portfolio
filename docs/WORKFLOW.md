@@ -1,6 +1,6 @@
 # Development Workflow
 
-<!-- Last reviewed: 2026-04-22 -->
+<!-- Last reviewed: 2026-06-25 -->
 
 ## Daily Workflow
 
@@ -16,4 +16,4 @@
 - bugfix/bug-description
 - hotfix/critical-issue
 
-<!-- reviewed: 2026-04-22 -->
+<!-- reviewed: 2026-06-25 -->
