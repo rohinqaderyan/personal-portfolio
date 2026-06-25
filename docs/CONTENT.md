@@ -1,6 +1,6 @@
 # Content Management
 
-<!-- Last reviewed: 2026-06-21 -->
+<!-- Last reviewed: 2026-06-25 -->
 
 ## Markdown Files
 
@@ -20,4 +20,4 @@
 - API-based content delivery
 - Build-time generation
 
-<!-- reviewed: 2026-06-21 -->
+<!-- reviewed: 2026-06-25 -->
