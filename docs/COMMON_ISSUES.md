@@ -1,6 +1,6 @@
 # Common Issues & Solutions
 
-<!-- Last reviewed: 2026-06-21 -->
+<!-- Last reviewed: 2026-06-25 -->
 
 ## Build Errors
 
@@ -23,4 +23,4 @@
 **Issue**: Build fails on Vercel
 **Solution**: Check environment variables and build logs
 
-<!-- reviewed: 2026-06-21 -->
+<!-- reviewed: 2026-06-25 -->
