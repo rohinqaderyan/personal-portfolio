@@ -131,7 +131,7 @@ Have a feature request or suggestion?
 
 ---
 
-_Last reviewed: March 2026_
+_Last reviewed: June 2026_
 
 <!-- 2026-06-20 -->
 
