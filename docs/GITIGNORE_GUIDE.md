@@ -1,6 +1,6 @@
 # Git Ignore Patterns
 
-<!-- Last reviewed: 2026-06-21 -->
+<!-- Last reviewed: 2026-06-25 -->
 
 ## Node Modules
 
@@ -30,4 +30,4 @@
 - \*.swp
 - \*.swo
 - .DS_Store
-<!-- reviewed: 2026-06-21 -->
+<!-- reviewed: 2026-06-25 -->
