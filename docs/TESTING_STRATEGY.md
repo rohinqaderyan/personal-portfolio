@@ -1,6 +1,6 @@
 # Testing Strategy
 
-<!-- Last reviewed: 2026-06-21 -->
+<!-- Last reviewed: 2026-06-26 -->
 
 ## Unit Tests
 
@@ -17,4 +17,4 @@
 - Test user workflows
 - Verify full functionality
 
-<!-- reviewed: 2026-06-21 -->
+<!-- reviewed: 2026-06-26 -->
