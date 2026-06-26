@@ -1,6 +1,6 @@
 # Documentation Standards
 
-<!-- Last reviewed: 2026-06-03 -->
+<!-- Last reviewed: 2026-06-26 -->
 
 ## File Headers
 
@@ -21,4 +21,4 @@
 - Document events
 
 
-<!-- reviewed: 2026-06-03 -->
+<!-- reviewed: 2026-06-26 -->
