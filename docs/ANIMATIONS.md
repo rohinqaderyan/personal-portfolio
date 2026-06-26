@@ -1,6 +1,6 @@
 # Animation Guidelines
 
-<!-- Last reviewed: 2026-06-05 -->
+<!-- Last reviewed: 2026-06-26 -->
 
 ## CSS Animations
 
@@ -20,4 +20,4 @@
 - Use GPU-accelerated properties
 - Test on lower-end devices
 
-<!-- reviewed: 2026-06-05 -->
+<!-- reviewed: 2026-06-26 -->
