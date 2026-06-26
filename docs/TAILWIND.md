@@ -1,6 +1,6 @@
 # Tailwind CSS Guide
 
-<!-- Last reviewed: 2026-06-21 -->
+<!-- Last reviewed: 2026-06-26 -->
 
 ## Utility Classes
 
@@ -20,4 +20,4 @@
 - Avoid arbitrary values
 - Keep consistent spacing
 
-<!-- reviewed: 2026-06-21 -->
+<!-- reviewed: 2026-06-26 -->
