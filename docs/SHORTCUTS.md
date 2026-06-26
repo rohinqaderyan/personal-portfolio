@@ -1,6 +1,6 @@
 # Keyboard Shortcuts
 
-<!-- Last reviewed: 2026-06-07 -->
+<!-- Last reviewed: 2026-06-26 -->
 
 ## VS Code
 
@@ -29,4 +29,4 @@
 - `Ctrl+C`: Cancel command
 - `Ctrl+L`: Clear terminal
 
-<!-- reviewed: 2026-06-07 -->
+<!-- reviewed: 2026-06-26 -->
