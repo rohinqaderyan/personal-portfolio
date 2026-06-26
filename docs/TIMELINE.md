@@ -1,6 +1,6 @@
 # Project Timeline
 
-<!-- Last reviewed: 2026-06-07 -->
+<!-- Last reviewed: 2026-06-26 -->
 
 ## January 2026
 
@@ -30,4 +30,4 @@
 - Feb 15: Beta release
 - Mar 1: Production launch
 
-<!-- reviewed: 2026-06-07 -->
+<!-- reviewed: 2026-06-26 -->
