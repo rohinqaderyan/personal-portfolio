@@ -1,6 +1,6 @@
 # Local Development Setup
 
-<!-- Last reviewed: 2026-06-21 -->
+<!-- Last reviewed: 2026-06-26 -->
 
 ## Prerequisites
 
@@ -23,4 +23,4 @@ npm run dev
 
 Note (2026-03-25): Verify shell profile changes in a new terminal before documenting success.
 
-<!-- reviewed: 2026-06-21 -->
+<!-- reviewed: 2026-06-26 -->
