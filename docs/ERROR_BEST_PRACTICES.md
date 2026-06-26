@@ -1,6 +1,6 @@
 # Error Handling Best Practices
 
-<!-- Last reviewed: 2026-06-09 -->
+<!-- Last reviewed: 2026-06-26 -->
 
 ## Try-Catch Blocks
 
@@ -36,4 +36,4 @@ class ErrorBoundary extends React.Component {
 - Provide clear error messages
 - Log errors for debugging
 - Don't expose sensitive info
-<!-- reviewed: 2026-06-09 -->
+<!-- reviewed: 2026-06-26 -->
