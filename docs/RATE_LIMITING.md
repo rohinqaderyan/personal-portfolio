@@ -1,6 +1,6 @@
 # API Rate Limiting
 
-<!-- Last reviewed: 2026-06-09 -->
+<!-- Last reviewed: 2026-06-26 -->
 
 ## Implementation
 
@@ -25,4 +25,4 @@
 - Return 429 status
 - Provide retry information
 
-<!-- reviewed: 2026-06-09 -->
+<!-- reviewed: 2026-06-26 -->
