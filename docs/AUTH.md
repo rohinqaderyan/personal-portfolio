@@ -1,6 +1,6 @@
 # Authentication Strategies
 
-<!-- Last reviewed: 2026-06-05 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 ## Methods
 
@@ -23,4 +23,4 @@
 - Secure session storage
 - Implement CSRF protection
 
-<!-- reviewed: 2026-06-05 -->
+<!-- reviewed: 2026-06-27 -->
