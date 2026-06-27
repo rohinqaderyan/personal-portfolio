@@ -1,6 +1,6 @@
 # Deployment Checklist
 
-<!-- Last reviewed: 2026-06-05 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 ## Pre-deployment
 
@@ -26,4 +26,4 @@
 
 Note (2026-03-25): Include rollback confirmation as a required release checkpoint.
 
-<!-- reviewed: 2026-06-05 -->
+<!-- reviewed: 2026-06-27 -->
