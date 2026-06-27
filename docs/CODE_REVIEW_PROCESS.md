@@ -1,6 +1,6 @@
 # Code Review Process
 
-<!-- Last reviewed: 2026-06-05 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 ## Before Submitting PR
 
@@ -25,4 +25,4 @@
 
 Note (2026-03-10): Prioritize correctness and regression risk over style-only comments.
 
-<!-- reviewed: 2026-06-05 -->
+<!-- reviewed: 2026-06-27 -->
