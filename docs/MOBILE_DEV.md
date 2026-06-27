@@ -1,6 +1,6 @@
 # Mobile Development
 
-<!-- Last reviewed: 2026-06-09 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 ## Responsive Design
 
@@ -30,4 +30,4 @@
 - Add to home screen
 - Push notifications (optional)
 
-<!-- reviewed: 2026-06-09 -->
+<!-- reviewed: 2026-06-27 -->
