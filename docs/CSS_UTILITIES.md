@@ -1,6 +1,6 @@
 # CSS Utility Patterns
 
-<!-- Last reviewed: 2026-06-05 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 ## Layout Utilities
 
@@ -33,4 +33,4 @@
 - lg: 1024px
 - xl: 1280px
 
-<!-- reviewed: 2026-06-05 -->
+<!-- reviewed: 2026-06-27 -->
