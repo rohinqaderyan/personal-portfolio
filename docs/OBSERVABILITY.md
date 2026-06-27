@@ -1,6 +1,6 @@
 # Monitoring & Observability
 
-<!-- Last reviewed: 2026-06-09 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 ## Error Tracking
 
@@ -26,4 +26,4 @@
 - Log levels
 - Retention policies
 
-<!-- reviewed: 2026-06-07 -->
+<!-- reviewed: 2026-06-27 -->
