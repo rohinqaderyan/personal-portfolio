@@ -1,6 +1,6 @@
 # Quick Guide: Change Your Vercel Project Name
 
-<!-- Last reviewed: 2026-06-19 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 > ✏️ Rename your project URL in under 2 minutes
 
