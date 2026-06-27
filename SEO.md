@@ -2,7 +2,7 @@
 
 <!-- Search engine optimization strategies and best practices -->
 <!-- Version: 1.3.0 -->
-<!-- Last reviewed: 2026-06-09 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 > 🔍 Lighthouse SEO Score: **100/100**
 
@@ -549,8 +549,8 @@ SEO questions or optimization help?
 
 - **Email**: ahmad.qaderyan@pfizer.com
 - **Issues**: [https://github.com/rohinqaderyan/personal-portfolio/issues](https://github.com/rohinqaderyan/personal-portfolio/issues)
-<!-- reviewed: 2026-01-26 -->
+<!-- reviewed: 2026-06-27 -->
 
 Note (2026-03-10): Validate metadata changes with a social preview tool before deploy.
 
-<!-- reviewed: 2026-03-22 -->
+<!-- reviewed: 2026-06-27 -->
