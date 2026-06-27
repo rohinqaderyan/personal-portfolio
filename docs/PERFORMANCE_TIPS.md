@@ -1,6 +1,6 @@
 # Performance Tips
 
-<!-- Last reviewed: 2026-06-09 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 ## Image Optimization
 
@@ -30,4 +30,4 @@
 - Virtual scrolling for long lists
 - Avoid unnecessary re-renders
 
-<!-- reviewed: 2026-06-09 -->
+<!-- reviewed: 2026-06-27 -->
