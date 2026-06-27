@@ -1,6 +1,6 @@
 # Editor Configuration
 
-<!-- Last reviewed: 2026-06-03 -->
+<!-- Last reviewed: 2026-06-27 -->
 
 ## VS Code Settings
 
@@ -28,4 +28,4 @@
 - Tailwind CSS IntelliSense
 - GitLens
 
-<!-- reviewed: 2026-06-03 -->
+<!-- reviewed: 2026-06-27 -->
