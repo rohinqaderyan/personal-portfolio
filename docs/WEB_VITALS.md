@@ -1,6 +1,6 @@
 # Performance Optimization
 
-<!-- Last reviewed: 2026-06-26 -->
+<!-- Last reviewed: 2026-06-29 -->
 
 ## Core Web Vitals
 
@@ -22,4 +22,4 @@
 - Web Vitals library
 - Real user monitoring
 
-<!-- reviewed: 2026-06-26 -->
+<!-- reviewed: 2026-06-29 -->
