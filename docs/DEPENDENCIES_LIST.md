@@ -1,6 +1,6 @@
 # Project Dependencies
 
-<!-- Last reviewed: 2026-06-25 -->
+<!-- Last reviewed: 2026-06-29 -->
 
 ## Production Dependencies
 
@@ -22,4 +22,4 @@
 - Prettier
 - Tailwind CSS IntelliSense
 
-<!-- reviewed: 2026-06-25 -->
+<!-- reviewed: 2026-06-29 -->
