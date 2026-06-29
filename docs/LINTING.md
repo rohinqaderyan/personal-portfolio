@@ -1,6 +1,6 @@
 # Linting Configuration
 
-<!-- Last reviewed: 2026-06-26 -->
+<!-- Last reviewed: 2026-06-29 -->
 
 ## ESLint
 
@@ -23,4 +23,4 @@
 
 Note (2026-03-25): Run lint auto-fixes separately from functional changes when possible.
 
-<!-- reviewed: 2026-06-26 -->
+<!-- reviewed: 2026-06-29 -->
