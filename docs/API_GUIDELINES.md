@@ -1,6 +1,6 @@
 # API Guidelines
 
-<!-- Last reviewed: 2026-06-25 -->
+<!-- Last reviewed: 2026-06-29 -->
 
 ## Naming Conventions
 
@@ -13,4 +13,4 @@
 - Keep functions small
 - Write clear documentation
 
-<!-- reviewed: 2026-06-25 -->
+<!-- reviewed: 2026-06-29 -->
