@@ -1,6 +1,6 @@
 # Accessibility Checklist
 
-<!-- Last reviewed: 2026-06-25 -->
+<!-- Last reviewed: 2026-06-29 -->
 
 ## Keyboard Navigation
 
@@ -20,4 +20,4 @@
 - [ ] Text resizable
 - [ ] No content flash
 
-<!-- reviewed: 2026-06-25 -->
+<!-- reviewed: 2026-06-29 -->
