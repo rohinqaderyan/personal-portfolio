@@ -1,6 +1,6 @@
 # Browser Compatibility
 
-<!-- Last reviewed: 2026-06-25 -->
+<!-- Last reviewed: 2026-06-29 -->
 
 ## Supported Browsers
 
@@ -20,4 +20,4 @@
 - Use core-js for older browsers
 - Test on BrowserStack
 
-<!-- reviewed: 2026-06-25 -->
+<!-- reviewed: 2026-06-29 -->
