@@ -1,6 +1,6 @@
 # SEO Best Practices
 
-<!-- Last reviewed: 2026-06-26 -->
+<!-- Last reviewed: 2026-06-29 -->
 
 ## Meta Tags
 
@@ -23,4 +23,4 @@
 - Fast page speed
 - Mobile-friendly
 
-<!-- reviewed: 2026-06-26 -->
+<!-- reviewed: 2026-06-29 -->
