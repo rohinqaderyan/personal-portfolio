@@ -1,6 +1,6 @@
 # Authentication Strategies
 
-<!-- Last reviewed: 2026-06-27 -->
+<!-- Last reviewed: 2026-06-30 -->
 
 ## Methods
 
