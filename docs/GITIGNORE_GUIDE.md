@@ -1,6 +1,6 @@
 # Git Ignore Patterns
 
-<!-- Last reviewed: 2026-06-25 -->
+<!-- Last reviewed: 2026-06-30 -->
 
 ## Node Modules
 
