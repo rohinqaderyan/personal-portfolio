@@ -1,6 +1,6 @@
 # Performance Metrics
 
-<!-- Last reviewed: 2026-06-27 -->
+<!-- Last reviewed: 2026-07-01 -->
 
 ## Core Web Vitals
 
