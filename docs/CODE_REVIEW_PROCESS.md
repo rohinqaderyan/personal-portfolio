@@ -1,6 +1,6 @@
 # Code Review Process
 
-<!-- Last reviewed: 2026-06-30 -->
+<!-- Last reviewed: 2026-07-02 -->
 
 ## Before Submitting PR
 
