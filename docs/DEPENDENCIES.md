@@ -1,6 +1,6 @@
 # Dependency Management
 
-<!-- Last reviewed: 2026-06-30 -->
+<!-- Last reviewed: 2026-07-02 -->
 
 ## Package Updates
 
