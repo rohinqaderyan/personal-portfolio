@@ -1,6 +1,6 @@
 # Error Handling
 
-<!-- Last reviewed: 2026-07-01 -->
+<!-- Last reviewed: 2026-07-03 -->
 
 ## Client-Side Errors
 
