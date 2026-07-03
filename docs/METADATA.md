@@ -1,6 +1,6 @@
 # Metadata Management
 
-<!-- Last reviewed: 2026-06-30 -->
+<!-- Last reviewed: 2026-07-03 -->
 
 ## Page Metadata
 
