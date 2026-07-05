@@ -1,6 +1,6 @@
 # Linting Configuration
 
-<!-- Last reviewed: 2026-07-03 -->
+<!-- Last reviewed: 2026-07-05 -->
 
 ## ESLint
 
