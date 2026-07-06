@@ -1,6 +1,6 @@
 # Docker Configuration
 
-<!-- Last reviewed: 2026-07-04 -->
+<!-- Last reviewed: 2026-07-06 -->
 
 ## Dockerfile Example
 
