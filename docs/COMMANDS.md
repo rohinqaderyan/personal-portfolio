@@ -1,6 +1,6 @@
 # Development Commands Reference
 
-<!-- Last reviewed: 2026-07-04 -->
+<!-- Last reviewed: 2026-07-06 -->
 
 ## Installation
 
