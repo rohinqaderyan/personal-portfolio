@@ -1,6 +1,6 @@
 # Documentation Standards
 
-<!-- Last reviewed: 2026-07-04 -->
+<!-- Last reviewed: 2026-07-06 -->
 
 ## File Headers
 
