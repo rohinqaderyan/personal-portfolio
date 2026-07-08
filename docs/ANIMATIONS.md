@@ -1,6 +1,6 @@
 # Animation Guidelines
 
-<!-- Last reviewed: 2026-07-07 -->
+<!-- Last reviewed: 2026-07-08 -->
 
 ## CSS Animations
 
