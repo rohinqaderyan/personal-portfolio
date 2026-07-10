@@ -1,9 +1,9 @@
 # Docker Deployment Guide
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 <!-- Docker container setup and deployment -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > 🐳 Compatible with Docker 20.10+ and Docker Compose v2
 
@@ -610,4 +610,4 @@ Docker deployment questions?
 
 Note (2026-03-10): Rebuild images after dependency updates to avoid stale layers.
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
