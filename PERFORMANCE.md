@@ -2,7 +2,7 @@
 
 <!-- Performance metrics, best practices and guidelines -->
 <!-- Document version: 1.3.0 -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > 🚀 Last benchmarked: December 2025 | Next.js 14.2.x
 
@@ -672,4 +672,4 @@ Current Test Coverage: 182 tests (100% passing)
 
 Note (2026-03-10): Measure before and after each optimization to avoid assumption-driven changes.
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
