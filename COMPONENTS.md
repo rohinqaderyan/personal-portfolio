@@ -2,7 +2,7 @@
 
 <!-- Comprehensive React component reference and guide -->
 <!-- Version: 1.3.13 -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > 🧩 50+ reusable React components with TypeScript
 
@@ -752,4 +752,4 @@ Questions about components?
 
 Note (2026-03-10): Keep component props documented when introducing new optional inputs.
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
