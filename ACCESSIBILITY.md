@@ -1,7 +1,7 @@
 # Accessibility Statement
 
 <!-- Accessibility compliance features and standards -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > ♿ WCAG 2.1 AA | Screen Reader Tested | Keyboard Navigable
 
@@ -103,4 +103,4 @@ This accessibility statement was last updated on November 30, 2025.
 We continually review and improve our accessibility practices and will update this statement as changes are made.
 
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
