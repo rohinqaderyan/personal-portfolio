@@ -2,7 +2,7 @@
 
 <!-- Git branching strategy and commit guidelines -->
 <!-- Version: 1.3.0 -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > 🔄 This project uses [Conventional Commits](https://www.conventionalcommits.org/) and [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow).
 
@@ -413,4 +413,4 @@ git reset --hard HEAD
 - [GitHub Flow](https://guides.github.com/introduction/flow/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
