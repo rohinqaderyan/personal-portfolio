@@ -1,6 +1,6 @@
 # Google Analytics - Quick Setup for Rohin
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > ⏱️ Complete setup in under 10 minutes
 
@@ -173,4 +173,4 @@ Common issues:
 **Ready?** Go create your account now! Takes 5 minutes.
 https://analytics.google.com
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
