@@ -1,7 +1,7 @@
 # Browser Support
 
 <!-- Browser compatibility, testing and coverage information -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > 🌐 Tested on Chrome, Firefox, Safari, Edge | 95%+ global coverage
 
@@ -126,4 +126,4 @@ For best experience:
 
 Note (2026-03-10): Validate critical flows on at least one evergreen browser per engine.
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
