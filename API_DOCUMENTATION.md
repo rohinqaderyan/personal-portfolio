@@ -2,7 +2,7 @@
 
 <!-- Complete API reference and endpoint documentation -->
 <!-- Version: 1.1.9 -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > 📡 RESTful API | TypeScript | Edge Functions
 
@@ -535,4 +535,4 @@ Add `Content-Type: application/json` header to request.
 **Maintained By:** Ahmad Rohin Qaderyan
 
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
