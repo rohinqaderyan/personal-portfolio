@@ -2,7 +2,7 @@
 
 <!-- Performance optimization tips, strategies and benchmarks -->
 <!-- Version: 1.2.0 -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > ⚡ Lighthouse Performance: 95+ | Core Web Vitals: Passing
 
@@ -45,4 +45,4 @@ Target Lighthouse scores:
 Use Vercel Analytics or Google Lighthouse CI for continuous monitoring.
 
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
