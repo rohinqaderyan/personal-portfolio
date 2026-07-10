@@ -1,6 +1,6 @@
 # Google Analytics Setup Guide
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 <!-- Google Analytics integration guide -->
 <!-- Version: 1.0.1 -->
@@ -146,4 +146,4 @@ NEXT_PUBLIC_GA_MEASUREMENT_ID=  # Add your ID here
 
 Google Analytics Help: [support.google.com/analytics](https://support.google.com/analytics)
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
