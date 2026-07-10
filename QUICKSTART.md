@@ -2,7 +2,7 @@
 
 <!-- Fast setup instructions -->
 <!-- Version: 1.2.9 -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > ⏱️ Estimated setup time: **5 minutes**
 
@@ -290,4 +290,4 @@ Run: `npm run type-check` to see all type errors.
 
 Note (2026-03-10): If a step fails, re-run from a clean terminal session before continuing.
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
