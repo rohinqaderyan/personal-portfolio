@@ -2,7 +2,7 @@
 
 <!-- Complete environment configuration and setup instructions -->
 <!-- Version: 1.3.0 -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > ⚙️ Node.js 18+ | npm 9+ | TypeScript 5.4
 
@@ -362,4 +362,4 @@ Add all variables from `.env.local` to Vercel dashboard:
 
 Note (2026-03-10): Record local overrides so teammates can reproduce setup issues.
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
