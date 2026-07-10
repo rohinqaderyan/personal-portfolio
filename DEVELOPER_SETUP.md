@@ -2,7 +2,7 @@
 
 <!-- Development environment setup -->
 <!-- Version: 1.3.0 -->
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > ⏱️ Get started in under 5 minutes with automated scripts
 
@@ -437,4 +437,4 @@ After setup:
 
 Note (2026-03-10): Keep local Node and package manager versions aligned with project defaults.
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
