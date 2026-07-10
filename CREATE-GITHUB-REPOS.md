@@ -1,6 +1,6 @@
 # Create GitHub Repositories
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
 
 > 🗂️ Guide to creating 9 project repositories
 
@@ -153,4 +153,4 @@ Your portfolio currently has:
 
 Repos are **optional** but add credibility. Even empty repos with good READMEs help!
 
-<!-- 2026-06-28 -->
+<!-- reviewed: 2026-06-28 -->
