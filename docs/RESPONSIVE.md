@@ -1,6 +1,6 @@
 # Responsive Design
 
-<!-- Last reviewed: 2026-07-01 -->
+<!-- Last reviewed: 2026-07-11 -->
 
 ## Breakpoints
 
