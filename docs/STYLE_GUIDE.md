@@ -1,6 +1,6 @@
 # Style Guide
 
-<!-- Last reviewed: 2026-06-26 -->
+<!-- Last reviewed: 2026-07-11 -->
 
 ## Code Formatting
 
