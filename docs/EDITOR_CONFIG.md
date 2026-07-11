@@ -1,6 +1,6 @@
 # Editor Configuration
 
-<!-- Last reviewed: 2026-07-05 -->
+<!-- Last reviewed: 2026-07-11 -->
 
 ## VS Code Settings
 
