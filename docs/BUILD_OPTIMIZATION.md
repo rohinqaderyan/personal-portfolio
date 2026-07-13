@@ -1,6 +1,6 @@
 # Build Optimization
 
-<!-- Last reviewed: 2026-07-09 -->
+<!-- Last reviewed: 2026-07-13 -->
 
 ## Bundle Size
 
