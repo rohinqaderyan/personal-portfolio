@@ -1,6 +1,6 @@
 # SEO Best Practices
 
-<!-- Last reviewed: 2026-07-14 -->
+<!-- Last reviewed: 2026-07-15 -->
 
 ## Meta Tags
 
