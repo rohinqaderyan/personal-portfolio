@@ -1,6 +1,6 @@
 # Routing Guide
 
-<!-- Last reviewed: 2026-07-15 -->
+<!-- Last reviewed: 2026-07-16 -->
 
 ## File-based Routing
 
