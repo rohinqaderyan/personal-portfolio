@@ -1,6 +1,6 @@
 # Tailwind CSS Guide
 
-<!-- Last reviewed: 2026-07-15 -->
+<!-- Last reviewed: 2026-07-16 -->
 
 ## Utility Classes
 
