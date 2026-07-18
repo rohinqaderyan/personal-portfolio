@@ -1,6 +1,6 @@
 # Monitoring & Observability
 
-<!-- Last reviewed: 2026-07-12 -->
+<!-- Last reviewed: 2026-07-18 -->
 
 ## Error Tracking
 
