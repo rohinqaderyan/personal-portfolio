@@ -1,6 +1,6 @@
 # Performance Tips
 
-<!-- Last reviewed: 2026-07-12 -->
+<!-- Last reviewed: 2026-07-18 -->
 
 ## Image Optimization
 
