@@ -1,6 +1,6 @@
 # API Rate Limiting
 
-<!-- Last reviewed: 2026-07-12 -->
+<!-- Last reviewed: 2026-07-19 -->
 
 ## Implementation
 
