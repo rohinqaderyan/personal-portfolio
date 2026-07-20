@@ -36,4 +36,4 @@ git push --tags
 3. Verify functionality
 4. Document incident
 
-<!-- reviewed: 2026-06-27 -->
+<!-- reviewed: 2026-07-20 -->
