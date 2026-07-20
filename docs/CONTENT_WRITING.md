@@ -42,4 +42,4 @@ tags: ['tag1', 'tag2']
 - Include images where helpful
 - Keep paragraphs short
 
-<!-- reviewed: 2026-06-29 -->
+<!-- reviewed: 2026-07-20 -->
