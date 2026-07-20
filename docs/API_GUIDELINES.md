@@ -13,4 +13,4 @@
 - Keep functions small
 - Write clear documentation
 
-<!-- reviewed: 2026-06-29 -->
+<!-- reviewed: 2026-07-20 -->
