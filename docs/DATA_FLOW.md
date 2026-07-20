@@ -14,4 +14,4 @@
 - Handle loading states
 - Implement error handling
 
-<!-- reviewed: 2026-06-27 -->
+<!-- reviewed: 2026-07-20 -->
