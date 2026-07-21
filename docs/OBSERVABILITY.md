@@ -26,4 +26,4 @@
 - Log levels
 - Retention policies
 
-<!-- reviewed: 2026-06-27 -->
+<!-- reviewed: 2026-07-21 -->
