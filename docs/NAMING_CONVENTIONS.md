@@ -21,4 +21,4 @@
 - Use kebab-case
 - Follow BEM when needed
 
-<!-- reviewed: 2026-06-27 -->
+<!-- reviewed: 2026-07-21 -->
