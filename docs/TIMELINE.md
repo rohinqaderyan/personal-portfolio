@@ -30,4 +30,4 @@
 - Feb 15: Beta release
 - Mar 1: Production launch
 
-<!-- reviewed: 2026-06-26 -->
+<!-- reviewed: 2026-07-23 -->
