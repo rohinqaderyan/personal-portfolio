@@ -23,4 +23,4 @@
 - useReducer for complex logic
 - State machines (XState)
 
-<!-- reviewed: 2026-06-29 -->
+<!-- reviewed: 2026-07-23 -->
