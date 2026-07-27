@@ -28,4 +28,4 @@
 - Tailwind CSS IntelliSense
 - GitLens
 
-<!-- reviewed: 2026-07-24 -->
+<!-- reviewed: 2026-07-27 -->
