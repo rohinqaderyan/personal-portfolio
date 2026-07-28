@@ -21,4 +21,4 @@
 - Module: ESNext
 - JSX: preserve
 
-<!-- reviewed: 2026-07-25 -->
+<!-- reviewed: 2026-07-28 -->
