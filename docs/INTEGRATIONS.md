@@ -34,4 +34,4 @@
 4. Implement SDK
 5. Test integration
 
-<!-- reviewed: 2026-07-27 -->
+<!-- reviewed: 2026-07-29 -->
