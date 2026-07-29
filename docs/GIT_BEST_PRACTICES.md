@@ -16,4 +16,4 @@
 
 Note (2026-03-25): Keep commit scope small to simplify audit and revert paths.
 
-<!-- reviewed: 2026-07-27 -->
+<!-- reviewed: 2026-07-29 -->
