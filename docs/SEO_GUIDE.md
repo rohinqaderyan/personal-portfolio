@@ -23,4 +23,4 @@
 - Fast page speed
 - Mobile-friendly
 
-<!-- reviewed: 2026-07-28 -->
+<!-- reviewed: 2026-07-31 -->
