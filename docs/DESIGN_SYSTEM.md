@@ -13,4 +13,4 @@
 - Headings: System font
 - Body: Sans-serif
 
-<!-- reviewed: 2026-07-29 -->
+<!-- reviewed: 2026-08-02 -->
