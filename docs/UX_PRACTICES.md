@@ -27,4 +27,4 @@
 - Error feedback
 - Success confirmations
 
-<!-- reviewed: 2026-08-02 -->
+<!-- reviewed: 2026-08-05 -->
