@@ -32,4 +32,4 @@ A: Deployed on Vercel.
 **Q: How do I deploy updates?**
 A: Push to main branch for automatic deployment.
 
-<!-- reviewed: 2026-08-02 -->
+<!-- reviewed: 2026-08-05 -->
