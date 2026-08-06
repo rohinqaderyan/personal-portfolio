@@ -20,4 +20,4 @@
 - Set width/height
 - Add alt text
 
-<!-- reviewed: 2026-08-03 -->
+<!-- reviewed: 2026-08-06 -->
