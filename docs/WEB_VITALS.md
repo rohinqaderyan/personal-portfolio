@@ -22,4 +22,4 @@
 - Web Vitals library
 - Real user monitoring
 
-<!-- reviewed: 2026-08-05 -->
+<!-- reviewed: 2026-08-09 -->
