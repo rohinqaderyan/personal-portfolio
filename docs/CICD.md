@@ -20,4 +20,4 @@
 - staging
 - production
 
-<!-- reviewed: 2026-08-07 -->
+<!-- reviewed: 2026-08-11 -->
