@@ -13,4 +13,4 @@
 - [ ] Tag created
 - [ ] Release notes published
 
-<!-- reviewed: 2026-08-06 -->
+<!-- reviewed: 2026-08-11 -->
