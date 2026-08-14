@@ -20,4 +20,4 @@
 - Use core-js for older browsers
 - Test on BrowserStack
 
-<!-- reviewed: 2026-08-12 -->
+<!-- reviewed: 2026-08-14 -->
