@@ -14,4 +14,4 @@
 - Keep files under 300 lines
 - One component per file
 
-<!-- reviewed: 2026-08-12 -->
+<!-- reviewed: 2026-08-15 -->
