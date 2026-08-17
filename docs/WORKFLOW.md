@@ -16,4 +16,4 @@
 - bugfix/bug-description
 - hotfix/critical-issue
 
-<!-- reviewed: 2026-08-13 -->
+<!-- reviewed: 2026-08-17 -->
