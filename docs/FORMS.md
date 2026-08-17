@@ -21,4 +21,4 @@
 - Show loading states
 - Handle success/error states
 
-<!-- reviewed: 2026-08-13 -->
+<!-- reviewed: 2026-08-17 -->
