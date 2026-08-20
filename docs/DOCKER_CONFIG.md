@@ -42,4 +42,4 @@ docker build -t portfolio .
 docker run -p 3000:3000 portfolio
 ```
 
-<!-- reviewed: 2026-08-18 -->
+<!-- reviewed: 2026-08-20 -->
