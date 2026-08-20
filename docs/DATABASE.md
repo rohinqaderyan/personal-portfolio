@@ -22,4 +22,4 @@
 - Index frequently queried fields
 - Sanitize queries
 - Handle migrations properly
-<!-- reviewed: 2026-08-17 -->
+<!-- reviewed: 2026-08-20 -->
