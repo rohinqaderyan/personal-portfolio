@@ -20,4 +20,4 @@
 - Keep README updated
 - Add inline comments for complex logic
 
-<!-- reviewed: 2026-08-18 -->
+<!-- reviewed: 2026-08-21 -->
