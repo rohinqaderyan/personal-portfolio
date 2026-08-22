@@ -22,4 +22,4 @@
 - [ ] Update vulnerable packages
 - [ ] Use lock files
 
-<!-- reviewed: 2026-08-19 -->
+<!-- reviewed: 2026-08-22 -->
