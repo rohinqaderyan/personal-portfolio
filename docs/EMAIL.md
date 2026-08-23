@@ -24,4 +24,4 @@
 - Responsive design
 
 
-<!-- reviewed: 2026-08-21 -->
+<!-- reviewed: 2026-08-23 -->
