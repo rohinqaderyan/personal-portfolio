@@ -26,4 +26,4 @@
 
 Note (2026-03-25): Reproduce with the smallest failing case before deep inspection.
 
-<!-- reviewed: 2026-09-01 -->
+<!-- reviewed: 2026-09-08 -->
