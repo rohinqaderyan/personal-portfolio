@@ -20,4 +20,4 @@
 - Avoid arbitrary values
 - Keep consistent spacing
 
-<!-- reviewed: 2026-09-09 -->
+<!-- reviewed: 2026-09-15 -->
