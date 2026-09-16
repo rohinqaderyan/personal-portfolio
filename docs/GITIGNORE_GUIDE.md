@@ -30,4 +30,4 @@
 - \*.swp
 - \*.swo
 - .DS_Store
-<!-- reviewed: 2026-09-10 -->
+<!-- reviewed: 2026-09-16 -->
