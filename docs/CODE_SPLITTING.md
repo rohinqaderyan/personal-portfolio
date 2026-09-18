@@ -25,4 +25,4 @@ const Component = dynamic(() => import('./Component'));
 - Monitor chunk sizes
 - Optimize dependencies
 
-<!-- reviewed: 2026-09-15 -->
+<!-- reviewed: 2026-09-17 -->
