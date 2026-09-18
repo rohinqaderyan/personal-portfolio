@@ -22,4 +22,4 @@
 - Use stale-while-revalidate
 - Monitor cache hit rates
 
-<!-- reviewed: 2026-09-15 -->
+<!-- reviewed: 2026-09-17 -->
