@@ -25,4 +25,4 @@
 - Return 429 status
 - Provide retry information
 
-<!-- reviewed: 2026-09-21 -->
+<!-- reviewed: 2026-09-24 -->
