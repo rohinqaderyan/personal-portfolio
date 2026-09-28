@@ -24,4 +24,4 @@
 - twitter:description
 - twitter:image
 
-<!-- reviewed: 2026-09-23 -->
+<!-- reviewed: 2026-09-27 -->
