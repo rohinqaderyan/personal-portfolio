@@ -20,4 +20,4 @@
 - Use browser dev tools
 - Check portrait and landscape
 
-<!-- reviewed: 2026-09-28 -->
+<!-- reviewed: 2026-10-02 -->
