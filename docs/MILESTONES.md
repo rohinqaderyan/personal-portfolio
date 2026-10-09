@@ -36,4 +36,4 @@
 - Newsletter integration
 - Multi-language support
 
-<!-- reviewed: 2026-10-06 -->
+<!-- reviewed: 2026-10-09 -->
