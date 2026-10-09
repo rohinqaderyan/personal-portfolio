@@ -20,4 +20,4 @@
 - Track real user metrics
 - Set up alerts
 
-<!-- reviewed: 2026-10-06 -->
+<!-- reviewed: 2026-10-09 -->
