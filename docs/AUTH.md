@@ -23,4 +23,4 @@
 - Secure session storage
 - Implement CSRF protection
 
-<!-- reviewed: 2026-10-07 -->
+<!-- reviewed: 2026-10-09 -->
