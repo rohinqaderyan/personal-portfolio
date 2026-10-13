@@ -21,4 +21,4 @@
 - Reddit r/webdev
 - Discord servers
 
-<!-- reviewed: 2026-10-07 -->
+<!-- reviewed: 2026-10-13 -->
