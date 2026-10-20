@@ -24,4 +24,4 @@
 - fix(api): resolve timeout issue
 - docs(readme): update installation steps
 
-<!-- reviewed: 2026-10-13 -->
+<!-- reviewed: 2026-10-20 -->
