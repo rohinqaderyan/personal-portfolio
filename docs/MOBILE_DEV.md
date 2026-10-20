@@ -30,4 +30,4 @@
 - Add to home screen
 - Push notifications (optional)
 
-<!-- reviewed: 2026-10-09 -->
+<!-- reviewed: 2026-10-20 -->
